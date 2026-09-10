@@ -1,0 +1,4387 @@
+[
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Abdominal Wall",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "99a06d89-5e3f-4a58-b234-502e7ce20200",
+    "liveLeafId": "99a06d89-5e3f-4a58-b234-502e7ce20200",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "USG / CT scan / MRI of abdominal wall"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 1,
+    "competencyLevelSummary": [
+      {
+        "skill": "USG / CT scan / MRI of abdominal wall",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Abdominal Wall",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "8d16daad-9b8e-46bc-aed3-ea7c72875674",
+    "liveLeafId": "8d16daad-9b8e-46bc-aed3-ea7c72875674",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Component separation techniques",
+      "IPOM/ IPOM plus",
+      "Open and laparoscopic repair of incisional hernia",
+      "Open and laparoscopic repair of inguinal hernia",
+      "Open and laparoscopic repair of paraumbilical hernia",
+      "Open and laparoscopic repair of recurrent hernia",
+      "Open and laparoscopic repair of umbilical hernia"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 7,
+    "competencyLevelSummary": [
+      {
+        "skill": "Component separation techniques",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1"
+        ]
+      },
+      {
+        "skill": "IPOM/ IPOM plus",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2"
+        ]
+      },
+      {
+        "skill": "Open and laparoscopic repair of incisional hernia",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1"
+        ]
+      },
+      {
+        "skill": "Open and laparoscopic repair of inguinal hernia",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "5"
+        ]
+      },
+      {
+        "skill": "Open and laparoscopic repair of paraumbilical hernia",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2"
+        ]
+      },
+      {
+        "skill": "Open and laparoscopic repair of recurrent hernia",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1"
+        ]
+      },
+      {
+        "skill": "Open and laparoscopic repair of umbilical hernia",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Accident & Emergency / Casualty",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "062a2e9b-b12d-467a-b119-5ea4310e2c93",
+    "liveLeafId": "062a2e9b-b12d-467a-b119-5ea4310e2c93",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Contrast X-rays",
+      "Local X-ray of injured limbs",
+      "Plain X-ray Abdomen",
+      "USG / CT scan / MRI",
+      "X-ray chest A/P",
+      "X-ray pelvis"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 6,
+    "competencyLevelSummary": [
+      {
+        "skill": "Contrast X-rays",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Local X-ray of injured limbs",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Plain X-ray Abdomen",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "USG / CT scan / MRI",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "X-ray chest A/P",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "X-ray pelvis",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Accident & Emergency / Casualty",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "f32621e6-4fa8-4718-b289-207f45ca363d",
+    "liveLeafId": "f32621e6-4fa8-4718-b289-207f45ca363d",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Airway management (Basic and advanced)",
+      "Application of cervical collar",
+      "Application of tourniquet",
+      "Application of traction splint",
+      "Central venous catheterization",
+      "Chest tube insertion",
+      "Laparoscopy",
+      "Laparotomy",
+      "Pericardiocentesis",
+      "Stoma creation (Colostomy and ileostomy)",
+      "Tracheostomy",
+      "Wound debridement",
+      "Wound packing"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 13,
+    "competencyLevelSummary": [
+      {
+        "skill": "Airway management (Basic and advanced)",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Application of cervical collar",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Application of tourniquet",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Application of traction splint",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Central venous catheterization",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Chest tube insertion",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Laparoscopy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Laparotomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Pericardiocentesis",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Stoma creation (Colostomy and ileostomy)",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Tracheostomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Wound debridement",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Wound packing",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Anaesthesia & Procedural critical care",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "e69cd3aa-f8cc-4f56-ae46-7558bdcf1650",
+    "liveLeafId": "e69cd3aa-f8cc-4f56-ae46-7558bdcf1650",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "ABG analysis",
+      "Monitor reading"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 2,
+    "competencyLevelSummary": [
+      {
+        "skill": "ABG analysis",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Monitor reading",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Anaesthesia & Procedural critical care",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "f3acefe6-6a7b-463c-a4e7-7cebb7ca71bd",
+    "liveLeafId": "f3acefe6-6a7b-463c-a4e7-7cebb7ca71bd",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Central venous catheterization",
+      "Cricothyroidotomy / Cricothyroidostomy",
+      "Endotracheal intubation",
+      "General anaesthesia",
+      "Infiltration of local anaesthetics and regional nerve block",
+      "Infusion/ syringe pump of fluids, nutrients and medications",
+      "Insertion of laryngeal mask airway",
+      "Regional anaesthesia",
+      "Tracheostomy"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 9,
+    "competencyLevelSummary": [
+      {
+        "skill": "Central venous catheterization",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Cricothyroidotomy / Cricothyroidostomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Endotracheal intubation",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "General anaesthesia",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Infiltration of local anaesthetics and regional nerve block",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Infusion/ syringe pump of fluids, nutrients and medications",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Insertion of laryngeal mask airway",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Regional anaesthesia",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Tracheostomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Basic Surgical Skill",
+      "Communication and Writing Skill"
+    ],
+    "cachedLeafId": "99e21e93-cccc-41a2-a170-43876ff867a6",
+    "liveLeafId": "99e21e93-cccc-41a2-a170-43876ff867a6",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Death Certificate",
+      "Discharge certificate ",
+      "Discharge summary",
+      "Documentation of injuries and disabilities ",
+      "Obtaining informed written consent",
+      "Operation note ",
+      "Post-operative order",
+      "Preoperative order",
+      "Referral note ",
+      "Requisition for investigations (Laboratory, Biochemical, Imaging, Histopathological analysis and immunohistochemitry)"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 10,
+    "competencyLevelSummary": [
+      {
+        "skill": "Death Certificate",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Discharge certificate ",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Discharge summary",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Documentation of injuries and disabilities ",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Obtaining informed written consent",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Operation note ",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Post-operative order",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Preoperative order",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Referral note ",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Requisition for investigations (Laboratory, Biochemical, Imaging, Histopathological analysis and immunohistochemitry)",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Basic Surgical Skill",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+    "liveLeafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Ability to use Surgical instruments and energy devices",
+      "Accurate and safe administration of local anaesthetic agent",
+      "Application and removal of skin staples/stitches ",
+      "Biopsy techniques (Core-cut biopsy, excision biopsy, incision biopsy) ",
+      "Central venous catheterization",
+      "Drainage of superficial abscesses including Hilton’s method",
+      "Excision biopsy of benign lesions (lipoma, cyst, skin lesions etc.)",
+      "Exposure, antiseptic washand draping",
+      "Handling a Procedural specimen",
+      "Intravenous cannulation",
+      "Introduction and removal of Procedural drains",
+      "Positioning of the patient",
+      "Safe tying of knots (hand/instrumental/on the surface and at depth) ",
+      "Securing bleeding vessels",
+      "Skin incision and closure",
+      "Surgical Ritual (Effective and safe hand washing, donning and doffing)",
+      "Urinary bladder catheterization"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 17,
+    "competencyLevelSummary": [
+      {
+        "skill": "Ability to use Surgical instruments and energy devices",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Accurate and safe administration of local anaesthetic agent",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Application and removal of skin staples/stitches ",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Biopsy techniques (Core-cut biopsy, excision biopsy, incision biopsy) ",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Central venous catheterization",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Drainage of superficial abscesses including Hilton’s method",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Excision biopsy of benign lesions (lipoma, cyst, skin lesions etc.)",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Exposure, antiseptic washand draping",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Handling a Procedural specimen",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Intravenous cannulation",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "4"
+        ]
+      },
+      {
+        "skill": "Introduction and removal of Procedural drains",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Positioning of the patient",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Safe tying of knots (hand/instrumental/on the surface and at depth) ",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Securing bleeding vessels",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Skin incision and closure",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Surgical Ritual (Effective and safe hand washing, donning and doffing)",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Urinary bladder catheterization",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Disorders of the Breast",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "ada9e308-caac-4ebd-990b-3f41e692bf01",
+    "liveLeafId": "ada9e308-caac-4ebd-990b-3f41e692bf01",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Cytological analysis of nipple discharge",
+      "FNAC of breast lump",
+      "Histopathological report analysis",
+      "Hormone study",
+      "Immunohistochemistry",
+      "MRI / CT scan / Bone scan in locally advanced or metastatic breast cancer",
+      "Mammogram/tomosynthesis",
+      "Receptor study",
+      "USG of breasts"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 9,
+    "competencyLevelSummary": [
+      {
+        "skill": "Cytological analysis of nipple discharge",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "FNAC of breast lump",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Histopathological report analysis",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Hormone study",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Immunohistochemistry",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "MRI / CT scan / Bone scan in locally advanced or metastatic breast cancer",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Mammogram/tomosynthesis",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Receptor study",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "USG of breasts",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Disorders of the Breast",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "141bbcab-c56e-42fd-b755-ebf5de7ad85a",
+    "liveLeafId": "141bbcab-c56e-42fd-b755-ebf5de7ad85a",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Aspiration of breast abscess",
+      "Breast conserving surgery",
+      "Breast reconstruction",
+      "Core-cut biopsy ",
+      "Drainage of breast abscess",
+      "Enucleation/excision of fibroadenoma",
+      "FNAC of a breast lump",
+      "Image guided biopsy / Wire guided biopsy / hydromarker",
+      "Incision biopsy",
+      "Mastectomy of male breast",
+      "Nipple reconstruction",
+      "Sentinel lymphnode biopsy",
+      "Simple mastectomy with or without axillary dissection",
+      "Wide excision / lumpectomy"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 14,
+    "competencyLevelSummary": [
+      {
+        "skill": "Aspiration of breast abscess",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Breast conserving surgery",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Breast reconstruction",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Core-cut biopsy ",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Drainage of breast abscess",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Enucleation/excision of fibroadenoma",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "FNAC of a breast lump",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Image guided biopsy / Wire guided biopsy / hydromarker",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Incision biopsy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Mastectomy of male breast",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Nipple reconstruction",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Sentinel lymphnode biopsy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Simple mastectomy with or without axillary dissection",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Wide excision / lumpectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands)",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "66dfd638-bdec-4219-a55a-7072eab69a18",
+    "liveLeafId": "66dfd638-bdec-4219-a55a-7072eab69a18",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Biochemical investigations",
+      "CT abdomen/ MRI",
+      "CT/MRI /MRA of brain",
+      "Histopathological report analysis",
+      "Radionuclide studies of thyroid & parathyroid",
+      "USG of Thyroid and abdominal organs related to endocrine system"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 6,
+    "competencyLevelSummary": [
+      {
+        "skill": "Biochemical investigations",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "CT abdomen/ MRI",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "CT/MRI /MRA of brain",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Histopathological report analysis",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Radionuclide studies of thyroid & parathyroid",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "USG of Thyroid and abdominal organs related to endocrine system",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands)",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "d1dd3ed6-a232-4847-81d2-951ed6c7d4c7",
+    "liveLeafId": "d1dd3ed6-a232-4847-81d2-951ed6c7d4c7",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Adrenalectomy (Laparoscopic and open)",
+      "Hemithyroidectomy",
+      "Isthmusectomy",
+      "Neck dissection",
+      "Parathyroidectomy",
+      "Total thyroidectomy"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 6,
+    "competencyLevelSummary": [
+      {
+        "skill": "Adrenalectomy (Laparoscopic and open)",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Hemithyroidectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Isthmusectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Neck dissection",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Parathyroidectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Total thyroidectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Gastrointestinal & HepatoBiliary System and Pancreas",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "df48137d-6756-4f13-bf11-5874fe4244bc",
+    "liveLeafId": "df48137d-6756-4f13-bf11-5874fe4244bc",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Biochemical investigations",
+      "CT scan, ERCP, MRCP",
+      "Contrast X-rays (Barium swallow, Barium meal and follow through, Barium enema)",
+      "Histopathological analysis",
+      "Immunohistochemistry",
+      "Lower gastrointestinal endoscopy",
+      "Plain X-ray abdomen",
+      "Tumor marker",
+      "USG of whole abdomen/ HBS",
+      "Upper gastrointestinal endoscopy"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 10,
+    "competencyLevelSummary": [
+      {
+        "skill": "Biochemical investigations",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "CT scan, ERCP, MRCP",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Contrast X-rays (Barium swallow, Barium meal and follow through, Barium enema)",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Histopathological analysis",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Immunohistochemistry",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Lower gastrointestinal endoscopy",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Plain X-ray abdomen",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Tumor marker",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "USG of whole abdomen/ HBS",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Upper gastrointestinal endoscopy",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Gastrointestinal & HepatoBiliary System and Pancreas",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "cd8e3367-0094-42c8-836d-4eba571541b9",
+    "liveLeafId": "cd8e3367-0094-42c8-836d-4eba571541b9",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Abdominal paracentesis",
+      "Abdominal rectopexy",
+      "Abdominoperineal resection",
+      "Adhesionolysis",
+      "Appendicectomy (Open and laparoscopic)",
+      "Choledocholithotomy",
+      "Colonoscopy",
+      "Distal pancreatectomy",
+      "Drainage of anorectal abscesses",
+      "Fistulotomy/Fistulectomy/Seton insertion",
+      "Gastrectomy",
+      "Gastric bypass",
+      "Hepatic resection",
+      "Insertion of nasogastric tube",
+      "Laparoscopic cholecystectomy",
+      "Laparoscopy",
+      "Laparotomy",
+      "Lateral internal sphincterotomy",
+      "Open cholecystectomy",
+      "Open hemorrhoidectomy",
+      "Pancreatoduodenectomy",
+      "Pancreatojejunostomy (LPJ)",
+      "Proctosigmoidoscopy",
+      "Repair of perforation of hollow viscera",
+      "Resection anastomosis of bowel",
+      "Splenectomy",
+      "Stapled hemorrhoidopexy",
+      "Stoma closure (ileostomy & colostomy)",
+      "Stoma creation (ileostomy & colostomy)",
+      "Triple bypass",
+      "Upper gastrointestinal endoscopy"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 31,
+    "competencyLevelSummary": [
+      {
+        "skill": "Abdominal paracentesis",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Abdominal rectopexy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Abdominoperineal resection",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Adhesionolysis",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Appendicectomy (Open and laparoscopic)",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Choledocholithotomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Colonoscopy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Distal pancreatectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Drainage of anorectal abscesses",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Fistulotomy/Fistulectomy/Seton insertion",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Gastrectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Gastric bypass",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Hepatic resection",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Insertion of nasogastric tube",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "4"
+        ]
+      },
+      {
+        "skill": "Laparoscopic cholecystectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Laparoscopy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Laparotomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Lateral internal sphincterotomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Open cholecystectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Open hemorrhoidectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Pancreatoduodenectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Pancreatojejunostomy (LPJ)",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Proctosigmoidoscopy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Repair of perforation of hollow viscera",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Resection anastomosis of bowel",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Splenectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Stapled hemorrhoidopexy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Stoma closure (ileostomy & colostomy)",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Stoma creation (ileostomy & colostomy)",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Triple bypass",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Upper gastrointestinal endoscopy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Minimally Invasive Surgery – Laparoscopic procedures",
+      "Clinical skill"
+    ],
+    "cachedLeafId": "013281cf-0662-497a-894a-d02959e0b3a3",
+    "liveLeafId": "013281cf-0662-497a-894a-d02959e0b3a3",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 0,
+    "competencyLevelSummary": [],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Minimally Invasive Surgery – Laparoscopic procedures",
+      "Communication and Writing Skill"
+    ],
+    "cachedLeafId": "471d1ba0-8a41-4a4e-819f-80b8580f33a2",
+    "liveLeafId": "471d1ba0-8a41-4a4e-819f-80b8580f33a2",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [],
+    "liveCompetencyItems": [],
+    "cachedFieldCount": 0,
+    "cachedCompetencyCount": 0,
+    "competencyLevelSummary": [],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Minimally Invasive Surgery – Laparoscopic procedures",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "e92e1c2f-edba-4ba4-b50e-aa3eb6847a50",
+    "liveLeafId": "e92e1c2f-edba-4ba4-b50e-aa3eb6847a50",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Plain X-ray Abdomen",
+      "USG /CT abdomen"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 2,
+    "competencyLevelSummary": [
+      {
+        "skill": "Plain X-ray Abdomen",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "USG /CT abdomen",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Minimally Invasive Surgery – Laparoscopic procedures",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "d26fa4fd-37a4-4248-8306-adbdf8144b5c",
+    "liveLeafId": "d26fa4fd-37a4-4248-8306-adbdf8144b5c",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Closed and open techniques for port creation and closure",
+      "Diagnostic laparoscopy",
+      "Laparoscopic appendicectomy",
+      "Laparoscopic cholecystectomy",
+      "Laparoscopic control of bleeding",
+      "Laparoscopic hernioplasty (TAPP & TEP)",
+      "Laparoscopic suturing and knotting"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 7,
+    "competencyLevelSummary": [
+      {
+        "skill": "Closed and open techniques for port creation and closure",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Diagnostic laparoscopy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Laparoscopic appendicectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Laparoscopic cholecystectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Laparoscopic control of bleeding",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Laparoscopic hernioplasty (TAPP & TEP)",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Laparoscopic suturing and knotting",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Neurosurgery",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "11bd8bf2-cc6d-425b-8a87-a898ed52317c",
+    "liveLeafId": "11bd8bf2-cc6d-425b-8a87-a898ed52317c",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "CT/MRI /MRA of brain",
+      "Nerve conduction study",
+      "X-ray skull"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 3,
+    "competencyLevelSummary": [
+      {
+        "skill": "CT/MRI /MRA of brain",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Nerve conduction study",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "X-ray skull",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Neurosurgery",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "c5758a6c-8923-475b-8268-23bbf19e6310",
+    "liveLeafId": "c5758a6c-8923-475b-8268-23bbf19e6310",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Burr hole",
+      "Craniotomy",
+      "Repair of meningocoele",
+      "Repair of peripheral nerves"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 4,
+    "competencyLevelSummary": [
+      {
+        "skill": "Burr hole",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Craniotomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Repair of meningocoele",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Repair of peripheral nerves",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Orthopaedic Surgery",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "1952142e-4c30-4b86-a9d9-3aaeafb8e350",
+    "liveLeafId": "1952142e-4c30-4b86-a9d9-3aaeafb8e350",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "CT-scan",
+      "Histopathological report analysis",
+      "Local X-ray",
+      "MRI",
+      "Radionuclide scan"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 5,
+    "competencyLevelSummary": [
+      {
+        "skill": "CT-scan",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Histopathological report analysis",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Local X-ray",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "MRI",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Radionuclide scan",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Orthopaedic Surgery",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "dc3a106f-4a08-44c0-9c0f-01781266ec0c",
+    "liveLeafId": "dc3a106f-4a08-44c0-9c0f-01781266ec0c",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Amputation",
+      "Application of splint/cast",
+      "Arthroscopic examination",
+      "Curettage & bone grafting",
+      "External fixation",
+      "ORIF",
+      "Reduction immobilisation of fractures and dislocations",
+      "Tendon repair"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 8,
+    "competencyLevelSummary": [
+      {
+        "skill": "Amputation",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Application of splint/cast",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Arthroscopic examination",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Curettage & bone grafting",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "External fixation",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "ORIF",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Reduction immobilisation of fractures and dislocations",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Tendon repair",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Paediatric Surgery",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "3a8b2319-3c01-4597-b166-e2580942a40d",
+    "liveLeafId": "3a8b2319-3c01-4597-b166-e2580942a40d",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Contrast X-rays",
+      "Histopathology",
+      "Invertogram",
+      "Plain X-ray Abdomen",
+      "Plain X-ray KUB",
+      "USG",
+      "Urine analysis",
+      "X-ray chest P/A"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 8,
+    "competencyLevelSummary": [
+      {
+        "skill": "Contrast X-rays",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Histopathology",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Invertogram",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Plain X-ray Abdomen",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Plain X-ray KUB",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "USG",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Urine analysis",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "X-ray chest P/A",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Paediatric Surgery",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "6599f61d-fc6d-4031-a596-ec85709837a8",
+    "liveLeafId": "6599f61d-fc6d-4031-a596-ec85709837a8",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Central venous line insertion",
+      "Chordee correction in hypospadias",
+      "Circumcision",
+      "Cutback procedure for ectopic stenosed anus",
+      "Drainage of abscess",
+      "Herniotomy",
+      "Hydrocelectomy",
+      "Intraosseous infusion",
+      "Lymph node biopsy",
+      "Orchidopexy",
+      "Pyloromyotomy",
+      "Suprapubic catheterization",
+      "Temporary colostomy",
+      "Urethroplasty"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 14,
+    "competencyLevelSummary": [
+      {
+        "skill": "Central venous line insertion",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Chordee correction in hypospadias",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Circumcision",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Cutback procedure for ectopic stenosed anus",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Drainage of abscess",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Herniotomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Hydrocelectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Intraosseous infusion",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Lymph node biopsy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Orchidopexy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Pyloromyotomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Suprapubic catheterization",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Temporary colostomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Urethroplasty",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Parasites of Surgical Importance",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "dc995222-a9e8-4fbe-b0fc-f8ee7b24e675",
+    "liveLeafId": "dc995222-a9e8-4fbe-b0fc-f8ee7b24e675",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "CBC",
+      "Imaging (USG/CT-scan/MRCP/X-ray abdomen/X-ray chest)",
+      "Peripheral blood film",
+      "Serological tests"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 4,
+    "competencyLevelSummary": [
+      {
+        "skill": "CBC",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Imaging (USG/CT-scan/MRCP/X-ray abdomen/X-ray chest)",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Peripheral blood film",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Serological tests",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Parasites of Surgical Importance",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "35974d3a-de4e-4973-b839-514fd7516e57",
+    "liveLeafId": "35974d3a-de4e-4973-b839-514fd7516e57",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Endocystectomy",
+      "Endoscopic retrieval of CBD worms",
+      "PAIR",
+      "Pericystectomy"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 4,
+    "competencyLevelSummary": [
+      {
+        "skill": "Endocystectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Endoscopic retrieval of CBD worms",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "PAIR",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Pericystectomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Plastic Surgery",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "de32f03b-02b5-4e70-bae6-98a82ec44115",
+    "liveLeafId": "de32f03b-02b5-4e70-bae6-98a82ec44115",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Nutritional status ",
+      "Serum electrolytes"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 2,
+    "competencyLevelSummary": [
+      {
+        "skill": "Nutritional status ",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Serum electrolytes",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Plastic Surgery",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "e9493309-48f8-4bd7-93ed-83b26e189147",
+    "liveLeafId": "e9493309-48f8-4bd7-93ed-83b26e189147",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Burn dressing",
+      "Escharotomy",
+      "Fasciotomy",
+      "Flap reconstruction",
+      "Release of burn contractures ",
+      "Skin grafting"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 6,
+    "competencyLevelSummary": [
+      {
+        "skill": "Burn dressing",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Escharotomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Fasciotomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Flap reconstruction",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Release of burn contractures ",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Skin grafting",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Procedural Nutrition",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "3587caef-7e32-46b5-96ff-efdc672410f3",
+    "liveLeafId": "3587caef-7e32-46b5-96ff-efdc672410f3",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Laboratory and biochemical analysis of nutritional status"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 1,
+    "competencyLevelSummary": [
+      {
+        "skill": "Laboratory and biochemical analysis of nutritional status",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Procedural Nutrition",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "0e1909df-9f5b-4b3f-b8f3-16885cdbeab5",
+    "liveLeafId": "0e1909df-9f5b-4b3f-b8f3-16885cdbeab5",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Administration of nasogastric / nasojejunal feeding",
+      "Construction of feeding gastrostomy / Jejunostomy",
+      "PEG tube insertion / replacement",
+      "Venous cannulation for central and peripheral parenteral feeding"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 4,
+    "competencyLevelSummary": [
+      {
+        "skill": "Administration of nasogastric / nasojejunal feeding",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "4"
+        ]
+      },
+      {
+        "skill": "Construction of feeding gastrostomy / Jejunostomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "PEG tube insertion / replacement",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Venous cannulation for central and peripheral parenteral feeding",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Skin and Subcutaneous Tissue",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "6cd958f4-08bd-4316-81e3-68b4bab08f50",
+    "liveLeafId": "6cd958f4-08bd-4316-81e3-68b4bab08f50",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Histopathological analysis",
+      "Wound swab for C/S"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 2,
+    "competencyLevelSummary": [
+      {
+        "skill": "Histopathological analysis",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Wound swab for C/S",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Skin and Subcutaneous Tissue",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "d8c17d2d-a9e1-4529-9165-eb1b4adbc403",
+    "liveLeafId": "d8c17d2d-a9e1-4529-9165-eb1b4adbc403",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Drainage of superficial abscess",
+      "Excision biopsy of SCC / BCC / Melanoma",
+      "Excision of carbuncle",
+      "Fasciotomy",
+      "Flap closure",
+      "Lymph node biopsy",
+      "Management of foreign bodies",
+      "Nail avulsion / Wedge resection",
+      "Skin grafting (partial thickness and full thickness)",
+      "Wound debridement"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 10,
+    "competencyLevelSummary": [
+      {
+        "skill": "Drainage of superficial abscess",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Excision biopsy of SCC / BCC / Melanoma",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Excision of carbuncle",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Fasciotomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Flap closure",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Lymph node biopsy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Management of foreign bodies",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Nail avulsion / Wedge resection",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Skin grafting (partial thickness and full thickness)",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Wound debridement",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Surgical Oncology",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "6120c376-cb5e-46c0-8803-a12a39446b62",
+    "liveLeafId": "6120c376-cb5e-46c0-8803-a12a39446b62",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Histopathology/ cytology/immunohistochemistry/ Tumor markers ",
+      "Local X-ray ",
+      "MRI / CT scan / Bone scan"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 3,
+    "competencyLevelSummary": [
+      {
+        "skill": "Histopathology/ cytology/immunohistochemistry/ Tumor markers ",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Local X-ray ",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "MRI / CT scan / Bone scan",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Surgical Oncology",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "b8716fc4-981c-4510-9ad8-49c43c8c816b",
+    "liveLeafId": "b8716fc4-981c-4510-9ad8-49c43c8c816b",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Core-cut biopsy",
+      "Excision biopsy",
+      "FNAC",
+      "Incision biopsy",
+      "Sentinel lymph node biopsy"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 5,
+    "competencyLevelSummary": [
+      {
+        "skill": "Core-cut biopsy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Excision biopsy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "FNAC",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Incision biopsy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Sentinel lymph node biopsy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Thoracic and Cardiovascular Surgery",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
+    "liveLeafId": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Blood gas analysis",
+      "Wound swab for C/S",
+      "X-ray chest P/A"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 3,
+    "competencyLevelSummary": [
+      {
+        "skill": "Blood gas analysis",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Wound swab for C/S",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "X-ray chest P/A",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Thoracic and Cardiovascular Surgery",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "8aa758e2-151a-4afb-a86b-6d31ded5fde8",
+    "liveLeafId": "8aa758e2-151a-4afb-a86b-6d31ded5fde8",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Chest tube drain insertion",
+      "Pericardiocentesis",
+      "Thoracoscopy",
+      "Thoracotomy"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 4,
+    "competencyLevelSummary": [
+      {
+        "skill": "Chest tube drain insertion",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Pericardiocentesis",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Thoracoscopy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Thoracotomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Urology",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "724765b4-038e-48dc-89df-823cf20dc733",
+    "liveLeafId": "724765b4-038e-48dc-89df-823cf20dc733",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "CT scan/MRI/angiogram",
+      "CT-urogram",
+      "DMSA/DTPA scan",
+      "IVU",
+      "Renal biopsy report interpretation",
+      "Renal function test",
+      "USG of genitourinary system",
+      "Urine C/S",
+      "Urine routine and microscopical examination",
+      "Uroflowmetry",
+      "X-ray KUB"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 11,
+    "competencyLevelSummary": [
+      {
+        "skill": "CT scan/MRI/angiogram",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "CT-urogram",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "DMSA/DTPA scan",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "IVU",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Renal biopsy report interpretation",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Renal function test",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "USG of genitourinary system",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Urine C/S",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Urine routine and microscopical examination",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "Uroflowmetry",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      },
+      {
+        "skill": "X-ray KUB",
+        "renderedLevels": [],
+        "cachedValidLevels": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Urology",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "7ab0db36-3a41-49ce-8ffb-cb99a56ee145",
+    "liveLeafId": "7ab0db36-3a41-49ce-8ffb-cb99a56ee145",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Amputation of penis",
+      "Circumcision",
+      "Cystolithtomy",
+      "Cystourethroscopy",
+      "Meatoplasty",
+      "Optical internal urethrotomy",
+      "Orchidectomy ",
+      "Orchidopexy",
+      "PCNL",
+      "Pyelolithotomy ",
+      "Pyeloplasty",
+      "Repair of bladder injury",
+      "Repair of ureteric injury",
+      "Suprapubiccystostomy",
+      "URS",
+      "Ureterolithotomy ",
+      "Ureteroscopy",
+      "Urethral catheterization"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 18,
+    "competencyLevelSummary": [
+      {
+        "skill": "Amputation of penis",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Circumcision",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "skill": "Cystolithtomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Cystourethroscopy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Meatoplasty",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Optical internal urethrotomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Orchidectomy ",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Orchidopexy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "PCNL",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Pyelolithotomy ",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Pyeloplasty",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Repair of bladder injury",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Repair of ureteric injury",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "Suprapubiccystostomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "skill": "URS",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Ureterolithotomy ",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Ureteroscopy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "skill": "Urethral catheterization",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": [
+          "3",
+          "4"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Vascular Surgery",
+      "Interpretative Skill"
+    ],
+    "cachedLeafId": "038b9461-529c-4473-b982-123e445548eb",
+    "liveLeafId": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
+    "idDrift": true,
+    "caseTypeMismatch": true,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Indication/Investigation/Findings/Diagnosis",
+      "Interpretations",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Blood gas analysis",
+      "Wound swab for C/S",
+      "X-ray chest P/A"
+    ],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 2,
+    "competencyLevelSummary": [
+      {
+        "skill": "Blood gas analysis",
+        "renderedLevels": [],
+        "cachedValidLevels": "no-cached-data"
+      },
+      {
+        "skill": "Wound swab for C/S",
+        "renderedLevels": [],
+        "cachedValidLevels": "no-cached-data"
+      },
+      {
+        "skill": "X-ray chest P/A",
+        "renderedLevels": [],
+        "cachedValidLevels": "no-cached-data"
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Procedural and Interpretative Skills",
+      "Vascular Surgery",
+      "Procedural skill"
+    ],
+    "cachedLeafId": "40abd843-3a66-4bd2-a6e4-bdcb76679cb7",
+    "liveLeafId": "8aa758e2-151a-4afb-a86b-6d31ded5fde8",
+    "idDrift": true,
+    "caseTypeMismatch": true,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Procedural Notes",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [
+      "Chest tube drain insertion",
+      "Pericardiocentesis",
+      "Thoracoscopy",
+      "Thoracotomy"
+    ],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 5,
+    "competencyLevelSummary": [
+      {
+        "skill": "Chest tube drain insertion",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": "no-cached-data"
+      },
+      {
+        "skill": "Pericardiocentesis",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": "no-cached-data"
+      },
+      {
+        "skill": "Thoracoscopy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": "no-cached-data"
+      },
+      {
+        "skill": "Thoracotomy",
+        "renderedLevels": [
+          "levelOne",
+          "levelTwo",
+          "levelThree",
+          "levelFour"
+        ],
+        "cachedValidLevels": "no-cached-data"
+      }
+    ],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Patient Management",
+      "Emergency Patient Management"
+    ],
+    "cachedLeafId": "181715c5-d449-4245-8f1c-3d52ca9bb46a",
+    "liveLeafId": "181715c5-d449-4245-8f1c-3d52ca9bb46a",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Description",
+      "Outcome"
+    ],
+    "liveCompetencyItems": [],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 0,
+    "competencyLevelSummary": [],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Patient Management",
+      "In-Patient Management"
+    ],
+    "cachedLeafId": "2458946d-d2b8-4ac5-b460-015926d5f26d",
+    "liveLeafId": "2458946d-d2b8-4ac5-b460-015926d5f26d",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [],
+    "cachedFieldCount": 8,
+    "cachedCompetencyCount": 0,
+    "competencyLevelSummary": [],
+    "error": null
+  },
+  {
+    "pathLabels": [
+      "Patient Management",
+      "Out-Patient Management"
+    ],
+    "cachedLeafId": "f4a5140c-6666-4137-9e62-d1223d57bac0",
+    "liveLeafId": "f4a5140c-6666-4137-9e62-d1223d57bac0",
+    "idDrift": false,
+    "caseTypeMismatch": false,
+    "liveFieldNames": [
+      "Date of Assignment",
+      "Name of the Patient",
+      "Patient Reg No",
+      "Date of Birth",
+      "Age",
+      "Diagnosis/Problems",
+      "Brief Description"
+    ],
+    "liveCompetencyItems": [],
+    "cachedFieldCount": 9,
+    "cachedCompetencyCount": 0,
+    "competencyLevelSummary": [],
+    "error": null
+  }
+]

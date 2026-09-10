@@ -1,0 +1,50 @@
+{
+  "specialty": "Orthopaedic Surgery",
+  "form": "Procedural and Interpretative Skills",
+  "caseType": "Orthopaedic Surgery",
+  "mappedLeafIds": {
+    "Interpretative Skill": "1952142e-4c30-4b86-a9d9-3aaeafb8e350",
+    "Procedural skill": "dc3a106f-4a08-44c0-9c0f-01781266ec0c"
+  },
+  "quotaSource": {
+    "portalMinimums": {
+      "note": "The live portal's mapped minimums are NOT used to determine row counts for this dataset. Recorded here only for traceability.",
+      "interpretative": { "CT-scan": 5, "Histopathological report analysis": 5, "Local X-ray": 10, "MRI": 5, "Radionuclide scan": 2 },
+      "procedural": {
+        "Amputation": { "1": 1, "2": 1, "3": 1 },
+        "Application of splint/cast": { "2": 3, "3": 2 },
+        "Arthroscopic examination": { "1": 1, "2": 1 },
+        "Curettage & bone grafting": { "2": 3, "3": 2 },
+        "External fixation": { "1": 1, "2": 1 },
+        "ORIF": { "1": 3, "2": 2 },
+        "Reduction immobilisation of fractures and dislocations": { "2": 3, "3": 2 },
+        "Tendon repair": { "2": 3, "3": 2 }
+      }
+    },
+    "decision": "AUTHORITATIVE_SOURCE_IS_USER_PROVIDED_EXACT_COUNTS - per explicit user instruction, this dataset uses the user's own exact required counts (15 Interpretative + 19 Procedural = 34), NOT the portal's mapped minimums and NOT the reference PDF. The portal is used only to verify skill names, field schemas, and valid competence levels."
+  },
+  "skills": {
+    "Interpretative Skill": [
+      { "name": "CT-scan", "count": 3 },
+      { "name": "Histopathological report analysis", "count": 3 },
+      { "name": "Local X-ray", "count": 5 },
+      { "name": "MRI", "count": 3 },
+      { "name": "Radionuclide scan", "count": 1 }
+    ],
+    "Procedural skill": [
+      { "name": "Amputation", "count": 2, "allowedLevels": ["1", "2", "3"] },
+      { "name": "Application of splint/cast", "count": 3, "allowedLevels": ["2", "3"] },
+      { "name": "Arthroscopic examination", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Curettage & bone grafting", "count": 3, "allowedLevels": ["2", "3"] },
+      { "name": "External fixation", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "ORIF", "count": 3, "allowedLevels": ["1", "2"] },
+      { "name": "Reduction immobilisation of fractures and dislocations", "count": 3, "allowedLevels": ["2", "3"] },
+      { "name": "Tendon repair", "count": 3, "allowedLevels": ["2", "3"] }
+    ]
+  },
+  "notes": [
+    "All 13 skill labels matched the live portal exactly, verbatim, with zero spelling/whitespace differences - no ambiguity, no guessing required. See reports/mapping-match-report.json for the full confirmation.",
+    "This config is reusable for future date ranges of the same specialty - do not hardcode date-range-specific values here. NOTE: the counts recorded under 'skills' here are USER-AUTHORITATIVE EXACT COUNTS, not portal quota - re-confirm the correct source with the user before reusing this config unchanged for a future date range.",
+    "For each Procedural skill with count > 1 and more than one allowed competence level, individual rows were assigned varying portal-valid levels (never multiplying the row count) - see generated-rows-raw.json for the exact level used per row."
+  ]
+}

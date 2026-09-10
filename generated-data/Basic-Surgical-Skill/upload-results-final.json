@@ -1,0 +1,925 @@
+{
+  "stoppedForSystemicIssue": false,
+  "results": [
+    {
+      "externalRowId": "BSS-083",
+      "excelRow": 84,
+      "status": "SUCCESS",
+      "draftReference": "f905f840-5c86-4f3a-afb4-dd5f1b01e9d5",
+      "attemptTime": "2026-09-08T10:18:07.748Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-084",
+      "excelRow": 85,
+      "status": "SUCCESS",
+      "draftReference": "47892893-57b3-4a57-8294-270533120eb3",
+      "attemptTime": "2026-09-08T10:18:19.858Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-085",
+      "excelRow": 86,
+      "status": "SUCCESS",
+      "draftReference": "bf96226c-649e-4396-94fb-2f5e4daf7c8f",
+      "attemptTime": "2026-09-08T10:18:32.451Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-086",
+      "excelRow": 87,
+      "status": "SUCCESS",
+      "draftReference": "13b92342-37c1-4eee-98b3-94e1615c71d8",
+      "attemptTime": "2026-09-08T10:18:45.074Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-087",
+      "excelRow": 88,
+      "status": "SUCCESS",
+      "draftReference": "97d742f2-3832-4726-8a0c-455e31915bec",
+      "attemptTime": "2026-09-08T10:18:57.341Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-088",
+      "excelRow": 89,
+      "status": "SUCCESS",
+      "draftReference": "f6836207-288a-44d5-a849-9c777b28033f",
+      "attemptTime": "2026-09-08T10:19:09.553Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-089",
+      "excelRow": 90,
+      "status": "SUCCESS",
+      "draftReference": "2e366484-595a-440f-9e97-099fdfbc3413",
+      "attemptTime": "2026-09-08T10:19:21.576Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-090",
+      "excelRow": 91,
+      "status": "SUCCESS",
+      "draftReference": "70b0826f-9abe-4167-acdb-7978e9ec5431",
+      "attemptTime": "2026-09-08T10:19:33.750Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-091",
+      "excelRow": 92,
+      "status": "SUCCESS",
+      "draftReference": "ed76a05a-b8b4-481e-a05f-c11d73469b08",
+      "attemptTime": "2026-09-08T10:19:47.016Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-092",
+      "excelRow": 93,
+      "status": "SUCCESS",
+      "draftReference": "cab969b0-47b9-4b93-9cd6-7719f17b5589",
+      "attemptTime": "2026-09-08T10:19:59.075Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-093",
+      "excelRow": 94,
+      "status": "SUCCESS",
+      "draftReference": "ddc54507-d0bf-4356-9c97-addaed223b5c",
+      "attemptTime": "2026-09-08T10:20:11.827Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-094",
+      "excelRow": 95,
+      "status": "SUCCESS",
+      "draftReference": "1056f6e8-b7ba-4491-9a17-b10eb81f5b3c",
+      "attemptTime": "2026-09-08T10:20:24.552Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-095",
+      "excelRow": 96,
+      "status": "SUCCESS",
+      "draftReference": "c88a2d3e-1e7e-4d1d-8be4-d88b981bb6c9",
+      "attemptTime": "2026-09-08T10:20:36.678Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-096",
+      "excelRow": 97,
+      "status": "SUCCESS",
+      "draftReference": "c9c00ac5-3602-426b-841b-292c2f0e8bb5",
+      "attemptTime": "2026-09-08T10:20:48.862Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-097",
+      "excelRow": 98,
+      "status": "SUCCESS",
+      "draftReference": "6a871898-13af-40cb-b987-c1ce1939207f",
+      "attemptTime": "2026-09-08T10:21:01.151Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-098",
+      "excelRow": 99,
+      "status": "SUCCESS",
+      "draftReference": "9bf4b2ac-3341-4d26-ba01-1dfc9e98f257",
+      "attemptTime": "2026-09-08T10:21:13.869Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-099",
+      "excelRow": 100,
+      "status": "SUCCESS",
+      "draftReference": "c0220213-f977-493f-96f9-db0856c763f0",
+      "attemptTime": "2026-09-08T10:21:25.927Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-100",
+      "excelRow": 101,
+      "status": "SUCCESS",
+      "draftReference": "83695e83-257a-47ee-8477-4bb44b88a2e2",
+      "attemptTime": "2026-09-08T10:21:37.960Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-101",
+      "excelRow": 102,
+      "status": "SUCCESS",
+      "draftReference": "0ea40308-ab7f-4b56-a19e-875dd0dccea6",
+      "attemptTime": "2026-09-08T10:21:50.021Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-102",
+      "excelRow": 103,
+      "status": "SUCCESS",
+      "draftReference": "878080d7-f582-474b-8bf5-76c04e3dc24f",
+      "attemptTime": "2026-09-08T10:22:02.145Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-103",
+      "excelRow": 104,
+      "status": "SUCCESS",
+      "draftReference": "244203e4-b8da-4538-8a93-336f9bda9863",
+      "attemptTime": "2026-09-08T10:22:14.241Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-104",
+      "excelRow": 105,
+      "status": "SUCCESS",
+      "draftReference": "93af3fda-591c-4116-b1c6-45b2f47fb90c",
+      "attemptTime": "2026-09-08T10:22:26.248Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-105",
+      "excelRow": 106,
+      "status": "SUCCESS",
+      "draftReference": "5080b48c-aec3-423b-bc37-d4c9778892c4",
+      "attemptTime": "2026-09-08T10:22:38.144Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-106",
+      "excelRow": 107,
+      "status": "SUCCESS",
+      "draftReference": "790925b7-5900-4f1b-898c-2d041398012f",
+      "attemptTime": "2026-09-08T10:22:50.156Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-107",
+      "excelRow": 108,
+      "status": "SUCCESS",
+      "draftReference": "e5b4c617-597f-4a4f-9bf6-b9924d235281",
+      "attemptTime": "2026-09-08T10:23:02.659Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-108",
+      "excelRow": 109,
+      "status": "SUCCESS",
+      "draftReference": "4526aa25-e8be-4fa3-a7b4-548fb4eef0f4",
+      "attemptTime": "2026-09-08T10:23:14.724Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-109",
+      "excelRow": 110,
+      "status": "SUCCESS",
+      "draftReference": "3a082e3f-978c-4d8b-bffb-ad15976c8ea2",
+      "attemptTime": "2026-09-08T10:23:27.651Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-110",
+      "excelRow": 111,
+      "status": "SUCCESS",
+      "draftReference": "7f2ebefc-622d-409d-b890-b501b13479e6",
+      "attemptTime": "2026-09-08T10:23:40.857Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-111",
+      "excelRow": 112,
+      "status": "SUCCESS",
+      "draftReference": "d1775296-cb22-4f5b-ba64-79e5b3acbdd0",
+      "attemptTime": "2026-09-08T10:23:53.653Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-112",
+      "excelRow": 113,
+      "status": "SUCCESS",
+      "draftReference": "3f1af7ab-78c3-4628-90ab-fc3938c0f682",
+      "attemptTime": "2026-09-08T10:24:06.324Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-113",
+      "excelRow": 114,
+      "status": "SUCCESS",
+      "draftReference": "57037a8e-df7a-44c3-9470-2109dd6ac92b",
+      "attemptTime": "2026-09-08T10:24:18.774Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-114",
+      "excelRow": 115,
+      "status": "SUCCESS",
+      "draftReference": "acb4bd11-fd93-40d8-9901-c761bb74c829",
+      "attemptTime": "2026-09-08T10:24:30.856Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-115",
+      "excelRow": 116,
+      "status": "SUCCESS",
+      "draftReference": "3e21450f-fd65-4e5c-9336-28244339c07f",
+      "attemptTime": "2026-09-08T10:24:43.928Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-116",
+      "excelRow": 117,
+      "status": "SUCCESS",
+      "draftReference": "20e89947-89f4-40a7-b682-0be7e9d3e932",
+      "attemptTime": "2026-09-08T10:24:56.848Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-117",
+      "excelRow": 118,
+      "status": "SUCCESS",
+      "draftReference": "e245bfad-51de-4dc3-b17f-eba007d47c64",
+      "attemptTime": "2026-09-08T10:25:08.932Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-118",
+      "excelRow": 119,
+      "status": "SUCCESS",
+      "draftReference": "b4975eef-6510-49b8-9370-902ecccd0717",
+      "attemptTime": "2026-09-08T10:25:20.993Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-119",
+      "excelRow": 120,
+      "status": "SUCCESS",
+      "draftReference": "dafb89d1-d1b9-4b73-a6db-1ee40e672f0f",
+      "attemptTime": "2026-09-08T10:25:34.082Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-120",
+      "excelRow": 121,
+      "status": "SUCCESS",
+      "draftReference": "2d944bf6-bec9-496a-87c2-86774c1e8a69",
+      "attemptTime": "2026-09-08T10:25:46.076Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-121",
+      "excelRow": 122,
+      "status": "SUCCESS",
+      "draftReference": "41bd0786-1d9b-4b2c-9127-a87380c66839",
+      "attemptTime": "2026-09-08T10:25:58.653Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-122",
+      "excelRow": 123,
+      "status": "SUCCESS",
+      "draftReference": "180b6c1c-67cf-45e8-baeb-4f9217aa531f",
+      "attemptTime": "2026-09-08T10:26:11.256Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-123",
+      "excelRow": 124,
+      "status": "SUCCESS",
+      "draftReference": "53494dd1-2502-4f65-bcf8-f1948e6a79e9",
+      "attemptTime": "2026-09-08T10:26:23.371Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-124",
+      "excelRow": 125,
+      "status": "SUCCESS",
+      "draftReference": "3f8903d7-a8c3-4641-8c24-646fbbdce48d",
+      "attemptTime": "2026-09-08T10:26:36.141Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-125",
+      "excelRow": 126,
+      "status": "SUCCESS",
+      "draftReference": "a1930e66-3a66-4a95-8aed-7cc7bf9af916",
+      "attemptTime": "2026-09-08T10:26:48.652Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-126",
+      "excelRow": 127,
+      "status": "SUCCESS",
+      "draftReference": "86e6c1d4-59e9-432c-bc84-05d4863c68ab",
+      "attemptTime": "2026-09-08T10:27:01.253Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-127",
+      "excelRow": 128,
+      "status": "SUCCESS",
+      "draftReference": "b0ede038-956d-4a93-ab26-78586fe08936",
+      "attemptTime": "2026-09-08T10:27:13.252Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-128",
+      "excelRow": 129,
+      "status": "SUCCESS",
+      "draftReference": "6eb3505d-0c1d-4ac1-bdb1-6a7587e0d7f0",
+      "attemptTime": "2026-09-08T10:27:25.881Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-129",
+      "excelRow": 130,
+      "status": "SUCCESS",
+      "draftReference": "568466d1-b4ca-4ee4-adb2-285e88725f4b",
+      "attemptTime": "2026-09-08T10:27:38.452Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-130",
+      "excelRow": 131,
+      "status": "SUCCESS",
+      "draftReference": "d775af87-881d-4acd-bf43-70f391878632",
+      "attemptTime": "2026-09-08T10:27:51.153Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-131",
+      "excelRow": 132,
+      "status": "SUCCESS",
+      "draftReference": "635e3f8e-4c70-420c-af31-44b9f4f77fb4",
+      "attemptTime": "2026-09-08T10:28:03.069Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-132",
+      "excelRow": 133,
+      "status": "SUCCESS",
+      "draftReference": "ebca2ad6-da57-495e-b101-e807d5120af9",
+      "attemptTime": "2026-09-08T10:28:15.124Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-133",
+      "excelRow": 134,
+      "status": "SUCCESS",
+      "draftReference": "d4f532eb-dc90-4a07-97e3-093e463b1bdd",
+      "attemptTime": "2026-09-08T10:28:27.270Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-134",
+      "excelRow": 135,
+      "status": "SUCCESS",
+      "draftReference": "99596039-4e67-4bdd-9de2-b506bca40b98",
+      "attemptTime": "2026-09-08T10:28:39.749Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-135",
+      "excelRow": 136,
+      "status": "SUCCESS",
+      "draftReference": "20b003cd-7b33-475d-941a-0abcdd04dc24",
+      "attemptTime": "2026-09-08T10:28:52.349Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-136",
+      "excelRow": 137,
+      "status": "SUCCESS",
+      "draftReference": "3ca55a65-8267-440e-bc63-3c49634696b8",
+      "attemptTime": "2026-09-08T10:29:05.253Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-137",
+      "excelRow": 138,
+      "status": "SUCCESS",
+      "draftReference": "679b9312-7bd1-4823-b2fe-eb1d384f654c",
+      "attemptTime": "2026-09-08T10:29:18.126Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-138",
+      "excelRow": 139,
+      "status": "SUCCESS",
+      "draftReference": "0db49bec-4c6d-4c7f-8c87-625ec8991455",
+      "attemptTime": "2026-09-08T10:29:30.057Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-139",
+      "excelRow": 140,
+      "status": "SUCCESS",
+      "draftReference": "d0898bd6-6308-4651-8e0c-42755f472e10",
+      "attemptTime": "2026-09-08T10:29:42.160Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-140",
+      "excelRow": 141,
+      "status": "SUCCESS",
+      "draftReference": "5a45042c-b85a-4d72-8827-60bd6b1d771d",
+      "attemptTime": "2026-09-08T10:29:54.953Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-141",
+      "excelRow": 142,
+      "status": "SUCCESS",
+      "draftReference": "6ab8e923-2e2d-47eb-a55d-0af520b65e0d",
+      "attemptTime": "2026-09-08T10:30:06.973Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-142",
+      "excelRow": 143,
+      "status": "SUCCESS",
+      "draftReference": "a9c172e5-6e56-4e64-8f1d-1d3305dd4ef7",
+      "attemptTime": "2026-09-08T10:30:18.962Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-143",
+      "excelRow": 144,
+      "status": "SUCCESS",
+      "draftReference": "515af912-c72d-473a-bdfc-e393334520a8",
+      "attemptTime": "2026-09-08T10:30:31.680Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-144",
+      "excelRow": 145,
+      "status": "SUCCESS",
+      "draftReference": "016e0e14-99e0-4b74-b39f-cc93b3e00781",
+      "attemptTime": "2026-09-08T10:30:44.357Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-145",
+      "excelRow": 146,
+      "status": "SUCCESS",
+      "draftReference": "10af7d1a-7651-43ee-8536-9cc883071939",
+      "attemptTime": "2026-09-08T10:30:56.983Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-146",
+      "excelRow": 147,
+      "status": "SUCCESS",
+      "draftReference": "9514f39c-d76d-4a99-806b-6e20d39de30d",
+      "attemptTime": "2026-09-08T10:31:08.856Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-147",
+      "excelRow": 148,
+      "status": "SUCCESS",
+      "draftReference": "63527ccd-9268-46b1-bf41-0570c3e627a6",
+      "attemptTime": "2026-09-08T10:31:20.848Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-148",
+      "excelRow": 149,
+      "status": "SUCCESS",
+      "draftReference": "052760a6-58ce-4314-b49b-e32f9d598f79",
+      "attemptTime": "2026-09-08T10:31:33.073Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-149",
+      "excelRow": 150,
+      "status": "SUCCESS",
+      "draftReference": "0d1b5ea8-ddd8-4f7c-984e-f068ef6c9919",
+      "attemptTime": "2026-09-08T10:31:45.085Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-150",
+      "excelRow": 151,
+      "status": "SUCCESS",
+      "draftReference": "db527f83-59f9-4d3a-aae7-1f45d049ed36",
+      "attemptTime": "2026-09-08T10:31:57.811Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-151",
+      "excelRow": 152,
+      "status": "SUCCESS",
+      "draftReference": "019491d5-2276-477d-ac72-8b5579af1448",
+      "attemptTime": "2026-09-08T10:32:10.071Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-152",
+      "excelRow": 153,
+      "status": "SUCCESS",
+      "draftReference": "54f79be9-cf9e-409e-a4d2-8d89d417b963",
+      "attemptTime": "2026-09-08T10:32:22.119Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-153",
+      "excelRow": 154,
+      "status": "SUCCESS",
+      "draftReference": "a0f11181-3462-4c54-a7f4-424de860b88d",
+      "attemptTime": "2026-09-08T10:32:34.021Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-154",
+      "excelRow": 155,
+      "status": "SUCCESS",
+      "draftReference": "bc3b0549-764b-4903-a8a3-434ecd6d88ae",
+      "attemptTime": "2026-09-08T10:32:46.550Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-155",
+      "excelRow": 156,
+      "status": "SUCCESS",
+      "draftReference": "ef499b43-d560-4fac-a50a-3c79a6c7402e",
+      "attemptTime": "2026-09-08T10:32:58.543Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-156",
+      "excelRow": 157,
+      "status": "SUCCESS",
+      "draftReference": "fb64865c-611a-49b2-bde2-61b08323c637",
+      "attemptTime": "2026-09-08T10:33:12.181Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-157",
+      "excelRow": 158,
+      "status": "SUCCESS",
+      "draftReference": "226d8653-677f-48bc-a37b-cb5408f0beb6",
+      "attemptTime": "2026-09-08T10:33:24.256Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-158",
+      "excelRow": 159,
+      "status": "SUCCESS",
+      "draftReference": "d3517430-902d-43ff-ba09-61054db63fcf",
+      "attemptTime": "2026-09-08T10:33:36.337Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-159",
+      "excelRow": 160,
+      "status": "SUCCESS",
+      "draftReference": "36afff7e-ce78-4fb4-a51b-5e4bcecafdfd",
+      "attemptTime": "2026-09-08T10:33:48.863Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-160",
+      "excelRow": 161,
+      "status": "SUCCESS",
+      "draftReference": "e7e2fff3-7710-4f8a-b138-a98a04bbf1f0",
+      "attemptTime": "2026-09-08T10:34:01.331Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-161",
+      "excelRow": 162,
+      "status": "SUCCESS",
+      "draftReference": "bdcc5cc4-cff3-478f-ae79-26b1620a48c3",
+      "attemptTime": "2026-09-08T10:34:13.532Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-162",
+      "excelRow": 163,
+      "status": "SUCCESS",
+      "draftReference": "65cefc31-0c88-47f0-af82-015d4925a158",
+      "attemptTime": "2026-09-08T10:34:26.274Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-163",
+      "excelRow": 164,
+      "status": "SUCCESS",
+      "draftReference": "840efe5e-c7ca-473f-b01a-0808f1c9b163",
+      "attemptTime": "2026-09-08T10:34:39.393Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-164",
+      "excelRow": 165,
+      "status": "SUCCESS",
+      "draftReference": "d724ed45-11eb-4e86-a9a3-a819684a7154",
+      "attemptTime": "2026-09-08T10:34:51.430Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-165",
+      "excelRow": 166,
+      "status": "SUCCESS",
+      "draftReference": "f96dcb5e-779e-41a0-9194-9b530125e641",
+      "attemptTime": "2026-09-08T10:35:03.356Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-166",
+      "excelRow": 167,
+      "status": "SUCCESS",
+      "draftReference": "9473be3e-7591-4d05-9562-9e1a29b904e6",
+      "attemptTime": "2026-09-08T10:35:15.936Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-167",
+      "excelRow": 168,
+      "status": "SUCCESS",
+      "draftReference": "8ce35124-99a9-4491-a395-ef2f6d369971",
+      "attemptTime": "2026-09-08T10:35:27.961Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-168",
+      "excelRow": 169,
+      "status": "SUCCESS",
+      "draftReference": "fb8b90a1-7675-4b8e-8d61-ea9223aa028e",
+      "attemptTime": "2026-09-08T10:35:39.956Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-169",
+      "excelRow": 170,
+      "status": "SUCCESS",
+      "draftReference": "ca3af5ec-e2de-471c-8268-d89c31ff5c76",
+      "attemptTime": "2026-09-08T10:35:51.996Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-170",
+      "excelRow": 171,
+      "status": "SUCCESS",
+      "draftReference": "1d6ac5a9-61ba-4089-8cae-a84683b93677",
+      "attemptTime": "2026-09-08T10:36:04.286Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-171",
+      "excelRow": 172,
+      "status": "SUCCESS",
+      "draftReference": "ec4b3bec-9de5-453d-8997-fcbccab57969",
+      "attemptTime": "2026-09-08T10:36:16.369Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-172",
+      "excelRow": 173,
+      "status": "SUCCESS",
+      "draftReference": "1eb3a57a-2302-47d7-9632-6bad5fe4070e",
+      "attemptTime": "2026-09-08T10:36:28.450Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-173",
+      "excelRow": 174,
+      "status": "SUCCESS",
+      "draftReference": "6ff53fa7-fc0c-4c31-bff4-7bda7e1c1af9",
+      "attemptTime": "2026-09-08T10:36:40.950Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    },
+    {
+      "externalRowId": "BSS-174",
+      "excelRow": 175,
+      "status": "SUCCESS",
+      "draftReference": "06b6e594-5ff7-4e0e-8109-19b37b64aabb",
+      "attemptTime": "2026-09-08T10:36:53.052Z",
+      "failedField": "",
+      "errorMessage": "",
+      "screenshotPath": ""
+    }
+  ]
+}

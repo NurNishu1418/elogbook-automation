@@ -1,0 +1,109 @@
+{
+  "generatedAt": "2026-09-09T09:13:47.646Z",
+  "specialty": "Anaesthesia & Procedural Critical Care",
+  "trainingContext": "Operating Theatre / Anaesthesia / Surgical Critical Care",
+  "dateRange": {
+    "label": "01-01-2026_to_30-06-2026",
+    "from": "2026-01-01",
+    "to": "2026-06-30"
+  },
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Anaesthesia-Procedural-Critical-Care\\01-01-2026_to_30-06-2026\\generated\\BCPS_Logbook_Anaesthesia_Procedural_Critical_Care_01-01-2026_to_30-06-2026.xlsx",
+  "quotaDecision": {
+    "countSource": "USER_PROVIDED_EXACT_COUNTS_ITEMIZED",
+    "portalQuotaUsedToSizeDataset": false,
+    "arithmeticCheck": "Itemized Interpretative (2x3=6) and Procedural (3+1+1+1+3+3+1+3+3=19) sum to 6+19=25, matching the stated totals exactly - no discrepancy for this specialty.",
+    "reason": "Per explicit user instruction, this dataset uses the exact per-skill counts the user provided (6 Interpretative + 19 Procedural = 25). The portal's own mapped minimums were NOT used to size this dataset - recorded in specialty-config/anaesthesia-procedural-critical-care.json for traceability only."
+  },
+  "competenceLevelHandling": "For every Procedural skill with more than one allowed competence level, individual rows use varying portal-valid levels (never multiplying row count) - see procedural_competenceLevelUsage in row-count-summary.json for the exact levels used per skill.",
+  "ageRealism": "Every row uses an adult surgical-population age (34-72 years) appropriate to Operating Theatre / Anaesthesia / Surgical Critical Care, including occasional elderly/critically-ill patients for high-acuity skills such as central venous catheterization, tracheostomy, and titrated infusions.",
+  "totals": {
+    "interpretative": 6,
+    "procedural": 19,
+    "grandTotal": 25
+  },
+  "skillsGenerated": [
+    {
+      "skill": "Interpretative Skill > ABG analysis",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Monitor reading",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Central venous catheterization",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Cricothyroidotomy / Cricothyroidostomy",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Endotracheal intubation",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > General anaesthesia",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Infiltration of local anaesthetics and regional nerve block",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Infusion/ syringe pump of fluids, nutrients and medications",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Insertion of laryngeal mask airway",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Regional anaesthesia",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Tracheostomy",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    }
+  ],
+  "unmatchedSkills": [],
+  "labelDifferences": [],
+  "levelMismatches": [],
+  "liveActionsTaken": "None. This generator only reads the existing local output/form-map.json (produced by a prior, already-approved live mapping crawl) - no login, browser, or network action was performed by this script. No Save as Draft, no Final Submit, no portal data modified.",
+  "originalMappingWorkbookUnchanged": true,
+  "priorSpecialtyDatasetsUnchanged": {
+    "Basic-Surgical-Skill": true,
+    "Gastrointestinal-HepatoBiliary-Pancreas": true,
+    "Disorders-of-the-Breast": true,
+    "Neurosurgery": true,
+    "Urology": true,
+    "Orthopaedic-Surgery": true,
+    "Parasites-of-Surgical-Importance": true,
+    "Paediatric-Surgery": true
+  },
+  "reviewStatus": "PENDING MANUAL REVIEW",
+  "uploadStatus": "NOT UPLOADED"
+}

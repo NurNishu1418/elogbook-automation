@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-09-09T09:16:51.143Z",
+  "totalRows": 15,
+  "interpretativeTotal": 9,
+  "proceduralTotal": 6,
+  "perSkill": {
+    "Interpretative Skill > Blood gas analysis": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > Wound swab for C/S": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > X-ray chest P/A": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Chest tube drain insertion": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Pericardiocentesis": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Thoracoscopy": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Thoracotomy": {
+      "requested": 1,
+      "actual": 1
+    }
+  },
+  "procedural_competenceLevelUsage": [
+    {
+      "skill": "Chest tube drain insertion",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "3",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "skill": "Pericardiocentesis",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2"
+      ]
+    },
+    {
+      "skill": "Thoracoscopy",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1"
+      ]
+    },
+    {
+      "skill": "Thoracotomy",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1"
+      ]
+    }
+  ]
+}

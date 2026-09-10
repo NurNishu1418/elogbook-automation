@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-09-09T09:17:26.311Z",
+  "specialty": "Skin and Subcutaneous Tissue",
+  "trainingContext": "Skin / Soft Tissue Surgical Unit",
+  "dateRange": {
+    "label": "01-01-2026_to_30-06-2026",
+    "from": "2026-01-01",
+    "to": "2026-06-30"
+  },
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Skin-Subcutaneous-Tissue\\01-01-2026_to_30-06-2026\\generated\\BCPS_Logbook_Skin_Subcutaneous_Tissue_01-01-2026_to_30-06-2026.xlsx",
+  "quotaDecision": {
+    "countSource": "USER_PROVIDED_EXACT_COUNTS",
+    "portalQuotaUsedToSizeDataset": false,
+    "reason": "Per explicit user instruction, this dataset uses the exact per-skill counts and competence levels the user supplied, NOT portal quota minimums. The itemized counts sum exactly to the stated totals (6 Interpretative + 24 Procedural = 30) with no arithmetic discrepancy for this specialty. The portal's own mapped minimums were NOT used to size this dataset - recorded in specialty-config/skin-subcutaneous-tissue.json for traceability only."
+  },
+  "competenceLevelHandling": "For every Procedural skill with more than one allowed competence level, individual rows use varying portal-valid levels (never multiplying row count) - see procedural_competenceLevelUsage in row-count-summary.json for the exact levels used per skill.",
+  "duplicateLabelHandling": "\"Fasciotomy\" and \"Wound debridement\" are also used as Procedural skill names in other specialties (Plastic Surgery and Accident & Emergency / Casualty respectively) with DIFFERENT allowed competence levels there. This generator only reads the Skin and Subcutaneous Tissue leaf (via CASE_TYPE_LABEL) and only uses the levels configured in specialty-config/skin-subcutaneous-tissue.json (levels 3,4 for both here), so the two same-named skills are never conflated.",
+  "ageRealism": "Every row uses a clinically plausible adult age chosen per condition rather than a generic spread - e.g. younger adult ages for ingrown toenail/foreign bodies, middle-aged/older adult ages for skin malignancy excision, carbuncle, and chronic wound debridement.",
+  "totals": {
+    "interpretative": 6,
+    "procedural": 24,
+    "grandTotal": 30
+  },
+  "skillsGenerated": [
+    {
+      "skill": "Interpretative Skill > Histopathological analysis",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Wound swab for C/S",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Drainage of superficial abscess",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Excision biopsy of SCC / BCC / Melanoma",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Excision of carbuncle",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Fasciotomy",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Flap closure",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Lymph node biopsy",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Management of foreign bodies",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Nail avulsion / Wedge resection",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Skin grafting (partial thickness and full thickness)",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Wound debridement",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    }
+  ],
+  "unmatchedSkills": [],
+  "labelDifferences": [],
+  "levelMismatches": [],
+  "liveActionsTaken": "None. This generator only reads the existing local output/form-map.json (produced by a prior, already-approved live mapping crawl) - no login, browser, or network action was performed by this script. No Save as Draft, no Final Submit, no portal data modified.",
+  "originalMappingWorkbookUnchanged": true,
+  "priorSpecialtyDatasetsUnchanged": {
+    "Basic-Surgical-Skill": true,
+    "Gastrointestinal-HepatoBiliary-Pancreas": true,
+    "Disorders-of-the-Breast": true,
+    "Neurosurgery": true,
+    "Urology": true,
+    "Orthopaedic-Surgery": true,
+    "Parasites-of-Surgical-Importance": true,
+    "Paediatric-Surgery": true
+  },
+  "reviewStatus": "PENDING MANUAL REVIEW",
+  "uploadStatus": "NOT UPLOADED"
+}

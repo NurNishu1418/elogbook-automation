@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Settings / About - BCPS Automation</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <header class="topnav" id="topnav"></header>
+  <main>
+    <div class="card">
+      <h1>Settings / About</h1>
+      <p><strong>Signed in as:</strong> <span id="session-detail">checking...</span></p>
+      <p><button class="btn btn-secondary" onclick="doLogout()">Log Out</button></p>
+    </div>
+
+    <div class="card">
+      <h2>What this app does</h2>
+      <p>A local tool for the BCPS e-Logbook portal: choose an Excel workbook of logbook entries, validate it
+        locally, and (only when you choose to) create real drafts on the portal - never final-submitted.</p>
+    </div>
+
+    <div class="card">
+      <h2>Safety rules (always enforced)</h2>
+      <ul>
+        <li>Save as Draft only. There is no Final Submit button anywhere in this app.</li>
+        <li>Never Approve, Forward, Complete, or Delete anything on the portal.</li>
+        <li>Every row is checked against existing portal drafts before creating a new one - duplicates are skipped.</li>
+        <li>Every saved draft is re-read from the portal and field-checked before being marked successful.</li>
+        <li>Only one upload job runs at a time.</li>
+        <li>If something looks systemic (repeated consecutive failures, CAPTCHA, OTP, account lock, or an outage), the run stops automatically instead of continuing blindly.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Credentials</h2>
+      <p class="hint">Your username and password are used only in memory for this session, to log in to the
+        portal and to launch the upload process. They are never written to any file, never included in logs,
+        and never appear in Excel output or screenshots. A <code>.env</code> file may still exist in the
+        project folder as a fallback for command-line/development use only - it is not required to use this app.</p>
+    </div>
+
+    <div class="card">
+      <h2>Version info</h2>
+      <p class="hint">Core mapper/uploader/verifier logic: frozen, proven version (see project archive documentation for the exact stable snapshot path).</p>
+    </div>
+  </main>
+  <script src="js/common.js"></script>
+  <script>
+    renderNav('settings.html');
+    async function refresh() {
+      const s = await apiGet('/api/session');
+      document.getElementById('session-detail').textContent = s.loggedIn ? `${s.username} (${s.userType})` : 'not logged in';
+    }
+    async function doLogout() {
+      await apiPost('/api/logout');
+      refresh();
+      refreshSessionBadge();
+    }
+    refresh();
+  </script>
+</body>
+</html>

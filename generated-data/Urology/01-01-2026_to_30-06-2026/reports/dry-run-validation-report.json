@@ -1,0 +1,339 @@
+{
+  "generatedAt": "2026-09-09T06:56:02.112Z",
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Urology\\01-01-2026_to_30-06-2026\\generated\\BCPS_Logbook_Urology_01-01-2026_to_30-06-2026.xlsx",
+  "totalRows": 66,
+  "validRows": 66,
+  "invalidRows": 0,
+  "rows": [
+    {
+      "externalRowId": "URO-001",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-002",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-003",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-004",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-005",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-006",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-007",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-008",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-009",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-010",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-011",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-012",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-013",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-014",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-015",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-016",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-017",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-018",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-019",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-020",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-021",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-022",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-023",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-024",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-025",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-026",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-027",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-028",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-029",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-030",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-031",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-032",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-033",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-034",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-035",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-036",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-037",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-038",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-039",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-040",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-041",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-042",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-043",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-044",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-045",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-046",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-047",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-048",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-049",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-050",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-051",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-052",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-053",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-054",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-055",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-056",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-057",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-058",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-059",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-060",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-061",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-062",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-063",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-064",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-065",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "URO-066",
+      "valid": true,
+      "errors": []
+    }
+  ]
+}

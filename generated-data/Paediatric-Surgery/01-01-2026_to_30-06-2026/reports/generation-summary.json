@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-09-09T08:21:45.157Z",
+  "specialty": "Paediatric Surgery",
+  "trainingContext": "Paediatric Surgical Unit",
+  "dateRange": {
+    "label": "01-01-2026_to_30-06-2026",
+    "from": "2026-01-01",
+    "to": "2026-06-30"
+  },
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Paediatric-Surgery\\01-01-2026_to_30-06-2026\\generated\\BCPS_Logbook_Paediatric_Surgery_01-01-2026_to_30-06-2026.xlsx",
+  "quotaDecision": {
+    "countSource": "USER_PROVIDED_EXACT_COUNTS_ITEMIZED",
+    "portalQuotaUsedToSizeDataset": false,
+    "arithmeticDiscrepancy": "The user's stated 'Procedural total = 24' / 'Grand Total = 48' did not match the itemized per-skill counts the user provided (sum = 25 Procedural, 49 Grand Total). This was flagged to the user before generation; the user replied 'do' to proceed. Consistent with the precedent set for the Basic Surgical Skill dataset's analogous discrepancy, the itemized breakdown was treated as authoritative.",
+    "reason": "Per explicit user instruction, this dataset uses the exact per-skill counts the user provided (24 Interpretative + 25 Procedural = 49). The portal's own mapped minimums were NOT used to size this dataset - recorded in specialty-config/paediatric-surgery.json for traceability only."
+  },
+  "competenceLevelHandling": "For every Procedural skill with more than one allowed competence level, individual rows use varying portal-valid levels (never multiplying row count) - see procedural_competenceLevelUsage in row-count-summary.json for the exact levels used per skill.",
+  "ageRealism": "Every row uses a condition-specific paediatric age (0-10 years) rather than a generic spread - e.g. neonatal/infant age for pyloromyotomy, anorectal malformation, and temporary colostomy; toddler age for hernia/hydrocele/orchidopexy; a wider childhood age range for circumcision, abscess drainage, and lymph node biopsy.",
+  "totals": {
+    "interpretative": 24,
+    "procedural": 25,
+    "grandTotal": 49
+  },
+  "skillsGenerated": [
+    {
+      "skill": "Interpretative Skill > Contrast X-rays",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Histopathology",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Invertogram",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Plain X-ray Abdomen",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Plain X-ray KUB",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > USG",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Urine analysis",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > X-ray chest P/A",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Central venous line insertion",
+      "requested": 2,
+      "actual": 2,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Chordee correction in hypospadias",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Circumcision",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Cutback procedure for ectopic stenosed anus",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Drainage of abscess",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Herniotomy",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Hydrocelectomy",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Intraosseous infusion",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Lymph node biopsy",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Orchidopexy",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Pyloromyotomy",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Suprapubic catheterization",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Temporary colostomy",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Urethroplasty",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    }
+  ],
+  "unmatchedSkills": [],
+  "labelDifferences": [],
+  "levelMismatches": [],
+  "liveActionsTaken": "None. This generator only reads the existing local output/form-map.json (produced by a prior, already-approved live mapping crawl) - no login, browser, or network action was performed by this script. No Save as Draft, no Final Submit, no portal data modified.",
+  "originalMappingWorkbookUnchanged": true,
+  "priorSpecialtyDatasetsUnchanged": {
+    "Basic-Surgical-Skill": true,
+    "Gastrointestinal-HepatoBiliary-Pancreas": true,
+    "Disorders-of-the-Breast": true,
+    "Neurosurgery": true,
+    "Urology": true,
+    "Orthopaedic-Surgery": true,
+    "Parasites-of-Surgical-Importance": true
+  },
+  "reviewStatus": "PENDING MANUAL REVIEW",
+  "uploadStatus": "NOT UPLOADED"
+}

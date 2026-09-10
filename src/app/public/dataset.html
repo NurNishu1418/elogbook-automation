@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Dataset Generator - BCPS Automation</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <header class="topnav" id="topnav"></header>
+  <main>
+    <div class="card">
+      <h1>Dataset Generator</h1>
+      <p class="hint">
+        Select a specialty &rarr; generate its Excel workbook &rarr; dry-validate it &rarr; stop for your manual review.
+        Generated data is <strong>never</strong> automatically uploaded - go to Upload Workbook yourself when you're ready.
+      </p>
+
+      <label for="specialty-select">Specialty</label>
+      <select id="specialty-select"></select>
+      <p><button class="btn btn-primary" id="generate-btn" onclick="generate()">Generate</button></p>
+      <p id="generate-status" class="hint"></p>
+    </div>
+
+    <div class="card">
+      <h2>Output</h2>
+      <div class="log-box" id="output-box"></div>
+    </div>
+  </main>
+  <script src="js/common.js"></script>
+  <script>
+    renderNav('dataset.html');
+
+    async function loadSpecialties() {
+      const data = await apiGet('/api/dataset/specialties');
+      const sel = document.getElementById('specialty-select');
+      sel.innerHTML = data.specialties
+        .map((s) => `<option value="${escapeHtml(s.specialty)}" ${s.hasGenerator ? '' : 'disabled'}>${escapeHtml(s.specialty)}${s.hasGenerator ? '' : ' (not yet configured)'}</option>`)
+        .join('');
+    }
+
+    async function generate() {
+      const specialty = document.getElementById('specialty-select').value;
+      if (!specialty) return;
+      document.getElementById('generate-btn').disabled = true;
+      document.getElementById('generate-status').textContent = 'Generating and dry-validating - this does not open a browser or touch the portal...';
+      document.getElementById('output-box').textContent = '';
+      const result = await apiPost('/api/dataset/generate', { specialty });
+      document.getElementById('generate-btn').disabled = false;
+      document.getElementById('generate-status').textContent = result.success ? 'Done. Review the output below, then use Upload Workbook when ready.' : 'Failed - see output below.';
+      document.getElementById('output-box').textContent = result.output;
+    }
+
+    loadSpecialties();
+  </script>
+</body>
+</html>

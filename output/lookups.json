@@ -1,0 +1,162 @@
+{
+  "competence_level": [
+    {
+      "id": "b3c6f696-f6d5-4b8f-ae99-5084daa4aa1c",
+      "name": "Level of Competence",
+      "childs": [
+        {
+          "id": "6d560e50-fe1c-4336-bf86-ba8f66409071",
+          "setup_lookup_info_id": "b3c6f696-f6d5-4b8f-ae99-5084daa4aa1c",
+          "name": "Patient Care Competence",
+          "type_name": "Level of Competence",
+          "childs": [
+            {
+              "id": "52a94cce-813d-425f-b0f4-22663db57c51",
+              "setup_lookup_info_id": "faef31e9-7497-4eaf-b53d-e68aaea12fee",
+              "parent_lookuplist_id": "6d560e50-fe1c-4336-bf86-ba8f66409071",
+              "name": "Level-I",
+              "type_name": "Level of Patient Care Competence",
+              "childs": [
+                {
+                  "id": "f4324872-1c14-4c31-8fe8-035b4f393fb4",
+                  "setup_lookup_info_id": "225d1361-1d13-482e-b7a0-226a089ba401",
+                  "parent_lookuplist_id": "52a94cce-813d-425f-b0f4-22663db57c51",
+                  "name": "Data gathering (History and physical examination)",
+                  "type_name": "Level-I Details",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "id": "1ff071e1-2a3a-4d97-a6be-1d4a8747603f",
+              "setup_lookup_info_id": "225d1361-1d13-482e-b7a0-226a089ba401",
+              "parent_lookuplist_id": "6d560e50-fe1c-4336-bf86-ba8f66409071",
+              "name": "Level-II",
+              "type_name": "Level-I Details",
+              "childs": [
+                {
+                  "id": "bdcc2d30-cee9-402e-8a15-6ab6def23d8f",
+                  "setup_lookup_info_id": "3318c5ee-907d-407c-bff7-af7c8e464304",
+                  "parent_lookuplist_id": "1ff071e1-2a3a-4d97-a6be-1d4a8747603f",
+                  "name": "Diagnostic Processes (Procedure/s, Investigation/s and Interpretation)",
+                  "type_name": "Level-II Details",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "id": "a3eff97d-80cd-4903-b6a3-6007901cc078",
+              "setup_lookup_info_id": "3318c5ee-907d-407c-bff7-af7c8e464304",
+              "parent_lookuplist_id": "6d560e50-fe1c-4336-bf86-ba8f66409071",
+              "name": "Level-III",
+              "type_name": "Level-II Details",
+              "childs": [
+                {
+                  "id": "52edd19a-3fc3-45c5-b7c3-5b93b9696ffa",
+                  "setup_lookup_info_id": "7e15cc5a-f5ed-4337-bdb9-14dd9c44dd88",
+                  "parent_lookuplist_id": "a3eff97d-80cd-4903-b6a3-6007901cc078",
+                  "name": "Critical Analysis, developing and documenting diagnosis",
+                  "type_name": "Level-III Details",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "id": "5235c389-42ca-41dd-a61c-1b0e47ec3515",
+              "setup_lookup_info_id": "7e15cc5a-f5ed-4337-bdb9-14dd9c44dd88",
+              "parent_lookuplist_id": "6d560e50-fe1c-4336-bf86-ba8f66409071",
+              "name": "Level-IV",
+              "type_name": "Level-III Details",
+              "childs": [
+                {
+                  "id": "1dda4cc7-61ac-4aab-971c-dd254fe29c19",
+                  "setup_lookup_info_id": "319d8d44-9755-4a97-916f-e253e8a5bf31",
+                  "parent_lookuplist_id": "5235c389-42ca-41dd-a61c-1b0e47ec3515",
+                  "name": "Theraputic plan (treatment, follow up, referral)",
+                  "type_name": "Level-IV Details",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3932ce16-262c-4eba-ac1b-3f8f04f7d12e",
+          "setup_lookup_info_id": "b3c6f696-f6d5-4b8f-ae99-5084daa4aa1c",
+          "name": "Procedural/Surgical skill",
+          "type_name": "Level of Competence",
+          "childs": [
+            {
+              "id": "be616d47-930c-4c24-82d5-3473ad877415",
+              "setup_lookup_info_id": "7c11abef-0944-4984-8254-8ca466d3d9d1",
+              "parent_lookuplist_id": "3932ce16-262c-4eba-ac1b-3f8f04f7d12e",
+              "name": "Level 1",
+              "type_name": "Level of Procedural/Surgical Skill",
+              "childs": [
+                {
+                  "id": "7832517c-8aa2-4d60-83fc-80a93de7fa4d",
+                  "setup_lookup_info_id": "bf56e92e-5567-43a5-8edf-f2dc67af3752",
+                  "parent_lookuplist_id": "be616d47-930c-4c24-82d5-3473ad877415",
+                  "name": "Observed",
+                  "type_name": "Level 1 Details",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "id": "12ebc3e8-0b6d-4e2a-be83-2eb8560ef2e0",
+              "setup_lookup_info_id": "bf56e92e-5567-43a5-8edf-f2dc67af3752",
+              "parent_lookuplist_id": "3932ce16-262c-4eba-ac1b-3f8f04f7d12e",
+              "name": "Level 2",
+              "type_name": "Level 1 Details",
+              "childs": [
+                {
+                  "id": "cd4037ed-3df4-4cd0-b58d-84a732536bd6",
+                  "setup_lookup_info_id": "441c78bb-accf-4293-b4ab-e8af56848473",
+                  "parent_lookuplist_id": "12ebc3e8-0b6d-4e2a-be83-2eb8560ef2e0",
+                  "name": "Assisted",
+                  "type_name": "Level 2 Details",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "id": "c77073a9-c008-4702-a72b-0ce6dcf31ef2",
+              "setup_lookup_info_id": "441c78bb-accf-4293-b4ab-e8af56848473",
+              "parent_lookuplist_id": "3932ce16-262c-4eba-ac1b-3f8f04f7d12e",
+              "name": "Level 3",
+              "type_name": "Level 2 Details",
+              "childs": [
+                {
+                  "id": "24942e89-5da2-45d3-b394-c54bf6e3bd9f",
+                  "setup_lookup_info_id": "85c0ddaa-d9ac-4af1-8afe-bf92bae6515a",
+                  "parent_lookuplist_id": "c77073a9-c008-4702-a72b-0ce6dcf31ef2",
+                  "name": "Performed under supervision",
+                  "type_name": "Level 3 Details",
+                  "childs": []
+                }
+              ]
+            },
+            {
+              "id": "ab5c7aa9-1e49-4edc-9073-fbaf2a8c2fe4",
+              "setup_lookup_info_id": "85c0ddaa-d9ac-4af1-8afe-bf92bae6515a",
+              "parent_lookuplist_id": "3932ce16-262c-4eba-ac1b-3f8f04f7d12e",
+              "name": "Level 4",
+              "type_name": "Level 3 Details",
+              "childs": [
+                {
+                  "id": "b0c60770-9679-4b4d-922f-f80df324aea6",
+                  "setup_lookup_info_id": "ee3d30cf-871c-423a-bcb3-7dd34cee8022",
+                  "parent_lookuplist_id": "ab5c7aa9-1e49-4edc-9073-fbaf2a8c2fe4",
+                  "name": "Performed Independently",
+                  "type_name": "Level 4 Details",
+                  "childs": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

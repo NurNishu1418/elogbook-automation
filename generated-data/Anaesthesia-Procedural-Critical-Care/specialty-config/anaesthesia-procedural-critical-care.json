@@ -1,0 +1,37 @@
+{
+  "specialty": "Anaesthesia & Procedural Critical Care",
+  "form": "Procedural and Interpretative Skills",
+  "caseType": "Anaesthesia & Procedural critical care",
+  "mappedLeafIds": {
+    "Interpretative Skill": "e69cd3aa-f8cc-4f56-ae46-7558bdcf1650",
+    "Procedural skill": "f3acefe6-6a7b-463c-a4e7-7cebb7ca71bd"
+  },
+  "externalRowIdPrefix": "ANES",
+  "quotaSource": {
+    "decision": "AUTHORITATIVE_SOURCE_IS_USER_PROVIDED_EXACT_COUNTS_FROM_PDF - per explicit user instruction, this dataset uses the exact per-skill counts and competence levels the user supplied (from the FCPS PDF), NOT portal quota minimums. Portal is used only to verify skill names, field schemas, and valid competence levels.",
+    "arithmeticCheck": "Itemized Interpretative (2x3=6) and Procedural (3+1+1+1+3+3+1+3+3=19) sum to 6+19=25, matching the user's stated totals exactly - no discrepancy for this specialty."
+  },
+  "skills": {
+    "Interpretative Skill": [
+      { "name": "ABG analysis", "count": 3 },
+      { "name": "Monitor reading", "count": 3 }
+    ],
+    "Procedural skill": [
+      { "name": "Central venous catheterization", "count": 3, "allowedLevels": ["3", "4"] },
+      { "name": "Cricothyroidotomy / Cricothyroidostomy", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "Endotracheal intubation", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "General anaesthesia", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "Infiltration of local anaesthetics and regional nerve block", "count": 3, "allowedLevels": ["3", "4"] },
+      { "name": "Infusion/ syringe pump of fluids, nutrients and medications", "count": 3, "allowedLevels": ["3", "4"] },
+      { "name": "Insertion of laryngeal mask airway", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "Regional anaesthesia", "count": 3, "allowedLevels": ["3", "4"] },
+      { "name": "Tracheostomy", "count": 3, "allowedLevels": ["2", "3"] }
+    ]
+  },
+  "notes": [
+    "The user's list wrote 'Infusion/syringe pump of fluids, nutrients and medications' (no space after slash); the portal's exact label has a space: 'Infusion/ syringe pump of fluids, nutrients and medications'. Unambiguous - same item - portal-exact string used as authoritative per this project's established rule (verbatim competency names matter for the proven upload pipeline's checkbox matcher). Recorded in reports/mapping-match-report.json.",
+    "'Central venous catheterization' here uses levels 3,4 - a DIFFERENT competency item than the same-named skill under Accident & Emergency / Casualty (levels 2,3). Do not conflate them.",
+    "'Tracheostomy' here uses levels 2,3 (count 3) - a DIFFERENT competency item than the same-named skill under Accident & Emergency / Casualty (levels 2,3 also, but count 1 there and a distinct leaf) - verify the correct leafId is used per specialty.",
+    "This config is reusable for future date ranges - do not hardcode date-range-specific values here."
+  ]
+}

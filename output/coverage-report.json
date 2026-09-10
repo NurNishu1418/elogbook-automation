@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-09-08T08:44:40.064Z",
+  "targetFormUrl": "https://eportal.bcps.edu.bd/e-logbook/logbook-entry/add",
+  "totalStatesDiscovered": 65,
+  "totalStatesExplored": 65,
+  "totalFields": 634,
+  "totalControllingFields": 3,
+  "totalOptions": 64,
+  "totalDependencies": 22,
+  "totalSuccessfulPaths": 43,
+  "totalFailedPaths": 0,
+  "pendingUnexploredPaths": 0,
+  "failureReasons": [],
+  "secondCrawlRun": true,
+  "secondCrawlReconciled": true,
+  "idDriftInstancesObserved": 2
+}

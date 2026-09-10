@@ -1,0 +1,232 @@
+{
+  "generatedAt": "2026-09-09T09:15:06.226Z",
+  "totalRows": 47,
+  "interpretativeTotal": 18,
+  "proceduralTotal": 29,
+  "perSkill": {
+    "Interpretative Skill > Contrast X-rays": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > Local X-ray of injured limbs": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > Plain X-ray Abdomen": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > USG / CT scan / MRI": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > X-ray chest A/P": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > X-ray pelvis": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Airway management (Basic and advanced)": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Application of cervical collar": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Application of tourniquet": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Application of traction splint": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Central venous catheterization": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Chest tube insertion": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Laparoscopy": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Laparotomy": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Pericardiocentesis": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Stoma creation (Colostomy and ileostomy)": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Tracheostomy": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Wound debridement": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Wound packing": {
+      "requested": 3,
+      "actual": 3
+    }
+  },
+  "procedural_competenceLevelUsage": [
+    {
+      "skill": "Airway management (Basic and advanced)",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "4",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "skill": "Application of cervical collar",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "3",
+        "4",
+        "3"
+      ]
+    },
+    {
+      "skill": "Application of tourniquet",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "4",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "skill": "Application of traction splint",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "3",
+        "4",
+        "3"
+      ]
+    },
+    {
+      "skill": "Central venous catheterization",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "3"
+      ]
+    },
+    {
+      "skill": "Chest tube insertion",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "3"
+      ]
+    },
+    {
+      "skill": "Laparoscopy",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "skill": "Laparotomy",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "skill": "Pericardiocentesis",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2"
+      ]
+    },
+    {
+      "skill": "Stoma creation (Colostomy and ileostomy)",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "2"
+      ]
+    },
+    {
+      "skill": "Tracheostomy",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2"
+      ]
+    },
+    {
+      "skill": "Wound debridement",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "3",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "skill": "Wound packing",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "3",
+        "4",
+        "3"
+      ]
+    }
+  ]
+}

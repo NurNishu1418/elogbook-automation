@@ -1,0 +1,110 @@
+import { spawn, ChildProcessWithoutNullStreams } from 'child_process';
+import fs from 'fs';
+import path from 'path';
+
+const PROJECT_ROOT = path.resolve(__dirname, '..', '..', '..');
+const TS_NODE_BIN = path.join(PROJECT_ROOT, 'node_modules', '.bin', process.platform === 'win32' ? 'ts-node.cmd' : 'ts-node');
+
+interface ActiveJob {
+  proc: ChildProcessWithoutNullStreams;
+  workbookPath: string;
+  startedAt: string;
+  logs: string[];
+}
+
+let activeJob: ActiveJob | null = null;
+
+export function isJobRunning(): boolean {
+  return activeJob !== null;
+}
+
+export function getActiveJobInfo() {
+  if (!activeJob) return null;
+  return { workbookPath: activeJob.workbookPath, startedAt: activeJob.startedAt, logs: activeJob.logs.slice(-300) };
+}
+
+export interface StartUploadOptions {
+  workbookPath: string;
+  selectionMode: 'not-yet-uploaded' | 'all-valid' | 'selected' | 'range' | 'failed-only';
+  selectedRowIds?: string[];
+  rangeStart?: number;
+  rangeEnd?: number;
+  credentials: { username: string; password: string; userType: string };
+}
+
+/**
+ * Spawns src/uploader/run-workbook.ts as a child process. Credentials are
+ * passed via the child's environment only - never as CLI args (which would
+ * be visible in a process listing) and never written to any file.
+ */
+export function startUploadJob(opts: StartUploadOptions): void {
+  if (activeJob) throw new Error('A job is already running (concurrency 1 - wait for it to finish or stop it first).');
+
+  const scriptPath = path.join(PROJECT_ROOT, 'src', 'uploader', 'run-workbook.ts');
+  const env = {
+    ...process.env,
+    // The app runs its own browser automation headless by default so no
+    // stray Chromium window pops up during normal use (the CLI tools this
+    // reuses still default to headed for developer debugging - this only
+    // overrides it for processes the app itself spawns).
+    HEADLESS: process.env.APP_FORCE_HEADED === 'true' ? 'false' : 'true',
+    BCPS_USERNAME: opts.credentials.username,
+    BCPS_PASSWORD: opts.credentials.password,
+    BCPS_USER_TYPE: opts.credentials.userType,
+    UPLOAD_WORKBOOK_PATH: opts.workbookPath,
+    UPLOAD_SELECTION_MODE: opts.selectionMode,
+    UPLOAD_SELECTED_ROW_IDS: (opts.selectedRowIds ?? []).join(','),
+    UPLOAD_RANGE_START: opts.rangeStart != null ? String(opts.rangeStart) : '',
+    UPLOAD_RANGE_END: opts.rangeEnd != null ? String(opts.rangeEnd) : '',
+  };
+
+  const proc = spawn(TS_NODE_BIN, [scriptPath], { cwd: PROJECT_ROOT, env, windowsHide: true }) as ChildProcessWithoutNullStreams;
+  activeJob = { proc, workbookPath: opts.workbookPath, startedAt: new Date().toISOString(), logs: [] };
+
+  proc.stdout.on('data', (d) => activeJob?.logs.push(d.toString()));
+  proc.stderr.on('data', (d) => activeJob?.logs.push(d.toString()));
+  proc.on('exit', () => {
+    activeJob = null;
+  });
+}
+
+export function requestStop(workbookPath: string): void {
+  const dir = path.dirname(workbookPath);
+  const base = path.basename(workbookPath, '.xlsx');
+  fs.writeFileSync(path.join(dir, `${base}.stop.flag`), 'stop-requested');
+}
+
+/**
+ * Runs src/mapper/login-check.ts as a child process to validate credentials
+ * without starting a full upload job. Reuses that existing script verbatim
+ * - only its stdout text is parsed here (the script itself is unmodified).
+ */
+export function checkLogin(credentials: { username: string; password: string; userType: string }): Promise<{ success: boolean; message: string }> {
+  return new Promise((resolve) => {
+    const scriptPath = path.join(PROJECT_ROOT, 'src', 'mapper', 'login-check.ts');
+    const env = {
+      ...process.env,
+      HEADLESS: process.env.APP_FORCE_HEADED === 'true' ? 'false' : 'true',
+      BCPS_USERNAME: credentials.username,
+      BCPS_PASSWORD: credentials.password,
+      BCPS_USER_TYPE: credentials.userType,
+    };
+    const proc = spawn(TS_NODE_BIN, [scriptPath], { cwd: PROJECT_ROOT, env, windowsHide: true });
+    let output = '';
+    proc.stdout.on('data', (d) => (output += d.toString()));
+    proc.stderr.on('data', (d) => (output += d.toString()));
+    proc.on('exit', () => {
+      if (output.includes('LOGIN CHECK: SUCCESS')) {
+        resolve({ success: true, message: 'Login successful.' });
+      } else if (output.includes('BLOCKED:')) {
+        const match = output.match(/BLOCKED:\s*(.+)/);
+        resolve({ success: false, message: `Blocked: ${match ? match[1].trim() : 'CAPTCHA/OTP/account restriction detected.'}` });
+      } else if (output.includes('LOGIN CHECK: FAILED')) {
+        const match = output.match(/LOGIN CHECK: FAILED - (.+)/);
+        resolve({ success: false, message: match ? match[1].trim() : 'Login failed.' });
+      } else {
+        resolve({ success: false, message: 'Login check did not complete as expected. Check the portal is reachable and try again.' });
+      }
+    });
+  });
+}

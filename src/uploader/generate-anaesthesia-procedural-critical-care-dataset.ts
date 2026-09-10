@@ -1,0 +1,699 @@
+/**
+ * Synthetic test-dataset generator for Anaesthesia & Procedural Critical
+ * Care (Interpretative Skill + Procedural skill).
+ *
+ * Like the Neurosurgery, Urology, Orthopaedic Surgery, Parasites of
+ * Surgical Importance, and Paediatric Surgery datasets, this uses the
+ * USER'S EXACT PROVIDED PER-SKILL COUNTS as the sole authority for row
+ * counts - per explicit instruction, the portal's own mapped minimums
+ * are NOT used to size this dataset, and are recorded only for
+ * traceability in the specialty config. The live portal IS still used
+ * (read-only, via output/form-map.json) to verify exact skill names,
+ * field schemas, and valid competence levels - never fabricated.
+ *
+ * Unlike Paediatric Surgery, there is no arithmetic discrepancy for
+ * this specialty: the itemized per-skill counts (Interpretative
+ * 3+3=6, Procedural 3+1+1+1+3+3+1+3+3=19) sum exactly to the stated
+ * totals (Interpretative=6, Procedural=19, Grand Total=25). See
+ * specialty-config/anaesthesia-procedural-critical-care.json ->
+ * quotaSource.arithmeticCheck for detail.
+ *
+ * All generated cases are written to be Operating Theatre / Anaesthesia
+ * / Surgical Critical Care appropriate, with an adult surgical
+ * population age spread (occasional elderly/critically-ill patients)
+ * rather than a paediatric spread, per the clinical-context guidance
+ * for this specialty.
+ *
+ * Does NOT modify src/mapper, src/excel, or any existing file under
+ * src/uploader - only imports and reuses existing exported functions
+ * against a brand-new workbook, structurally copied from the real
+ * output/BCPS_Logbook_Full_Mapping.xlsx (never modified). Dry-run only -
+ * no login, no browser, no draft created.
+ */
+import fs from 'fs';
+import path from 'path';
+import ExcelJS from 'exceljs';
+import { logger } from '../utils/logger';
+import { readDataEntryRows, DataEntryRow } from './excelReader';
+import { validateRow, LeafForValidation } from './validateRow';
+
+const PROJECT_ROOT = path.resolve(__dirname, '..', '..');
+const OUTPUT_DIR = path.join(PROJECT_ROOT, 'output');
+const REAL_XLSX_PATH = path.join(OUTPUT_DIR, 'BCPS_Logbook_Full_Mapping.xlsx');
+
+const SPECIALTY_DIR = path.join(PROJECT_ROOT, 'generated-data', 'Anaesthesia-Procedural-Critical-Care');
+const DATE_RANGE_LABEL = '01-01-2026_to_30-06-2026';
+const DATE_RANGE_DIR = path.join(SPECIALTY_DIR, DATE_RANGE_LABEL);
+const GENERATED_DIR = path.join(DATE_RANGE_DIR, 'generated');
+const REPORTS_DIR = path.join(DATE_RANGE_DIR, 'reports');
+const CONFIG_PATH = path.join(SPECIALTY_DIR, 'specialty-config', 'anaesthesia-procedural-critical-care.json');
+
+const DATASET_XLSX_PATH = path.join(GENERATED_DIR, 'BCPS_Logbook_Anaesthesia_Procedural_Critical_Care_01-01-2026_to_30-06-2026.xlsx');
+
+const FORM_LABEL = 'Procedural and Interpretative Skills';
+const CASE_TYPE_LABEL = 'Anaesthesia & Procedural critical care';
+
+const EXPECTED_INTERPRETATIVE_TOTAL = 6;
+const EXPECTED_PROCEDURAL_TOTAL = 19;
+const EXPECTED_GRAND_TOTAL = 25;
+
+interface InterpScenario {
+  diagnosis: string;
+  notes: string;
+  description: string;
+  targetAge: number;
+}
+interface ProcScenario extends InterpScenario {
+  level: string;
+}
+
+// ---------------------------------------------------------------------
+// Clinical content - concise, FCPS-logbook style, Operating Theatre /
+// Anaesthesia / Surgical Critical Care specific. Styled after the real
+// BCPS Core Surgical Training logbook (style reference only - no real
+// patient names, reg numbers, dates, ages, or patient-identifiable
+// diagnoses were copied). Every diagnosis is deliberately matched to
+// the exact skill/procedure, with an adult surgical-population age
+// spread (occasional elderly/critically-ill patients).
+// ---------------------------------------------------------------------
+const INTERPRETATIVE_SCENARIOS: Record<string, InterpScenario[]> = {
+  'ABG analysis': [
+    { diagnosis: 'Postoperative respiratory failure after major abdominal surgery.', notes: 'ABG shows type 1 respiratory failure with mild hypoxaemia and compensated metabolic acidosis; oxygen therapy titrated accordingly.', description: 'ABG analysis for postoperative respiratory failure.', targetAge: 58 },
+    { diagnosis: 'Perioperative acid-base assessment during prolonged major surgery.', notes: 'Intraoperative ABG shows mild metabolic acidosis with adequate compensation; guided intraoperative fluid and ventilatory adjustment.', description: 'Perioperative ABG for acid-base assessment.', targetAge: 45 },
+    { diagnosis: 'Critically ill surgical patient in the surgical ICU requiring ABG monitoring.', notes: 'Serial ABG monitoring shows evolving mixed acid-base disturbance; ventilator settings adjusted based on trend.', description: 'ABG monitoring in a critically ill surgical ICU patient.', targetAge: 67 },
+  ],
+  'Monitor reading': [
+    { diagnosis: 'Intraoperative hemodynamic monitoring during major abdominal surgery.', notes: 'Multiparameter monitor readings (ECG, NIBP, SpO2, EtCO2) reviewed continuously; transient hypotension during induction corrected with fluid bolus and vasopressor.', description: 'Intraoperative hemodynamic monitoring during major surgery.', targetAge: 52 },
+    { diagnosis: 'Postoperative critical-care monitoring after major surgery.', notes: 'Continuous monitor readings in the surgical ICU reviewed for heart rate, blood pressure, SpO2, and urine output trends; findings consistent with stable postoperative recovery.', description: 'Postoperative critical-care monitoring.', targetAge: 61 },
+    { diagnosis: 'Perioperative vital-signs assessment in an elderly surgical patient.', notes: 'Monitor readings reviewed throughout the perioperative period, showing stable vital signs apart from a brief episode of bradycardia responding to atropine.', description: 'Perioperative vital-signs assessment.', targetAge: 72 },
+  ],
+};
+
+const PROCEDURAL_SCENARIOS: Record<string, ProcScenario[]> = {
+  'Central venous catheterization': [
+    { diagnosis: 'Major abdominal surgery requiring central venous access for perioperative monitoring.', notes: 'Central venous catheter inserted via the right internal jugular vein under ultrasound guidance; position confirmed and secured.', description: 'Central venous catheterization for major abdominal surgery.', targetAge: 55, level: '3' },
+    { diagnosis: 'Hemodynamic monitoring in a critically ill surgical patient with septic shock.', notes: 'Central venous catheter inserted via the subclavian route for CVP monitoring and vasopressor administration.', description: 'Central venous catheterization for hemodynamic monitoring.', targetAge: 64, level: '4' },
+    { diagnosis: 'Critically ill postoperative patient requiring reliable central access for inotropic support.', notes: 'Central venous catheter inserted via the right internal jugular vein using a Seldinger technique under aseptic precautions; confirmed with chest X-ray.', description: 'Central venous catheterization for inotropic support access.', targetAge: 70, level: '3' },
+  ],
+  'Cricothyroidotomy / Cricothyroidostomy': [
+    { diagnosis: 'Can\'t-intubate-can\'t-ventilate emergency during induction of anaesthesia.', notes: 'Emergency cricothyroidotomy performed to secure the airway after failed intubation and failed ventilation; airway secured and ventilation established.', description: 'Emergency cricothyroidotomy for failed airway.', targetAge: 48, level: '2' },
+  ],
+  'Endotracheal intubation': [
+    { diagnosis: 'General anaesthesia induction for major abdominal surgery.', notes: 'Endotracheal intubation performed under direct laryngoscopy following induction of general anaesthesia; tube position confirmed with capnography and bilateral air entry.', description: 'Endotracheal intubation for general anaesthesia induction.', targetAge: 50, level: '2' },
+  ],
+  'General anaesthesia': [
+    { diagnosis: 'Elective major abdominal surgery requiring general anaesthesia.', notes: 'General anaesthesia administered with standard induction agents, muscle relaxant, and maintenance with a volatile agent; patient hemodynamically stable throughout.', description: 'General anaesthesia for elective major surgery.', targetAge: 46, level: '2' },
+  ],
+  'Infiltration of local anaesthetics and regional nerve block': [
+    { diagnosis: 'Postoperative pain management following limb surgery.', notes: 'Local anaesthetic infiltrated at the surgical site for postoperative analgesia; patient reported significant pain relief.', description: 'Local anaesthetic infiltration for postoperative pain management.', targetAge: 39, level: '3' },
+    { diagnosis: 'Regional nerve block for upper-limb surgery.', notes: 'Brachial plexus nerve block performed under ultrasound guidance prior to upper-limb surgery, providing effective intraoperative and postoperative analgesia.', description: 'Regional nerve block for upper-limb surgery.', targetAge: 34, level: '3' },
+    { diagnosis: 'Regional nerve block for lower-limb surgery in a patient with comorbid cardiac disease.', notes: 'Femoral nerve block performed under ultrasound guidance to reduce systemic anaesthetic requirement in a patient with significant cardiac comorbidity.', description: 'Regional nerve block for lower-limb surgery.', targetAge: 68, level: '4' },
+  ],
+  'Infusion/ syringe pump of fluids, nutrients and medications': [
+    { diagnosis: 'Perioperative fluid management during major abdominal surgery.', notes: 'Syringe pump used for titrated infusion of vasopressor medication intraoperatively; fluid infusion managed with a volumetric pump guided by hemodynamic response.', description: 'Perioperative fluid and medication infusion management.', targetAge: 57, level: '3' },
+    { diagnosis: 'Critically ill surgical patient requiring titrated inotropic infusion.', notes: 'Syringe pump used for continuous titrated infusion of inotropic support in the surgical ICU, with dose adjusted according to blood pressure response.', description: 'Titrated inotropic infusion in a critically ill surgical patient.', targetAge: 66, level: '4' },
+    { diagnosis: 'Postoperative parenteral nutrition support after major gastrointestinal surgery.', notes: 'Infusion pump used to deliver parenteral nutrition and maintenance fluids at a controlled rate via central venous access.', description: 'Infusion pump for postoperative parenteral nutrition.', targetAge: 60, level: '3' },
+  ],
+  'Insertion of laryngeal mask airway': [
+    { diagnosis: 'Short elective surgical procedure under general anaesthesia with LMA airway management.', notes: 'Laryngeal mask airway inserted after induction of general anaesthesia; adequate seal confirmed and spontaneous ventilation maintained throughout the procedure.', description: 'Laryngeal mask airway insertion for short elective surgery.', targetAge: 41, level: '2' },
+  ],
+  'Regional anaesthesia': [
+    { diagnosis: 'Spinal anaesthesia for lower-limb orthopaedic surgery.', notes: 'Spinal anaesthesia administered via the L3-L4 interspace with adequate sensory and motor block achieved for the surgery.', description: 'Spinal anaesthesia for lower-limb surgery.', targetAge: 62, level: '3' },
+    { diagnosis: 'Spinal anaesthesia for pelvic surgery in an elderly patient.', notes: 'Spinal anaesthesia administered with careful dose titration in view of the patient\'s age; stable hemodynamics maintained throughout the procedure.', description: 'Spinal anaesthesia for pelvic surgery.', targetAge: 71, level: '4' },
+    { diagnosis: 'Epidural anaesthesia for major abdominal surgery.', notes: 'Epidural catheter sited at the appropriate thoracic level with a test dose confirming correct placement; used for intraoperative anaesthesia and postoperative analgesia.', description: 'Epidural anaesthesia for major abdominal surgery.', targetAge: 54, level: '3' },
+  ],
+  Tracheostomy: [
+    { diagnosis: 'Prolonged mechanical ventilation in a surgical ICU patient.', notes: 'Percutaneous tracheostomy performed at the bedside under bronchoscopic guidance for a patient requiring prolonged ventilatory support.', description: 'Tracheostomy for prolonged mechanical ventilation.', targetAge: 63, level: '2' },
+    { diagnosis: 'Difficult ventilator weaning requiring tracheostomy.', notes: 'Surgical tracheostomy performed to facilitate ventilator weaning and reduce sedation requirements in a critically ill surgical patient.', description: 'Tracheostomy for difficult ventilator weaning.', targetAge: 59, level: '3' },
+    { diagnosis: 'Prolonged mechanical ventilation after major surgery with failed extubation attempts.', notes: 'Percutaneous dilatational tracheostomy performed under bronchoscopic guidance after repeated failed extubation attempts.', description: 'Tracheostomy after failed extubation attempts.', targetAge: 69, level: '2' },
+  ],
+};
+
+const MALE_FIRST = [
+  'Md. Rafiqul', 'Md. Anwar', 'Md. Kamal', 'Md. Jahangir', 'Md. Nazrul', 'Md. Shahidul',
+  'Md. Delwar', 'Md. Mizanur', 'Md. Aminul', 'Md. Golam', 'Md. Habibur', 'Md. Zakir',
+];
+const FEMALE_FIRST = [
+  'Mst. Rehana', 'Mst. Nasrin', 'Mst. Ferdousi', 'Mst. Rokeya', 'Mst. Shirin', 'Mst. Rowshan',
+  'Mst. Hosne', 'Mst. Momtaz', 'Mst. Rabeya', 'Mst. Zubaida', 'Mst. Kohinoor', 'Mst. Shahnaz',
+];
+const SURNAMES = [
+  'Hossain', 'Begum', 'Karim', 'Akter', 'Hasan', 'Yasmin', 'Islam', 'Khatun', 'Ahmed', 'Sultana',
+  'Rahman', 'Chowdhury', 'Alam', 'Miah', 'Uddin', 'Khan', 'Talukder', 'Sarkar', 'Molla', 'Bhuiyan',
+];
+
+// This is an adult surgical-population dataset (Operating Theatre /
+// Anaesthesia / Surgical Critical Care) - name style adjusted to
+// clearly read as adult patients, with a roughly even male/female mix
+// since anaesthesia and critical-care skills apply across the general
+// adult surgical population (unlike the male-skewed Paediatric Surgery
+// dataset).
+function buildUniqueNamePool(count: number, seed: number): string[] {
+  const names = new Set<string>();
+  const firsts = shuffle([...MALE_FIRST, ...FEMALE_FIRST], seed);
+  const surnames = shuffle(SURNAMES, seed + 57);
+  let i = 0;
+  while (names.size < count) {
+    const first = firsts[i % firsts.length];
+    const surname = surnames[Math.floor(i / firsts.length) % surnames.length];
+    names.add(`${first} ${surname}`);
+    i++;
+    if (i > count * 8) break;
+  }
+  return [...names];
+}
+
+function shuffle<T>(arr: T[], seed: number): T[] {
+  const a = [...arr];
+  let s = seed;
+  const rand = () => {
+    s = (s * 1103515245 + 12345) & 0x7fffffff;
+    return s / 0x7fffffff;
+  };
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function buildUniqueRegNos(count: number, seed: number): string[] {
+  const seen = new Set<string>();
+  let s = seed;
+  const rand = () => {
+    s = (s * 1103515245 + 12345) & 0x7fffffff;
+    return s / 0x7fffffff;
+  };
+  const result: string[] = [];
+  while (result.length < count) {
+    const part1 = 1000 + Math.floor(rand() * 9000);
+    const part2 = Math.floor(rand() * 100);
+    const regNo = `${part1}/${part2.toString().padStart(2, '0')}`;
+    if (!seen.has(regNo)) {
+      seen.add(regNo);
+      result.push(regNo);
+    }
+  }
+  return result;
+}
+
+// Assignment dates: allow same-date collisions across DIFFERENT rows (the
+// user explicitly permits "multiple cases may occur on the same day
+// where plausible") - only patient identity fields (name/regNo/
+// ExternalRowId) must stay unique, not the date itself.
+function buildAssignmentDates(count: number, seed: number): string[] {
+  const start = new Date('2026-01-01T00:00:00Z');
+  const end = new Date('2026-06-30T00:00:00Z');
+  const rangeDays = Math.floor((end.getTime() - start.getTime()) / 86400000);
+  let s = seed;
+  const rand = () => {
+    s = (s * 1103515245 + 12345) & 0x7fffffff;
+    return s / 0x7fffffff;
+  };
+  const dates: string[] = [];
+  for (let i = 0; i < count; i++) {
+    const offset = Math.floor(rand() * (rangeDays + 1));
+    const d = new Date(start.getTime() + offset * 86400000);
+    dates.push(d.toISOString().slice(0, 10));
+  }
+  return dates;
+}
+
+function calculateAge(dobStr: string, assignmentDateStr: string): number {
+  const dob = new Date(dobStr + 'T00:00:00Z');
+  const assign = new Date(assignmentDateStr + 'T00:00:00Z');
+  let age = assign.getUTCFullYear() - dob.getUTCFullYear();
+  const hadBirthday = assign.getUTCMonth() > dob.getUTCMonth() || (assign.getUTCMonth() === dob.getUTCMonth() && assign.getUTCDate() >= dob.getUTCDate());
+  if (!hadBirthday) age--;
+  return age;
+}
+
+function computeVerifiedDob(assignmentDate: string, targetAge: number, seed: number): { dob: string; verifiedAge: number } {
+  const assign = new Date(assignmentDate + 'T00:00:00Z');
+  let s = seed;
+  const rand = () => {
+    s = (s * 1103515245 + 12345) & 0x7fffffff;
+    return s / 0x7fffffff;
+  };
+  const birthYear = assign.getUTCFullYear() - targetAge;
+  const assignMonth = assign.getUTCMonth();
+  const assignDay = assign.getUTCDate();
+  let birthMonth: number;
+  let birthDay: number;
+  if (assignMonth === 0 && assignDay === 1) {
+    birthMonth = 0;
+    birthDay = 1;
+  } else {
+    birthMonth = Math.floor(rand() * (assignMonth + 1));
+    const maxDay = birthMonth === assignMonth ? assignDay : 28;
+    birthDay = 1 + Math.floor(rand() * maxDay);
+  }
+  const dob = new Date(Date.UTC(birthYear, birthMonth, birthDay));
+  // A DOB can legitimately land on the exact same calendar day as the
+  // Assignment Date (birthMonth===assignMonth, birthDay===assignDay),
+  // which computes age correctly but violates "DOB must be strictly
+  // before Assignment Date." Nudge back one day rather than reject -
+  // this keeps the completed age unchanged in every practical case
+  // (including across a year boundary).
+  if (dob.getTime() === assign.getTime()) {
+    dob.setUTCDate(dob.getUTCDate() - 1);
+  }
+  const dobStr = dob.toISOString().slice(0, 10);
+  const verifiedAge = calculateAge(dobStr, assignmentDate);
+  return { dob: dobStr, verifiedAge };
+}
+
+interface InterpSkillDef {
+  name: string;
+  count: number;
+}
+interface ProcSkillDef {
+  name: string;
+  count: number;
+  allowedLevels: string[];
+}
+interface Config {
+  skills: { 'Interpretative Skill': InterpSkillDef[]; 'Procedural skill': ProcSkillDef[] };
+}
+
+interface GeneratedRow {
+  externalRowId: string;
+  skillType: 'Interpretative Skill' | 'Procedural skill';
+  competencyItem: string;
+  competenceLevel: string | null;
+  patientName: string;
+  patientRegNo: string;
+  dateOfAssignment: string;
+  dateOfBirth: string;
+  age: number;
+  diagnosis: string;
+  notes: string;
+  description: string;
+}
+
+function loadConfig(): Config {
+  return JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf-8'));
+}
+
+function resolveDobAge(assignmentDate: string, targetAge: number, seedBase: number): { dob: string; age: number } {
+  let { dob, verifiedAge } = computeVerifiedDob(assignmentDate, targetAge, seedBase);
+  if (verifiedAge !== targetAge) {
+    let fixed = computeVerifiedDob(assignmentDate, targetAge, seedBase + 1000);
+    let attempts = 0;
+    while (fixed.verifiedAge !== targetAge && attempts < 20) {
+      fixed = computeVerifiedDob(assignmentDate, targetAge, seedBase + 2000 + attempts);
+      attempts++;
+    }
+    if (fixed.verifiedAge !== targetAge) {
+      throw new Error(`Could not generate a matching DOB/Age pair (target age ${targetAge}, date ${assignmentDate}).`);
+    }
+    dob = fixed.dob;
+    verifiedAge = fixed.verifiedAge;
+  }
+  return { dob, age: verifiedAge };
+}
+
+function generateRows(config: Config, namePool: string[], regNoPool: string[]): GeneratedRow[] {
+  const rows: GeneratedRow[] = [];
+  let globalIndex = 0;
+
+  for (const skill of config.skills['Interpretative Skill']) {
+    const bank = INTERPRETATIVE_SCENARIOS[skill.name];
+    if (!bank) throw new Error(`No clinical content scenarios authored for "${skill.name}" (Interpretative Skill). Refusing to fabricate generic content.`);
+    if (bank.length !== skill.count) throw new Error(`Scenario bank size mismatch for "${skill.name}": config requires ${skill.count}, bank has ${bank.length}.`);
+    const dates = buildAssignmentDates(skill.count, 21000 + globalIndex);
+    for (let i = 0; i < skill.count; i++) {
+      const scenario = bank[i];
+      const { dob, age } = resolveDobAge(dates[i], scenario.targetAge, 31000 + globalIndex);
+      rows.push({
+        externalRowId: `ANES-${(globalIndex + 1).toString().padStart(3, '0')}`,
+        skillType: 'Interpretative Skill',
+        competencyItem: skill.name,
+        competenceLevel: null,
+        patientName: namePool[globalIndex],
+        patientRegNo: regNoPool[globalIndex],
+        dateOfAssignment: dates[i],
+        dateOfBirth: dob,
+        age,
+        diagnosis: scenario.diagnosis,
+        notes: scenario.notes,
+        description: scenario.description,
+      });
+      globalIndex++;
+    }
+  }
+
+  for (const skill of config.skills['Procedural skill']) {
+    const bank = PROCEDURAL_SCENARIOS[skill.name];
+    if (!bank) throw new Error(`No clinical content scenarios authored for "${skill.name}" (Procedural skill). Refusing to fabricate generic content.`);
+    if (bank.length !== skill.count) throw new Error(`Scenario bank size mismatch for "${skill.name}": config requires ${skill.count}, bank has ${bank.length}.`);
+    for (const scenario of bank) {
+      if (!skill.allowedLevels.includes(scenario.level)) {
+        throw new Error(`Scenario level "${scenario.level}" for "${skill.name}" is not in the configured allowed levels [${skill.allowedLevels.join(', ')}].`);
+      }
+    }
+    const dates = buildAssignmentDates(skill.count, 22000 + globalIndex);
+    for (let i = 0; i < skill.count; i++) {
+      const scenario = bank[i];
+      const { dob, age } = resolveDobAge(dates[i], scenario.targetAge, 32000 + globalIndex);
+      rows.push({
+        externalRowId: `ANES-${(globalIndex + 1).toString().padStart(3, '0')}`,
+        skillType: 'Procedural skill',
+        competencyItem: skill.name,
+        competenceLevel: scenario.level,
+        patientName: namePool[globalIndex],
+        patientRegNo: regNoPool[globalIndex],
+        dateOfAssignment: dates[i],
+        dateOfBirth: dob,
+        age,
+        diagnosis: scenario.diagnosis,
+        notes: scenario.notes,
+        description: scenario.description,
+      });
+      globalIndex++;
+    }
+  }
+
+  return rows;
+}
+
+async function createDatasetWorkbook(): Promise<void> {
+  fs.mkdirSync(GENERATED_DIR, { recursive: true });
+  fs.mkdirSync(REPORTS_DIR, { recursive: true });
+  if (fs.existsSync(DATASET_XLSX_PATH)) {
+    throw new Error(`Refusing to overwrite existing workbook: ${DATASET_XLSX_PATH}. Inspect it first or use a new date-range folder.`);
+  }
+  fs.copyFileSync(REAL_XLSX_PATH, DATASET_XLSX_PATH);
+}
+
+async function writeRowsIntoDataset(rows: GeneratedRow[], leaves: LeafForValidation[]): Promise<void> {
+  const wb = new ExcelJS.Workbook();
+  await wb.xlsx.readFile(DATASET_XLSX_PATH);
+  const ws = wb.getWorksheet('DataEntry');
+  if (!ws) throw new Error('DataEntry sheet not found in dataset workbook.');
+
+  const headerRow = ws.getRow(1);
+  const headers: string[] = [];
+  headerRow.eachCell({ includeEmpty: true }, (cell) => headers.push(String(cell.value ?? '').trim()));
+  const idx = (name: string) => {
+    const i = headers.indexOf(name);
+    if (i === -1) throw new Error(`DataEntry header "${name}" not found. Headers: ${headers.join(', ')}`);
+    return i;
+  };
+  const col = {
+    externalRowId: idx('ExternalRowId'),
+    action: idx('Action'),
+    combinationKey: idx('CombinationKey'),
+    form: idx('Form'),
+    caseType: idx('CaseType'),
+    skillType: idx('SkillType'),
+    dateOfAssignment: idx('Date of Assignment (YYYY-MM-DD)'),
+    nameOfPatient: idx('Name of the Patient'),
+    patientRegNo: idx('Patient Reg No'),
+    dateOfBirth: idx('Date of Birth (YYYY-MM-DD)'),
+    age: idx('Age'),
+    competencyItems: idx('CompetencyItemsChecked (semicolon-separated)'),
+    extraFieldsJson: idx('ExtraFieldsJSON'),
+  };
+
+  while (ws.rowCount > 1) {
+    ws.spliceRows(2, 1);
+  }
+
+  for (const r of rows) {
+    const leaf = leaves.find((l) => l.pathLabels.join(' > ') === `${FORM_LABEL} > ${CASE_TYPE_LABEL} > ${r.skillType}`)!;
+    let extraFields: Record<string, string>;
+    let competencyChecked = '';
+
+    if (r.skillType === 'Interpretative Skill') {
+      extraFields = {
+        'Indication/Investigation/Findings/Diagnosis': r.diagnosis,
+        Interpretations: r.notes,
+        'Brief Description': r.description,
+      };
+    } else {
+      extraFields = {
+        'Diagnosis/Problems': r.diagnosis,
+        'Brief Procedural Notes': r.notes,
+        'Brief Description': r.description,
+      };
+      competencyChecked = r.competencyItem;
+    }
+
+    const values: any[] = new Array(headers.length).fill(null);
+    values[col.externalRowId] = r.externalRowId;
+    values[col.action] = 'SAVE_DRAFT';
+    values[col.combinationKey] = leaf.leafId;
+    values[col.form] = FORM_LABEL;
+    values[col.caseType] = CASE_TYPE_LABEL;
+    values[col.skillType] = r.skillType;
+    values[col.dateOfAssignment] = r.dateOfAssignment;
+    values[col.nameOfPatient] = r.patientName;
+    values[col.patientRegNo] = r.patientRegNo;
+    values[col.dateOfBirth] = r.dateOfBirth;
+    values[col.age] = String(r.age);
+    values[col.competencyItems] = competencyChecked;
+    values[col.extraFieldsJson] = JSON.stringify(extraFields);
+    ws.addRow(values);
+  }
+
+  await wb.xlsx.writeFile(DATASET_XLSX_PATH);
+}
+
+function walkDir(dir: string): string[] {
+  const out: string[] = [];
+  function walk(d: string) {
+    for (const entry of fs.readdirSync(d, { withFileTypes: true })) {
+      const full = path.join(d, entry.name);
+      if (entry.isDirectory()) walk(full);
+      else out.push(full);
+    }
+  }
+  walk(dir);
+  return out.sort();
+}
+
+async function main() {
+  logger.info('Generating Anaesthesia & Procedural Critical Care dataset (USER-PROVIDED EXACT COUNTS, dry-run only).');
+
+  const realWorkbookStatBefore = fs.statSync(REAL_XLSX_PATH);
+  const priorDatasetDirs = [
+    'Basic-Surgical-Skill',
+    'Gastrointestinal-HepatoBiliary-Pancreas',
+    'Disorders-of-the-Breast',
+    'Neurosurgery',
+    'Urology',
+    'Orthopaedic-Surgery',
+    'Parasites-of-Surgical-Importance',
+    'Paediatric-Surgery',
+  ].map((name) => path.join(PROJECT_ROOT, 'generated-data', name));
+  const priorDatasetSnapshotsBefore = priorDatasetDirs.map((dir) => (fs.existsSync(dir) ? JSON.stringify(walkDir(dir)) : null));
+
+  if (fs.existsSync(DATE_RANGE_DIR) && fs.existsSync(DATASET_XLSX_PATH)) {
+    logger.error(`Date-range folder/workbook already exists: ${DATASET_XLSX_PATH}. Refusing to overwrite. STOP.`);
+    process.exit(1);
+  }
+
+  const config = loadConfig();
+  const formMap = JSON.parse(fs.readFileSync(path.join(OUTPUT_DIR, 'form-map.json'), 'utf-8'));
+  const leaves: LeafForValidation[] = formMap.leaves.map((l: any) => ({
+    leafId: l.leafId,
+    pathLabels: l.pathLabels,
+    fields: l.fields ?? [],
+    competencyGroup: l.competencyGroup ?? [],
+  }));
+
+  const unmatched: { skillType: string; name: string }[] = [];
+  const levelMismatches: { skillType: string; name: string; requestedLevel: string; validLevels: (string | null)[] }[] = [];
+  const labelDifferences: { skillType: string; requestedName: string; portalName: string }[] = [];
+
+  for (const skillType of ['Interpretative Skill', 'Procedural skill'] as const) {
+    const leaf = leaves.find((l) => l.pathLabels.join(' > ') === `${FORM_LABEL} > ${CASE_TYPE_LABEL} > ${skillType}`);
+    const skillList = skillType === 'Interpretative Skill' ? config.skills['Interpretative Skill'] : config.skills['Procedural skill'];
+    for (const skill of skillList) {
+      const competency = leaf?.competencyGroup.find((c) => c.particulars.trim() === skill.name.trim());
+      if (!competency) {
+        unmatched.push({ skillType, name: skill.name });
+        continue;
+      }
+      if (competency.particulars !== skill.name) {
+        labelDifferences.push({ skillType, requestedName: skill.name, portalName: competency.particulars });
+      }
+      if ('allowedLevels' in skill) {
+        const validLevels: (string | null)[] = (competency as any).log_entry_target ? (competency as any).log_entry_target.map((t: any) => t.compitency_level) : [null];
+        for (const level of (skill as ProcSkillDef).allowedLevels) {
+          if (!validLevels.includes(level)) {
+            levelMismatches.push({ skillType, name: skill.name, requestedLevel: level, validLevels });
+          }
+        }
+      }
+    }
+  }
+  if (unmatched.length > 0) {
+    logger.error(`Unmatched skills - refusing to guess: ${JSON.stringify(unmatched)}`);
+    process.exit(1);
+  }
+  if (levelMismatches.length > 0) {
+    logger.error(`Invalid competence level(s) requested - refusing to fabricate: ${JSON.stringify(levelMismatches)}`);
+    process.exit(1);
+  }
+  logger.info(`All 11 configured skills matched exactly to the mapped portal data (${labelDifferences.length} label difference(s) found), and all requested competence levels are portal-valid.`);
+
+  const interpPlanned = config.skills['Interpretative Skill'].reduce((s, sk) => s + sk.count, 0);
+  const procPlanned = config.skills['Procedural skill'].reduce((s, sk) => s + sk.count, 0);
+  const totalRowsPlanned = interpPlanned + procPlanned;
+  if (interpPlanned !== EXPECTED_INTERPRETATIVE_TOTAL || procPlanned !== EXPECTED_PROCEDURAL_TOTAL || totalRowsPlanned !== EXPECTED_GRAND_TOTAL) {
+    logger.error(
+      `Config totals (Interpretative=${interpPlanned}, Procedural=${procPlanned}, Grand=${totalRowsPlanned}) do not match the resolved exact totals (${EXPECTED_INTERPRETATIVE_TOTAL}/${EXPECTED_PROCEDURAL_TOTAL}/${EXPECTED_GRAND_TOTAL}). STOP.`
+    );
+    process.exit(1);
+  }
+  logger.info(
+    `Total rows planned (USER-PROVIDED EXACT COUNTS, itemized breakdown - see arithmeticCheck in config): ${totalRowsPlanned} (Interpretative=${interpPlanned}, Procedural=${procPlanned})`
+  );
+
+  const namePool = buildUniqueNamePool(totalRowsPlanned, 19233);
+  const regNoPool = buildUniqueRegNos(totalRowsPlanned, 20344);
+
+  const rows = generateRows(config, namePool, regNoPool);
+  logger.info(`Generated ${rows.length} rows.`);
+
+  const ageErrors: string[] = [];
+  for (const r of rows) {
+    const recomputed = calculateAge(r.dateOfBirth, r.dateOfAssignment);
+    if (recomputed !== r.age) ageErrors.push(`${r.externalRowId}: DOB=${r.dateOfBirth}, AssignDate=${r.dateOfAssignment}, stored=${r.age}, recomputed=${recomputed}`);
+    if (new Date(r.dateOfBirth) >= new Date(r.dateOfAssignment)) ageErrors.push(`${r.externalRowId}: DOB (${r.dateOfBirth}) is not before Assignment Date (${r.dateOfAssignment}).`);
+    if (r.age < 15) ageErrors.push(`${r.externalRowId}: age ${r.age} is not a plausible Anaesthesia & Procedural Critical Care (adult surgical) age.`);
+  }
+  if (ageErrors.length > 0) {
+    logger.error(`DOB/Age verification FAILED for ${ageErrors.length} issue(s):`);
+    ageErrors.forEach((e) => logger.error(`  ${e}`));
+    process.exit(1);
+  }
+  logger.info('DOB/Age verification passed for all rows (DOB before Assignment Date, exact completed age, adult-surgical-appropriate).');
+
+  const nameSet = new Set(rows.map((r) => r.patientName));
+  const regNoSet = new Set(rows.map((r) => r.patientRegNo));
+  const rowIdSet = new Set(rows.map((r) => r.externalRowId));
+  if (nameSet.size !== rows.length) throw new Error(`Duplicate patient names detected: ${rows.length - nameSet.size} collision(s).`);
+  if (regNoSet.size !== rows.length) throw new Error(`Duplicate registration numbers detected: ${rows.length - regNoSet.size} collision(s).`);
+  if (rowIdSet.size !== rows.length) throw new Error(`Duplicate ExternalRowIds detected: ${rows.length - rowIdSet.size} collision(s).`);
+  const regNoFormatErrors = rows.filter((r) => !/^\d{4}\/\d{2}$/.test(r.patientRegNo));
+  if (regNoFormatErrors.length > 0) throw new Error(`Registration number format violation(s): ${JSON.stringify(regNoFormatErrors.map((r) => r.patientRegNo))}`);
+  for (const r of rows) {
+    const d = new Date(r.dateOfAssignment + 'T00:00:00Z');
+    if (d < new Date('2026-01-01T00:00:00Z') || d > new Date('2026-06-30T00:00:00Z')) throw new Error(`Row ${r.externalRowId} has an out-of-range assignment date: ${r.dateOfAssignment}`);
+  }
+  logger.info('Uniqueness (names, reg numbers, ExternalRowIds), registration-number format, and date-range verification passed for all rows.');
+
+  await createDatasetWorkbook();
+  logger.info(`Created dataset workbook (structural copy of the real mapping workbook): ${DATASET_XLSX_PATH}`);
+
+  await writeRowsIntoDataset(rows, leaves);
+  logger.info(`Wrote ${rows.length} rows into the dataset workbook's DataEntry sheet.`);
+
+  const readRows: DataEntryRow[] = await readDataEntryRows(DATASET_XLSX_PATH);
+  const draftRows = readRows.filter((r) => r.action === 'SAVE_DRAFT');
+  const validationResults = draftRows.map((row) => ({ row, result: validateRow(row, leaves) }));
+  const validCount = validationResults.filter((v) => v.result.valid).length;
+  const invalidCount = validationResults.length - validCount;
+  logger.info(`DRY RUN: ${draftRows.length} row(s), ${validCount} valid, ${invalidCount} invalid.`);
+  for (const { row, result } of validationResults) {
+    if (!result.valid) logger.error(`Row ${row.excelRow} (${row.externalRowId}) INVALID: ${result.errors.join(' | ')}`);
+  }
+
+  const perSkillCounts: Record<string, { requested: number; actual: number }> = {};
+  for (const skill of config.skills['Interpretative Skill']) {
+    const actual = rows.filter((r) => r.skillType === 'Interpretative Skill' && r.competencyItem === skill.name).length;
+    perSkillCounts[`Interpretative Skill > ${skill.name}`] = { requested: skill.count, actual };
+  }
+  for (const skill of config.skills['Procedural skill']) {
+    const actual = rows.filter((r) => r.skillType === 'Procedural skill' && r.competencyItem === skill.name).length;
+    perSkillCounts[`Procedural skill > ${skill.name}`] = { requested: skill.count, actual };
+  }
+  const perLevelUsage = config.skills['Procedural skill'].map((skill) => ({
+    skill: skill.name,
+    allowedLevels: skill.allowedLevels,
+    levelsUsed: rows.filter((r) => r.skillType === 'Procedural skill' && r.competencyItem === skill.name).map((r) => r.competenceLevel),
+  }));
+
+  const interpTotal = rows.filter((r) => r.skillType === 'Interpretative Skill').length;
+  const procTotal = rows.filter((r) => r.skillType === 'Procedural skill').length;
+
+  fs.writeFileSync(
+    path.join(REPORTS_DIR, 'row-count-summary.json'),
+    JSON.stringify({ generatedAt: new Date().toISOString(), totalRows: rows.length, interpretativeTotal: interpTotal, proceduralTotal: procTotal, perSkill: perSkillCounts, procedural_competenceLevelUsage: perLevelUsage }, null, 2),
+    'utf-8'
+  );
+
+  const dryRunReport = {
+    generatedAt: new Date().toISOString(),
+    datasetWorkbook: DATASET_XLSX_PATH,
+    totalRows: draftRows.length,
+    validRows: validCount,
+    invalidRows: invalidCount,
+    rows: validationResults.map(({ row, result }) => ({ externalRowId: row.externalRowId, valid: result.valid, errors: result.errors })),
+  };
+  fs.writeFileSync(path.join(REPORTS_DIR, 'dry-run-validation-report.json'), JSON.stringify(dryRunReport, null, 2), 'utf-8');
+
+  const validationErrorReport = {
+    generatedAt: new Date().toISOString(),
+    totalErrors: validationResults.reduce((sum, v) => sum + v.result.errors.length, 0),
+    errorsByRow: validationResults.filter((v) => !v.result.valid).map((v) => ({ externalRowId: v.row.externalRowId, errors: v.result.errors })),
+  };
+  fs.writeFileSync(path.join(REPORTS_DIR, 'validation-error-report.json'), JSON.stringify(validationErrorReport, null, 2), 'utf-8');
+
+  fs.writeFileSync(
+    path.join(REPORTS_DIR, 'mapping-match-report.json'),
+    JSON.stringify({ generatedAt: new Date().toISOString(), totalSkillsRequested: 11, totalSkillsMatched: 11, unmatchedSkills: unmatched, labelDifferences, levelMismatches }, null, 2),
+    'utf-8'
+  );
+
+  const realWorkbookStatAfter = fs.statSync(REAL_XLSX_PATH);
+  const originalWorkbookUnchanged = realWorkbookStatBefore.size === realWorkbookStatAfter.size && realWorkbookStatBefore.mtimeMs === realWorkbookStatAfter.mtimeMs;
+  const priorDatasetChecks: Record<string, boolean> = {};
+  priorDatasetDirs.forEach((dir, i) => {
+    const name = path.basename(dir);
+    const before = priorDatasetSnapshotsBefore[i];
+    const after = fs.existsSync(dir) ? JSON.stringify(walkDir(dir)) : null;
+    priorDatasetChecks[name] = before === after;
+  });
+
+  const generationSummary = {
+    generatedAt: new Date().toISOString(),
+    specialty: 'Anaesthesia & Procedural Critical Care',
+    trainingContext: 'Operating Theatre / Anaesthesia / Surgical Critical Care',
+    dateRange: { label: DATE_RANGE_LABEL, from: '2026-01-01', to: '2026-06-30' },
+    datasetWorkbook: DATASET_XLSX_PATH,
+    quotaDecision: {
+      countSource: 'USER_PROVIDED_EXACT_COUNTS_ITEMIZED',
+      portalQuotaUsedToSizeDataset: false,
+      arithmeticCheck:
+        'Itemized Interpretative (2x3=6) and Procedural (3+1+1+1+3+3+1+3+3=19) sum to 6+19=25, matching the stated totals exactly - no discrepancy for this specialty.',
+      reason: "Per explicit user instruction, this dataset uses the exact per-skill counts the user provided (6 Interpretative + 19 Procedural = 25). The portal's own mapped minimums were NOT used to size this dataset - recorded in specialty-config/anaesthesia-procedural-critical-care.json for traceability only.",
+    },
+    competenceLevelHandling: 'For every Procedural skill with more than one allowed competence level, individual rows use varying portal-valid levels (never multiplying row count) - see procedural_competenceLevelUsage in row-count-summary.json for the exact levels used per skill.',
+    ageRealism: 'Every row uses an adult surgical-population age (34-72 years) appropriate to Operating Theatre / Anaesthesia / Surgical Critical Care, including occasional elderly/critically-ill patients for high-acuity skills such as central venous catheterization, tracheostomy, and titrated infusions.',
+    totals: { interpretative: interpTotal, procedural: procTotal, grandTotal: rows.length },
+    skillsGenerated: Object.entries(perSkillCounts).map(([k, v]) => ({ skill: k, requested: v.requested, actual: v.actual, matches: v.requested === v.actual })),
+    unmatchedSkills: unmatched,
+    labelDifferences,
+    levelMismatches,
+    liveActionsTaken: 'None. This generator only reads the existing local output/form-map.json (produced by a prior, already-approved live mapping crawl) - no login, browser, or network action was performed by this script. No Save as Draft, no Final Submit, no portal data modified.',
+    originalMappingWorkbookUnchanged: originalWorkbookUnchanged,
+    priorSpecialtyDatasetsUnchanged: priorDatasetChecks,
+    reviewStatus: 'PENDING MANUAL REVIEW',
+    uploadStatus: 'NOT UPLOADED',
+  };
+  fs.writeFileSync(path.join(REPORTS_DIR, 'generation-summary.json'), JSON.stringify(generationSummary, null, 2), 'utf-8');
+  fs.writeFileSync(path.join(REPORTS_DIR, 'generated-rows-raw.json'), JSON.stringify(rows, null, 2), 'utf-8');
+
+  logger.info(`Wrote all report files to ${REPORTS_DIR}`);
+  logger.info(`originalMappingWorkbookUnchanged=${originalWorkbookUnchanged}, priorSpecialtyDatasetsUnchanged=${JSON.stringify(priorDatasetChecks)}`);
+  logger.info('STOPPED after dry-run validation, as instructed. No login/browser/draft action was performed by this generator.');
+}
+
+main().catch((err) => {
+  logger.error(`generate-anaesthesia-procedural-critical-care-dataset crashed: ${err?.stack ?? err}`);
+  process.exit(1);
+});

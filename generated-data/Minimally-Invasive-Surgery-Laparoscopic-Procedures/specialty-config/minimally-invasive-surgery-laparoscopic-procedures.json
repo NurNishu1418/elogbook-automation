@@ -1,0 +1,35 @@
+{
+  "specialty": "Minimally Invasive Surgery – Laparoscopic Procedures",
+  "form": "Procedural and Interpretative Skills",
+  "caseType": "Minimally Invasive Surgery – Laparoscopic procedures",
+  "mappedLeafIds": {
+    "Interpretative Skill": "e92e1c2f-edba-4ba4-b50e-aa3eb6847a50",
+    "Procedural skill": "d26fa4fd-37a4-4248-8306-adbdf8144b5c"
+  },
+  "externalRowIdPrefix": "MIS",
+  "quotaSource": {
+    "decision": "AUTHORITATIVE_SOURCE_IS_USER_PROVIDED_EXACT_COUNTS_FROM_PDF - per explicit user instruction, this dataset uses the exact per-skill counts and competence levels the user supplied (from the FCPS PDF), NOT portal quota minimums. Portal is used only to verify skill names, field schemas, and valid competence levels.",
+    "arithmeticCheck": "Itemized Interpretative (3+3=6) and Procedural (5+3+1+3+3+1+3=19) sum to 6+19=25, matching the user's stated totals exactly - no discrepancy for this specialty."
+  },
+  "skills": {
+    "Interpretative Skill": [
+      { "name": "Plain X-ray Abdomen", "count": 3 },
+      { "name": "USG /CT abdomen", "count": 3 }
+    ],
+    "Procedural skill": [
+      { "name": "Closed and open techniques for port creation and closure", "count": 5, "allowedLevels": ["2", "3"] },
+      { "name": "Diagnostic laparoscopy", "count": 3, "allowedLevels": ["2", "3"] },
+      { "name": "Laparoscopic appendicectomy", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Laparoscopic cholecystectomy", "count": 3, "allowedLevels": ["1", "2"] },
+      { "name": "Laparoscopic control of bleeding", "count": 3, "allowedLevels": ["2", "3"] },
+      { "name": "Laparoscopic hernioplasty (TAPP & TEP)", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Laparoscopic suturing and knotting", "count": 3, "allowedLevels": ["2", "3"] }
+    ]
+  },
+  "notes": [
+    "This case type's exact portal name uses an EN-DASH (–), not a hyphen: 'Minimally Invasive Surgery – Laparoscopic procedures'. Must be used verbatim (including the en-dash character and lowercase 'procedures') wherever CASE_TYPE_LABEL is used in the generator, or leaf lookups will silently fail to match.",
+    "Portal label 'USG /CT abdomen' has no space before 'CT' (user's list had 'USG / CT abdomen' with a space) - unambiguous, portal-exact string used as authoritative.",
+    "This case type has 4 mapped leaves in the portal (Clinical skill, Communication and Writing Skill, Interpretative Skill, Procedural skill) but only Interpretative Skill and Procedural skill are used for this dataset, per the user's request - the other two leaves have no competency items and are irrelevant here.",
+    "This config is reusable for future date ranges - do not hardcode date-range-specific values here."
+  ]
+}

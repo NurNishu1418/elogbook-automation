@@ -1,0 +1,102 @@
+import { DataEntryRow } from './excelReader';
+
+export interface LeafForValidation {
+  leafId: string;
+  pathLabels: string[];
+  fields: { column_name: string; column_value_type: string; required_ind: number }[];
+  competencyGroup: { particulars: string }[];
+}
+
+export interface RowValidationResult {
+  valid: boolean;
+  errors: string[];
+  resolvedLeaf: LeafForValidation | null;
+}
+
+function stripDots(s: string): string {
+  return s.replace(/\./g, '').trim().replace(/\s+/g, ' ');
+}
+
+export function validateRow(row: DataEntryRow, leaves: LeafForValidation[]): RowValidationResult {
+  const errors: string[] = [];
+
+  if (row.action !== 'SAVE_DRAFT') {
+    return { valid: false, errors: [`Action must be "SAVE_DRAFT" (got "${row.action}").`], resolvedLeaf: null };
+  }
+  if (!row.form || !row.caseType) {
+    errors.push('Form and CaseType are required.');
+  }
+
+  const candidates = leaves.filter((l) => l.pathLabels[0] === row.form && l.pathLabels[1] === row.caseType);
+  let resolvedLeaf: LeafForValidation | null = null;
+  if (candidates.length === 0) {
+    errors.push(`No mapped combination found for Form="${row.form}", CaseType="${row.caseType}". Check DropdownOptions/CombinationPaths sheets for valid values.`);
+  } else if (candidates.length === 1 && !candidates[0].pathLabels[2]) {
+    resolvedLeaf = candidates[0];
+    if (row.skillType) errors.push(`This combination has no Skill Type level, but SkillType="${row.skillType}" was provided.`);
+  } else {
+    const withSkill = candidates.find((l) => l.pathLabels[2] === row.skillType);
+    if (!withSkill) {
+      const options = candidates.map((l) => l.pathLabels[2]).filter(Boolean);
+      errors.push(`SkillType="${row.skillType}" is not valid for Form="${row.form}", CaseType="${row.caseType}". Valid options: ${options.join(', ')}`);
+    } else {
+      resolvedLeaf = withSkill;
+    }
+  }
+
+  if (row.combinationKey && resolvedLeaf && row.combinationKey !== resolvedLeaf.leafId) {
+    errors.push(
+      `CombinationKey "${row.combinationKey}" does not match the id resolved from Form/CaseType/SkillType ("${resolvedLeaf.leafId}"). The uploader trusts the live-resolved id; verify this row's CombinationKey is up to date.`
+    );
+  }
+
+  if (resolvedLeaf) {
+    const requiredCore = [
+      ['dateOfAssignment', 'Date of Assignment'],
+      ['nameOfPatient', 'Name of the Patient'],
+      ['patientRegNo', 'Patient Reg No'],
+      ['dateOfBirth', 'Date of Birth'],
+      ['age', 'Age'],
+    ] as const;
+    const leafFieldNames = new Set(resolvedLeaf.fields.filter((f) => f.column_value_type !== 'radio').map((f) => stripDots(f.column_name)));
+    for (const [rowKey, displayName] of requiredCore) {
+      const isApplicable = leafFieldNames.has(displayName) || leafFieldNames.has(stripDots(displayName));
+      if (isApplicable && !row[rowKey]) {
+        errors.push(`"${displayName}" is required for this combination but is blank.`);
+      }
+    }
+
+    const validCompetencyNames = new Set(resolvedLeaf.competencyGroup.map((c) => c.particulars.trim()));
+    for (const item of row.competencyItems) {
+      const matches = [...validCompetencyNames].some((v) => v.trim() === item.trim());
+      if (!matches) {
+        errors.push(`Competency item "${item}" is not valid for this combination. Valid items: ${[...validCompetencyNames].join('; ') || '(none)'}`);
+      }
+    }
+
+    const knownExtraFieldNames = new Set(
+      resolvedLeaf.fields
+        .filter((f) => f.column_value_type !== 'radio' && !requiredCore.some(([, d]) => stripDots(d) === stripDots(f.column_name)))
+        .map((f) => stripDots(f.column_name))
+    );
+    for (const key of Object.keys(row.extraFields)) {
+      if (key === '__PARSE_ERROR__') {
+        errors.push(`ExtraFieldsJSON is not valid JSON: ${row.extraFields[key]}`);
+        continue;
+      }
+      if (!knownExtraFieldNames.has(stripDots(key))) {
+        errors.push(`ExtraFieldsJSON key "${key}" is not a known field for this combination. Known extra fields: ${[...knownExtraFieldNames].join('; ') || '(none)'}`);
+      }
+    }
+    for (const f of resolvedLeaf.fields) {
+      if (f.column_value_type === 'radio') continue;
+      const name = stripDots(f.column_name);
+      if (requiredCore.some(([, d]) => stripDots(d) === name)) continue;
+      if (f.required_ind === 1 && !row.extraFields[f.column_name] && !row.extraFields[name]) {
+        errors.push(`"${f.column_name}" is required for this combination but is missing from ExtraFieldsJSON.`);
+      }
+    }
+  }
+
+  return { valid: errors.length === 0, errors, resolvedLeaf };
+}

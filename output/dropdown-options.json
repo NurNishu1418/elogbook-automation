@@ -1,0 +1,578 @@
+[
+  {
+    "fieldKey": "Form",
+    "completeParentPath": "(root)",
+    "optionText": "Procedural and Interpretative Skills",
+    "optionValue": "4001827b-e019-4eba-888b-dd257b85ca07",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "Form",
+    "completeParentPath": "(root)",
+    "optionText": "Patient Management",
+    "optionValue": "4d349beb-dfb9-43b9-ab34-01eb64b18a44",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Abdominal Wall",
+    "optionValue": "06d8e45c-20e1-45e7-a251-65226777351b",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Accident & Emergency / Casualty",
+    "optionValue": "dededc36-70d2-4e11-b230-4d038c39fe4c",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Anaesthesia & Procedural critical care",
+    "optionValue": "6c307c7b-a50f-4253-a466-d5632d06f7ef",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 3
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Basic Surgical Skill",
+    "optionValue": "69b1e4c8-43e3-45cb-aa42-e0ca1e03838f",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 4
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Disorders of the Breast",
+    "optionValue": "f0cf89cf-1ced-4e01-98e2-c26fd82a6cd5",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 5
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands)",
+    "optionValue": "50e26c64-44a4-4302-871d-7401d20cd0b8",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 6
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Gastrointestinal & HepatoBiliary System and Pancreas",
+    "optionValue": "a891fdcb-9a20-41a5-9ada-10cd598936f2",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 7
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Minimally Invasive Surgery – Laparoscopic procedures",
+    "optionValue": "de590470-a2b1-461d-8972-ca3087ac85d0",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 8
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Neurosurgery",
+    "optionValue": "7236489d-8189-44a5-a922-481cb5d91c76",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 9
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Orthopaedic Surgery",
+    "optionValue": "2b9f996e-cefe-4fec-a8bf-b5abe58e1eae",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 10
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Paediatric Surgery",
+    "optionValue": "f535b866-58bc-405e-8cdf-6e1dd56e13fd",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 11
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Parasites of Surgical Importance",
+    "optionValue": "0489f17c-6abd-4565-8d2f-77ae4e87c7ac",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 12
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Plastic Surgery",
+    "optionValue": "c9cfe4e3-d53a-4965-98ba-e07bf2738872",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 13
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Procedural Nutrition",
+    "optionValue": "049d5a16-43a5-4e06-9ac5-9dd2bbf33eb4",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 14
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Skin and Subcutaneous Tissue",
+    "optionValue": "5836c77f-a6dd-4c22-8294-006729cd8fc9",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 15
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Surgical Oncology",
+    "optionValue": "c9f6d335-f934-4df3-a692-a18669d1271e",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 16
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Thoracic and Cardiovascular Surgery",
+    "optionValue": "28147159-00f9-45c8-ac4a-a88aa5ed6470",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 17
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Urology",
+    "optionValue": "cdd7a644-7196-4454-89dd-d5218074f423",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 18
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Procedural and Interpretative Skills",
+    "optionText": "Vascular Surgery",
+    "optionValue": "96cc7df9-c298-4d51-a0a5-f0b518dc4cd2",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 19
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Abdominal Wall",
+    "optionText": "Interpretative Skill",
+    "optionValue": "99a06d89-5e3f-4a58-b234-502e7ce20200",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Abdominal Wall",
+    "optionText": "Procedural skill",
+    "optionValue": "8d16daad-9b8e-46bc-aed3-ea7c72875674",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Accident & Emergency / Casualty",
+    "optionText": "Interpretative Skill",
+    "optionValue": "062a2e9b-b12d-467a-b119-5ea4310e2c93",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Accident & Emergency / Casualty",
+    "optionText": "Procedural skill",
+    "optionValue": "f32621e6-4fa8-4718-b289-207f45ca363d",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care",
+    "optionText": "Interpretative Skill",
+    "optionValue": "e69cd3aa-f8cc-4f56-ae46-7558bdcf1650",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care",
+    "optionText": "Procedural skill",
+    "optionValue": "f3acefe6-6a7b-463c-a4e7-7cebb7ca71bd",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Basic Surgical Skill",
+    "optionText": "Communication and Writing Skill",
+    "optionValue": "99e21e93-cccc-41a2-a170-43876ff867a6",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Basic Surgical Skill",
+    "optionText": "Procedural skill",
+    "optionValue": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Disorders of the Breast",
+    "optionText": "Interpretative Skill",
+    "optionValue": "ada9e308-caac-4ebd-990b-3f41e692bf01",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Disorders of the Breast",
+    "optionText": "Procedural skill",
+    "optionValue": "141bbcab-c56e-42fd-b755-ebf5de7ad85a",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands)",
+    "optionText": "Interpretative Skill",
+    "optionValue": "66dfd638-bdec-4219-a55a-7072eab69a18",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands)",
+    "optionText": "Procedural skill",
+    "optionValue": "d1dd3ed6-a232-4847-81d2-951ed6c7d4c7",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas",
+    "optionText": "Interpretative Skill",
+    "optionValue": "df48137d-6756-4f13-bf11-5874fe4244bc",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas",
+    "optionText": "Procedural skill",
+    "optionValue": "cd8e3367-0094-42c8-836d-4eba571541b9",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures",
+    "optionText": "Clinical skill",
+    "optionValue": "013281cf-0662-497a-894a-d02959e0b3a3",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures",
+    "optionText": "Communication and Writing Skill",
+    "optionValue": "471d1ba0-8a41-4a4e-819f-80b8580f33a2",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures",
+    "optionText": "Interpretative Skill",
+    "optionValue": "e92e1c2f-edba-4ba4-b50e-aa3eb6847a50",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 3
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures",
+    "optionText": "Procedural skill",
+    "optionValue": "d26fa4fd-37a4-4248-8306-adbdf8144b5c",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 4
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Neurosurgery",
+    "optionText": "Interpretative Skill",
+    "optionValue": "11bd8bf2-cc6d-425b-8a87-a898ed52317c",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Neurosurgery",
+    "optionText": "Procedural skill",
+    "optionValue": "c5758a6c-8923-475b-8268-23bbf19e6310",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Orthopaedic Surgery",
+    "optionText": "Interpretative Skill",
+    "optionValue": "1952142e-4c30-4b86-a9d9-3aaeafb8e350",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Orthopaedic Surgery",
+    "optionText": "Procedural skill",
+    "optionValue": "dc3a106f-4a08-44c0-9c0f-01781266ec0c",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Paediatric Surgery",
+    "optionText": "Interpretative Skill",
+    "optionValue": "3a8b2319-3c01-4597-b166-e2580942a40d",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Paediatric Surgery",
+    "optionText": "Procedural skill",
+    "optionValue": "6599f61d-fc6d-4031-a596-ec85709837a8",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Parasites of Surgical Importance",
+    "optionText": "Interpretative Skill",
+    "optionValue": "dc995222-a9e8-4fbe-b0fc-f8ee7b24e675",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Parasites of Surgical Importance",
+    "optionText": "Procedural skill",
+    "optionValue": "35974d3a-de4e-4973-b839-514fd7516e57",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Plastic Surgery",
+    "optionText": "Interpretative Skill",
+    "optionValue": "de32f03b-02b5-4e70-bae6-98a82ec44115",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Plastic Surgery",
+    "optionText": "Procedural skill",
+    "optionValue": "e9493309-48f8-4bd7-93ed-83b26e189147",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Procedural Nutrition",
+    "optionText": "Interpretative Skill",
+    "optionValue": "3587caef-7e32-46b5-96ff-efdc672410f3",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Procedural Nutrition",
+    "optionText": "Procedural skill",
+    "optionValue": "0e1909df-9f5b-4b3f-b8f3-16885cdbeab5",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue",
+    "optionText": "Interpretative Skill",
+    "optionValue": "6cd958f4-08bd-4316-81e3-68b4bab08f50",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue",
+    "optionText": "Procedural skill",
+    "optionValue": "d8c17d2d-a9e1-4529-9165-eb1b4adbc403",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Surgical Oncology",
+    "optionText": "Interpretative Skill",
+    "optionValue": "6120c376-cb5e-46c0-8803-a12a39446b62",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Surgical Oncology",
+    "optionText": "Procedural skill",
+    "optionValue": "b8716fc4-981c-4510-9ad8-49c43c8c816b",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery",
+    "optionText": "Interpretative Skill",
+    "optionValue": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery",
+    "optionText": "Procedural skill",
+    "optionValue": "8aa758e2-151a-4afb-a86b-6d31ded5fde8",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Urology",
+    "optionText": "Interpretative Skill",
+    "optionValue": "724765b4-038e-48dc-89df-823cf20dc733",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Urology",
+    "optionText": "Procedural skill",
+    "optionValue": "7ab0db36-3a41-49ce-8ffb-cb99a56ee145",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Vascular Surgery",
+    "optionText": "Interpretative Skill",
+    "optionValue": "038b9461-529c-4473-b982-123e445548eb",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "SkillType",
+    "completeParentPath": "Procedural and Interpretative Skills > Vascular Surgery",
+    "optionText": "Procedural skill",
+    "optionValue": "40abd843-3a66-4bd2-a6e4-bdcb76679cb7",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Patient Management",
+    "optionText": "Emergency Patient Management",
+    "optionValue": "181715c5-d449-4245-8f1c-3d52ca9bb46a",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 1
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Patient Management",
+    "optionText": "In-Patient Management",
+    "optionValue": "2458946d-d2b8-4ac5-b460-015926d5f26d",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 2
+  },
+  {
+    "fieldKey": "CaseType",
+    "completeParentPath": "Patient Management",
+    "optionText": "Out-Patient Management",
+    "optionValue": "f4a5140c-6666-4137-9e62-d1223d57bac0",
+    "enabled": true,
+    "isDefault": false,
+    "displayOrder": 3
+  }
+]

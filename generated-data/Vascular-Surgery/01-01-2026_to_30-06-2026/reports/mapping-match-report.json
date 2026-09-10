@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-09-09T09:15:59.905Z",
+  "totalSkillsRequested": 7,
+  "totalSkillsMatched": 7,
+  "unmatchedSkills": [],
+  "labelDifferences": [
+    {
+      "skillType": "Procedural skill",
+      "requestedName": "Arterial thrombo-embolectomy ",
+      "portalName": "Arterial thrombo-embolectomy "
+    },
+    {
+      "skillType": "Procedural skill",
+      "requestedName": "Ligation and excision of hemangioma and aneurysm ",
+      "portalName": "Ligation and excision of hemangioma and aneurysm "
+    }
+  ],
+  "levelMismatches": []
+}

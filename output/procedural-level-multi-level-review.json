@@ -1,0 +1,1956 @@
+{
+  "generatedAt": "2026-09-10T10:05:48.580Z",
+  "totalRequiringDecision": 114,
+  "rows": [
+    {
+      "portalEntryId": "95456854-71bf-4680-bcf5-273c7bff8c36",
+      "patientName": "Fatema Uddin Sarkar",
+      "patientRegNo": "1313/71",
+      "assignmentDate": "2026-02-23",
+      "caseType": "Procedural Nutrition",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Construction of feeding gastrostomy / Jejunostomy",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "42d27c96-ad4e-41c5-9d13-8db4095833f9",
+      "patientName": "Mitu Haque Rahman",
+      "patientRegNo": "9964/73",
+      "assignmentDate": "2026-06-05",
+      "caseType": "Procedural Nutrition",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Venous cannulation for central and peripheral parenteral feeding",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "06b6e594-5ff7-4e0e-8109-19b37b64aabb",
+      "patientName": "Md. Shafiqul Rahman",
+      "patientRegNo": "9239/05",
+      "assignmentDate": "2026-04-14",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Urinary bladder catheterization",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "6ff53fa7-fc0c-4c31-bff4-7bda7e1c1af9",
+      "patientName": "Shahnaz Rahman",
+      "patientRegNo": "3318/85",
+      "assignmentDate": "2026-05-25",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Urinary bladder catheterization",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "1eb3a57a-2302-47d7-9632-6bad5fe4070e",
+      "patientName": "Tanvir Rahman",
+      "patientRegNo": "3635/26",
+      "assignmentDate": "2026-03-17",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Urinary bladder catheterization",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "ec4b3bec-9de5-453d-8997-fcbccab57969",
+      "patientName": "Rehana Rahman",
+      "patientRegNo": "8148/29",
+      "assignmentDate": "2026-02-10",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Urinary bladder catheterization",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "1d6ac5a9-61ba-4089-8cae-a84683b93677",
+      "patientName": "Faridul Rahman",
+      "patientRegNo": "1068/21",
+      "assignmentDate": "2026-05-09",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Urinary bladder catheterization",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "ca3af5ec-e2de-471c-8268-d89c31ff5c76",
+      "patientName": "Aleya Rahman",
+      "patientRegNo": "1933/21",
+      "assignmentDate": "2026-06-08",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Surgical Ritual (Effective and safe hand washing, donning and doffing)",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "fb8b90a1-7675-4b8e-8d61-ea9223aa028e",
+      "patientName": "Md. Jahangir Rahman",
+      "patientRegNo": "2395/37",
+      "assignmentDate": "2026-03-10",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Surgical Ritual (Effective and safe hand washing, donning and doffing)",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "8ce35124-99a9-4491-a395-ef2f6d369971",
+      "patientName": "Nasrin Rahman",
+      "patientRegNo": "1194/93",
+      "assignmentDate": "2026-01-14",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Surgical Ritual (Effective and safe hand washing, donning and doffing)",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "9473be3e-7591-4d05-9562-9e1a29b904e6",
+      "patientName": "Farzana Rahman",
+      "patientRegNo": "7668/80",
+      "assignmentDate": "2026-04-22",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Surgical Ritual (Effective and safe hand washing, donning and doffing)",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "f96dcb5e-779e-41a0-9194-9b530125e641",
+      "patientName": "Taslima Rahman",
+      "patientRegNo": "1744/69",
+      "assignmentDate": "2026-01-25",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Surgical Ritual (Effective and safe hand washing, donning and doffing)",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "d724ed45-11eb-4e86-a9a3-a819684a7154",
+      "patientName": "Shahana Rahman",
+      "patientRegNo": "6013/00",
+      "assignmentDate": "2026-03-09",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Skin incision and closure",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "840efe5e-c7ca-473f-b01a-0808f1c9b163",
+      "patientName": "Parveen Rahman",
+      "patientRegNo": "2594/73",
+      "assignmentDate": "2026-01-30",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Skin incision and closure",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "65cefc31-0c88-47f0-af82-015d4925a158",
+      "patientName": "Habibur Rahman",
+      "patientRegNo": "6168/37",
+      "assignmentDate": "2026-06-29",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Skin incision and closure",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "bdcc5cc4-cff3-478f-ae79-26b1620a48c3",
+      "patientName": "Md. Zahirul Rahman",
+      "patientRegNo": "9732/64",
+      "assignmentDate": "2026-06-26",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Skin incision and closure",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "e7e2fff3-7710-4f8a-b138-a98a04bbf1f0",
+      "patientName": "Salma Hossain",
+      "patientRegNo": "4968/26",
+      "assignmentDate": "2026-04-28",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Skin incision and closure",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "36afff7e-ce78-4fb4-a51b-5e4bcecafdfd",
+      "patientName": "Rahima Hossain",
+      "patientRegNo": "1458/31",
+      "assignmentDate": "2026-05-03",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Skin incision and closure",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "d3517430-902d-43ff-ba09-61054db63fcf",
+      "patientName": "Momena Hossain",
+      "patientRegNo": "1020/07",
+      "assignmentDate": "2026-02-27",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Skin incision and closure",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "226d8653-677f-48bc-a37b-cb5408f0beb6",
+      "patientName": "Rokeya Hossain",
+      "patientRegNo": "2850/50",
+      "assignmentDate": "2026-03-14",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Skin incision and closure",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "fb64865c-611a-49b2-bde2-61b08323c637",
+      "patientName": "Nasima Hossain",
+      "patientRegNo": "3901/90",
+      "assignmentDate": "2026-03-16",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Skin incision and closure",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "ef499b43-d560-4fac-a50a-3c79a6c7402e",
+      "patientName": "Sharmin Hossain",
+      "patientRegNo": "8104/75",
+      "assignmentDate": "2026-06-30",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Skin incision and closure",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "bc3b0549-764b-4903-a8a3-434ecd6d88ae",
+      "patientName": "Md. Ekram Hossain",
+      "patientRegNo": "6780/44",
+      "assignmentDate": "2026-04-28",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Securing bleeding vessels",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "a0f11181-3462-4c54-a7f4-424de860b88d",
+      "patientName": "Md. Nurul Hossain",
+      "patientRegNo": "3357/15",
+      "assignmentDate": "2026-06-21",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Securing bleeding vessels",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "54f79be9-cf9e-409e-a4d2-8d89d417b963",
+      "patientName": "Abdul Hossain",
+      "patientRegNo": "3142/35",
+      "assignmentDate": "2026-02-22",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Securing bleeding vessels",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "019491d5-2276-477d-ac72-8b5579af1448",
+      "patientName": "Md. Rafiqul Hossain",
+      "patientRegNo": "1178/99",
+      "assignmentDate": "2026-01-14",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Securing bleeding vessels",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "db527f83-59f9-4d3a-aae7-1f45d049ed36",
+      "patientName": "Golam Hossain",
+      "patientRegNo": "8111/44",
+      "assignmentDate": "2026-02-03",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Securing bleeding vessels",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "0d1b5ea8-ddd8-4f7c-984e-f068ef6c9919",
+      "patientName": "Marufa Hossain",
+      "patientRegNo": "5086/72",
+      "assignmentDate": "2026-04-18",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Securing bleeding vessels",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "052760a6-58ce-4314-b49b-e32f9d598f79",
+      "patientName": "Md. Nazrul Hossain",
+      "patientRegNo": "7484/77",
+      "assignmentDate": "2026-06-08",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Securing bleeding vessels",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "63527ccd-9268-46b1-bf41-0570c3e627a6",
+      "patientName": "Shamsul Hossain",
+      "patientRegNo": "9670/75",
+      "assignmentDate": "2026-01-31",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Securing bleeding vessels",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "9514f39c-d76d-4a99-806b-6e20d39de30d",
+      "patientName": "Md. Aminul Hossain",
+      "patientRegNo": "3141/66",
+      "assignmentDate": "2026-02-07",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Securing bleeding vessels",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "10af7d1a-7651-43ee-8536-9cc883071939",
+      "patientName": "Shahidul Hossain",
+      "patientRegNo": "4769/38",
+      "assignmentDate": "2026-06-05",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Securing bleeding vessels",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "016e0e14-99e0-4b74-b39f-cc93b3e00781",
+      "patientName": "Mohammad Arif Hossain",
+      "patientRegNo": "4443/17",
+      "assignmentDate": "2026-03-20",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Safe tying of knots (hand/instrumental/on the surface and at depth)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "515af912-c72d-473a-bdfc-e393334520a8",
+      "patientName": "Halima Hossain",
+      "patientRegNo": "3526/00",
+      "assignmentDate": "2026-03-13",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Safe tying of knots (hand/instrumental/on the surface and at depth)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "a9c172e5-6e56-4e64-8f1d-1d3305dd4ef7",
+      "patientName": "Shirin Hossain",
+      "patientRegNo": "3838/79",
+      "assignmentDate": "2026-03-15",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Safe tying of knots (hand/instrumental/on the surface and at depth)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "6ab8e923-2e2d-47eb-a55d-0af520b65e0d",
+      "patientName": "Rubina Hossain",
+      "patientRegNo": "9553/72",
+      "assignmentDate": "2026-03-04",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Safe tying of knots (hand/instrumental/on the surface and at depth)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "5a45042c-b85a-4d72-8827-60bd6b1d771d",
+      "patientName": "Rashida Hossain",
+      "patientRegNo": "2184/41",
+      "assignmentDate": "2026-03-10",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Safe tying of knots (hand/instrumental/on the surface and at depth)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "d0898bd6-6308-4651-8e0c-42755f472e10",
+      "patientName": "Fatema Hossain",
+      "patientRegNo": "7382/20",
+      "assignmentDate": "2026-02-23",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Safe tying of knots (hand/instrumental/on the surface and at depth)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "0db49bec-4c6d-4c7f-8c87-625ec8991455",
+      "patientName": "Md. Mahbubur Hossain",
+      "patientRegNo": "5541/57",
+      "assignmentDate": "2026-02-09",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Safe tying of knots (hand/instrumental/on the surface and at depth)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "679b9312-7bd1-4823-b2fe-eb1d384f654c",
+      "patientName": "Md. Kamal Hossain",
+      "patientRegNo": "8541/99",
+      "assignmentDate": "2026-03-31",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Safe tying of knots (hand/instrumental/on the surface and at depth)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "3ca55a65-8267-440e-bc63-3c49634696b8",
+      "patientName": "Anisur Hossain",
+      "patientRegNo": "8925/42",
+      "assignmentDate": "2026-01-01",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Safe tying of knots (hand/instrumental/on the surface and at depth)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "20b003cd-7b33-475d-941a-0abcdd04dc24",
+      "patientName": "Rezaul Hossain",
+      "patientRegNo": "2091/68",
+      "assignmentDate": "2026-05-11",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Safe tying of knots (hand/instrumental/on the surface and at depth)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "99596039-4e67-4bdd-9de2-b506bca40b98",
+      "patientName": "Md. Shafiqul Hossain",
+      "patientRegNo": "8991/44",
+      "assignmentDate": "2026-01-25",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Positioning of the patient",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "d4f532eb-dc90-4a07-97e3-093e463b1bdd",
+      "patientName": "Shahnaz Hossain",
+      "patientRegNo": "1291/89",
+      "assignmentDate": "2026-06-04",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Positioning of the patient",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "ebca2ad6-da57-495e-b101-e807d5120af9",
+      "patientName": "Tanvir Hossain",
+      "patientRegNo": "9949/18",
+      "assignmentDate": "2026-02-06",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Positioning of the patient",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "635e3f8e-4c70-420c-af31-44b9f4f77fb4",
+      "patientName": "Rehana Hossain",
+      "patientRegNo": "4032/30",
+      "assignmentDate": "2026-06-17",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Positioning of the patient",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "d775af87-881d-4acd-bf43-70f391878632",
+      "patientName": "Faridul Hossain",
+      "patientRegNo": "4178/88",
+      "assignmentDate": "2026-06-29",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Positioning of the patient",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "568466d1-b4ca-4ee4-adb2-285e88725f4b",
+      "patientName": "Aleya Hossain",
+      "patientRegNo": "2209/90",
+      "assignmentDate": "2026-05-20",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Positioning of the patient",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "6eb3505d-0c1d-4ac1-bdb1-6a7587e0d7f0",
+      "patientName": "Md. Jahangir Hossain",
+      "patientRegNo": "3940/31",
+      "assignmentDate": "2026-06-07",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Positioning of the patient",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "b0ede038-956d-4a93-ab26-78586fe08936",
+      "patientName": "Nasrin Hossain",
+      "patientRegNo": "5232/29",
+      "assignmentDate": "2026-05-28",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Positioning of the patient",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "86e6c1d4-59e9-432c-bc84-05d4863c68ab",
+      "patientName": "Farzana Hossain",
+      "patientRegNo": "8953/56",
+      "assignmentDate": "2026-05-24",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Positioning of the patient",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "a1930e66-3a66-4a95-8aed-7cc7bf9af916",
+      "patientName": "Taslima Hossain",
+      "patientRegNo": "5626/76",
+      "assignmentDate": "2026-04-16",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Positioning of the patient",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "3f8903d7-a8c3-4641-8c24-646fbbdce48d",
+      "patientName": "Shahana Hossain",
+      "patientRegNo": "4514/23",
+      "assignmentDate": "2026-02-11",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Introduction and removal of Procedural drains",
+      "allowedLevels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "53494dd1-2502-4f65-bcf8-f1948e6a79e9",
+      "patientName": "Parveen Hossain",
+      "patientRegNo": "6826/90",
+      "assignmentDate": "2026-02-12",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Introduction and removal of Procedural drains",
+      "allowedLevels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "180b6c1c-67cf-45e8-baeb-4f9217aa531f",
+      "patientName": "Habibur Hossain",
+      "patientRegNo": "3657/42",
+      "assignmentDate": "2026-01-08",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Introduction and removal of Procedural drains",
+      "allowedLevels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "0ea40308-ab7f-4b56-a19e-875dd0dccea6",
+      "patientName": "Rubina Yasmin",
+      "patientRegNo": "2788/24",
+      "assignmentDate": "2026-01-24",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Handling a Procedural specimen",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "83695e83-257a-47ee-8477-4bb44b88a2e2",
+      "patientName": "Rashida Yasmin",
+      "patientRegNo": "7798/33",
+      "assignmentDate": "2026-02-13",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Handling a Procedural specimen",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "c0220213-f977-493f-96f9-db0856c763f0",
+      "patientName": "Fatema Yasmin",
+      "patientRegNo": "2014/85",
+      "assignmentDate": "2026-03-19",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Handling a Procedural specimen",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "9bf4b2ac-3341-4d26-ba01-1dfc9e98f257",
+      "patientName": "Md. Mahbubur Yasmin",
+      "patientRegNo": "8616/10",
+      "assignmentDate": "2026-02-09",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Handling a Procedural specimen",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "6a871898-13af-40cb-b987-c1ce1939207f",
+      "patientName": "Md. Kamal Yasmin",
+      "patientRegNo": "8899/90",
+      "assignmentDate": "2026-02-05",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Handling a Procedural specimen",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "c9c00ac5-3602-426b-841b-292c2f0e8bb5",
+      "patientName": "Anisur Yasmin",
+      "patientRegNo": "1508/97",
+      "assignmentDate": "2026-04-30",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Exposure, antiseptic washand draping",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "c88a2d3e-1e7e-4d1d-8be4-d88b981bb6c9",
+      "patientName": "Rezaul Yasmin",
+      "patientRegNo": "9185/91",
+      "assignmentDate": "2026-02-01",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Exposure, antiseptic washand draping",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "1056f6e8-b7ba-4491-9a17-b10eb81f5b3c",
+      "patientName": "Md. Shafiqul Yasmin",
+      "patientRegNo": "4020/20",
+      "assignmentDate": "2026-05-09",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Exposure, antiseptic washand draping",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "ddc54507-d0bf-4356-9c97-addaed223b5c",
+      "patientName": "Shahnaz Yasmin",
+      "patientRegNo": "6562/01",
+      "assignmentDate": "2026-03-10",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Exposure, antiseptic washand draping",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "cab969b0-47b9-4b93-9cd6-7719f17b5589",
+      "patientName": "Tanvir Yasmin",
+      "patientRegNo": "1046/90",
+      "assignmentDate": "2026-01-02",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Exposure, antiseptic washand draping",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "ed76a05a-b8b4-481e-a05f-c11d73469b08",
+      "patientName": "Rehana Yasmin",
+      "patientRegNo": "5785/33",
+      "assignmentDate": "2026-03-30",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Exposure, antiseptic washand draping",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "70b0826f-9abe-4167-acdb-7978e9ec5431",
+      "patientName": "Faridul Yasmin",
+      "patientRegNo": "7644/13",
+      "assignmentDate": "2026-05-14",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Exposure, antiseptic washand draping",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "2e366484-595a-440f-9e97-099fdfbc3413",
+      "patientName": "Aleya Yasmin",
+      "patientRegNo": "1233/56",
+      "assignmentDate": "2026-04-06",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Exposure, antiseptic washand draping",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "f6836207-288a-44d5-a849-9c777b28033f",
+      "patientName": "Md. Jahangir Yasmin",
+      "patientRegNo": "2660/19",
+      "assignmentDate": "2026-01-03",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Exposure, antiseptic washand draping",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "97d742f2-3832-4726-8a0c-455e31915bec",
+      "patientName": "Nasrin Yasmin",
+      "patientRegNo": "6306/43",
+      "assignmentDate": "2026-01-11",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Exposure, antiseptic washand draping",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "13b92342-37c1-4eee-98b3-94e1615c71d8",
+      "patientName": "Farzana Yasmin",
+      "patientRegNo": "7399/70",
+      "assignmentDate": "2026-04-02",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Excision biopsy of benign lesions (lipoma, cyst, skin lesions etc.)",
+      "allowedLevels": [
+        "2",
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "bf96226c-649e-4396-94fb-2f5e4daf7c8f",
+      "patientName": "Taslima Yasmin",
+      "patientRegNo": "6049/52",
+      "assignmentDate": "2026-03-23",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Excision biopsy of benign lesions (lipoma, cyst, skin lesions etc.)",
+      "allowedLevels": [
+        "2",
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "47892893-57b3-4a57-8294-270533120eb3",
+      "patientName": "Shahana Yasmin",
+      "patientRegNo": "5135/86",
+      "assignmentDate": "2026-04-04",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Excision biopsy of benign lesions (lipoma, cyst, skin lesions etc.)",
+      "allowedLevels": [
+        "2",
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "f905f840-5c86-4f3a-afb4-dd5f1b01e9d5",
+      "patientName": "Parveen Yasmin",
+      "patientRegNo": "8547/15",
+      "assignmentDate": "2026-03-07",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Drainage of superficial abscesses including Hilton’s method",
+      "allowedLevels": [
+        "2",
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "8b103576-9799-46ad-b120-c47be118d232",
+      "patientName": "Habibur Yasmin",
+      "patientRegNo": "5994/76",
+      "assignmentDate": "2026-06-10",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Drainage of superficial abscesses including Hilton’s method",
+      "allowedLevels": [
+        "2",
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "7760bdb3-8e08-4661-b2e6-b1165e34e88e",
+      "patientName": "Md. Zahirul Yasmin",
+      "patientRegNo": "4484/25",
+      "assignmentDate": "2026-06-26",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Drainage of superficial abscesses including Hilton’s method",
+      "allowedLevels": [
+        "2",
+        "3",
+        "4"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "04b2e9af-2122-4b13-9c9a-e7bce6eb98cf",
+      "patientName": "Salma Hasan",
+      "patientRegNo": "1329/74",
+      "assignmentDate": "2026-01-22",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Central venous catheterization",
+      "allowedLevels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "24c88c82-aee3-46c4-9afc-1a10e718dc7b",
+      "patientName": "Rahima Hasan",
+      "patientRegNo": "5320/86",
+      "assignmentDate": "2026-03-01",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Central venous catheterization",
+      "allowedLevels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "425111e5-57c8-42a4-917b-962ed7723f7c",
+      "patientName": "Momena Hasan",
+      "patientRegNo": "5333/77",
+      "assignmentDate": "2026-03-20",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Central venous catheterization",
+      "allowedLevels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "52c12537-03f4-48b7-959b-917b7e4b2e37",
+      "patientName": "Rokeya Hasan",
+      "patientRegNo": "7948/81",
+      "assignmentDate": "2026-03-08",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Biopsy techniques (Core-cut biopsy, excision biopsy, incision biopsy)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "f374ed28-c02a-44d7-b44e-b9997dfba880",
+      "patientName": "Nasima Hasan",
+      "patientRegNo": "9637/88",
+      "assignmentDate": "2026-06-12",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Biopsy techniques (Core-cut biopsy, excision biopsy, incision biopsy)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "d25c6631-4dc9-4ffc-b69e-8fa9d14bc1d2",
+      "patientName": "Sharmin Hasan",
+      "patientRegNo": "9993/97",
+      "assignmentDate": "2026-05-22",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Biopsy techniques (Core-cut biopsy, excision biopsy, incision biopsy)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "7a5bdaf5-c667-4118-b605-3597462d7ecd",
+      "patientName": "Md. Ekram Hasan",
+      "patientRegNo": "4954/40",
+      "assignmentDate": "2026-05-12",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Biopsy techniques (Core-cut biopsy, excision biopsy, incision biopsy)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "4c44b231-07b3-4414-87b4-749c15ce75bd",
+      "patientName": "Md. Nurul Hasan",
+      "patientRegNo": "7405/03",
+      "assignmentDate": "2026-06-06",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Biopsy techniques (Core-cut biopsy, excision biopsy, incision biopsy)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "182f7ea7-bdc1-4d0e-b56a-5a98655d1a1f",
+      "patientName": "Abdul Hasan",
+      "patientRegNo": "6054/77",
+      "assignmentDate": "2026-04-24",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Application and removal of skin staples/stitches",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "62c74991-13c8-48c3-a507-09216736a65a",
+      "patientName": "Md. Rafiqul Hasan",
+      "patientRegNo": "7935/47",
+      "assignmentDate": "2026-06-15",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Application and removal of skin staples/stitches",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "73650458-4a2f-4411-b68c-be9be9d2e799",
+      "patientName": "Golam Hasan",
+      "patientRegNo": "1989/16",
+      "assignmentDate": "2026-05-26",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Application and removal of skin staples/stitches",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "5f13d050-88ef-4eeb-afe9-f1e1e8a4af48",
+      "patientName": "Marufa Hasan",
+      "patientRegNo": "7797/17",
+      "assignmentDate": "2026-01-31",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Application and removal of skin staples/stitches",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "9050e871-29ce-48bb-9264-cc462fc09be9",
+      "patientName": "Md. Nazrul Hasan",
+      "patientRegNo": "1158/93",
+      "assignmentDate": "2026-03-06",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Application and removal of skin staples/stitches",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "8e2d4860-c3df-407a-9fd7-a67cbe25e2ce",
+      "patientName": "Shamsul Hasan",
+      "patientRegNo": "6715/83",
+      "assignmentDate": "2026-06-21",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Application and removal of skin staples/stitches",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "5c71e1dd-a88b-4e57-a27f-a2499b88f66d",
+      "patientName": "Md. Aminul Hasan",
+      "patientRegNo": "4707/86",
+      "assignmentDate": "2026-06-01",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Application and removal of skin staples/stitches",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "8353121e-a2d2-4b2c-97e1-9e354c327868",
+      "patientName": "Shahidul Hasan",
+      "patientRegNo": "5322/57",
+      "assignmentDate": "2026-01-19",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Application and removal of skin staples/stitches",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "38a5862a-4888-4263-9aca-a39293f52b23",
+      "patientName": "Mohammad Arif Hasan",
+      "patientRegNo": "1645/91",
+      "assignmentDate": "2026-04-04",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Application and removal of skin staples/stitches",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "6c31ced5-a8d0-454a-b7ad-9b9843299f1d",
+      "patientName": "Halima Hasan",
+      "patientRegNo": "3696/98",
+      "assignmentDate": "2026-05-12",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Application and removal of skin staples/stitches",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "61408aea-1518-45ac-a2bd-e99761db3ae5",
+      "patientName": "Shirin Hasan",
+      "patientRegNo": "9215/38",
+      "assignmentDate": "2026-04-24",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Accurate and safe administration of local anaesthetic agent",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "a0ed815f-a1ac-48a0-8b6d-9e1ba5ffa821",
+      "patientName": "Rubina Hasan",
+      "patientRegNo": "4551/36",
+      "assignmentDate": "2026-04-02",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Accurate and safe administration of local anaesthetic agent",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "308e49a2-59c5-4921-9741-8d78328fc2c0",
+      "patientName": "Rashida Hasan",
+      "patientRegNo": "7116/08",
+      "assignmentDate": "2026-05-31",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Accurate and safe administration of local anaesthetic agent",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "837a0315-f7d6-4334-a110-76aa64269a32",
+      "patientName": "Fatema Hasan",
+      "patientRegNo": "5346/10",
+      "assignmentDate": "2026-06-26",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Accurate and safe administration of local anaesthetic agent",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "e4078a2d-b24f-4133-b05c-a2590797de4d",
+      "patientName": "Md. Mahbubur Hasan",
+      "patientRegNo": "8943/41",
+      "assignmentDate": "2026-05-11",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Accurate and safe administration of local anaesthetic agent",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "fe904eab-00a4-4f0e-ad6a-1c6d576f4463",
+      "patientName": "Md. Kamal Hasan",
+      "patientRegNo": "8245/85",
+      "assignmentDate": "2026-05-16",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Accurate and safe administration of local anaesthetic agent",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "f7b38ae0-f162-4879-ae16-1b55c63bc169",
+      "patientName": "Anisur Hasan",
+      "patientRegNo": "8879/35",
+      "assignmentDate": "2026-05-22",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Accurate and safe administration of local anaesthetic agent",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "f1dfeca5-e3cb-4b2c-9077-842bf181c530",
+      "patientName": "Rezaul Hasan",
+      "patientRegNo": "5051/44",
+      "assignmentDate": "2026-03-18",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Accurate and safe administration of local anaesthetic agent",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "ab7d9e2e-396f-43d7-bb87-a8cfc1c15e4d",
+      "patientName": "Md. Shafiqul Hasan",
+      "patientRegNo": "4568/47",
+      "assignmentDate": "2026-02-26",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Accurate and safe administration of local anaesthetic agent",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "8f5b1b81-afb4-4e6d-823b-7a6f3cde72da",
+      "patientName": "Shahnaz Hasan",
+      "patientRegNo": "6627/43",
+      "assignmentDate": "2026-04-16",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Accurate and safe administration of local anaesthetic agent",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "5416d2c6-a5b3-4687-81a3-ca1adef0a072",
+      "patientName": "Tanvir Hasan",
+      "patientRegNo": "4341/68",
+      "assignmentDate": "2026-02-23",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Ability to use Surgical instruments and energy devices",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "1c9fbb0b-471f-4a8e-9a5a-c82d827fd670",
+      "patientName": "Rehana Hasan",
+      "patientRegNo": "1664/68",
+      "assignmentDate": "2026-05-20",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Ability to use Surgical instruments and energy devices",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "b07fa12f-bf24-4c0b-9c46-bcb936538676",
+      "patientName": "Faridul Hasan",
+      "patientRegNo": "1531/60",
+      "assignmentDate": "2026-05-25",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Ability to use Surgical instruments and energy devices",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "85f9074c-2012-4f1f-bb08-e0869d000037",
+      "patientName": "Aleya Hasan",
+      "patientRegNo": "2923/30",
+      "assignmentDate": "2026-02-11",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Ability to use Surgical instruments and energy devices",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "5cd8dc53-e569-4c47-8ad5-d7312c83e3ba",
+      "patientName": "Md. Jahangir Hasan",
+      "patientRegNo": "1916/49",
+      "assignmentDate": "2026-01-11",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Ability to use Surgical instruments and energy devices",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "27ec0590-a43e-4b47-9d01-11af9a7fe53c",
+      "patientName": "Nasrin Hasan",
+      "patientRegNo": "9411/38",
+      "assignmentDate": "2026-01-29",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Ability to use Surgical instruments and energy devices",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "01e72690-19da-46e0-ba7f-8c8db4960ea0",
+      "patientName": "Farzana Hasan",
+      "patientRegNo": "8626/79",
+      "assignmentDate": "2026-06-25",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Ability to use Surgical instruments and energy devices",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "d3af4a55-3b5a-4fd1-9afc-0dd9594d3d72",
+      "patientName": "Taslima Hasan",
+      "patientRegNo": "8218/11",
+      "assignmentDate": "2026-06-25",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Ability to use Surgical instruments and energy devices",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "88976b60-c8b1-4b69-9433-347c4eb77cbe",
+      "patientName": "Shahana Hasan",
+      "patientRegNo": "4838/43",
+      "assignmentDate": "2026-01-20",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Ability to use Surgical instruments and energy devices",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    },
+    {
+      "portalEntryId": "42397e0c-d7ae-4a9b-9e56-5dc31431da9b",
+      "patientName": "Parveen Hasan",
+      "patientRegNo": "4269/67",
+      "assignmentDate": "2026-03-22",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill",
+      "proceduralSkill": "Ability to use Surgical instruments and energy devices",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "currentLevelState": "none selected",
+      "sourceWorkbook": "not traceable (portal does not persist ExternalRowId; no reliable join key survives to this entry)",
+      "suggestedIntendedLevel": null,
+      "decision": "HUMAN_DECISION_REQUIRED"
+    }
+  ]
+}

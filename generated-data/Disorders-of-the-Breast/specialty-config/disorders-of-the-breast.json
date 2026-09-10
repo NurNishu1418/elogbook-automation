@@ -1,0 +1,53 @@
+{
+  "specialty": "Disorders of the Breast",
+  "form": "Procedural and Interpretative Skills",
+  "caseType": "Disorders of the Breast",
+  "mappedLeafIds": {
+    "Interpretative Skill": "ada9e308-caac-4ebd-990b-3f41e692bf01",
+    "Procedural skill": "141bbcab-c56e-42fd-b755-ebf5de7ad85a"
+  },
+  "quotaSource": {
+    "documentProvided": "NOT USED for row counts - explicitly excluded per user instruction. The PDF/document skill list was used only to help identify expected skill names; portal mapping is authoritative for names too.",
+    "portalAuthoritative": {
+      "interpretativeTotal": 47,
+      "proceduralTotal": 37,
+      "grandTotal": 84,
+      "verifiedVia": "GET /api/auth/elogbook-management/v1/logbook-entry-report-by-from/{formId} - the portal's own server-computed total_min_target field, read live 2026-09-09. Case-type total_min_target=84, Interpretative Skill total_min_target=47, Procedural skill total_min_target=37 - matches the sum of every individual competence-level min_value exactly, confirming the same quota semantics proven for the Gastrointestinal & HepatoBiliary dataset.",
+      "decision": "Portal-authoritative quota used for generation, per explicit user instruction. No document/PDF count was used to determine row counts."
+    }
+  },
+  "skills": {
+    "Interpretative Skill": [
+      { "name": "Cytological analysis of nipple discharge", "levels": [{ "level": null, "count": 2 }] },
+      { "name": "FNAC of breast lump", "levels": [{ "level": null, "count": 5 }] },
+      { "name": "Histopathological report analysis", "levels": [{ "level": null, "count": 5 }] },
+      { "name": "Hormone study", "levels": [{ "level": null, "count": 10 }] },
+      { "name": "Immunohistochemistry", "levels": [{ "level": null, "count": 5 }] },
+      { "name": "MRI / CT scan / Bone scan in locally advanced or metastatic breast cancer", "levels": [{ "level": null, "count": 5 }] },
+      { "name": "Mammogram/tomosynthesis", "levels": [{ "level": null, "count": 5 }] },
+      { "name": "Receptor study", "levels": [{ "level": null, "count": 5 }] },
+      { "name": "USG of breasts", "levels": [{ "level": null, "count": 5 }] }
+    ],
+    "Procedural skill": [
+      { "name": "Aspiration of breast abscess", "levels": [{ "level": "2", "count": 3 }, { "level": "3", "count": 2 }] },
+      { "name": "Breast conserving surgery", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] },
+      { "name": "Breast reconstruction", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] },
+      { "name": "Core-cut biopsy", "levels": [{ "level": "2", "count": 1 }, { "level": "3", "count": 1 }] },
+      { "name": "Drainage of breast abscess", "levels": [{ "level": "2", "count": 2 }, { "level": "3", "count": 2 }, { "level": "4", "count": 1 }] },
+      { "name": "Enucleation/excision of fibroadenoma", "levels": [{ "level": "2", "count": 1 }, { "level": "3", "count": 1 }] },
+      { "name": "FNAC of a breast lump", "levels": [{ "level": "2", "count": 3 }, { "level": "3", "count": 2 }] },
+      { "name": "Image guided biopsy / Wire guided biopsy / hydromarker", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] },
+      { "name": "Incision biopsy", "levels": [{ "level": "2", "count": 1 }, { "level": "3", "count": 1 }] },
+      { "name": "Mastectomy of male breast", "levels": [{ "level": "2", "count": 1 }, { "level": "3", "count": 1 }] },
+      { "name": "Nipple reconstruction", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] },
+      { "name": "Sentinel lymphnode biopsy", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] },
+      { "name": "Simple mastectomy with or without axillary dissection", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] },
+      { "name": "Wide excision / lumpectomy", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] }
+    ]
+  },
+  "notes": [
+    "Competence levels are metadata only - the live portal has no separate 'Level' UI field on the Add Logbook Entry form. Checking a competency item's checkbox is the only actual portal action; the level breakdown here determines the correct TOTAL row count per skill (sum of all its levels) and is recorded in this dataset's reports for traceability.",
+    "This config is reusable for future date ranges of the same specialty - do not hardcode date-range-specific values here.",
+    "Two mapped items have minor punctuation/spacing differences from the document-provided list (e.g. portal 'Core-cut biopsy ' has a trailing space, portal 'Mammogram/tomosynthesis' has no spaces around the slash vs the document's 'Mammogram / tomosynthesis') - the exact portal string is used as authoritative."
+  ]
+}

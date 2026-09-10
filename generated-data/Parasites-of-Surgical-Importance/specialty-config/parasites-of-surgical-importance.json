@@ -1,0 +1,41 @@
+{
+  "specialty": "Parasites of Surgical Importance",
+  "form": "Procedural and Interpretative Skills",
+  "caseType": "Parasites of Surgical Importance",
+  "mappedLeafIds": {
+    "Interpretative Skill": "dc995222-a9e8-4fbe-b0fc-f8ee7b24e675",
+    "Procedural skill": "35974d3a-de4e-4973-b839-514fd7516e57"
+  },
+  "quotaSource": {
+    "portalMinimums": {
+      "note": "The live portal's mapped minimums (and the FCPS PDF's own minimum counts) are NOT used to determine row counts for this dataset. Recorded here only for traceability.",
+      "interpretative": { "CBC": 5, "Imaging (USG/CT-scan/MRCP/X-ray abdomen/X-ray chest)": 5, "Peripheral blood film": 5, "Serological tests": 5 },
+      "procedural": {
+        "Endocystectomy": { "1": 1, "2": 1 },
+        "Endoscopic retrieval of CBD worms": { "1": 1, "2": 1 },
+        "PAIR": { "1": 1, "2": 1 },
+        "Pericystectomy": { "1": 1, "2": 1 }
+      }
+    },
+    "decision": "AUTHORITATIVE_SOURCE_IS_USER_PROVIDED_EXACT_COUNTS - per explicit user instruction, this dataset uses the user's own exact required counts (12 Interpretative + 4 Procedural = 16), NOT the portal's mapped minimums and NOT the reference PDF's minimum counts. The portal is used only to verify skill names, field schemas, and valid competence levels."
+  },
+  "skills": {
+    "Interpretative Skill": [
+      { "name": "CBC", "count": 3 },
+      { "name": "Imaging (USG/CT-scan/MRCP/X-ray abdomen/X-ray chest)", "count": 3 },
+      { "name": "Peripheral blood film", "count": 3 },
+      { "name": "Serological tests", "count": 3 }
+    ],
+    "Procedural skill": [
+      { "name": "Endocystectomy", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Endoscopic retrieval of CBD worms", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "PAIR", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Pericystectomy", "count": 1, "allowedLevels": ["1", "2"] }
+    ]
+  },
+  "notes": [
+    "All 8 skill labels matched the live portal exactly, verbatim, with zero spelling/whitespace differences - no ambiguity, no guessing required. See reports/mapping-match-report.json for the full confirmation.",
+    "This config is reusable for future date ranges of the same specialty - do not hardcode date-range-specific values here. NOTE: the counts recorded under 'skills' here are USER-AUTHORITATIVE EXACT COUNTS, not portal quota and not PDF-derived - re-confirm the correct source with the user before reusing this config unchanged for a future date range.",
+    "Each of the 4 Procedural skills has exactly 1 row despite 2 valid competence levels each - the level was NOT multiplied into extra rows. One portal-valid level was selected per skill (Endocystectomy=1, Endoscopic retrieval of CBD worms=1, PAIR=1, Pericystectomy=2) - see generated-rows-raw.json for the exact level used per row."
+  ]
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Results - BCPS Automation</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <header class="topnav" id="topnav"></header>
+  <main>
+    <div class="card">
+      <h1>Results</h1>
+      <label for="workbook-select">Workbook</label>
+      <select id="workbook-select" onchange="loadResults()"></select>
+      <label for="status-filter">Filter by status</label>
+      <select id="status-filter" onchange="renderTable()">
+        <option value="">All</option>
+        <option value="SUCCESS">Success</option>
+        <option value="FAILED">Failed</option>
+        <option value="SKIPPED_DUPLICATE">Skipped (duplicate)</option>
+        <option value="SKIPPED_INVALID">Skipped (invalid)</option>
+      </select>
+    </div>
+
+    <div class="card">
+      <div class="stat-grid" id="results-stats"></div>
+      <table>
+        <thead><tr><th>ExternalRowId</th><th>Excel Row</th><th>Status</th><th>Draft Reference</th><th>Attempt Time</th><th>Failed Field</th><th>Error</th><th>Screenshot</th></tr></thead>
+        <tbody id="results-body"></tbody>
+      </table>
+    </div>
+  </main>
+  <script src="js/common.js"></script>
+  <script>
+    renderNav('results.html');
+    let allResults = [];
+
+    async function loadWorkbooks() {
+      const data = await apiGet('/api/workbooks');
+      const sel = document.getElementById('workbook-select');
+      sel.innerHTML = data.workbooks.map((w) => `<option value="${escapeHtml(w.path)}">${escapeHtml(w.specialty)} - ${escapeHtml(w.relativePath)}</option>`).join('');
+      const last = sessionStorage.getItem('lastWorkbookPath');
+      if (last && [...sel.options].some((o) => o.value === last)) sel.value = last;
+      loadResults();
+    }
+
+    async function loadResults() {
+      const workbookPath = document.getElementById('workbook-select').value;
+      if (!workbookPath) return;
+      const data = await apiGet('/api/results?workbookPath=' + encodeURIComponent(workbookPath));
+      allResults = data.results;
+      const statsEl = document.getElementById('results-stats');
+      const counts = { SUCCESS: 0, FAILED: 0, SKIPPED_DUPLICATE: 0, SKIPPED_INVALID: 0 };
+      for (const r of allResults) counts[r.status] = (counts[r.status] ?? 0) + 1;
+      statsEl.innerHTML = `
+        <div class="stat-box"><div class="num">${allResults.length}</div><div class="lbl">Total attempts</div></div>
+        <div class="stat-box"><div class="num">${counts.SUCCESS}</div><div class="lbl">Success</div></div>
+        <div class="stat-box"><div class="num">${counts.FAILED}</div><div class="lbl">Failed</div></div>
+        <div class="stat-box"><div class="num">${counts.SKIPPED_DUPLICATE}</div><div class="lbl">Skipped (dup)</div></div>
+        <div class="stat-box"><div class="num">${counts.SKIPPED_INVALID}</div><div class="lbl">Skipped (invalid)</div></div>
+      `;
+      renderTable();
+    }
+
+    function renderTable() {
+      const filter = document.getElementById('status-filter').value;
+      const rows = filter ? allResults.filter((r) => r.status === filter) : allResults;
+      document.getElementById('results-body').innerHTML = rows
+        .map((r) => {
+          const badgeClass = r.status === 'SUCCESS' ? 'success' : r.status === 'FAILED' ? 'failed' : 'skipped';
+          return `<tr>
+            <td>${escapeHtml(r.externalRowId)}</td>
+            <td>${r.excelRow}</td>
+            <td><span class="badge ${badgeClass}">${escapeHtml(r.status)}</span></td>
+            <td>${escapeHtml(r.draftReference)}</td>
+            <td>${escapeHtml(r.attemptTime)}</td>
+            <td>${escapeHtml(r.failedField)}</td>
+            <td class="hint">${escapeHtml(r.errorMessage)}</td>
+            <td>${r.screenshotPath ? escapeHtml(r.screenshotPath) : ''}</td>
+          </tr>`;
+        })
+        .join('');
+    }
+
+    loadWorkbooks();
+  </script>
+</body>
+</html>

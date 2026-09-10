@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-09-10T06:25:48.973Z",
+  "totalTargeted": 19,
+  "totalProcessed": 3,
+  "repaired": 2,
+  "skipped": 0,
+  "failed": 1,
+  "results": [
+    {
+      "entryId": "2d944bf6-bec9-496a-87c2-86774c1e8a69",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "dafb89d1-d1b9-4b73-a6db-1ee40e672f0f",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "b4975eef-6510-49b8-9370-902ecccd0717",
+      "outcome": "FAILED",
+      "detail": "Repair failed for entry b4975eef-6510-49b8-9370-902ecccd0717: AMBIGUOUS_MATCH: opened entry's checked skill(s) [] do not match the expected target skill \"Intravenous cannulation\". Closed without saving. Refusing to guess."
+    }
+  ]
+}

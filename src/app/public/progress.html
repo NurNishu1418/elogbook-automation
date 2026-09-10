@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Progress - BCPS Automation</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <header class="topnav" id="topnav"></header>
+  <main>
+    <div class="card">
+      <h1>Progress</h1>
+      <label for="workbook-select">Workbook</label>
+      <select id="workbook-select" onchange="onWorkbookChange()"></select>
+    </div>
+
+    <div class="card">
+      <h2 id="job-state">No job running for this workbook.</h2>
+      <div class="stat-grid">
+        <div class="stat-box"><div class="num" id="p-processed">0</div><div class="lbl">Processed</div></div>
+        <div class="stat-box"><div class="num" id="p-success">0</div><div class="lbl">Successful</div></div>
+        <div class="stat-box"><div class="num" id="p-failed">0</div><div class="lbl">Failed</div></div>
+        <div class="stat-box"><div class="num" id="p-skipped">0</div><div class="lbl">Skipped</div></div>
+        <div class="stat-box"><div class="num" id="p-remaining">0</div><div class="lbl">Remaining</div></div>
+      </div>
+      <div class="progress-bar-outer"><div class="progress-bar-inner" id="progress-bar" style="width:0%"></div></div>
+      <p class="hint" id="current-row-info"></p>
+      <div id="systemic-warning" class="danger-banner" style="display:none;"></div>
+      <p><button class="btn btn-danger" onclick="stopJob()">Stop (safe - finishes current row, then halts)</button></p>
+    </div>
+
+    <div class="card">
+      <h2>Live log</h2>
+      <div class="log-box" id="log-box"></div>
+    </div>
+  </main>
+  <script src="js/common.js"></script>
+  <script>
+    renderNav('progress.html');
+    let pollTimer = null;
+
+    async function loadWorkbooks() {
+      const data = await apiGet('/api/workbooks');
+      const sel = document.getElementById('workbook-select');
+      sel.innerHTML = data.workbooks.map((w) => `<option value="${escapeHtml(w.path)}">${escapeHtml(w.specialty)} - ${escapeHtml(w.relativePath)}</option>`).join('');
+      const last = sessionStorage.getItem('lastWorkbookPath');
+      if (last && [...sel.options].some((o) => o.value === last)) sel.value = last;
+      onWorkbookChange();
+    }
+
+    function onWorkbookChange() {
+      if (pollTimer) clearInterval(pollTimer);
+      poll();
+      pollTimer = setInterval(poll, 1500);
+    }
+
+    async function poll() {
+      const workbookPath = document.getElementById('workbook-select').value;
+      if (!workbookPath) return;
+      const status = await apiGet('/api/upload/status?workbookPath=' + encodeURIComponent(workbookPath));
+      const p = status.progress ?? {};
+
+      document.getElementById('job-state').textContent = status.running
+        ? 'Job running...'
+        : p.done
+        ? 'Last run finished.'
+        : 'No job currently running for this workbook.';
+
+      document.getElementById('p-processed').textContent = p.processed ?? 0;
+      document.getElementById('p-success').textContent = p.successful ?? 0;
+      document.getElementById('p-failed').textContent = p.failed ?? 0;
+      document.getElementById('p-skipped').textContent = p.skipped ?? 0;
+      document.getElementById('p-remaining').textContent = p.remaining ?? 0;
+
+      const total = p.totalEligible || 1;
+      const pct = Math.min(100, Math.round(((p.processed ?? 0) / total) * 100));
+      document.getElementById('progress-bar').style.width = pct + '%';
+
+      document.getElementById('current-row-info').textContent = p.currentExternalRowId
+        ? `Current: ${p.currentExternalRowId} - ${p.currentSkill ?? ''} (${p.currentStatus ?? ''})`
+        : '';
+
+      const warnBox = document.getElementById('systemic-warning');
+      if (p.stoppedForSystemicIssue) {
+        warnBox.style.display = 'block';
+        warnBox.textContent = 'Stopped automatically after repeated consecutive failures - this looks like a systemic issue (e.g. portal outage, permission problem). Check the log below before retrying.';
+      } else if (p.blocked) {
+        warnBox.style.display = 'block';
+        warnBox.textContent = 'Stopped: ' + p.blockedReason;
+      } else if (p.loginFailed) {
+        warnBox.style.display = 'block';
+        warnBox.textContent = 'Login failed: ' + p.reason;
+      } else {
+        warnBox.style.display = 'none';
+      }
+
+      if (status.jobInfo) {
+        document.getElementById('log-box').textContent = status.jobInfo.logs.join('');
+        document.getElementById('log-box').scrollTop = document.getElementById('log-box').scrollHeight;
+      }
+    }
+
+    async function stopJob() {
+      const workbookPath = document.getElementById('workbook-select').value;
+      if (!workbookPath) return;
+      await apiPost('/api/upload/stop', { workbookPath });
+    }
+
+    loadWorkbooks();
+  </script>
+</body>
+</html>

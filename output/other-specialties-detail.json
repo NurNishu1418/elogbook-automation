@@ -1,0 +1,305 @@
+{
+  "generatedAt": "2026-09-10T07:49:28.737Z",
+  "count": 13,
+  "entries": [
+    {
+      "entryId": "df087479-c767-4d86-a73c-4d8671b33649",
+      "leafId": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
+      "approvedStatus": "Draft",
+      "submitInd": 0,
+      "competencyGroup": [],
+      "details": {
+        "entry_setup_master_id": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
+        "form": "Procedural and Interpretative Skills",
+        "caseType": "Thoracic and Cardiovascular Surgery",
+        "skillType": "Interpretative Skill",
+        "Date of Assignment": "2026-02-26",
+        "Name of the Patient": "Yasmin Haque Khan",
+        "Patient Reg No": "3830/26",
+        "Date of Birth": "1957-07-31",
+        "Age": "68",
+        "Indication/Investigation/Findings/Diagnosis": "Peripheral arterial disease.",
+        "Interpretations": "Imaging supports the clinical impression of peripheral arterial disease.",
+        "Brief Description": "Color Doppler / Duplex imaging /MRA / MRV / DSA for peripheral arterial disease."
+      }
+    },
+    {
+      "entryId": "b2ce2ff2-b27c-4c96-bedb-350aeb04186a",
+      "leafId": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
+      "approvedStatus": "Draft",
+      "submitInd": 0,
+      "competencyGroup": [],
+      "details": {
+        "entry_setup_master_id": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
+        "form": "Procedural and Interpretative Skills",
+        "caseType": "Thoracic and Cardiovascular Surgery",
+        "skillType": "Interpretative Skill",
+        "Date of Assignment": "2026-03-06",
+        "Name of the Patient": "Zahid Uddin Chowdhury",
+        "Patient Reg No": "6134/26",
+        "Date of Birth": "1978-11-24",
+        "Age": "47",
+        "Indication/Investigation/Findings/Diagnosis": "Arterial embolism.",
+        "Interpretations": "Imaging supports the clinical impression of arterial embolism.",
+        "Brief Description": "Angiogram/CT angiogram for arterial embolism."
+      }
+    },
+    {
+      "entryId": "c4bebc76-0305-4729-a188-6cc2ea518a23",
+      "leafId": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
+      "approvedStatus": "Draft",
+      "submitInd": 0,
+      "competencyGroup": [],
+      "details": {
+        "entry_setup_master_id": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
+        "form": "Procedural and Interpretative Skills",
+        "caseType": "Thoracic and Cardiovascular Surgery",
+        "skillType": "Interpretative Skill",
+        "Date of Assignment": "2026-03-06",
+        "Name of the Patient": "Zahid Uddin Chowdhury",
+        "Patient Reg No": "6134/26",
+        "Date of Birth": "1978-11-24",
+        "Age": "47",
+        "Indication/Investigation/Findings/Diagnosis": "Arterial embolism.",
+        "Interpretations": "Imaging supports the clinical impression of arterial embolism.",
+        "Brief Description": "Angiogram/CT angiogram for arterial embolism."
+      }
+    },
+    {
+      "entryId": "95456854-71bf-4680-bcf5-273c7bff8c36",
+      "leafId": "0e1909df-9f5b-4b3f-b8f3-16885cdbeab5",
+      "approvedStatus": "Draft",
+      "submitInd": 0,
+      "competencyGroup": [
+        {
+          "skill": "Construction of feeding gastrostomy / Jejunostomy",
+          "level1": false,
+          "level2": false,
+          "level3": false,
+          "level4": false,
+          "status": true
+        }
+      ],
+      "details": {
+        "entry_setup_master_id": "0e1909df-9f5b-4b3f-b8f3-16885cdbeab5",
+        "form": "Procedural and Interpretative Skills",
+        "caseType": "Procedural Nutrition",
+        "skillType": "Procedural skill",
+        "Date of Assignment": "2026-02-23",
+        "Name of the Patient": "Fatema Uddin Sarkar",
+        "Patient Reg No": "1313/71",
+        "Date of Birth": "1982-11-20",
+        "Age": "43",
+        "Diagnosis/Problems": "Malnutrition in surgical patient.",
+        "Brief Procedural Notes": "Feeding access constructed and secured with confirmation of luminal patency and absence of leak.",
+        "Brief Description": "Construction of feeding gastrostomy / Jejunostomy for malnutrition in surgical patient.",
+        "Competency Group and Details": false
+      }
+    },
+    {
+      "entryId": "42d27c96-ad4e-41c5-9d13-8db4095833f9",
+      "leafId": "0e1909df-9f5b-4b3f-b8f3-16885cdbeab5",
+      "approvedStatus": "Draft",
+      "submitInd": 0,
+      "competencyGroup": [
+        {
+          "skill": "Venous cannulation for central and peripheral parenteral feeding",
+          "level1": false,
+          "level2": false,
+          "level3": false,
+          "level4": false,
+          "status": true
+        }
+      ],
+      "details": {
+        "entry_setup_master_id": "0e1909df-9f5b-4b3f-b8f3-16885cdbeab5",
+        "form": "Procedural and Interpretative Skills",
+        "caseType": "Procedural Nutrition",
+        "skillType": "Procedural skill",
+        "Date of Assignment": "2026-06-05",
+        "Name of the Patient": "Mitu Haque Rahman",
+        "Patient Reg No": "9964/73",
+        "Date of Birth": "1954-03-11",
+        "Age": "72",
+        "Diagnosis/Problems": "Malnutrition in surgical patient.",
+        "Brief Procedural Notes": "Venous access established under aseptic technique for planned parenteral nutritional support.",
+        "Brief Description": "Venous cannulation for central and peripheral parenteral feeding for malnutrition in surgical patient.",
+        "Competency Group and Details": false
+      }
+    },
+    {
+      "entryId": "fd5e7c1e-be81-48a4-a65a-90be12b08807",
+      "leafId": "0e1909df-9f5b-4b3f-b8f3-16885cdbeab5",
+      "approvedStatus": "Draft",
+      "submitInd": 0,
+      "competencyGroup": [
+        {
+          "skill": "Administration of nasogastric / nasojejunal feeding",
+          "level1": false,
+          "level2": false,
+          "level3": false,
+          "level4": true,
+          "status": true
+        }
+      ],
+      "details": {
+        "entry_setup_master_id": "0e1909df-9f5b-4b3f-b8f3-16885cdbeab5",
+        "form": "Procedural and Interpretative Skills",
+        "caseType": "Procedural Nutrition",
+        "skillType": "Procedural skill",
+        "Date of Assignment": "2026-04-02",
+        "Name of the Patient": "Sabina Hossain Chowdhury",
+        "Patient Reg No": "8128/65",
+        "Date of Birth": "2000-07-01",
+        "Age": "25",
+        "Diagnosis/Problems": "Upper GI obstruction requiring enteral support.",
+        "Brief Procedural Notes": "Enteral feeding tube positioned, placement confirmed, and feeding initiated according to plan.",
+        "Brief Description": "Administration of nasogastric / nasojejunal feeding for upper gi obstruction requiring enteral support.",
+        "Competency Group and Details": false
+      }
+    },
+    {
+      "entryId": "c99a205b-3211-4d6a-a203-84575a37bf0b",
+      "leafId": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
+      "approvedStatus": "Draft",
+      "submitInd": 0,
+      "competencyGroup": [],
+      "details": {
+        "entry_setup_master_id": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
+        "form": "Procedural and Interpretative Skills",
+        "caseType": "Thoracic and Cardiovascular Surgery",
+        "skillType": "Interpretative Skill",
+        "Date of Assignment": "2026-02-18",
+        "Name of the Patient": "Masud Karim Sarkar",
+        "Patient Reg No": "7843/05",
+        "Date of Birth": "1960-12-03",
+        "Age": "65",
+        "Indication/Investigation/Findings/Diagnosis": "Peripheral arterial disease.",
+        "Interpretations": "Imaging supports the clinical impression of peripheral arterial disease.",
+        "Brief Description": "Angiogram/CT angiogram for peripheral arterial disease."
+      }
+    },
+    {
+      "entryId": "cf03e34e-4858-47b2-80c1-9921690ee3ce",
+      "leafId": "df48137d-6756-4f13-bf11-5874fe4244bc",
+      "approvedStatus": "Draft",
+      "submitInd": 0,
+      "competencyGroup": [],
+      "details": {
+        "entry_setup_master_id": "df48137d-6756-4f13-bf11-5874fe4244bc",
+        "form": "Procedural and Interpretative Skills",
+        "caseType": "Gastrointestinal & HepatoBiliary System and Pancreas",
+        "skillType": "Interpretative Skill",
+        "Date of Assignment": "2026-05-31",
+        "Name of the Patient": "Md. Jahangir Sarkar",
+        "Patient Reg No": "3395/15",
+        "Date of Birth": "2006-04-20",
+        "Age": "20",
+        "Indication/Investigation/Findings/Diagnosis": "Suspected acute pancreatitis.",
+        "Interpretations": "Serum amylase markedly elevated, 3x upper limit.",
+        "Brief Description": "Biochemical investigation for pancreatitis."
+      }
+    },
+    {
+      "entryId": "17a68f80-f8b2-4c10-980d-5ed55b32df6d",
+      "leafId": "df48137d-6756-4f13-bf11-5874fe4244bc",
+      "approvedStatus": "Draft",
+      "submitInd": 0,
+      "competencyGroup": [],
+      "details": {
+        "entry_setup_master_id": "df48137d-6756-4f13-bf11-5874fe4244bc",
+        "form": "Procedural and Interpretative Skills",
+        "caseType": "Gastrointestinal & HepatoBiliary System and Pancreas",
+        "skillType": "Interpretative Skill",
+        "Date of Assignment": "2026-05-12",
+        "Name of the Patient": "Abdul Sarkar",
+        "Patient Reg No": "9316/57",
+        "Date of Birth": "2008-01-06",
+        "Age": "18",
+        "Indication/Investigation/Findings/Diagnosis": "Deranged LFTs; suspected obstructive jaundice.",
+        "Interpretations": "Elevated bilirubin and alkaline phosphatase.",
+        "Brief Description": "Biochemical work-up for obstructive jaundice."
+      }
+    },
+    {
+      "entryId": "2f57c6aa-db40-4cfe-9413-8de5f716267e",
+      "leafId": "f4a5140c-6666-4137-9e62-d1223d57bac0",
+      "approvedStatus": "Draft",
+      "submitInd": 0,
+      "competencyGroup": [],
+      "details": {
+        "entry_setup_master_id": "f4a5140c-6666-4137-9e62-d1223d57bac0",
+        "form": "Patient Management",
+        "caseType": "Out-Patient Management",
+        "skillType": "Out-Patient Management",
+        "Date of Assignment": "2026-06-02",
+        "Name of the Patient": "Farzana Yasmin",
+        "Patient Reg No": "1791/10",
+        "Date of Birth": "1956-10-26",
+        "Age": "70",
+        "Diagnosis/Problems": "Benign Prostatic Hyperplasia; Transvesical prostatectomy was done under SAB",
+        "Brief Description": "Under spinal anesthesia, the bladder was opened through a lower midline incision and the adenoma was enucleated digitally through the vesical neck. Hemostasis at the prostatic fossa was secured, a three-way Foley catheter was placed for continuous bladder irrigation, and the bladder wall was closed in layers."
+      }
+    },
+    {
+      "entryId": "206ff05e-3ed8-4aae-ab69-c39675cd708d",
+      "leafId": "f4a5140c-6666-4137-9e62-d1223d57bac0",
+      "approvedStatus": "Draft",
+      "submitInd": 0,
+      "competencyGroup": [],
+      "details": {
+        "entry_setup_master_id": "f4a5140c-6666-4137-9e62-d1223d57bac0",
+        "form": "Patient Management",
+        "caseType": "Out-Patient Management",
+        "skillType": "Out-Patient Management",
+        "Date of Assignment": "2026-04-18",
+        "Name of the Patient": "Morjina Begum",
+        "Patient Reg No": "7468/84",
+        "Date of Birth": "2000-11-03",
+        "Age": "26",
+        "Diagnosis/Problems": "Perianal Abscess; Incision and drainage was done under LA",
+        "Brief Description": "Under local anesthesia, a cruciate incision was made over the point of maximum fluctuance and the abscess cavity was drained of purulent material. The cavity was explored digitally to break loculations, irrigated with saline, and loosely packed with a wick, left open to heal by secondary intention."
+      }
+    },
+    {
+      "entryId": "9a3f210c-952f-4e83-9144-a5af7ab234fb",
+      "leafId": "f4a5140c-6666-4137-9e62-d1223d57bac0",
+      "approvedStatus": "Draft",
+      "submitInd": 0,
+      "competencyGroup": [],
+      "details": {
+        "entry_setup_master_id": "f4a5140c-6666-4137-9e62-d1223d57bac0",
+        "form": "Patient Management",
+        "caseType": "Out-Patient Management",
+        "skillType": "Out-Patient Management",
+        "Date of Assignment": "2026-01-31",
+        "Name of the Patient": "Ruma Aktar",
+        "Patient Reg No": "6305/20",
+        "Date of Birth": "1974-07-06",
+        "Age": "52",
+        "Diagnosis/Problems": "Hydrocele; Jaboulay's hydrocelectomy was done under LA",
+        "Brief Description": "Under local anesthesia, a scrotal incision was made and the tunica vaginalis was delivered and opened, releasing clear straw-colored fluid. The sac was everted behind the testis and cord structures and sutured (Jaboulay's procedure). Hemostasis was secured and the wound was closed in layers."
+      }
+    },
+    {
+      "entryId": "f7050d99-e9ea-4dba-a06f-b81f20cb5718",
+      "leafId": "f4a5140c-6666-4137-9e62-d1223d57bac0",
+      "approvedStatus": "Draft",
+      "submitInd": 0,
+      "competencyGroup": [],
+      "details": {
+        "entry_setup_master_id": "f4a5140c-6666-4137-9e62-d1223d57bac0",
+        "form": "Patient Management",
+        "caseType": "Out-Patient Management",
+        "skillType": "Out-Patient Management",
+        "Date of Assignment": "2026-01-31",
+        "Name of the Patient": "Ruma Aktar",
+        "Patient Reg No": "6305/20",
+        "Date of Birth": "1974-07-06",
+        "Age": "52",
+        "Diagnosis/Problems": "Hydrocele; Jaboulay's hydrocelectomy was done under LA",
+        "Brief Description": "Under local anesthesia, a scrotal incision was made and the tunica vaginalis was delivered and opened, releasing clear straw-colored fluid. The sac was everted behind the testis and cord structures and sutured (Jaboulay's procedure). Hemostasis was secured and the wound was closed in layers."
+      }
+    }
+  ]
+}

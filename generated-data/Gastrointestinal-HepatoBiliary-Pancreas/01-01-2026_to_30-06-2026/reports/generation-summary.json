@@ -1,0 +1,275 @@
+{
+  "generatedAt": "2026-09-09T05:04:12.594Z",
+  "specialty": "Gastrointestinal & HepatoBiliary System and Pancreas",
+  "dateRange": {
+    "label": "01-01-2026_to_30-06-2026",
+    "from": "2026-01-01",
+    "to": "2026-06-30"
+  },
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Gastrointestinal-HepatoBiliary-Pancreas\\01-01-2026_to_30-06-2026\\generated\\BCPS_Logbook_Gastrointestinal_HepatoBiliary_Pancreas_01-01-2026_to_30-06-2026.xlsx",
+  "quotaDecision": {
+    "sourceDocumentTotal": 113,
+    "portalAuthoritativeTotal": 200,
+    "used": "portalAuthoritative",
+    "reason": "User explicitly instructed to use the live portal's server-computed total_min_target (69 Interpretative + 131 Procedural = 200) for this dataset, overriding the source-document total of 113. Both totals are preserved in quota-comparison-report.json."
+  },
+  "totals": {
+    "interpretative": 69,
+    "procedural": 131,
+    "grandTotal": 200
+  },
+  "skillsGenerated": [
+    {
+      "skill": "Interpretative Skill > Biochemical investigations",
+      "requested": 10,
+      "actual": 10,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > CT scan, ERCP, MRCP",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Contrast X-rays (Barium swallow, Barium meal and follow through, Barium enema)",
+      "requested": 10,
+      "actual": 10,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Histopathological analysis",
+      "requested": 10,
+      "actual": 10,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Immunohistochemistry",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Lower gastrointestinal endoscopy",
+      "requested": 2,
+      "actual": 2,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Plain X-ray abdomen",
+      "requested": 10,
+      "actual": 10,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Tumor marker",
+      "requested": 10,
+      "actual": 10,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > USG of whole abdomen/ HBS",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Upper gastrointestinal endoscopy",
+      "requested": 2,
+      "actual": 2,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Abdominal paracentesis",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Abdominal rectopexy",
+      "requested": 2,
+      "actual": 2,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Abdominoperineal resection",
+      "requested": 2,
+      "actual": 2,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Adhesionolysis",
+      "requested": 2,
+      "actual": 2,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Appendicectomy (Open and laparoscopic)",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Choledocholithotomy",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Colonoscopy",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Distal pancreatectomy",
+      "requested": 2,
+      "actual": 2,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Drainage of anorectal abscesses",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Fistulotomy/Fistulectomy/Seton insertion",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Gastrectomy",
+      "requested": 2,
+      "actual": 2,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Gastric bypass",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Hepatic resection",
+      "requested": 2,
+      "actual": 2,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Insertion of nasogastric tube",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Laparoscopic cholecystectomy",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Laparoscopy",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Laparotomy",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Lateral internal sphincterotomy",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Open cholecystectomy",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Open hemorrhoidectomy",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Pancreatoduodenectomy",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Pancreatojejunostomy (LPJ)",
+      "requested": 2,
+      "actual": 2,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Proctosigmoidoscopy",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Repair of perforation of hollow viscera",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Resection anastomosis of bowel",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Splenectomy",
+      "requested": 2,
+      "actual": 2,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Stapled hemorrhoidopexy",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Stoma closure (ileostomy & colostomy)",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Stoma creation (ileostomy & colostomy)",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Triple bypass",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Upper gastrointestinal endoscopy",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    }
+  ],
+  "unmatchedSkills": [],
+  "liveActionsTaken": "NONE - no login, no browser session, no draft created, no Save as Draft, no Final Submit.",
+  "originalMappingWorkbookUnchanged": true,
+  "basicSurgicalSkillDatasetUnchanged": true,
+  "reviewStatus": "PENDING MANUAL REVIEW",
+  "uploadStatus": "NOT UPLOADED"
+}

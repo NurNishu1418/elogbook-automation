@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-09-10T07:52:00.000Z",
+  "scope": "READ-ONLY code review of shared automation files (portalRowLocator.ts, repair-procedural-levels.ts, src/auth/login.ts). No files modified, no portal writes performed.",
+  "findings": [
+    {
+      "area": "row targeting / pagination settling",
+      "status": "Recently hardened, but one hardcoded assumption remains",
+      "detail": "resolveFilteredListPosition and openEntryByExactPosition assume the portal's per-page size is fixed at 10 (paginate_per_page=10 in the URL, and (page-1)*10+1 used to derive the expected range-start for verification). This was confirmed live (the endpoint ignores a larger requested per_page and always returns 10), but it is not re-verified defensively - if the portal's default page size ever changes server-side, the range-check would start failing closed (throwing, not silently corrupting) rather than misbehaving, which is the safe direction, but it would look like a false 'page-transition failed' error until someone notices the assumption is stale."
+    },
+    {
+      "area": "session recovery",
+      "status": "Only checked once, at script start",
+      "detail": "ensureLoggedIn() runs a single check at the very beginning of a script's browser session and re-logs in if needed, but nothing re-checks session validity mid-run. A long batch (e.g. 17 sequential repairs, each involving multiple page loads) that runs long enough for the session to expire mid-way would likely see subsequent page actions silently redirect to the login page or fail in an un-anticipated way, rather than being caught and re-authenticated. Not exercised or reproduced in this review - flagged as a latent risk given batch runtimes are already multi-minute."
+    },
+    {
+      "area": "exact entry identity",
+      "status": "Layered and solid",
+      "detail": "Position resolution (API-index-based) + pre-click row-text check (Case Type + Skill Type) + post-open checked-skill verification + frozen-field verification (RegNo/Name/AssignmentDate) together give 4 independent identity signals before any Save is allowed. No single point of failure identified."
+    },
+    {
+      "area": "duplicate protection",
+      "status": "Detection exists, prevention does not",
+      "detail": "Nothing in the live repair path checks whether an action could create a duplicate record (not directly applicable since the tool only ever edits existing entries via 'Edit', never 'Add'). Existing-duplicate DETECTION is manual/script-based (vascular-reconciliation-audit.ts's pairwise comparison), not integrated into the live repair tool itself - a duplicate pair would not automatically block or flag itself if a repair were attempted against one of its members. This review found 2 new duplicate pairs (Thoracic b2ce2ff2/c4bebc76 - already known; Out-Patient Management 9a3f210c/f7050d99 - new) purely via manual inspection, not via any tooling safeguard."
+    },
+    {
+      "area": "post-save verification",
+      "status": "Solid",
+      "detail": "repairOneEntry re-fetches the exact entry via the portal's own read API after Save as Draft and independently compares the resulting level state and every other snapshotted field against the pre-save values. No gaps identified."
+    },
+    {
+      "area": "error handling in position resolution",
+      "status": "Fails safe, but conflates two different failure modes",
+      "detail": "resolveFilteredListPosition treats any non-200 response or malformed body as 'entry not found on this page' and simply breaks the loop, the same as a genuine not-found. A transient network error or a temporary 5xx from the portal would therefore be reported identically to 'this entry doesn't exist in the filtered Draft list', causing the caller to abort with AMBIGUOUS_MATCH rather than retry. This is safe (never guesses, never proceeds on bad data) but could cause an unnecessary abort under flaky network conditions rather than a transient-aware retry."
+    }
+  ],
+  "newDiagnosticFilesAddedThisSession": [
+    "src/mapper/other-specialties-inventory.ts",
+    "src/mapper/other-specialties-detail-fetch.ts"
+  ],
+  "filesReviewedNotModified": [
+    "src/uploader/portalRowLocator.ts",
+    "src/uploader/repair-procedural-levels.ts",
+    "src/auth/login.ts",
+    "src/utils/browser.ts"
+  ],
+  "portalWritesPerformedDuringThisReview": 0
+}

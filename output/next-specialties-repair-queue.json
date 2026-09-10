@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-09-10T07:50:00.000Z",
+  "purpose": "ID-based queue for a future live-write pass, prepared read-only. Zero portal writes were performed to produce this file.",
+  "autoRepairQueue": {
+    "note": "EMPTY. Of the 13 in-scope entries, none qualify for a deterministic or HIGH-confidence auto-repair: 5 already need no change, 2 need a human level decision, 4 are Vascular-routing-bug holds, and 2 are a duplicate-pair hold. There is nothing left for a live-write agent to safely act on in this specialty set without further human input.",
+    "entries": []
+  },
+  "humanLevelDecisionQueue": [
+    {
+      "entryId": "95456854-71bf-4680-bcf5-273c7bff8c36",
+      "caseType": "Procedural Nutrition",
+      "checkedSkill": "Construction of feeding gastrostomy / Jejunostomy",
+      "allowedLevels": ["2", "3"],
+      "currentLevelState": "none selected"
+    },
+    {
+      "entryId": "42d27c96-ad4e-41c5-9d13-8db4095833f9",
+      "caseType": "Procedural Nutrition",
+      "checkedSkill": "Venous cannulation for central and peripheral parenteral feeding",
+      "allowedLevels": ["2", "3"],
+      "currentLevelState": "none selected"
+    }
+  ],
+  "portalBugHoldQueue": [
+    { "entryId": "df087479-c767-4d86-a73c-4d8671b33649", "patientRegNo": "3830/26", "note": "Vascular content misfiled under Thoracic leaf due to confirmed routing bug." },
+    { "entryId": "b2ce2ff2-b27c-4c96-bedb-350aeb04186a", "patientRegNo": "6134/26", "note": "Vascular content misfiled under Thoracic leaf; also duplicate of c4bebc76." },
+    { "entryId": "c4bebc76-0305-4729-a188-6cc2ea518a23", "patientRegNo": "6134/26", "note": "Vascular content misfiled under Thoracic leaf; also duplicate of b2ce2ff2." },
+    { "entryId": "c99a205b-3211-4d6a-a203-84575a37bf0b", "patientRegNo": "7843/05", "note": "Vascular content misfiled under Thoracic leaf due to confirmed routing bug." }
+  ],
+  "otherHoldQueue": [
+    { "entryId": "9a3f210c-952f-4e83-9144-a5af7ab234fb", "patientRegNo": "6305/20", "note": "Exact duplicate of f7050d99 (Out-Patient Management, hydrocele/Jaboulay's). Human decision needed on which to keep; never auto-delete/merge." },
+    { "entryId": "f7050d99-e9ea-4dba-a06f-b81f20cb5718", "patientRegNo": "6305/20", "note": "Exact duplicate of 9a3f210c." }
+  ],
+  "alreadyCorrectNoActionNeeded": [
+    "fd5e7c1e-be81-48a4-a65a-90be12b08807",
+    "cf03e34e-4858-47b2-80c1-9921690ee3ce",
+    "17a68f80-f8b2-4c10-980d-5ed55b32df6d",
+    "2f57c6aa-db40-4cfe-9413-8de5f716267e",
+    "206ff05e-3ed8-4aae-ab69-c39675cd708d"
+  ]
+}

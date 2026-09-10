@@ -1,0 +1,73 @@
+{
+  "specialty": "Paediatric Surgery",
+  "form": "Procedural and Interpretative Skills",
+  "caseType": "Paediatric Surgery",
+  "mappedLeafIds": {
+    "Interpretative Skill": "3a8b2319-3c01-4597-b166-e2580942a40d",
+    "Procedural skill": "6599f61d-fc6d-4031-a596-ec85709837a8"
+  },
+  "quotaSource": {
+    "portalMinimums": {
+      "note": "The live portal's mapped minimums are NOT used to determine row counts for this dataset. Recorded here only for traceability.",
+      "interpretative": { "Contrast X-rays": 5, "Histopathology": 5, "Invertogram": 5, "Plain X-ray Abdomen": 5, "Plain X-ray KUB": 5, "USG": 5, "Urine analysis": 5, "X-ray chest P/A": 5 },
+      "procedural": {
+        "Central venous line insertion": { "1": 1, "2": 1, "3": 1 },
+        "Chordee correction in hypospadias": { "1": 1, "2": 1 },
+        "Circumcision": { "2": 3, "3": 2 },
+        "Cutback procedure for ectopic stenosed anus": { "1": 1, "2": 1 },
+        "Drainage of abscess": { "2": 3, "3": 2 },
+        "Herniotomy": { "2": 3, "3": 2 },
+        "Hydrocelectomy": { "2": 3, "3": 2 },
+        "Intraosseous infusion": { "2": 1, "3": 1 },
+        "Lymph node biopsy": { "2": 3, "3": 2 },
+        "Orchidopexy": { "1": 1, "2": 1 },
+        "Pyloromyotomy": { "1": 1, "2": 1 },
+        "Suprapubic catheterization": { "2": 1, "3": 1 },
+        "Temporary colostomy": { "1": 1, "2": 1 },
+        "Urethroplasty": { "1": 1, "2": 1 }
+      }
+    },
+    "decision": "AUTHORITATIVE_SOURCE_IS_USER_PROVIDED_EXACT_COUNTS - per explicit user instruction, this dataset uses the user's own exact required per-skill counts, NOT the portal's mapped minimums and NOT the reference PDF. The portal is used only to verify skill names, field schemas, and valid competence levels.",
+    "arithmeticDiscrepancyResolved": {
+      "issue": "The user's task prompt stated 'Procedural total = EXACTLY 24 rows' and 'GRAND TOTAL = EXACTLY 48 ROWS', but the itemized per-skill Procedural counts the user provided sum to 25, not 24 (verified programmatically: 2+1+3+1+3+3+3+1+3+1+1+1+1+1 = 25).",
+      "flaggedToUser": "The discrepancy was reported to the user with both options (use itemized sum of 25, or specify which single skill's count to reduce) before any generation occurred.",
+      "userResponse": "User replied 'do', confirming to proceed. Consistent with the precedent set earlier in this same project (the Basic Surgical Skill dataset, where an analogous stated-total-vs-itemized-sum discrepancy was resolved by trusting the itemized breakdown), the itemized per-skill counts were treated as authoritative.",
+      "finalCounts": "Interpretative = 24 (matches stated total, 8 skills x 3 = 24, no discrepancy). Procedural = 25 (itemized sum, overriding the stated '24'). Grand Total = 49 (overriding the stated '48')."
+    }
+  },
+  "skills": {
+    "Interpretative Skill": [
+      { "name": "Contrast X-rays", "count": 3 },
+      { "name": "Histopathology", "count": 3 },
+      { "name": "Invertogram", "count": 3 },
+      { "name": "Plain X-ray Abdomen", "count": 3 },
+      { "name": "Plain X-ray KUB", "count": 3 },
+      { "name": "USG", "count": 3 },
+      { "name": "Urine analysis", "count": 3 },
+      { "name": "X-ray chest P/A", "count": 3 }
+    ],
+    "Procedural skill": [
+      { "name": "Central venous line insertion", "count": 2, "allowedLevels": ["1", "2", "3"] },
+      { "name": "Chordee correction in hypospadias", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Circumcision", "count": 3, "allowedLevels": ["2", "3"] },
+      { "name": "Cutback procedure for ectopic stenosed anus", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Drainage of abscess", "count": 3, "allowedLevels": ["2", "3"] },
+      { "name": "Herniotomy", "count": 3, "allowedLevels": ["2", "3"] },
+      { "name": "Hydrocelectomy", "count": 3, "allowedLevels": ["2", "3"] },
+      { "name": "Intraosseous infusion", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "Lymph node biopsy", "count": 3, "allowedLevels": ["2", "3"] },
+      { "name": "Orchidopexy", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Pyloromyotomy", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Suprapubic catheterization", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "Temporary colostomy", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Urethroplasty", "count": 1, "allowedLevels": ["1", "2"] }
+    ]
+  },
+  "notes": [
+    "All 22 skill labels matched the live portal exactly, verbatim, with zero spelling/whitespace differences - no ambiguity, no guessing required. See reports/mapping-match-report.json for the full confirmation.",
+    "Note: 'Intraosseous infusion' allowed competence levels are 2,3 per both the user's list and the portal (not 1,2 - the user's competency-rules section listed 2,3 for this skill, matching the portal; an earlier restatement elsewhere in the prompt was double-checked against the portal and 2,3 is correct and used here).",
+    "This config is reusable for future date ranges of the same specialty - do not hardcode date-range-specific values here. NOTE: the counts recorded under 'skills' here are USER-AUTHORITATIVE EXACT COUNTS (itemized breakdown, per the resolved arithmetic discrepancy above), not portal quota - re-confirm the correct source and totals with the user before reusing this config unchanged for a future date range.",
+    "For each Procedural skill with count > 1 and more than one allowed competence level, individual rows were assigned varying portal-valid levels (never multiplying the row count) - see generated-rows-raw.json for the exact level used per row.",
+    "Patient age/DOB were deliberately made condition-specific (e.g. neonatal/infant age for pyloromyotomy, anorectal malformation, and temporary colostomy; toddler age for hernia/hydrocele/orchidopexy; a wider childhood age range for circumcision, abscess drainage, and lymph node biopsy) per the user's explicit 'CRITICAL' paediatric age realism instruction - not a generic age spread."
+  ]
+}

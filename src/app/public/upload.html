@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Upload Workbook - BCPS Automation</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <header class="topnav" id="topnav"></header>
+  <main>
+    <div class="card">
+      <h1>Upload Workbook</h1>
+      <p class="hint">Choose Excel &rarr; Dry Run &rarr; Review &rarr; (only if you choose to) Save as Draft. There is no Final Submit anywhere.</p>
+
+      <label for="workbook-select">Choose Excel File</label>
+      <select id="workbook-select"></select>
+      <p><button class="btn btn-secondary" onclick="loadWorkbooks()">Refresh list</button></p>
+
+      <p><button class="btn btn-primary" id="dryrun-btn" onclick="runDryRun()">Run Dry Validation</button></p>
+      <p id="dryrun-status" class="hint"></p>
+    </div>
+
+    <div class="card" id="summary-card" style="display:none;">
+      <h2>Validation summary</h2>
+      <div class="stat-grid">
+        <div class="stat-box"><div class="num" id="s-total">0</div><div class="lbl">Total rows</div></div>
+        <div class="stat-box"><div class="num" id="s-valid">0</div><div class="lbl">Valid</div></div>
+        <div class="stat-box"><div class="num" id="s-invalid">0</div><div class="lbl">Invalid</div></div>
+        <div class="stat-box"><div class="num" id="s-done">0</div><div class="lbl">Already uploaded</div></div>
+        <div class="stat-box"><div class="num" id="s-remaining">0</div><div class="lbl">Not yet uploaded</div></div>
+      </div>
+    </div>
+
+    <div class="card" id="review-card" style="display:none;">
+      <h2>Review rows</h2>
+      <div style="max-height: 400px; overflow-y: auto;">
+        <table>
+          <thead><tr><th></th><th>Row</th><th>ExternalRowId</th><th>Combination</th><th>Status</th><th>Notes</th></tr></thead>
+          <tbody id="review-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card" id="action-card" style="display:none;">
+      <h2>Mode &amp; scope</h2>
+      <label for="mode-select">Mode</label>
+      <select id="mode-select" onchange="onModeChange()">
+        <option value="dry-run" selected>Dry Run (default, safe - no login, no browser)</option>
+        <option value="execute">Save as Draft (creates real drafts on the live portal)</option>
+      </select>
+
+      <label for="scope-select">Scope</label>
+      <select id="scope-select">
+        <option value="not-yet-uploaded" selected>Not yet uploaded rows only</option>
+        <option value="all-valid">All valid rows</option>
+        <option value="selected">Selected rows only (checked above)</option>
+        <option value="range">Row range</option>
+        <option value="failed-only">Failed rows only (retry)</option>
+      </select>
+
+      <div id="range-inputs" style="display:none;">
+        <label for="range-start">From Excel row</label>
+        <input id="range-start" type="number" />
+        <label for="range-end">To Excel row</label>
+        <input id="range-end" type="number" />
+      </div>
+
+      <div id="execute-warning" class="danger-banner" style="display:none;">
+        <strong>Save as Draft mode is selected.</strong> This will log in to the live portal and create real
+        drafts for the rows in scope. Only "Save as Draft" is ever clicked - there is no Final Submit anywhere
+        in this app. Make sure you have reviewed the rows above before continuing.
+      </div>
+
+      <p><button class="btn btn-primary" id="start-btn" onclick="startAction()">Run Dry Validation</button></p>
+      <p id="action-message" class="hint"></p>
+    </div>
+  </main>
+  <script src="js/common.js"></script>
+  <script>
+    renderNav('upload.html');
+    let currentDryRun = null;
+
+    async function loadWorkbooks() {
+      const data = await apiGet('/api/workbooks');
+      const sel = document.getElementById('workbook-select');
+      sel.innerHTML = data.workbooks.map((w) => `<option value="${escapeHtml(w.path)}">${escapeHtml(w.specialty)} - ${escapeHtml(w.relativePath)}</option>`).join('');
+      if (data.workbooks.length === 0) sel.innerHTML = '<option value="">No compatible workbooks found under output/ or generated-data/</option>';
+    }
+
+    async function runDryRun() {
+      const workbookPath = document.getElementById('workbook-select').value;
+      if (!workbookPath) return;
+      document.getElementById('dryrun-status').textContent = 'Validating locally (no login, no browser)...';
+      const result = await apiPost('/api/dry-run', { workbookPath });
+      currentDryRun = result;
+      renderDryRun(result);
+      document.getElementById('dryrun-status').textContent = 'Done.';
+    }
+
+    function renderDryRun(r) {
+      document.getElementById('summary-card').style.display = 'block';
+      document.getElementById('review-card').style.display = 'block';
+      document.getElementById('action-card').style.display = 'block';
+      document.getElementById('s-total').textContent = r.totalRows;
+      document.getElementById('s-valid').textContent = r.validRows;
+      document.getElementById('s-invalid').textContent = r.invalidRows;
+      document.getElementById('s-done').textContent = r.alreadyUploadedRows;
+      document.getElementById('s-remaining').textContent = r.notYetUploadedRows;
+
+      const body = document.getElementById('review-body');
+      body.innerHTML = r.details
+        .map((d) => {
+          const statusBadge = d.alreadyUploaded
+            ? '<span class="badge success">Uploaded</span>'
+            : d.valid
+            ? '<span class="badge pending">Valid</span>'
+            : '<span class="badge failed">Invalid</span>';
+          const notes = d.alreadyUploaded ? `Draft: ${escapeHtml(d.draftReference)}` : d.errors.join('; ');
+          return `<tr>
+            <td><input type="checkbox" class="row-check" value="${escapeHtml(d.externalRowId)}" ${d.valid && !d.alreadyUploaded ? '' : 'disabled'} /></td>
+            <td>${d.excelRow}</td>
+            <td>${escapeHtml(d.externalRowId)}</td>
+            <td>${escapeHtml(d.form)} &gt; ${escapeHtml(d.caseType)}${d.skillType ? ' &gt; ' + escapeHtml(d.skillType) : ''}</td>
+            <td>${statusBadge}</td>
+            <td class="hint">${escapeHtml(notes)}</td>
+          </tr>`;
+        })
+        .join('');
+    }
+
+    function onModeChange() {
+      const mode = document.getElementById('mode-select').value;
+      document.getElementById('execute-warning').style.display = mode === 'execute' ? 'block' : 'none';
+      document.getElementById('start-btn').textContent = mode === 'execute' ? 'Start Save as Draft' : 'Run Dry Validation';
+      document.getElementById('start-btn').className = mode === 'execute' ? 'btn btn-danger' : 'btn btn-primary';
+    }
+
+    document.getElementById('scope-select').addEventListener('change', () => {
+      document.getElementById('range-inputs').style.display = document.getElementById('scope-select').value === 'range' ? 'block' : 'none';
+    });
+
+    async function startAction() {
+      const workbookPath = document.getElementById('workbook-select').value;
+      const mode = document.getElementById('mode-select').value;
+      const scope = document.getElementById('scope-select').value;
+      const msg = document.getElementById('action-message');
+
+      if (mode === 'dry-run') {
+        await runDryRun();
+        return;
+      }
+
+      const session = await apiGet('/api/session');
+      if (!session.loggedIn) {
+        msg.textContent = 'You must log in on the Dashboard first.';
+        return;
+      }
+      if (!confirm('This will create real drafts on the live BCPS portal (Save as Draft only, never Final Submit). Continue?')) return;
+
+      const selectedRowIds = Array.from(document.querySelectorAll('.row-check:checked')).map((el) => el.value);
+      const rangeStart = document.getElementById('range-start').value ? Number(document.getElementById('range-start').value) : undefined;
+      const rangeEnd = document.getElementById('range-end').value ? Number(document.getElementById('range-end').value) : undefined;
+
+      const result = await apiPost('/api/upload/start', { workbookPath, selectionMode: scope, selectedRowIds, rangeStart, rangeEnd });
+      if (result.started) {
+        msg.textContent = 'Started. Redirecting to Progress...';
+        sessionStorage.setItem('lastWorkbookPath', workbookPath);
+        window.location.href = 'progress.html';
+      } else {
+        msg.textContent = 'Could not start: ' + (result.error ?? 'unknown error');
+      }
+    }
+
+    loadWorkbooks();
+    onModeChange();
+  </script>
+</body>
+</html>

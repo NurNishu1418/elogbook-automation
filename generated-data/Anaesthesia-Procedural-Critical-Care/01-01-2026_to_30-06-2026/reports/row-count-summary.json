@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-09-09T09:13:47.634Z",
+  "totalRows": 25,
+  "interpretativeTotal": 6,
+  "proceduralTotal": 19,
+  "perSkill": {
+    "Interpretative Skill > ABG analysis": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > Monitor reading": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Central venous catheterization": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Cricothyroidotomy / Cricothyroidostomy": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Endotracheal intubation": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > General anaesthesia": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Infiltration of local anaesthetics and regional nerve block": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Infusion/ syringe pump of fluids, nutrients and medications": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Insertion of laryngeal mask airway": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Regional anaesthesia": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Tracheostomy": {
+      "requested": 3,
+      "actual": 3
+    }
+  },
+  "procedural_competenceLevelUsage": [
+    {
+      "skill": "Central venous catheterization",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "3",
+        "4",
+        "3"
+      ]
+    },
+    {
+      "skill": "Cricothyroidotomy / Cricothyroidostomy",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2"
+      ]
+    },
+    {
+      "skill": "Endotracheal intubation",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2"
+      ]
+    },
+    {
+      "skill": "General anaesthesia",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2"
+      ]
+    },
+    {
+      "skill": "Infiltration of local anaesthetics and regional nerve block",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "3",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "skill": "Infusion/ syringe pump of fluids, nutrients and medications",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "3",
+        "4",
+        "3"
+      ]
+    },
+    {
+      "skill": "Insertion of laryngeal mask airway",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2"
+      ]
+    },
+    {
+      "skill": "Regional anaesthesia",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "3",
+        "4",
+        "3"
+      ]
+    },
+    {
+      "skill": "Tracheostomy",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "3",
+        "2"
+      ]
+    }
+  ]
+}

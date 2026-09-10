@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-09-09T08:12:53.476Z",
+  "specialty": "Parasites of Surgical Importance",
+  "trainingContext": "Surgical Unit / General Surgical Training",
+  "dateRange": {
+    "label": "01-01-2026_to_30-06-2026",
+    "from": "2026-01-01",
+    "to": "2026-06-30"
+  },
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Parasites-of-Surgical-Importance\\01-01-2026_to_30-06-2026\\generated\\BCPS_Logbook_Parasites_of_Surgical_Importance_01-01-2026_to_30-06-2026.xlsx",
+  "quotaDecision": {
+    "countSource": "USER_PROVIDED_EXACT_COUNTS",
+    "portalQuotaUsedToSizeDataset": false,
+    "pdfMinimumCountsUsedToSizeDataset": false,
+    "reason": "Per explicit user instruction, this dataset uses the exact counts the user provided (12 Interpretative + 4 Procedural = 16). Neither the portal's own mapped minimums NOR the FCPS PDF's minimum counts were used to size this dataset - both are recorded in specialty-config/parasites-of-surgical-importance.json for traceability only."
+  },
+  "competenceLevelHandling": "Each of the 4 Procedural skills has exactly 1 row despite having 2 valid competence levels - the level was NOT multiplied into extra rows. See procedural_competenceLevelUsage in row-count-summary.json for the exact level used per skill.",
+  "totals": {
+    "interpretative": 12,
+    "procedural": 4,
+    "grandTotal": 16
+  },
+  "skillsGenerated": [
+    {
+      "skill": "Interpretative Skill > CBC",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Imaging (USG/CT-scan/MRCP/X-ray abdomen/X-ray chest)",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Peripheral blood film",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Serological tests",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Endocystectomy",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Endoscopic retrieval of CBD worms",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > PAIR",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Pericystectomy",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    }
+  ],
+  "unmatchedSkills": [],
+  "labelDifferences": [],
+  "levelMismatches": [],
+  "liveActionsTaken": "None. This generator only reads the existing local output/form-map.json (produced by a prior, already-approved live mapping crawl) - no login, browser, or network action was performed by this script. No Save as Draft, no Final Submit, no portal data modified.",
+  "originalMappingWorkbookUnchanged": true,
+  "priorSpecialtyDatasetsUnchanged": {
+    "Basic-Surgical-Skill": true,
+    "Gastrointestinal-HepatoBiliary-Pancreas": true,
+    "Disorders-of-the-Breast": true,
+    "Neurosurgery": true,
+    "Urology": true,
+    "Orthopaedic-Surgery": true
+  },
+  "reviewStatus": "PENDING MANUAL REVIEW",
+  "uploadStatus": "NOT UPLOADED"
+}

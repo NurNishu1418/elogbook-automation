@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Apply for a Course",
+    "url": "/trainee/course-list"
+  },
+  {
+    "name": "Payment Information",
+    "url": "/trainee/offline-payment-list"
+  },
+  {
+    "name": "My Training",
+    "url": "/trainee/trainee-registration-worklist"
+  },
+  {
+    "name": "Logbook Entry",
+    "url": "/trainee/logbook-entry"
+  },
+  {
+    "name": "Academic Activities Entry",
+    "url": "/trainee/logbook/academic-activities"
+  },
+  {
+    "name": "Training Summary",
+    "url": "/trainee/training-summary"
+  },
+  {
+    "name": "Patient Management Case Log",
+    "url": "/trainee/summary-of-patient-management-case-log"
+  },
+  {
+    "name": "Procedural and Interpretative Skill Log",
+    "url": "/trainee/summary-of-procedural-and-interpretative-skills"
+  },
+  {
+    "name": "Academic Activities",
+    "url": "/trainee/summary-of-academic-activities"
+  },
+  {
+    "name": "Summary of Training Rotation",
+    "url": "/rotation-training-summary"
+  },
+  {
+    "name": "Allowance Application",
+    "url": "/training-allowance-application"
+  },
+  {
+    "name": "Direct Observation of Procedural Skills Entry",
+    "url": "/dops-entry"
+  },
+  {
+    "name": "Case Based Disccusion Entry",
+    "url": "/cbd-entry"
+  },
+  {
+    "name": "Mini Clinical Evaluation Exercise Entry",
+    "url": "/mini-cex-entry"
+  },
+  {
+    "name": "Dissertation/Thesis Dashboard",
+    "url": "/thesis-dissertation-title-and-protocol-management"
+  },
+  {
+    "name": "Title Entry",
+    "url": "/thesis-dissertation-title-entry"
+  },
+  {
+    "name": "Protocol Entry",
+    "url": "/thesis-dissertation-protocol-entry"
+  },
+  {
+    "name": "Dissertation/Thesis Entry",
+    "url": "/thesis-file-entry"
+  },
+  {
+    "name": "Research Grant Entry",
+    "url": "/research-grant-entry"
+  },
+  {
+    "name": "FAQ View",
+    "url": "/research-clinic/faq-view"
+  },
+  {
+    "name": "Research Clinic Application",
+    "url": "/research-clinic-application"
+  },
+  {
+    "name": "Leave Apply by Trainee",
+    "url": "/trainee-leave-apply"
+  },
+  {
+    "name": "Device Registration",
+    "url": "/trainee/device-registration"
+  }
+]

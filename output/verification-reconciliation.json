@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "totalPathsFirstCrawl": 43,
+    "totalPathsSecondCrawl": 43,
+    "pathsPresentInBoth": 43,
+    "onlyInFirstCrawl": 0,
+    "onlyInSecondCrawl": 0,
+    "disagreements": 0,
+    "pathsWithObservedIdDrift": 2,
+    "reconciled": true
+  },
+  "onlyInPrimary": [],
+  "onlyInSecond": [],
+  "disagreements": [],
+  "idDriftObserved": [
+    {
+      "path": "Procedural and Interpretative Skills > Vascular Surgery > Interpretative Skill",
+      "firstCrawlDrift": {
+        "cachedId": "038b9461-529c-4473-b982-123e445548eb",
+        "liveId": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
+        "cachedFieldCount": 8,
+        "liveFieldCount": 8
+      },
+      "secondCrawlDrift": {
+        "cachedId": "038b9461-529c-4473-b982-123e445548eb",
+        "liveId": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
+        "cachedFieldCount": 8,
+        "liveFieldCount": 8
+      }
+    },
+    {
+      "path": "Procedural and Interpretative Skills > Vascular Surgery > Procedural skill",
+      "firstCrawlDrift": {
+        "cachedId": "40abd843-3a66-4bd2-a6e4-bdcb76679cb7",
+        "liveId": "8aa758e2-151a-4afb-a86b-6d31ded5fde8",
+        "cachedFieldCount": 9,
+        "liveFieldCount": 9
+      },
+      "secondCrawlDrift": {
+        "cachedId": "40abd843-3a66-4bd2-a6e4-bdcb76679cb7",
+        "liveId": "8aa758e2-151a-4afb-a86b-6d31ded5fde8",
+        "cachedFieldCount": 9,
+        "liveFieldCount": 9
+      }
+    }
+  ]
+}

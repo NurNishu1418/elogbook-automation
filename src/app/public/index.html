@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Dashboard - BCPS Automation</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <header class="topnav" id="topnav"></header>
+  <main>
+    <div class="card">
+      <h1>Dashboard</h1>
+      <p class="hint">Save as Draft only. There is no Final Submit option anywhere in this app.</p>
+    </div>
+
+    <div class="card" id="login-card">
+      <h2>Login</h2>
+      <div id="login-form">
+        <label for="username">Username</label>
+        <input id="username" autocomplete="username" placeholder="Portal username" />
+        <label for="password">Password</label>
+        <input id="password" type="password" autocomplete="current-password" placeholder="Portal password" />
+        <label for="userType">User Type</label>
+        <select id="userType">
+          <option value="">Select...</option>
+          <option value="Trainee">Trainee</option>
+          <option value="Supervisor">Supervisor</option>
+          <option value="Fellow">Fellow</option>
+        </select>
+        <p style="margin-top: 16px;">
+          <button class="btn btn-primary" id="login-btn" onclick="doLogin()">Log In</button>
+        </p>
+        <p id="login-message" class="hint"></p>
+      </div>
+      <div id="logged-in-view" style="display:none;">
+        <p>You are logged in as <strong id="logged-in-username"></strong>.</p>
+        <button class="btn btn-secondary" onclick="doLogout()">Log Out</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Next steps</h2>
+      <p>Once logged in: go to <a href="upload.html">Upload Workbook</a> to choose an Excel file, dry-run validate it, and (only when you're ready) save rows as drafts.</p>
+      <p>Not logged in yet? You can still browse <a href="dataset.html">Dataset Generator</a> and <a href="results.html">Results</a> - those don't need portal login.</p>
+    </div>
+  </main>
+  <script src="js/common.js"></script>
+  <script>
+    renderNav('index.html');
+
+    async function refreshLoginView() {
+      const session = await apiGet('/api/session');
+      document.getElementById('login-form').style.display = session.loggedIn ? 'none' : 'block';
+      document.getElementById('logged-in-view').style.display = session.loggedIn ? 'block' : 'none';
+      if (session.loggedIn) document.getElementById('logged-in-username').textContent = `${session.username} (${session.userType})`;
+    }
+
+    async function doLogin() {
+      const username = document.getElementById('username').value.trim();
+      const password = document.getElementById('password').value;
+      const userType = document.getElementById('userType').value;
+      const msg = document.getElementById('login-message');
+      if (!username || !password || !userType) {
+        msg.textContent = 'Please fill in username, password, and user type.';
+        return;
+      }
+      document.getElementById('login-btn').disabled = true;
+      msg.textContent = 'Checking credentials against the live portal... this can take 10-20 seconds, please wait (no browser window should appear - this runs in the background).';
+      const result = await apiPost('/api/login', { username, password, userType });
+      document.getElementById('login-btn').disabled = false;
+      msg.textContent = result.message;
+      document.getElementById('password').value = '';
+      if (result.success) {
+        await refreshLoginView();
+        await refreshSessionBadge();
+      }
+    }
+
+    async function doLogout() {
+      await apiPost('/api/logout');
+      await refreshLoginView();
+      await refreshSessionBadge();
+    }
+
+    refreshLoginView();
+  </script>
+</body>
+</html>

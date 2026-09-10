@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-09-09T09:16:51.147Z",
+  "specialty": "Thoracic and Cardiovascular Surgery",
+  "trainingContext": "Thoracic / Cardiothoracic Surgical Unit",
+  "dateRange": {
+    "label": "01-01-2026_to_30-06-2026",
+    "from": "2026-01-01",
+    "to": "2026-06-30"
+  },
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Thoracic-Cardiovascular-Surgery\\01-01-2026_to_30-06-2026\\generated\\BCPS_Logbook_Thoracic_Cardiovascular_Surgery_01-01-2026_to_30-06-2026.xlsx",
+  "quotaDecision": {
+    "countSource": "USER_PROVIDED_EXACT_COUNTS_ITEMIZED",
+    "portalQuotaUsedToSizeDataset": false,
+    "arithmeticDiscrepancy": "None for this specialty - the itemized per-skill counts (Interpretative 3x3=9, Procedural 3+1+1+1=6) sum exactly to the user-stated totals (9 + 6 = 15).",
+    "reason": "Per explicit user instruction, this dataset uses the exact per-skill counts the user provided (9 Interpretative + 6 Procedural = 15). The portal's own mapped minimums were NOT used to size this dataset - recorded in specialty-config/thoracic-cardiovascular-surgery.json for traceability only."
+  },
+  "competenceLevelHandling": "For the Procedural skill with more than one allowed competence level (Chest tube drain insertion, allowedLevels [3,4]), individual rows use varying portal-valid levels (never multiplying row count) - see procedural_competenceLevelUsage in row-count-summary.json for the exact levels used per skill.",
+  "ageRealism": "Every row uses a clinically plausible, varied adult age appropriate to a Thoracic/Cardiothoracic Surgical Unit case-mix (no generic or repeated single-age spread).",
+  "totals": {
+    "interpretative": 9,
+    "procedural": 6,
+    "grandTotal": 15
+  },
+  "skillsGenerated": [
+    {
+      "skill": "Interpretative Skill > Blood gas analysis",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Wound swab for C/S",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > X-ray chest P/A",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Chest tube drain insertion",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Pericardiocentesis",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Thoracoscopy",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Thoracotomy",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    }
+  ],
+  "unmatchedSkills": [],
+  "labelDifferences": [],
+  "levelMismatches": [],
+  "liveActionsTaken": "None. This generator only reads the existing local output/form-map.json (produced by a prior, already-approved live mapping crawl) - no login, browser, or network action was performed by this script. No Save as Draft, no Final Submit, no portal data modified.",
+  "originalMappingWorkbookUnchanged": true,
+  "priorSpecialtyDatasetsUnchanged": {
+    "Basic-Surgical-Skill": true,
+    "Gastrointestinal-HepatoBiliary-Pancreas": true,
+    "Disorders-of-the-Breast": true,
+    "Neurosurgery": true,
+    "Urology": true,
+    "Orthopaedic-Surgery": true,
+    "Parasites-of-Surgical-Importance": true,
+    "Paediatric-Surgery": true
+  },
+  "reviewStatus": "PENDING MANUAL REVIEW",
+  "uploadStatus": "NOT UPLOADED"
+}

@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-09-10T07:48:04.957Z",
+  "totalPortalEntriesScanned": 512,
+  "totalEditableDraftsAllSpecialties": 189,
+  "excludedCaseTypes": [
+    "Basic Surgical Skill",
+    "Vascular Surgery"
+  ],
+  "bySpecialty": [
+    {
+      "key": "Thoracic and Cardiovascular Surgery > Interpretative Skill",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Interpretative Skill",
+      "count": 4,
+      "entryIds": [
+        "df087479-c767-4d86-a73c-4d8671b33649",
+        "b2ce2ff2-b27c-4c96-bedb-350aeb04186a",
+        "c4bebc76-0305-4729-a188-6cc2ea518a23",
+        "c99a205b-3211-4d6a-a203-84575a37bf0b"
+      ]
+    },
+    {
+      "key": "Out-Patient Management > UNKNOWN",
+      "caseType": "Out-Patient Management",
+      "skillType": "UNKNOWN",
+      "count": 4,
+      "entryIds": [
+        "2f57c6aa-db40-4cfe-9413-8de5f716267e",
+        "206ff05e-3ed8-4aae-ab69-c39675cd708d",
+        "9a3f210c-952f-4e83-9144-a5af7ab234fb",
+        "f7050d99-e9ea-4dba-a06f-b81f20cb5718"
+      ]
+    },
+    {
+      "key": "Procedural Nutrition > Procedural skill",
+      "caseType": "Procedural Nutrition",
+      "skillType": "Procedural skill",
+      "count": 3,
+      "entryIds": [
+        "95456854-71bf-4680-bcf5-273c7bff8c36",
+        "42d27c96-ad4e-41c5-9d13-8db4095833f9",
+        "fd5e7c1e-be81-48a4-a65a-90be12b08807"
+      ]
+    },
+    {
+      "key": "Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill",
+      "caseType": "Gastrointestinal & HepatoBiliary System and Pancreas",
+      "skillType": "Interpretative Skill",
+      "count": 2,
+      "entryIds": [
+        "cf03e34e-4858-47b2-80c1-9921690ee3ce",
+        "17a68f80-f8b2-4c10-980d-5ed55b32df6d"
+      ]
+    }
+  ]
+}

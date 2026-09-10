@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-09-09T09:17:23.898Z",
+  "totalRows": 25,
+  "interpretativeTotal": 6,
+  "proceduralTotal": 19,
+  "perSkill": {
+    "Interpretative Skill > Plain X-ray Abdomen": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > USG /CT abdomen": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Closed and open techniques for port creation and closure": {
+      "requested": 5,
+      "actual": 5
+    },
+    "Procedural skill > Diagnostic laparoscopy": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Laparoscopic appendicectomy": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Laparoscopic cholecystectomy": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Laparoscopic control of bleeding": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Laparoscopic hernioplasty (TAPP & TEP)": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Laparoscopic suturing and knotting": {
+      "requested": 3,
+      "actual": 3
+    }
+  },
+  "procedural_competenceLevelUsage": [
+    {
+      "skill": "Closed and open techniques for port creation and closure",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "3",
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    {
+      "skill": "Diagnostic laparoscopy",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    {
+      "skill": "Laparoscopic appendicectomy",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1"
+      ]
+    },
+    {
+      "skill": "Laparoscopic cholecystectomy",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "skill": "Laparoscopic control of bleeding",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    {
+      "skill": "Laparoscopic hernioplasty (TAPP & TEP)",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "2"
+      ]
+    },
+    {
+      "skill": "Laparoscopic suturing and knotting",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "3",
+        "2",
+        "3"
+      ]
+    }
+  ]
+}

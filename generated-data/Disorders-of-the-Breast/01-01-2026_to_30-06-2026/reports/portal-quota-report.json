@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-09-09T06:30:12.471Z",
+  "decision": "PORTAL_AUTHORITATIVE_ONLY - document/PDF counts were never used",
+  "portalAuthoritativeTotal": {
+    "interpretative": 47,
+    "procedural": 37,
+    "grandTotal": 84
+  },
+  "usedForGeneration": {
+    "interpretative": 47,
+    "procedural": 37,
+    "grandTotal": 84
+  },
+  "verificationMethod": "Portal's own server-computed total_min_target field from GET /api/auth/elogbook-management/v1/logbook-entry-report-by-from/{formId} (read-only, 2026-09-09). Case-type total_min_target=84, Interpretative Skill=47, Procedural skill=37 - matches the sum of every individual competence-level min_value exactly.",
+  "note": "The document/PDF skill list was used only to help identify expected skill names for cross-checking against the mapped portal data - it was never used to determine any row count."
+}

@@ -1,0 +1,305 @@
+{
+  "generatedAt": "2026-09-09T06:30:12.462Z",
+  "totalRows": 84,
+  "interpretativeTotal": 47,
+  "proceduralTotal": 37,
+  "perSkill": {
+    "Interpretative Skill > Cytological analysis of nipple discharge": {
+      "requested": 2,
+      "actual": 2
+    },
+    "Interpretative Skill > FNAC of breast lump": {
+      "requested": 5,
+      "actual": 5
+    },
+    "Interpretative Skill > Histopathological report analysis": {
+      "requested": 5,
+      "actual": 5
+    },
+    "Interpretative Skill > Hormone study": {
+      "requested": 10,
+      "actual": 10
+    },
+    "Interpretative Skill > Immunohistochemistry": {
+      "requested": 5,
+      "actual": 5
+    },
+    "Interpretative Skill > MRI / CT scan / Bone scan in locally advanced or metastatic breast cancer": {
+      "requested": 5,
+      "actual": 5
+    },
+    "Interpretative Skill > Mammogram/tomosynthesis": {
+      "requested": 5,
+      "actual": 5
+    },
+    "Interpretative Skill > Receptor study": {
+      "requested": 5,
+      "actual": 5
+    },
+    "Interpretative Skill > USG of breasts": {
+      "requested": 5,
+      "actual": 5
+    },
+    "Procedural skill > Aspiration of breast abscess": {
+      "requested": 5,
+      "actual": 5
+    },
+    "Procedural skill > Breast conserving surgery": {
+      "requested": 2,
+      "actual": 2
+    },
+    "Procedural skill > Breast reconstruction": {
+      "requested": 2,
+      "actual": 2
+    },
+    "Procedural skill > Core-cut biopsy": {
+      "requested": 2,
+      "actual": 2
+    },
+    "Procedural skill > Drainage of breast abscess": {
+      "requested": 5,
+      "actual": 5
+    },
+    "Procedural skill > Enucleation/excision of fibroadenoma": {
+      "requested": 2,
+      "actual": 2
+    },
+    "Procedural skill > FNAC of a breast lump": {
+      "requested": 5,
+      "actual": 5
+    },
+    "Procedural skill > Image guided biopsy / Wire guided biopsy / hydromarker": {
+      "requested": 2,
+      "actual": 2
+    },
+    "Procedural skill > Incision biopsy": {
+      "requested": 2,
+      "actual": 2
+    },
+    "Procedural skill > Mastectomy of male breast": {
+      "requested": 2,
+      "actual": 2
+    },
+    "Procedural skill > Nipple reconstruction": {
+      "requested": 2,
+      "actual": 2
+    },
+    "Procedural skill > Sentinel lymphnode biopsy": {
+      "requested": 2,
+      "actual": 2
+    },
+    "Procedural skill > Simple mastectomy with or without axillary dissection": {
+      "requested": 2,
+      "actual": 2
+    },
+    "Procedural skill > Wide excision / lumpectomy": {
+      "requested": 2,
+      "actual": 2
+    }
+  },
+  "perCompetenceLevel": [
+    {
+      "skillType": "Procedural skill",
+      "skill": "Aspiration of breast abscess",
+      "level": "2",
+      "requested": 3,
+      "actual": 3
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Aspiration of breast abscess",
+      "level": "3",
+      "requested": 2,
+      "actual": 2
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Breast conserving surgery",
+      "level": "1",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Breast conserving surgery",
+      "level": "2",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Breast reconstruction",
+      "level": "1",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Breast reconstruction",
+      "level": "2",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Core-cut biopsy",
+      "level": "2",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Core-cut biopsy",
+      "level": "3",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Drainage of breast abscess",
+      "level": "2",
+      "requested": 2,
+      "actual": 2
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Drainage of breast abscess",
+      "level": "3",
+      "requested": 2,
+      "actual": 2
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Drainage of breast abscess",
+      "level": "4",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Enucleation/excision of fibroadenoma",
+      "level": "2",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Enucleation/excision of fibroadenoma",
+      "level": "3",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "FNAC of a breast lump",
+      "level": "2",
+      "requested": 3,
+      "actual": 3
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "FNAC of a breast lump",
+      "level": "3",
+      "requested": 2,
+      "actual": 2
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Image guided biopsy / Wire guided biopsy / hydromarker",
+      "level": "1",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Image guided biopsy / Wire guided biopsy / hydromarker",
+      "level": "2",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Incision biopsy",
+      "level": "2",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Incision biopsy",
+      "level": "3",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Mastectomy of male breast",
+      "level": "2",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Mastectomy of male breast",
+      "level": "3",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Nipple reconstruction",
+      "level": "1",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Nipple reconstruction",
+      "level": "2",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Sentinel lymphnode biopsy",
+      "level": "1",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Sentinel lymphnode biopsy",
+      "level": "2",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Simple mastectomy with or without axillary dissection",
+      "level": "1",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Simple mastectomy with or without axillary dissection",
+      "level": "2",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Wide excision / lumpectomy",
+      "level": "1",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Wide excision / lumpectomy",
+      "level": "2",
+      "requested": 1,
+      "actual": 1
+    }
+  ]
+}

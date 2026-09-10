@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-09-10T07:50:00.000Z",
+  "scope": "All editable Drafts EXCLUDING Basic Surgical Skill (owned by a parallel repair effort) and EXCLUDING genuine Vascular Surgery leaves (permanent hold). READ-ONLY analysis only - zero portal writes performed.",
+  "totalEditableDraftsAllSpecialties": 189,
+  "totalInScope": 13,
+  "excludedFromThisScope": {
+    "basicSurgicalSkill": 175,
+    "genuineVascularSurgery": 1
+  },
+  "bySpecialtySummary": [
+    { "specialty": "Thoracic and Cardiovascular Surgery > Interpretative Skill", "count": 4, "note": "ALL 4 are confirmed Vascular-routing-bug contamination (previously identified in vascular-reconciliation-audit.json). None are genuine Thoracic content." },
+    { "specialty": "Out-Patient Management", "count": 4, "note": "Different form entirely (Patient Management, not Procedural and Interpretative Skills). No competency levels apply. 2 of the 4 are an exact duplicate pair." },
+    { "specialty": "Procedural Nutrition > Procedural skill", "count": 3, "note": "1 already correct (fixed by an earlier canary this session), 2 need a human level decision (both allow Level 2 or 3, no rubric exists to choose safely)." },
+    { "specialty": "Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill", "count": 2, "note": "Both already clinically coherent, no change needed." }
+  ],
+  "entries": [
+    {
+      "entryId": "df087479-c767-4d86-a73c-4d8671b33649",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Interpretative Skill",
+      "patientRegNo": "3830/26",
+      "classification": "PORTAL_BUG_HOLD",
+      "reason": "Content is 'Peripheral arterial disease' / 'Color Doppler / Duplex imaging /MRA / MRV / DSA for peripheral arterial disease' - byte-for-byte matches this project's own Vascular Surgery dataset generator content. Stored under Thoracic's leaf id only because of the confirmed live portal bug where selecting Vascular Surgery as Case Type silently loads Thoracic's schema. Never rewrite into genuine Thoracic content - this is real (if misfiled) Vascular data, not a text-quality defect.",
+      "action": "HOLD - no live action of any kind. Same disposition as the 3 other Thoracic entries below."
+    },
+    {
+      "entryId": "b2ce2ff2-b27c-4c96-bedb-350aeb04186a",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Interpretative Skill",
+      "patientRegNo": "6134/26",
+      "classification": "PORTAL_BUG_HOLD",
+      "reason": "'Arterial embolism' / 'Angiogram/CT angiogram for arterial embolism' - confirmed Vascular-routing-bug content (matches known generator phrasing exactly).",
+      "action": "HOLD. Also flagged as EXACT_DUPLICATE of c4bebc76-0305-4729-a188-6cc2ea518a23 (same RegNo, name, DOB, all text fields) - a pre-existing finding, not new. Never merge/delete without explicit human instruction."
+    },
+    {
+      "entryId": "c4bebc76-0305-4729-a188-6cc2ea518a23",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Interpretative Skill",
+      "patientRegNo": "6134/26",
+      "classification": "PORTAL_BUG_HOLD",
+      "reason": "Identical content to b2ce2ff2 above - the confirmed exact-duplicate pair.",
+      "action": "HOLD. Duplicate of b2ce2ff2. Do not delete/merge."
+    },
+    {
+      "entryId": "c99a205b-3211-4d6a-a203-84575a37bf0b",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Interpretative Skill",
+      "patientRegNo": "7843/05",
+      "classification": "PORTAL_BUG_HOLD",
+      "reason": "'Peripheral arterial disease' / 'Angiogram/CT angiogram for peripheral arterial disease' - confirmed Vascular-routing-bug content.",
+      "action": "HOLD."
+    },
+    {
+      "entryId": "95456854-71bf-4680-bcf5-273c7bff8c36",
+      "caseType": "Procedural Nutrition",
+      "skillType": "Procedural skill",
+      "checkedSkill": "Construction of feeding gastrostomy / Jejunostomy",
+      "patientRegNo": "1313/71",
+      "classification": "HUMAN_LEVEL_DECISION_REQUIRED",
+      "currentLevelState": "none selected",
+      "allowedLevels": ["2", "3"],
+      "clinicalText": {
+        "diagnosisProblems": "Malnutrition in surgical patient.",
+        "briefProceduralNotes": "Feeding access constructed and secured with confirmation of luminal patency and absence of leak.",
+        "briefDescription": "Construction of feeding gastrostomy / Jejunostomy for malnutrition in surgical patient."
+      },
+      "textAssessment": "Already coherent and skill-appropriate - no text correction needed.",
+      "levelReasoning": "No source in this project defines what Level 2 vs Level 3 means for this skill, and the notes describe the procedure's outcome, not the trainee's degree of independence/supervision. Assigning either level would be a guess, not a HIGH-confidence inference. Held per the same rule already applied to the 112 Basic Surgical Skill multi-level entries and the Vascular Surgery case.",
+      "action": "HOLD - added to the human-decision list. No live action."
+    },
+    {
+      "entryId": "42d27c96-ad4e-41c5-9d13-8db4095833f9",
+      "caseType": "Procedural Nutrition",
+      "skillType": "Procedural skill",
+      "checkedSkill": "Venous cannulation for central and peripheral parenteral feeding",
+      "patientRegNo": "9964/73",
+      "classification": "HUMAN_LEVEL_DECISION_REQUIRED",
+      "currentLevelState": "none selected",
+      "allowedLevels": ["2", "3"],
+      "clinicalText": {
+        "diagnosisProblems": "Malnutrition in surgical patient.",
+        "briefProceduralNotes": "Venous access established under aseptic technique for planned parenteral nutritional support.",
+        "briefDescription": "Venous cannulation for central and peripheral parenteral feeding for malnutrition in surgical patient."
+      },
+      "textAssessment": "Already coherent and skill-appropriate - no text correction needed.",
+      "levelReasoning": "Same reasoning as 95456854 above - no rubric, no independence-indicating language in the notes. Held, not guessed.",
+      "action": "HOLD - added to the human-decision list. No live action."
+    },
+    {
+      "entryId": "fd5e7c1e-be81-48a4-a65a-90be12b08807",
+      "caseType": "Procedural Nutrition",
+      "skillType": "Procedural skill",
+      "checkedSkill": "Administration of nasogastric / nasojejunal feeding",
+      "patientRegNo": "8128/65",
+      "classification": "NO_CHANGE_REQUIRED",
+      "currentLevelState": ["4"],
+      "allowedLevels": ["4"],
+      "reason": "Already correctly repaired by an earlier approved canary this session (Level 4 is the only allowed level for this skill). Verified currently correct via this fresh read-only fetch.",
+      "action": "NONE - already correct."
+    },
+    {
+      "entryId": "cf03e34e-4858-47b2-80c1-9921690ee3ce",
+      "caseType": "Gastrointestinal & HepatoBiliary System and Pancreas",
+      "skillType": "Interpretative Skill",
+      "patientRegNo": "3395/15",
+      "classification": "NO_CHANGE_REQUIRED",
+      "clinicalText": {
+        "indicationInvestigationFindingsDiagnosis": "Suspected acute pancreatitis.",
+        "interpretations": "Serum amylase markedly elevated, 3x upper limit.",
+        "briefDescription": "Biochemical investigation for pancreatitis."
+      },
+      "reason": "Clinically coherent and consistent (elevated amylase is the classic confirmatory finding for pancreatitis). No competency level applies to Interpretative Skill entries.",
+      "action": "NONE."
+    },
+    {
+      "entryId": "17a68f80-f8b2-4c10-980d-5ed55b32df6d",
+      "caseType": "Gastrointestinal & HepatoBiliary System and Pancreas",
+      "skillType": "Interpretative Skill",
+      "patientRegNo": "9316/57",
+      "classification": "NO_CHANGE_REQUIRED",
+      "clinicalText": {
+        "indicationInvestigationFindingsDiagnosis": "Deranged LFTs; suspected obstructive jaundice.",
+        "interpretations": "Elevated bilirubin and alkaline phosphatase.",
+        "briefDescription": "Biochemical work-up for obstructive jaundice."
+      },
+      "reason": "Clinically coherent (elevated bilirubin + ALP is the classic obstructive/cholestatic pattern). No competency level applies.",
+      "action": "NONE."
+    },
+    {
+      "entryId": "2f57c6aa-db40-4cfe-9413-8de5f716267e",
+      "caseType": "Out-Patient Management",
+      "skillType": "Out-Patient Management",
+      "patientRegNo": "1791/10",
+      "classification": "NO_CHANGE_REQUIRED",
+      "clinicalText": {
+        "diagnosisProblems": "Benign Prostatic Hyperplasia; Transvesical prostatectomy was done under SAB",
+        "briefDescription": "Under spinal anesthesia, the bladder was opened through a lower midline incision and the adenoma was enucleated digitally through the vesical neck. Hemostasis at the prostatic fossa was secured, a three-way Foley catheter was placed for continuous bladder irrigation, and the bladder wall was closed in layers."
+      },
+      "reason": "Different form entirely (Patient Management, not Procedural and Interpretative Skills) - no competency group/levels apply. Text is coherent and internally consistent.",
+      "action": "NONE."
+    },
+    {
+      "entryId": "206ff05e-3ed8-4aae-ab69-c39675cd708d",
+      "caseType": "Out-Patient Management",
+      "skillType": "Out-Patient Management",
+      "patientRegNo": "7468/84",
+      "classification": "NO_CHANGE_REQUIRED",
+      "clinicalText": {
+        "diagnosisProblems": "Perianal Abscess; Incision and drainage was done under LA",
+        "briefDescription": "Under local anesthesia, a cruciate incision was made over the point of maximum fluctuance and the abscess cavity was drained of purulent material. The cavity was explored digitally to break loculations, irrigated with saline, and loosely packed with a wick, left open to heal by secondary intention."
+      },
+      "reason": "Coherent, no level applies.",
+      "action": "NONE."
+    },
+    {
+      "entryId": "9a3f210c-952f-4e83-9144-a5af7ab234fb",
+      "caseType": "Out-Patient Management",
+      "skillType": "Out-Patient Management",
+      "patientRegNo": "6305/20",
+      "classification": "OTHER_HOLD",
+      "clinicalText": {
+        "diagnosisProblems": "Hydrocele; Jaboulay's hydrocelectomy was done under LA",
+        "briefDescription": "Under local anesthesia, a scrotal incision was made and the tunica vaginalis was delivered and opened, releasing clear straw-colored fluid. The sac was everted behind the testis and cord structures and sutured (Jaboulay's procedure). Hemostasis was secured and the wound was closed in layers."
+      },
+      "reason": "Text itself is coherent, but this entry is an EXACT_DUPLICATE of f7050d99-e9ea-4dba-a06f-b81f20cb5718 (identical RegNo 6305/20, name, DOB, age, date, Diagnosis/Problems, and Brief Description). A new finding - not previously flagged.",
+      "action": "HOLD - duplicate pair, human decision needed on which (if either) to keep. Never delete/merge without explicit instruction."
+    },
+    {
+      "entryId": "f7050d99-e9ea-4dba-a06f-b81f20cb5718",
+      "caseType": "Out-Patient Management",
+      "skillType": "Out-Patient Management",
+      "patientRegNo": "6305/20",
+      "classification": "OTHER_HOLD",
+      "reason": "Identical to 9a3f210c above - the confirmed exact-duplicate pair.",
+      "action": "HOLD - duplicate of 9a3f210c."
+    }
+  ],
+  "categoryTotals": {
+    "NO_CHANGE_REQUIRED": 5,
+    "TEXT_CORRECTION_REQUIRED": 0,
+    "LEVEL_CORRECTION_REQUIRED": 0,
+    "TEXT_AND_LEVEL_CORRECTION_REQUIRED": 0,
+    "HUMAN_LEVEL_DECISION_REQUIRED": 2,
+    "PORTAL_BUG_HOLD": 4,
+    "OTHER_HOLD": 2
+  },
+  "arithmeticCheck": {
+    "sum": 13,
+    "totalInScope": 13,
+    "matches": true
+  }
+}

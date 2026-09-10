@@ -1,0 +1,163 @@
+{
+  "generatedAt": "2026-09-08T09:40:04.329Z",
+  "datasetFolder": "F:\\2026\\touhid\\new project\\generated-data\\Basic-Surgical-Skill",
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Basic-Surgical-Skill\\BCPS_Logbook_Basic_Surgical_Skill_TestData.xlsx",
+  "sourceCombinationRoot": "Procedural and Interpretative Skills > Basic Surgical Skill",
+  "totals": {
+    "communicationAndWritingSkill": 42,
+    "proceduralSkill": 132,
+    "grandTotal": 174
+  },
+  "skillsGenerated": [
+    {
+      "skillType": "Communication and Writing Skill",
+      "competencyItem": "Death Certificate",
+      "requestedCount": 3
+    },
+    {
+      "skillType": "Communication and Writing Skill",
+      "competencyItem": "Discharge certificate",
+      "requestedCount": 3
+    },
+    {
+      "skillType": "Communication and Writing Skill",
+      "competencyItem": "Discharge summary",
+      "requestedCount": 3
+    },
+    {
+      "skillType": "Communication and Writing Skill",
+      "competencyItem": "Documentation of injuries and disabilities",
+      "requestedCount": 5
+    },
+    {
+      "skillType": "Communication and Writing Skill",
+      "competencyItem": "Obtaining informed written consent",
+      "requestedCount": 5
+    },
+    {
+      "skillType": "Communication and Writing Skill",
+      "competencyItem": "Operation note",
+      "requestedCount": 5
+    },
+    {
+      "skillType": "Communication and Writing Skill",
+      "competencyItem": "Post-operative order",
+      "requestedCount": 5
+    },
+    {
+      "skillType": "Communication and Writing Skill",
+      "competencyItem": "Preoperative order",
+      "requestedCount": 5
+    },
+    {
+      "skillType": "Communication and Writing Skill",
+      "competencyItem": "Referral note",
+      "requestedCount": 3
+    },
+    {
+      "skillType": "Communication and Writing Skill",
+      "competencyItem": "Requisition for investigations (Laboratory, Biochemical, Imaging, Histopathological analysis and immunohistochemitry)",
+      "requestedCount": 5
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Ability to use Surgical instruments and energy devices",
+      "requestedCount": 10
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Accurate and safe administration of local anaesthetic agent",
+      "requestedCount": 10
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Application and removal of skin staples/stitches",
+      "requestedCount": 10
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Biopsy techniques (Core-cut biopsy, excision biopsy, incision biopsy)",
+      "requestedCount": 5
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Central venous catheterization",
+      "requestedCount": 3
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Drainage of superficial abscesses including Hilton’s method",
+      "requestedCount": 3
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Excision biopsy of benign lesions (lipoma, cyst, skin lesions etc.)",
+      "requestedCount": 3
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Exposure, antiseptic washand draping",
+      "requestedCount": 10
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Handling a Procedural specimen",
+      "requestedCount": 5
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Intravenous cannulation",
+      "requestedCount": 20
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Introduction and removal of Procedural drains",
+      "requestedCount": 3
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Positioning of the patient",
+      "requestedCount": 10
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Safe tying of knots (hand/instrumental/on the surface and at depth) ",
+      "requestedCount": 10
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Securing bleeding vessels",
+      "requestedCount": 10
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Skin incision and closure",
+      "requestedCount": 10
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Surgical Ritual (Effective and safe hand washing, donning and doffing)",
+      "requestedCount": 5
+    },
+    {
+      "skillType": "Procedural skill",
+      "competencyItem": "Urinary bladder catheterization",
+      "requestedCount": 5
+    }
+  ],
+  "unmatchedOrAmbiguousSkills": [],
+  "resolvedDiscrepancies": [
+    {
+      "topic": "Itemized list vs stated rollup totals",
+      "note": "Two earlier stated grand totals (169, then 179) did not match the sum of the itemized per-skill counts given at the same time. The itemized per-skill counts were used as authoritative throughout; the user subsequently confirmed the correct totals as Communication=42, Procedural=132, Grand total=174, matching this generator's computed totals exactly."
+    },
+    {
+      "topic": "Intravenous cannulation count vs portal internal quota",
+      "requestedAndUsedCount": 20,
+      "portalInternalTarget": 20,
+      "note": "The live portal's own log_entry_target.min_value for this item is 20. The user's final instruction confirmed using the portal's quota (20) for this item, so requested count and portal quota now agree - no discrepancy remains."
+    }
+  ],
+  "liveActionsTaken": "NONE - no login, no browser session, no draft created, no Save as Draft, no Final Submit.",
+  "originalWorkbookUnchanged": true
+}

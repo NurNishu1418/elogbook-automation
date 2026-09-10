@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-09-09T07:49:10.301Z",
+  "totalRows": 34,
+  "interpretativeTotal": 15,
+  "proceduralTotal": 19,
+  "perSkill": {
+    "Interpretative Skill > CT-scan": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > Histopathological report analysis": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > Local X-ray": {
+      "requested": 5,
+      "actual": 5
+    },
+    "Interpretative Skill > MRI": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > Radionuclide scan": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Amputation": {
+      "requested": 2,
+      "actual": 2
+    },
+    "Procedural skill > Application of splint/cast": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Arthroscopic examination": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Curettage & bone grafting": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > External fixation": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > ORIF": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Reduction immobilisation of fractures and dislocations": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Tendon repair": {
+      "requested": 3,
+      "actual": 3
+    }
+  },
+  "procedural_competenceLevelUsage": [
+    {
+      "skill": "Amputation",
+      "allowedLevels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "skill": "Application of splint/cast",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "skill": "Arthroscopic examination",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1"
+      ]
+    },
+    {
+      "skill": "Curettage & bone grafting",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "skill": "External fixation",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1"
+      ]
+    },
+    {
+      "skill": "ORIF",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "skill": "Reduction immobilisation of fractures and dislocations",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "skill": "Tendon repair",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "2",
+        "3"
+      ]
+    }
+  ]
+}

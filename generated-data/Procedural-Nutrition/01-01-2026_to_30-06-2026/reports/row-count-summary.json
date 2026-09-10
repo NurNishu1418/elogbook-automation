@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-09-09T09:16:11.583Z",
+  "totalRows": 11,
+  "interpretativeTotal": 5,
+  "proceduralTotal": 6,
+  "perSkill": {
+    "Interpretative Skill > Laboratory and biochemical analysis of nutritional status": {
+      "requested": 5,
+      "actual": 5
+    },
+    "Procedural skill > Administration of nasogastric / nasojejunal feeding": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Construction of feeding gastrostomy / Jejunostomy": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > PEG tube insertion / replacement": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Venous cannulation for central and peripheral parenteral feeding": {
+      "requested": 1,
+      "actual": 1
+    }
+  },
+  "procedural_competenceLevelUsage": [
+    {
+      "skill": "Administration of nasogastric / nasojejunal feeding",
+      "allowedLevels": [
+        "4"
+      ],
+      "levelsUsed": [
+        "4",
+        "4",
+        "4"
+      ]
+    },
+    {
+      "skill": "Construction of feeding gastrostomy / Jejunostomy",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2"
+      ]
+    },
+    {
+      "skill": "PEG tube insertion / replacement",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1"
+      ]
+    },
+    {
+      "skill": "Venous cannulation for central and peripheral parenteral feeding",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "specialty": "Abdominal Wall",
+  "form": "Procedural and Interpretative Skills",
+  "caseType": "Abdominal Wall",
+  "mappedLeafIds": {
+    "Interpretative Skill": "99a06d89-5e3f-4a58-b234-502e7ce20200",
+    "Procedural skill": "8d16daad-9b8e-46bc-aed3-ea7c72875674"
+  },
+  "externalRowIdPrefix": "AW",
+  "quotaSource": {
+    "decision": "AUTHORITATIVE_SOURCE_IS_USER_PROVIDED_EXACT_COUNTS_FROM_PDF - per explicit user instruction, this dataset uses the exact per-skill counts and competence levels the user supplied (from the FCPS PDF), NOT portal quota minimums. Portal is used only to verify skill names, field schemas, and valid competence levels.",
+    "arithmeticCheck": "Itemized Interpretative (3) and Procedural (1+2+1+3+2+1+1=11) sum to 3+11=14, matching the user's stated totals exactly - no discrepancy for this specialty."
+  },
+  "skills": {
+    "Interpretative Skill": [
+      { "name": "USG / CT scan / MRI of abdominal wall", "count": 3 }
+    ],
+    "Procedural skill": [
+      { "name": "Component separation techniques", "count": 1, "allowedLevels": ["1"] },
+      { "name": "IPOM/ IPOM plus", "count": 2, "allowedLevels": ["2"] },
+      { "name": "Open and laparoscopic repair of incisional hernia", "count": 1, "allowedLevels": ["1"] },
+      { "name": "Open and laparoscopic repair of inguinal hernia", "count": 3, "allowedLevels": ["5"] },
+      { "name": "Open and laparoscopic repair of paraumbilical hernia", "count": 2, "allowedLevels": ["2"] },
+      { "name": "Open and laparoscopic repair of recurrent hernia", "count": 1, "allowedLevels": ["1"] },
+      { "name": "Open and laparoscopic repair of umbilical hernia", "count": 1, "allowedLevels": ["1"] }
+    ]
+  },
+  "notes": [
+    "IMPORTANT (per explicit user warning): every Procedural skill in this specialty has only ONE portal-valid competence level each (1, 2, or 5) - these are genuine competence-level VALUES confirmed live against the portal's log_entry_target.compitency_level field, NOT row counts. 'Open and laparoscopic repair of inguinal hernia' genuinely has competence level '5' in the portal (min_value=5) - this was independently confirmed, not assumed. Row counts (1, 2, or 3) are tracked completely separately in the 'count' field above.",
+    "Portal label 'IPOM/ IPOM plus' has no space before the slash (user's list had 'IPOM / IPOM plus') - unambiguous, portal-exact string used as authoritative.",
+    "This config is reusable for future date ranges - do not hardcode date-range-specific values here."
+  ]
+}

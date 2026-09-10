@@ -1,0 +1,179 @@
+{
+  "generatedAt": "2026-09-09T07:49:10.304Z",
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Orthopaedic-Surgery\\01-01-2026_to_30-06-2026\\generated\\BCPS_Logbook_Orthopaedic_Surgery_01-01-2026_to_30-06-2026.xlsx",
+  "totalRows": 34,
+  "validRows": 34,
+  "invalidRows": 0,
+  "rows": [
+    {
+      "externalRowId": "ORT-001",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-002",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-003",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-004",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-005",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-006",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-007",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-008",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-009",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-010",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-011",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-012",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-013",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-014",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-015",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-016",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-017",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-018",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-019",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-020",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-021",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-022",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-023",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-024",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-025",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-026",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-027",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-028",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-029",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-030",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-031",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-032",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-033",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ORT-034",
+      "valid": true,
+      "errors": []
+    }
+  ]
+}

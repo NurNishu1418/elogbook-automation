@@ -1,0 +1,21 @@
+{
+  "workbook": "BCPS_Logbook_Master2_All_Surgical_Skills_800Rows_01-01-2026_to_30-06-2026.xlsx",
+  "status": "PASS",
+  "dataEntryRows": 800,
+  "dataEntryColumns": 13,
+  "externalRowIdsUnique": true,
+  "externalRowIdPrefix": "M2-",
+  "patientNamesUnique": true,
+  "patientRegNosUnique": true,
+  "patientRegFormat": "####/##",
+  "assignmentDateRange": [
+    "2026-01-01",
+    "2026-06-30"
+  ],
+  "dobBeforeAssignment": true,
+  "completedAgeRevalidated": true,
+  "extraFieldsJsonValid": true,
+  "clinicalAndMappingContent": "Preserved unchanged from validated Master1 row templates",
+  "uploadResultRows": 0,
+  "liveUploadPerformed": false
+}

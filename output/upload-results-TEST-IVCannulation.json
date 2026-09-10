@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-09-08T09:13:47.604Z",
+  "row": "SYN-IVC-001",
+  "combination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill",
+  "success": true,
+  "draftReference": "thopaedic",
+  "error": null,
+  "remainingRowsProcessed": 0,
+  "note": "Execution stopped after row 1 per explicit instruction. Rows 2-10 remain unprocessed (still SAVE_DRAFT, no UploadResult entry)."
+}

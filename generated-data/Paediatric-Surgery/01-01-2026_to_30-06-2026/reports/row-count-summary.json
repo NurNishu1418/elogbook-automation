@@ -1,0 +1,250 @@
+{
+  "generatedAt": "2026-09-09T08:21:45.138Z",
+  "totalRows": 49,
+  "interpretativeTotal": 24,
+  "proceduralTotal": 25,
+  "perSkill": {
+    "Interpretative Skill > Contrast X-rays": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > Histopathology": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > Invertogram": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > Plain X-ray Abdomen": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > Plain X-ray KUB": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > USG": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > Urine analysis": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > X-ray chest P/A": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Central venous line insertion": {
+      "requested": 2,
+      "actual": 2
+    },
+    "Procedural skill > Chordee correction in hypospadias": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Circumcision": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Cutback procedure for ectopic stenosed anus": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Drainage of abscess": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Herniotomy": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Hydrocelectomy": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Intraosseous infusion": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Lymph node biopsy": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Orchidopexy": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Pyloromyotomy": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Suprapubic catheterization": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Temporary colostomy": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Urethroplasty": {
+      "requested": 1,
+      "actual": 1
+    }
+  },
+  "procedural_competenceLevelUsage": [
+    {
+      "skill": "Central venous line insertion",
+      "allowedLevels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "skill": "Chordee correction in hypospadias",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1"
+      ]
+    },
+    {
+      "skill": "Circumcision",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "skill": "Cutback procedure for ectopic stenosed anus",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1"
+      ]
+    },
+    {
+      "skill": "Drainage of abscess",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "skill": "Herniotomy",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "skill": "Hydrocelectomy",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "skill": "Intraosseous infusion",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2"
+      ]
+    },
+    {
+      "skill": "Lymph node biopsy",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "skill": "Orchidopexy",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1"
+      ]
+    },
+    {
+      "skill": "Pyloromyotomy",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1"
+      ]
+    },
+    {
+      "skill": "Suprapubic catheterization",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2"
+      ]
+    },
+    {
+      "skill": "Temporary colostomy",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1"
+      ]
+    },
+    {
+      "skill": "Urethroplasty",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1"
+      ]
+    }
+  ]
+}

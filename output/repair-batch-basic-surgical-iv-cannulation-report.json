@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-09-10T07:02:22.400Z",
+  "totalTargeted": 17,
+  "totalProcessed": 1,
+  "repaired": 0,
+  "skipped": 0,
+  "failed": 1,
+  "results": [
+    {
+      "entryId": "b4975eef-6510-49b8-9370-902ecccd0717",
+      "outcome": "FAILED",
+      "detail": "Repair failed for entry b4975eef-6510-49b8-9370-902ecccd0717: AMBIGUOUS_MATCH: opened entry's checked skill(s) [Administration of nasogastric / nasojejunal feeding] do not match the expected target skill \"Intravenous cannulation\". Closed without saving. Refusing to guess."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-09-08T08:46:02.929Z",
+  "mode": "dry-run",
+  "totalRows": 1,
+  "saveDraftRows": 1,
+  "validRows": 1,
+  "invalidRows": 0,
+  "details": [
+    {
+      "excelRow": 2,
+      "externalRowId": "EXAMPLE-1",
+      "valid": true,
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Interpretative Skill"
+    }
+  ]
+}

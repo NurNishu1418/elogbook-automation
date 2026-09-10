@@ -1,0 +1,45 @@
+{
+  "specialty": "Accident & Emergency / Casualty",
+  "form": "Procedural and Interpretative Skills",
+  "caseType": "Accident & Emergency / Casualty",
+  "mappedLeafIds": {
+    "Interpretative Skill": "062a2e9b-b12d-467a-b119-5ea4310e2c93",
+    "Procedural skill": "f32621e6-4fa8-4718-b289-207f45ca363d"
+  },
+  "externalRowIdPrefix": "AEC",
+  "quotaSource": {
+    "decision": "AUTHORITATIVE_SOURCE_IS_USER_PROVIDED_EXACT_COUNTS_FROM_PDF - per explicit user instruction, this dataset uses the exact per-skill counts and competence levels the user supplied (from the FCPS PDF), NOT portal quota minimums. Portal is used only to verify skill names, field schemas, and valid competence levels.",
+    "arithmeticCheck": "Itemized Interpretative (6x3=18) and Procedural (3+3+3+3+1+1+3+3+1+1+1+3+3=29) sum to 18+29=47, matching the user's stated totals exactly - no discrepancy for this specialty."
+  },
+  "skills": {
+    "Interpretative Skill": [
+      { "name": "Contrast X-rays", "count": 3 },
+      { "name": "Local X-ray of injured limbs", "count": 3 },
+      { "name": "Plain X-ray Abdomen", "count": 3 },
+      { "name": "USG / CT scan / MRI", "count": 3 },
+      { "name": "X-ray chest A/P", "count": 3 },
+      { "name": "X-ray pelvis", "count": 3 }
+    ],
+    "Procedural skill": [
+      { "name": "Airway management (Basic and advanced)", "count": 3, "allowedLevels": ["3", "4"] },
+      { "name": "Application of cervical collar", "count": 3, "allowedLevels": ["3", "4"] },
+      { "name": "Application of tourniquet", "count": 3, "allowedLevels": ["3", "4"] },
+      { "name": "Application of traction splint", "count": 3, "allowedLevels": ["3", "4"] },
+      { "name": "Central venous catheterization", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "Chest tube insertion", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "Laparoscopy", "count": 3, "allowedLevels": ["1", "2"] },
+      { "name": "Laparotomy", "count": 3, "allowedLevels": ["1", "2"] },
+      { "name": "Pericardiocentesis", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "Stoma creation (Colostomy and ileostomy)", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Tracheostomy", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "Wound debridement", "count": 3, "allowedLevels": ["2", "3"] },
+      { "name": "Wound packing", "count": 3, "allowedLevels": ["3", "4"] }
+    ]
+  },
+  "notes": [
+    "All 19 skill labels matched the live portal exactly, verbatim - no whitespace or spelling differences for this specialty. See reports/mapping-match-report.json.",
+    "'Central venous catheterization' here uses levels 2,3 (min 1 each) - this is a DIFFERENT leaf/competency item than the one under Anaesthesia & Procedural Critical Care (which uses levels 3,4) - each case type has its own independent competency definition even for identically-named skills. Do not conflate them.",
+    "'Wound debridement' here (levels 2,3) is likewise a distinct competency item from the same-named skill under Skin and Subcutaneous Tissue (levels 3,4).",
+    "This config is reusable for future date ranges - do not hardcode date-range-specific values here."
+  ]
+}

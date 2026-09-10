@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-09-09T06:42:30.529Z",
+  "totalRows": 11,
+  "interpretativeTotal": 7,
+  "proceduralTotal": 4,
+  "perSkill": {
+    "Interpretative Skill > CT/MRI /MRA of brain": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > Nerve conduction study": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Interpretative Skill > X-ray skull": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Burr hole": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Craniotomy": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Repair of meningocoele": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Repair of peripheral nerves": {
+      "requested": 1,
+      "actual": 1
+    }
+  },
+  "perCompetenceLevel": [
+    {
+      "skillType": "Procedural skill",
+      "skill": "Burr hole",
+      "level": "1",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Craniotomy",
+      "level": "2",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Repair of meningocoele",
+      "level": "1",
+      "requested": 1,
+      "actual": 1
+    },
+    {
+      "skillType": "Procedural skill",
+      "skill": "Repair of peripheral nerves",
+      "level": "2",
+      "requested": 1,
+      "actual": 1
+    }
+  ]
+}

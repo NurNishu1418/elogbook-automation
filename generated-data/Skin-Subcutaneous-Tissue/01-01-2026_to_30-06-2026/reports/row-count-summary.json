@@ -1,0 +1,172 @@
+{
+  "generatedAt": "2026-09-09T09:17:26.307Z",
+  "totalRows": 30,
+  "interpretativeTotal": 6,
+  "proceduralTotal": 24,
+  "perSkill": {
+    "Interpretative Skill > Histopathological analysis": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Interpretative Skill > Wound swab for C/S": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Drainage of superficial abscess": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Excision biopsy of SCC / BCC / Melanoma": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Excision of carbuncle": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Fasciotomy": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Flap closure": {
+      "requested": 1,
+      "actual": 1
+    },
+    "Procedural skill > Lymph node biopsy": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Management of foreign bodies": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Nail avulsion / Wedge resection": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Skin grafting (partial thickness and full thickness)": {
+      "requested": 3,
+      "actual": 3
+    },
+    "Procedural skill > Wound debridement": {
+      "requested": 3,
+      "actual": 3
+    }
+  },
+  "procedural_competenceLevelUsage": [
+    {
+      "skill": "Drainage of superficial abscess",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "3",
+        "4",
+        "3"
+      ]
+    },
+    {
+      "skill": "Excision biopsy of SCC / BCC / Melanoma",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    {
+      "skill": "Excision of carbuncle",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "3"
+      ]
+    },
+    {
+      "skill": "Fasciotomy",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "4"
+      ]
+    },
+    {
+      "skill": "Flap closure",
+      "allowedLevels": [
+        "1",
+        "2"
+      ],
+      "levelsUsed": [
+        "1"
+      ]
+    },
+    {
+      "skill": "Lymph node biopsy",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    {
+      "skill": "Management of foreign bodies",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    {
+      "skill": "Nail avulsion / Wedge resection",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "3",
+        "4",
+        "3"
+      ]
+    },
+    {
+      "skill": "Skin grafting (partial thickness and full thickness)",
+      "allowedLevels": [
+        "2",
+        "3"
+      ],
+      "levelsUsed": [
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    {
+      "skill": "Wound debridement",
+      "allowedLevels": [
+        "3",
+        "4"
+      ],
+      "levelsUsed": [
+        "3",
+        "4",
+        "3"
+      ]
+    }
+  ]
+}

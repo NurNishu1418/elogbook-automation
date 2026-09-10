@@ -1,0 +1,564 @@
+2026-09-08T09:57:43.288Z [INFO] === Basic Surgical Skill dataset upload: EXECUTE mode (Save as Draft only) ===
+2026-09-08T09:57:43.515Z [INFO] 174 SAVE_DRAFT row(s) found, 174 passed local validation (only these are eligible).
+2026-09-08T09:57:43.610Z [INFO] 8 row(s) already recorded as SUCCESS in this workbook's UploadResult sheet - will be skipped.
+2026-09-08T09:57:48.298Z [INFO] Login confirmed.
+2026-09-08T09:57:48.298Z [INFO] Fetching existing portal entries for duplicate pre-check (read-only, up to 300 recent entries)...
+2026-09-08T09:57:56.400Z [INFO] Fetched 150 existing entries from the portal for duplicate comparison.
+2026-09-08T09:57:56.400Z [INFO] 166 row(s) remain to process after local-skip filtering.
+2026-09-08T09:57:56.400Z [INFO] [1/166] Processing BSS-009: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Aleya Alam | RegNo=5851/15
+2026-09-08T09:58:08.740Z [INFO]   VERIFIED: saved entry 499a66d7-ab9c-4749-ab9e-ec149606e4a7 matches all submitted fields.
+2026-09-08T09:58:08.741Z [INFO] [1/166] BSS-009: SUCCESS - draft reference 499a66d7-ab9c-4749-ab9e-ec149606e4a7
+2026-09-08T09:58:08.741Z [INFO] [2/166] Processing BSS-010: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Faridul Alam | RegNo=3907/40
+2026-09-08T09:58:20.959Z [INFO]   VERIFIED: saved entry b2f1dc0a-8311-4d89-aea6-e170d76c3938 matches all submitted fields.
+2026-09-08T09:58:20.959Z [INFO] [2/166] BSS-010: SUCCESS - draft reference b2f1dc0a-8311-4d89-aea6-e170d76c3938
+2026-09-08T09:58:20.960Z [INFO] [3/166] Processing BSS-011: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Rehana Alam | RegNo=1866/28
+2026-09-08T09:58:33.541Z [INFO]   VERIFIED: saved entry 8cf2451c-7226-49d7-ad35-d35e7e911338 matches all submitted fields.
+2026-09-08T09:58:33.541Z [INFO] [3/166] BSS-011: SUCCESS - draft reference 8cf2451c-7226-49d7-ad35-d35e7e911338
+2026-09-08T09:58:33.541Z [INFO] [4/166] Processing BSS-012: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Tanvir Alam | RegNo=3554/87
+2026-09-08T09:58:46.267Z [INFO]   VERIFIED: saved entry 16e4b748-b3a1-4ebe-bf38-a532b332649f matches all submitted fields.
+2026-09-08T09:58:46.267Z [INFO] [4/166] BSS-012: SUCCESS - draft reference 16e4b748-b3a1-4ebe-bf38-a532b332649f
+2026-09-08T09:58:46.267Z [INFO] [5/166] Processing BSS-013: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Shahnaz Alam | RegNo=8233/01
+2026-09-08T09:58:58.751Z [INFO]   VERIFIED: saved entry 1ac2d5d1-cdc5-4027-a72f-fbc3e82955d6 matches all submitted fields.
+2026-09-08T09:58:58.751Z [INFO] [5/166] BSS-013: SUCCESS - draft reference 1ac2d5d1-cdc5-4027-a72f-fbc3e82955d6
+2026-09-08T09:58:58.751Z [INFO] [6/166] Processing BSS-014: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Md. Shafiqul Alam | RegNo=5509/72
+2026-09-08T09:59:11.462Z [INFO]   VERIFIED: saved entry bfbfbc16-0530-4085-9fc0-6945841b3ac7 matches all submitted fields.
+2026-09-08T09:59:11.462Z [INFO] [6/166] BSS-014: SUCCESS - draft reference bfbfbc16-0530-4085-9fc0-6945841b3ac7
+2026-09-08T09:59:11.462Z [INFO] [7/166] Processing BSS-015: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Rezaul Alam | RegNo=6399/73
+2026-09-08T09:59:23.666Z [INFO]   VERIFIED: saved entry 264e771a-43e6-41e5-98ac-63478e81c7eb matches all submitted fields.
+2026-09-08T09:59:23.666Z [INFO] [7/166] BSS-015: SUCCESS - draft reference 264e771a-43e6-41e5-98ac-63478e81c7eb
+2026-09-08T09:59:23.667Z [INFO] [8/166] Processing BSS-016: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Anisur Alam | RegNo=4810/19
+2026-09-08T09:59:36.451Z [INFO]   VERIFIED: saved entry 4bb68a06-edbb-4dee-84a9-d82c85a00e88 matches all submitted fields.
+2026-09-08T09:59:36.452Z [INFO] [8/166] BSS-016: SUCCESS - draft reference 4bb68a06-edbb-4dee-84a9-d82c85a00e88
+2026-09-08T09:59:36.452Z [INFO] [9/166] Processing BSS-017: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Md. Kamal Alam | RegNo=1594/65
+2026-09-08T09:59:48.944Z [INFO]   VERIFIED: saved entry 77c82c52-cd2b-453e-9441-d7dfa2768743 matches all submitted fields.
+2026-09-08T09:59:48.944Z [INFO] [9/166] BSS-017: SUCCESS - draft reference 77c82c52-cd2b-453e-9441-d7dfa2768743
+2026-09-08T09:59:48.945Z [INFO] [10/166] Processing BSS-018: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Md. Mahbubur Alam | RegNo=2138/88
+2026-09-08T10:00:00.963Z [INFO]   VERIFIED: saved entry 30204b98-fe53-4a79-889d-4def9af0c48f matches all submitted fields.
+2026-09-08T10:00:00.963Z [INFO] [10/166] BSS-018: SUCCESS - draft reference 30204b98-fe53-4a79-889d-4def9af0c48f
+2026-09-08T10:00:00.963Z [INFO] --- PROGRESS: 10 successful, 0 failed, 0 skipped, 156 remaining ---
+2026-09-08T10:00:00.964Z [INFO] [11/166] Processing BSS-019: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Fatema Alam | RegNo=7627/11
+2026-09-08T10:00:12.963Z [INFO]   VERIFIED: saved entry 9240e43d-1047-43f0-91c1-d1939f3a978e matches all submitted fields.
+2026-09-08T10:00:12.963Z [INFO] [11/166] BSS-019: SUCCESS - draft reference 9240e43d-1047-43f0-91c1-d1939f3a978e
+2026-09-08T10:00:12.963Z [INFO] [12/166] Processing BSS-020: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Rashida Alam | RegNo=5975/22
+2026-09-08T10:00:24.841Z [INFO]   VERIFIED: saved entry 187718aa-c9c9-4274-8ebb-6ab1d4167ecf matches all submitted fields.
+2026-09-08T10:00:24.841Z [INFO] [12/166] BSS-020: SUCCESS - draft reference 187718aa-c9c9-4274-8ebb-6ab1d4167ecf
+2026-09-08T10:00:24.841Z [INFO] [13/166] Processing BSS-021: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Rubina Alam | RegNo=5387/20
+2026-09-08T10:00:37.243Z [INFO]   VERIFIED: saved entry f81a769e-307f-4856-bba2-6f2a7a24ed93 matches all submitted fields.
+2026-09-08T10:00:37.243Z [INFO] [13/166] BSS-021: SUCCESS - draft reference f81a769e-307f-4856-bba2-6f2a7a24ed93
+2026-09-08T10:00:37.243Z [INFO] [14/166] Processing BSS-022: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Shirin Alam | RegNo=5658/57
+2026-09-08T10:00:49.466Z [INFO]   VERIFIED: saved entry 92f8bba5-0558-4726-913d-c95017889f2d matches all submitted fields.
+2026-09-08T10:00:49.466Z [INFO] [14/166] BSS-022: SUCCESS - draft reference 92f8bba5-0558-4726-913d-c95017889f2d
+2026-09-08T10:00:49.466Z [INFO] [15/166] Processing BSS-023: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Halima Alam | RegNo=7763/72
+2026-09-08T10:01:02.050Z [INFO]   VERIFIED: saved entry e738913d-4963-4209-a811-88e73d63c84b matches all submitted fields.
+2026-09-08T10:01:02.051Z [INFO] [15/166] BSS-023: SUCCESS - draft reference e738913d-4963-4209-a811-88e73d63c84b
+2026-09-08T10:01:02.051Z [INFO] [16/166] Processing BSS-024: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Mohammad Arif Alam | RegNo=7195/44
+2026-09-08T10:01:14.742Z [INFO]   VERIFIED: saved entry 041e945b-a7f3-486e-988f-e2ebdec9d320 matches all submitted fields.
+2026-09-08T10:01:14.742Z [INFO] [16/166] BSS-024: SUCCESS - draft reference 041e945b-a7f3-486e-988f-e2ebdec9d320
+2026-09-08T10:01:14.742Z [INFO] [17/166] Processing BSS-025: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Shahidul Alam | RegNo=3921/36
+2026-09-08T10:01:26.841Z [INFO]   VERIFIED: saved entry 60f3b6ab-0229-405c-badf-7bda65217910 matches all submitted fields.
+2026-09-08T10:01:26.841Z [INFO] [17/166] BSS-025: SUCCESS - draft reference 60f3b6ab-0229-405c-badf-7bda65217910
+2026-09-08T10:01:26.841Z [INFO] [18/166] Processing BSS-026: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Md. Aminul Alam | RegNo=2980/42
+2026-09-08T10:01:39.617Z [INFO]   VERIFIED: saved entry 5eb751f3-1e8f-4e6c-94d7-b5c2c1f31b12 matches all submitted fields.
+2026-09-08T10:01:39.617Z [INFO] [18/166] BSS-026: SUCCESS - draft reference 5eb751f3-1e8f-4e6c-94d7-b5c2c1f31b12
+2026-09-08T10:01:39.617Z [INFO] [19/166] Processing BSS-027: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Shamsul Alam | RegNo=4079/23
+2026-09-08T10:01:52.128Z [INFO]   VERIFIED: saved entry a6c487e2-58f8-4972-9986-85179a63069d matches all submitted fields.
+2026-09-08T10:01:52.128Z [INFO] [19/166] BSS-027: SUCCESS - draft reference a6c487e2-58f8-4972-9986-85179a63069d
+2026-09-08T10:01:52.129Z [INFO] [20/166] Processing BSS-028: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Md. Nazrul Alam | RegNo=2713/55
+2026-09-08T10:02:04.441Z [INFO]   VERIFIED: saved entry 542acd18-3cd3-41dd-9403-f52cfcb4abd0 matches all submitted fields.
+2026-09-08T10:02:04.441Z [INFO] [20/166] BSS-028: SUCCESS - draft reference 542acd18-3cd3-41dd-9403-f52cfcb4abd0
+2026-09-08T10:02:04.442Z [INFO] --- PROGRESS: 20 successful, 0 failed, 0 skipped, 146 remaining ---
+2026-09-08T10:02:04.442Z [INFO] [21/166] Processing BSS-029: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Marufa Alam | RegNo=5339/75
+2026-09-08T10:02:17.175Z [INFO]   VERIFIED: saved entry 0b992f7e-52cc-42fa-9b5d-ea5ba476f375 matches all submitted fields.
+2026-09-08T10:02:17.175Z [INFO] [21/166] BSS-029: SUCCESS - draft reference 0b992f7e-52cc-42fa-9b5d-ea5ba476f375
+2026-09-08T10:02:17.176Z [INFO] [22/166] Processing BSS-030: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Golam Alam | RegNo=6201/81
+2026-09-08T10:02:29.650Z [INFO]   VERIFIED: saved entry b9ab10aa-af35-48d5-b8c3-28382220e93c matches all submitted fields.
+2026-09-08T10:02:29.650Z [INFO] [22/166] BSS-030: SUCCESS - draft reference b9ab10aa-af35-48d5-b8c3-28382220e93c
+2026-09-08T10:02:29.651Z [INFO] [23/166] Processing BSS-031: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Md. Rafiqul Alam | RegNo=6140/27
+2026-09-08T10:02:42.518Z [INFO]   VERIFIED: saved entry 540544fa-1da4-4854-9bc1-42c7aefd141a matches all submitted fields.
+2026-09-08T10:02:42.518Z [INFO] [23/166] BSS-031: SUCCESS - draft reference 540544fa-1da4-4854-9bc1-42c7aefd141a
+2026-09-08T10:02:42.519Z [INFO] [24/166] Processing BSS-032: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Abdul Alam | RegNo=5394/96
+2026-09-08T10:02:54.758Z [INFO]   VERIFIED: saved entry 395c187f-e31e-41ff-86c7-5f014de0f1ac matches all submitted fields.
+2026-09-08T10:02:54.758Z [INFO] [24/166] BSS-032: SUCCESS - draft reference 395c187f-e31e-41ff-86c7-5f014de0f1ac
+2026-09-08T10:02:54.758Z [INFO] [25/166] Processing BSS-033: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Md. Nurul Alam | RegNo=4808/55
+2026-09-08T10:03:07.442Z [INFO]   VERIFIED: saved entry bd71a01e-75e8-4d30-8e86-26ed970b2bdb matches all submitted fields.
+2026-09-08T10:03:07.442Z [INFO] [25/166] BSS-033: SUCCESS - draft reference bd71a01e-75e8-4d30-8e86-26ed970b2bdb
+2026-09-08T10:03:07.442Z [INFO] [26/166] Processing BSS-034: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Md. Ekram Alam | RegNo=1403/90
+2026-09-08T10:03:19.542Z [INFO]   VERIFIED: saved entry feeb7471-50a7-43aa-82c5-e1f18048a2da matches all submitted fields.
+2026-09-08T10:03:19.542Z [INFO] [26/166] BSS-034: SUCCESS - draft reference feeb7471-50a7-43aa-82c5-e1f18048a2da
+2026-09-08T10:03:19.542Z [INFO] [27/166] Processing BSS-035: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Sharmin Alam | RegNo=8248/43
+2026-09-08T10:03:31.742Z [INFO]   VERIFIED: saved entry 857b1f65-e204-4fdc-8769-6434493acc0d matches all submitted fields.
+2026-09-08T10:03:31.742Z [INFO] [27/166] BSS-035: SUCCESS - draft reference 857b1f65-e204-4fdc-8769-6434493acc0d
+2026-09-08T10:03:31.743Z [INFO] [28/166] Processing BSS-036: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Nasima Alam | RegNo=1571/66
+2026-09-08T10:03:44.270Z [INFO]   VERIFIED: saved entry c858bf68-fd00-4080-bbd7-eb85dd093be7 matches all submitted fields.
+2026-09-08T10:03:44.271Z [INFO] [28/166] BSS-036: SUCCESS - draft reference c858bf68-fd00-4080-bbd7-eb85dd093be7
+2026-09-08T10:03:44.272Z [INFO] [29/166] Processing BSS-037: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Rokeya Alam | RegNo=5080/83
+2026-09-08T10:03:57.570Z [INFO]   VERIFIED: saved entry 92311266-511b-443a-b337-2ca8d156a9cc matches all submitted fields.
+2026-09-08T10:03:57.570Z [INFO] [29/166] BSS-037: SUCCESS - draft reference 92311266-511b-443a-b337-2ca8d156a9cc
+2026-09-08T10:03:57.571Z [INFO] [30/166] Processing BSS-038: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Momena Alam | RegNo=2824/19
+2026-09-08T10:04:09.672Z [INFO]   VERIFIED: saved entry 90e4f9ca-731c-49cf-bd45-b0b312c87e86 matches all submitted fields.
+2026-09-08T10:04:09.672Z [INFO] [30/166] BSS-038: SUCCESS - draft reference 90e4f9ca-731c-49cf-bd45-b0b312c87e86
+2026-09-08T10:04:09.673Z [INFO] --- PROGRESS: 30 successful, 0 failed, 0 skipped, 136 remaining ---
+2026-09-08T10:04:09.673Z [INFO] [31/166] Processing BSS-039: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Rahima Alam | RegNo=5421/49
+2026-09-08T10:04:21.662Z [INFO]   VERIFIED: saved entry a45e70e5-39b7-461d-ad39-0527b003753c matches all submitted fields.
+2026-09-08T10:04:21.662Z [INFO] [31/166] BSS-039: SUCCESS - draft reference a45e70e5-39b7-461d-ad39-0527b003753c
+2026-09-08T10:04:21.662Z [INFO] [32/166] Processing BSS-040: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Salma Alam | RegNo=4268/67
+2026-09-08T10:04:33.563Z [INFO]   VERIFIED: saved entry 7fd00109-0c0c-4c90-b42d-46046129f09b matches all submitted fields.
+2026-09-08T10:04:33.563Z [INFO] [32/166] BSS-040: SUCCESS - draft reference 7fd00109-0c0c-4c90-b42d-46046129f09b
+2026-09-08T10:04:33.563Z [INFO] [33/166] Processing BSS-041: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Md. Zahirul Hasan | RegNo=9487/06
+2026-09-08T10:04:46.346Z [INFO]   VERIFIED: saved entry bee2dd73-b858-4a53-8b8d-a16ca9b46d00 matches all submitted fields.
+2026-09-08T10:04:46.346Z [INFO] [33/166] BSS-041: SUCCESS - draft reference bee2dd73-b858-4a53-8b8d-a16ca9b46d00
+2026-09-08T10:04:46.346Z [INFO] [34/166] Processing BSS-042: Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill | Habibur Hasan | RegNo=6162/56
+2026-09-08T10:04:58.944Z [INFO]   VERIFIED: saved entry 3ff74eba-f3a6-45c1-8515-55116e1228d1 matches all submitted fields.
+2026-09-08T10:04:58.944Z [INFO] [34/166] BSS-042: SUCCESS - draft reference 3ff74eba-f3a6-45c1-8515-55116e1228d1
+2026-09-08T10:04:58.944Z [INFO] [35/166] Processing BSS-043: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Parveen Hasan | RegNo=4269/67
+2026-09-08T10:05:11.045Z [INFO]   VERIFIED: saved entry 42397e0c-d7ae-4a9b-9e56-5dc31431da9b matches all submitted fields.
+2026-09-08T10:05:11.045Z [INFO] [35/166] BSS-043: SUCCESS - draft reference 42397e0c-d7ae-4a9b-9e56-5dc31431da9b
+2026-09-08T10:05:11.046Z [INFO] [36/166] Processing BSS-044: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shahana Hasan | RegNo=4838/43
+2026-09-08T10:05:23.162Z [INFO]   VERIFIED: saved entry 88976b60-c8b1-4b69-9433-347c4eb77cbe matches all submitted fields.
+2026-09-08T10:05:23.162Z [INFO] [36/166] BSS-044: SUCCESS - draft reference 88976b60-c8b1-4b69-9433-347c4eb77cbe
+2026-09-08T10:05:23.162Z [INFO] [37/166] Processing BSS-045: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Taslima Hasan | RegNo=8218/11
+2026-09-08T10:05:36.145Z [INFO]   VERIFIED: saved entry d3af4a55-3b5a-4fd1-9afc-0dd9594d3d72 matches all submitted fields.
+2026-09-08T10:05:36.145Z [INFO] [37/166] BSS-045: SUCCESS - draft reference d3af4a55-3b5a-4fd1-9afc-0dd9594d3d72
+2026-09-08T10:05:36.145Z [INFO] [38/166] Processing BSS-046: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Farzana Hasan | RegNo=8626/79
+2026-09-08T10:05:48.243Z [INFO]   VERIFIED: saved entry 01e72690-19da-46e0-ba7f-8c8db4960ea0 matches all submitted fields.
+2026-09-08T10:05:48.243Z [INFO] [38/166] BSS-046: SUCCESS - draft reference 01e72690-19da-46e0-ba7f-8c8db4960ea0
+2026-09-08T10:05:48.244Z [INFO] [39/166] Processing BSS-047: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Nasrin Hasan | RegNo=9411/38
+2026-09-08T10:06:01.362Z [INFO]   VERIFIED: saved entry 27ec0590-a43e-4b47-9d01-11af9a7fe53c matches all submitted fields.
+2026-09-08T10:06:01.362Z [INFO] [39/166] BSS-047: SUCCESS - draft reference 27ec0590-a43e-4b47-9d01-11af9a7fe53c
+2026-09-08T10:06:01.363Z [INFO] [40/166] Processing BSS-048: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Jahangir Hasan | RegNo=1916/49
+2026-09-08T10:06:13.347Z [INFO]   VERIFIED: saved entry 5cd8dc53-e569-4c47-8ad5-d7312c83e3ba matches all submitted fields.
+2026-09-08T10:06:13.347Z [INFO] [40/166] BSS-048: SUCCESS - draft reference 5cd8dc53-e569-4c47-8ad5-d7312c83e3ba
+2026-09-08T10:06:13.347Z [INFO] --- PROGRESS: 40 successful, 0 failed, 0 skipped, 126 remaining ---
+2026-09-08T10:06:13.347Z [INFO] [41/166] Processing BSS-049: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Aleya Hasan | RegNo=2923/30
+2026-09-08T10:06:26.249Z [INFO]   VERIFIED: saved entry 85f9074c-2012-4f1f-bb08-e0869d000037 matches all submitted fields.
+2026-09-08T10:06:26.249Z [INFO] [41/166] BSS-049: SUCCESS - draft reference 85f9074c-2012-4f1f-bb08-e0869d000037
+2026-09-08T10:06:26.250Z [INFO] [42/166] Processing BSS-050: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Faridul Hasan | RegNo=1531/60
+2026-09-08T10:06:38.972Z [INFO]   VERIFIED: saved entry b07fa12f-bf24-4c0b-9c46-bcb936538676 matches all submitted fields.
+2026-09-08T10:06:38.972Z [INFO] [42/166] BSS-050: SUCCESS - draft reference b07fa12f-bf24-4c0b-9c46-bcb936538676
+2026-09-08T10:06:38.973Z [INFO] [43/166] Processing BSS-051: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rehana Hasan | RegNo=1664/68
+2026-09-08T10:06:50.971Z [INFO]   VERIFIED: saved entry 1c9fbb0b-471f-4a8e-9a5a-c82d827fd670 matches all submitted fields.
+2026-09-08T10:06:50.972Z [INFO] [43/166] BSS-051: SUCCESS - draft reference 1c9fbb0b-471f-4a8e-9a5a-c82d827fd670
+2026-09-08T10:06:50.972Z [INFO] [44/166] Processing BSS-052: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Tanvir Hasan | RegNo=4341/68
+2026-09-08T10:07:03.145Z [INFO]   VERIFIED: saved entry 5416d2c6-a5b3-4687-81a3-ca1adef0a072 matches all submitted fields.
+2026-09-08T10:07:03.145Z [INFO] [44/166] BSS-052: SUCCESS - draft reference 5416d2c6-a5b3-4687-81a3-ca1adef0a072
+2026-09-08T10:07:03.145Z [INFO] [45/166] Processing BSS-053: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shahnaz Hasan | RegNo=6627/43
+2026-09-08T10:07:15.244Z [INFO]   VERIFIED: saved entry 8f5b1b81-afb4-4e6d-823b-7a6f3cde72da matches all submitted fields.
+2026-09-08T10:07:15.245Z [INFO] [45/166] BSS-053: SUCCESS - draft reference 8f5b1b81-afb4-4e6d-823b-7a6f3cde72da
+2026-09-08T10:07:15.245Z [INFO] [46/166] Processing BSS-054: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Shafiqul Hasan | RegNo=4568/47
+2026-09-08T10:07:28.058Z [INFO]   VERIFIED: saved entry ab7d9e2e-396f-43d7-bb87-a8cfc1c15e4d matches all submitted fields.
+2026-09-08T10:07:28.058Z [INFO] [46/166] BSS-054: SUCCESS - draft reference ab7d9e2e-396f-43d7-bb87-a8cfc1c15e4d
+2026-09-08T10:07:28.058Z [INFO] [47/166] Processing BSS-055: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rezaul Hasan | RegNo=5051/44
+2026-09-08T10:07:40.763Z [INFO]   VERIFIED: saved entry f1dfeca5-e3cb-4b2c-9077-842bf181c530 matches all submitted fields.
+2026-09-08T10:07:40.763Z [INFO] [47/166] BSS-055: SUCCESS - draft reference f1dfeca5-e3cb-4b2c-9077-842bf181c530
+2026-09-08T10:07:40.764Z [INFO] [48/166] Processing BSS-056: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Anisur Hasan | RegNo=8879/35
+2026-09-08T10:07:52.916Z [INFO]   VERIFIED: saved entry f7b38ae0-f162-4879-ae16-1b55c63bc169 matches all submitted fields.
+2026-09-08T10:07:52.916Z [INFO] [48/166] BSS-056: SUCCESS - draft reference f7b38ae0-f162-4879-ae16-1b55c63bc169
+2026-09-08T10:07:52.916Z [INFO] [49/166] Processing BSS-057: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Kamal Hasan | RegNo=8245/85
+2026-09-08T10:08:06.071Z [INFO]   VERIFIED: saved entry fe904eab-00a4-4f0e-ad6a-1c6d576f4463 matches all submitted fields.
+2026-09-08T10:08:06.071Z [INFO] [49/166] BSS-057: SUCCESS - draft reference fe904eab-00a4-4f0e-ad6a-1c6d576f4463
+2026-09-08T10:08:06.072Z [INFO] [50/166] Processing BSS-058: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Mahbubur Hasan | RegNo=8943/41
+2026-09-08T10:08:18.865Z [INFO]   VERIFIED: saved entry e4078a2d-b24f-4133-b05c-a2590797de4d matches all submitted fields.
+2026-09-08T10:08:18.865Z [INFO] [50/166] BSS-058: SUCCESS - draft reference e4078a2d-b24f-4133-b05c-a2590797de4d
+2026-09-08T10:08:18.865Z [INFO] --- PROGRESS: 50 successful, 0 failed, 0 skipped, 116 remaining ---
+2026-09-08T10:08:18.865Z [INFO] [51/166] Processing BSS-059: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Fatema Hasan | RegNo=5346/10
+2026-09-08T10:08:30.944Z [INFO]   VERIFIED: saved entry 837a0315-f7d6-4334-a110-76aa64269a32 matches all submitted fields.
+2026-09-08T10:08:30.945Z [INFO] [51/166] BSS-059: SUCCESS - draft reference 837a0315-f7d6-4334-a110-76aa64269a32
+2026-09-08T10:08:30.945Z [INFO] [52/166] Processing BSS-060: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rashida Hasan | RegNo=7116/08
+2026-09-08T10:08:43.065Z [INFO]   VERIFIED: saved entry 308e49a2-59c5-4921-9741-8d78328fc2c0 matches all submitted fields.
+2026-09-08T10:08:43.065Z [INFO] [52/166] BSS-060: SUCCESS - draft reference 308e49a2-59c5-4921-9741-8d78328fc2c0
+2026-09-08T10:08:43.065Z [INFO] [53/166] Processing BSS-061: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rubina Hasan | RegNo=4551/36
+2026-09-08T10:08:55.673Z [INFO]   VERIFIED: saved entry a0ed815f-a1ac-48a0-8b6d-9e1ba5ffa821 matches all submitted fields.
+2026-09-08T10:08:55.673Z [INFO] [53/166] BSS-061: SUCCESS - draft reference a0ed815f-a1ac-48a0-8b6d-9e1ba5ffa821
+2026-09-08T10:08:55.673Z [INFO] [54/166] Processing BSS-062: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shirin Hasan | RegNo=9215/38
+2026-09-08T10:09:08.427Z [INFO]   VERIFIED: saved entry 61408aea-1518-45ac-a2bd-e99761db3ae5 matches all submitted fields.
+2026-09-08T10:09:08.427Z [INFO] [54/166] BSS-062: SUCCESS - draft reference 61408aea-1518-45ac-a2bd-e99761db3ae5
+2026-09-08T10:09:08.427Z [INFO] [55/166] Processing BSS-063: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Halima Hasan | RegNo=3696/98
+2026-09-08T10:09:20.365Z [INFO]   VERIFIED: saved entry 6c31ced5-a8d0-454a-b7ad-9b9843299f1d matches all submitted fields.
+2026-09-08T10:09:20.365Z [INFO] [55/166] BSS-063: SUCCESS - draft reference 6c31ced5-a8d0-454a-b7ad-9b9843299f1d
+2026-09-08T10:09:20.365Z [INFO] [56/166] Processing BSS-064: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Mohammad Arif Hasan | RegNo=1645/91
+2026-09-08T10:09:32.475Z [INFO]   VERIFIED: saved entry 38a5862a-4888-4263-9aca-a39293f52b23 matches all submitted fields.
+2026-09-08T10:09:32.475Z [INFO] [56/166] BSS-064: SUCCESS - draft reference 38a5862a-4888-4263-9aca-a39293f52b23
+2026-09-08T10:09:32.475Z [INFO] [57/166] Processing BSS-065: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shahidul Hasan | RegNo=5322/57
+2026-09-08T10:09:45.144Z [INFO]   VERIFIED: saved entry 8353121e-a2d2-4b2c-97e1-9e354c327868 matches all submitted fields.
+2026-09-08T10:09:45.144Z [INFO] [57/166] BSS-065: SUCCESS - draft reference 8353121e-a2d2-4b2c-97e1-9e354c327868
+2026-09-08T10:09:45.144Z [INFO] [58/166] Processing BSS-066: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Aminul Hasan | RegNo=4707/86
+2026-09-08T10:09:57.144Z [INFO]   VERIFIED: saved entry 5c71e1dd-a88b-4e57-a27f-a2499b88f66d matches all submitted fields.
+2026-09-08T10:09:57.144Z [INFO] [58/166] BSS-066: SUCCESS - draft reference 5c71e1dd-a88b-4e57-a27f-a2499b88f66d
+2026-09-08T10:09:57.144Z [INFO] [59/166] Processing BSS-067: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shamsul Hasan | RegNo=6715/83
+2026-09-08T10:10:09.252Z [INFO]   VERIFIED: saved entry 8e2d4860-c3df-407a-9fd7-a67cbe25e2ce matches all submitted fields.
+2026-09-08T10:10:09.252Z [INFO] [59/166] BSS-067: SUCCESS - draft reference 8e2d4860-c3df-407a-9fd7-a67cbe25e2ce
+2026-09-08T10:10:09.253Z [INFO] [60/166] Processing BSS-068: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Nazrul Hasan | RegNo=1158/93
+2026-09-08T10:10:21.943Z [INFO]   VERIFIED: saved entry 9050e871-29ce-48bb-9264-cc462fc09be9 matches all submitted fields.
+2026-09-08T10:10:21.944Z [INFO] [60/166] BSS-068: SUCCESS - draft reference 9050e871-29ce-48bb-9264-cc462fc09be9
+2026-09-08T10:10:21.944Z [INFO] --- PROGRESS: 60 successful, 0 failed, 0 skipped, 106 remaining ---
+2026-09-08T10:10:21.944Z [INFO] [61/166] Processing BSS-069: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Marufa Hasan | RegNo=7797/17
+2026-09-08T10:10:34.655Z [INFO]   VERIFIED: saved entry 5f13d050-88ef-4eeb-afe9-f1e1e8a4af48 matches all submitted fields.
+2026-09-08T10:10:34.656Z [INFO] [61/166] BSS-069: SUCCESS - draft reference 5f13d050-88ef-4eeb-afe9-f1e1e8a4af48
+2026-09-08T10:10:34.656Z [INFO] [62/166] Processing BSS-070: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Golam Hasan | RegNo=1989/16
+2026-09-08T10:10:47.465Z [INFO]   VERIFIED: saved entry 73650458-4a2f-4411-b68c-be9be9d2e799 matches all submitted fields.
+2026-09-08T10:10:47.465Z [INFO] [62/166] BSS-070: SUCCESS - draft reference 73650458-4a2f-4411-b68c-be9be9d2e799
+2026-09-08T10:10:47.465Z [INFO] [63/166] Processing BSS-071: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Rafiqul Hasan | RegNo=7935/47
+2026-09-08T10:10:59.570Z [INFO]   VERIFIED: saved entry 62c74991-13c8-48c3-a507-09216736a65a matches all submitted fields.
+2026-09-08T10:10:59.570Z [INFO] [63/166] BSS-071: SUCCESS - draft reference 62c74991-13c8-48c3-a507-09216736a65a
+2026-09-08T10:10:59.571Z [INFO] [64/166] Processing BSS-072: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Abdul Hasan | RegNo=6054/77
+2026-09-08T10:11:11.747Z [INFO]   VERIFIED: saved entry 182f7ea7-bdc1-4d0e-b56a-5a98655d1a1f matches all submitted fields.
+2026-09-08T10:11:11.747Z [INFO] [64/166] BSS-072: SUCCESS - draft reference 182f7ea7-bdc1-4d0e-b56a-5a98655d1a1f
+2026-09-08T10:11:11.747Z [INFO] [65/166] Processing BSS-073: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Nurul Hasan | RegNo=7405/03
+2026-09-08T10:11:24.374Z [INFO]   VERIFIED: saved entry 4c44b231-07b3-4414-87b4-749c15ce75bd matches all submitted fields.
+2026-09-08T10:11:24.374Z [INFO] [65/166] BSS-073: SUCCESS - draft reference 4c44b231-07b3-4414-87b4-749c15ce75bd
+2026-09-08T10:11:24.375Z [INFO] [66/166] Processing BSS-074: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Ekram Hasan | RegNo=4954/40
+2026-09-08T10:11:37.071Z [INFO]   VERIFIED: saved entry 7a5bdaf5-c667-4118-b605-3597462d7ecd matches all submitted fields.
+2026-09-08T10:11:37.072Z [INFO] [66/166] BSS-074: SUCCESS - draft reference 7a5bdaf5-c667-4118-b605-3597462d7ecd
+2026-09-08T10:11:37.072Z [INFO] [67/166] Processing BSS-075: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Sharmin Hasan | RegNo=9993/97
+2026-09-08T10:11:52.646Z [INFO]   VERIFIED: saved entry d25c6631-4dc9-4ffc-b69e-8fa9d14bc1d2 matches all submitted fields.
+2026-09-08T10:11:52.646Z [INFO] [67/166] BSS-075: SUCCESS - draft reference d25c6631-4dc9-4ffc-b69e-8fa9d14bc1d2
+2026-09-08T10:11:52.647Z [INFO] [68/166] Processing BSS-076: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Nasima Hasan | RegNo=9637/88
+2026-09-08T10:12:05.376Z [INFO]   VERIFIED: saved entry f374ed28-c02a-44d7-b44e-b9997dfba880 matches all submitted fields.
+2026-09-08T10:12:05.376Z [INFO] [68/166] BSS-076: SUCCESS - draft reference f374ed28-c02a-44d7-b44e-b9997dfba880
+2026-09-08T10:12:05.377Z [INFO] [69/166] Processing BSS-077: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rokeya Hasan | RegNo=7948/81
+2026-09-08T10:12:18.037Z [INFO]   VERIFIED: saved entry 52c12537-03f4-48b7-959b-917b7e4b2e37 matches all submitted fields.
+2026-09-08T10:12:18.037Z [INFO] [69/166] BSS-077: SUCCESS - draft reference 52c12537-03f4-48b7-959b-917b7e4b2e37
+2026-09-08T10:12:18.038Z [INFO] [70/166] Processing BSS-078: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Momena Hasan | RegNo=5333/77
+2026-09-08T10:12:30.167Z [INFO]   VERIFIED: saved entry 425111e5-57c8-42a4-917b-962ed7723f7c matches all submitted fields.
+2026-09-08T10:12:30.167Z [INFO] [70/166] BSS-078: SUCCESS - draft reference 425111e5-57c8-42a4-917b-962ed7723f7c
+2026-09-08T10:12:30.167Z [INFO] --- PROGRESS: 70 successful, 0 failed, 0 skipped, 96 remaining ---
+2026-09-08T10:12:30.167Z [INFO] [71/166] Processing BSS-079: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rahima Hasan | RegNo=5320/86
+2026-09-08T10:12:42.849Z [INFO]   VERIFIED: saved entry 24c88c82-aee3-46c4-9afc-1a10e718dc7b matches all submitted fields.
+2026-09-08T10:12:42.849Z [INFO] [71/166] BSS-079: SUCCESS - draft reference 24c88c82-aee3-46c4-9afc-1a10e718dc7b
+2026-09-08T10:12:42.850Z [INFO] [72/166] Processing BSS-080: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Salma Hasan | RegNo=1329/74
+2026-09-08T10:12:55.761Z [INFO]   VERIFIED: saved entry 04b2e9af-2122-4b13-9c9a-e7bce6eb98cf matches all submitted fields.
+2026-09-08T10:12:55.761Z [INFO] [72/166] BSS-080: SUCCESS - draft reference 04b2e9af-2122-4b13-9c9a-e7bce6eb98cf
+2026-09-08T10:12:55.762Z [INFO] [73/166] Processing BSS-081: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Zahirul Yasmin | RegNo=4484/25
+2026-09-08T10:13:12.879Z [INFO]   VERIFIED: saved entry 7760bdb3-8e08-4661-b2e6-b1165e34e88e matches all submitted fields.
+2026-09-08T10:13:12.879Z [INFO] [73/166] BSS-081: SUCCESS - draft reference 7760bdb3-8e08-4661-b2e6-b1165e34e88e
+2026-09-08T10:13:12.879Z [INFO] [74/166] Processing BSS-082: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Habibur Yasmin | RegNo=5994/76
+2026-09-08T10:13:31.038Z [INFO]   VERIFIED: saved entry 8b103576-9799-46ad-b120-c47be118d232 matches all submitted fields.
+2026-09-08T10:13:31.038Z [INFO] [74/166] BSS-082: SUCCESS - draft reference 8b103576-9799-46ad-b120-c47be118d232
+2026-09-08T10:13:31.039Z [INFO] [75/166] Processing BSS-083: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Parveen Yasmin | RegNo=8547/15
+2026-09-08T10:13:53.098Z [ERROR] [75/166] BSS-083: FAILED - locator.waitFor: Timeout 8000ms exceeded.
+Call log:
+[2m  - waiting for locator('[name="Date of Assignment"]').first() to be visible[22m
+
+2026-09-08T10:13:53.098Z [INFO] [76/166] Processing BSS-084: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shahana Yasmin | RegNo=5135/86
+2026-09-08T10:14:25.201Z [ERROR] fillAndSaveDraft crashed: page.selectOption: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('select[name="form"]')[22m
+
+    at selectFormOption (F:\2026\touhid\new project\src\mapper\verifyLiveUi.ts:24:14)
+    at async fillAndSaveDraft (F:\2026\touhid\new project\src\uploader\fillForm.ts:55:5)
+    at async main (F:\2026\touhid\new project\src\uploader\upload-basic-surgical-skill-dataset.ts:134:28)
+2026-09-08T10:14:31.323Z [ERROR] [76/166] BSS-084: FAILED - No matching entry found in the portal's own list after Save as Draft (fillAndSaveDraft reported success=false).
+2026-09-08T10:14:31.324Z [INFO] [77/166] Processing BSS-085: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Taslima Yasmin | RegNo=6049/52
+2026-09-08T10:15:03.451Z [ERROR] fillAndSaveDraft crashed: page.selectOption: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('select[name="form"]')[22m
+
+    at selectFormOption (F:\2026\touhid\new project\src\mapper\verifyLiveUi.ts:24:14)
+    at async fillAndSaveDraft (F:\2026\touhid\new project\src\uploader\fillForm.ts:55:5)
+    at async main (F:\2026\touhid\new project\src\uploader\upload-basic-surgical-skill-dataset.ts:134:28)
+2026-09-08T10:15:09.572Z [ERROR] [77/166] BSS-085: FAILED - No matching entry found in the portal's own list after Save as Draft (fillAndSaveDraft reported success=false).
+2026-09-08T10:15:09.572Z [ERROR] STOPPING: 3 consecutive row failures - this looks like a systemic issue, not isolated row problems. No further drafts will be attempted.
+2026-09-08T10:15:10.114Z [INFO] === UPLOAD RUN COMPLETE ===
+2026-09-08T10:15:10.114Z [INFO] Attempted/processed: 77, Successful: 74, Failed: 3, Skipped: 0
+2026-09-08T10:15:10.114Z [INFO] stoppedForSystemicIssue: true
+2026-09-08T10:15:10.114Z [INFO] Final Submit was never used - only "Save as Draft".
+2026-09-08T10:17:40.391Z [INFO] === Basic Surgical Skill dataset upload: EXECUTE mode (Save as Draft only) ===
+2026-09-08T10:17:40.612Z [INFO] 174 SAVE_DRAFT row(s) found, 174 passed local validation (only these are eligible).
+2026-09-08T10:17:40.702Z [INFO] 82 row(s) already recorded as SUCCESS in this workbook's UploadResult sheet - will be skipped.
+2026-09-08T10:17:56.680Z [INFO] Session missing or expired; logging in again.
+2026-09-08T10:17:56.680Z [INFO] Navigating to login page: https://eportal.bcps.edu.bd/login
+2026-09-08T10:17:58.315Z [INFO] User type applied to login_type select.
+2026-09-08T10:17:59.582Z [INFO] Login succeeded. Landed on: https://eportal.bcps.edu.bd/dashboard
+2026-09-08T10:17:59.582Z [INFO] Login confirmed.
+2026-09-08T10:17:59.582Z [INFO] Fetching existing portal entries for duplicate pre-check (read-only, up to 300 recent entries)...
+2026-09-08T10:18:07.747Z [INFO] Fetched 150 existing entries from the portal for duplicate comparison.
+2026-09-08T10:18:07.748Z [INFO] 92 row(s) remain to process after local-skip filtering.
+2026-09-08T10:18:07.748Z [INFO] [1/92] Processing BSS-083: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Parveen Yasmin | RegNo=8547/15
+2026-09-08T10:18:19.858Z [INFO]   VERIFIED: saved entry f905f840-5c86-4f3a-afb4-dd5f1b01e9d5 matches all submitted fields.
+2026-09-08T10:18:19.858Z [INFO] [1/92] BSS-083: SUCCESS - draft reference f905f840-5c86-4f3a-afb4-dd5f1b01e9d5
+2026-09-08T10:18:19.859Z [INFO] [2/92] Processing BSS-084: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shahana Yasmin | RegNo=5135/86
+2026-09-08T10:18:32.451Z [INFO]   VERIFIED: saved entry 47892893-57b3-4a57-8294-270533120eb3 matches all submitted fields.
+2026-09-08T10:18:32.451Z [INFO] [2/92] BSS-084: SUCCESS - draft reference 47892893-57b3-4a57-8294-270533120eb3
+2026-09-08T10:18:32.452Z [INFO] [3/92] Processing BSS-085: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Taslima Yasmin | RegNo=6049/52
+2026-09-08T10:18:45.074Z [INFO]   VERIFIED: saved entry bf96226c-649e-4396-94fb-2f5e4daf7c8f matches all submitted fields.
+2026-09-08T10:18:45.074Z [INFO] [3/92] BSS-085: SUCCESS - draft reference bf96226c-649e-4396-94fb-2f5e4daf7c8f
+2026-09-08T10:18:45.074Z [INFO] [4/92] Processing BSS-086: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Farzana Yasmin | RegNo=7399/70
+2026-09-08T10:18:57.341Z [INFO]   VERIFIED: saved entry 13b92342-37c1-4eee-98b3-94e1615c71d8 matches all submitted fields.
+2026-09-08T10:18:57.341Z [INFO] [4/92] BSS-086: SUCCESS - draft reference 13b92342-37c1-4eee-98b3-94e1615c71d8
+2026-09-08T10:18:57.341Z [INFO] [5/92] Processing BSS-087: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Nasrin Yasmin | RegNo=6306/43
+2026-09-08T10:19:09.553Z [INFO]   VERIFIED: saved entry 97d742f2-3832-4726-8a0c-455e31915bec matches all submitted fields.
+2026-09-08T10:19:09.553Z [INFO] [5/92] BSS-087: SUCCESS - draft reference 97d742f2-3832-4726-8a0c-455e31915bec
+2026-09-08T10:19:09.554Z [INFO] [6/92] Processing BSS-088: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Jahangir Yasmin | RegNo=2660/19
+2026-09-08T10:19:21.575Z [INFO]   VERIFIED: saved entry f6836207-288a-44d5-a849-9c777b28033f matches all submitted fields.
+2026-09-08T10:19:21.575Z [INFO] [6/92] BSS-088: SUCCESS - draft reference f6836207-288a-44d5-a849-9c777b28033f
+2026-09-08T10:19:21.576Z [INFO] [7/92] Processing BSS-089: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Aleya Yasmin | RegNo=1233/56
+2026-09-08T10:19:33.750Z [INFO]   VERIFIED: saved entry 2e366484-595a-440f-9e97-099fdfbc3413 matches all submitted fields.
+2026-09-08T10:19:33.750Z [INFO] [7/92] BSS-089: SUCCESS - draft reference 2e366484-595a-440f-9e97-099fdfbc3413
+2026-09-08T10:19:33.750Z [INFO] [8/92] Processing BSS-090: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Faridul Yasmin | RegNo=7644/13
+2026-09-08T10:19:47.015Z [INFO]   VERIFIED: saved entry 70b0826f-9abe-4167-acdb-7978e9ec5431 matches all submitted fields.
+2026-09-08T10:19:47.015Z [INFO] [8/92] BSS-090: SUCCESS - draft reference 70b0826f-9abe-4167-acdb-7978e9ec5431
+2026-09-08T10:19:47.016Z [INFO] [9/92] Processing BSS-091: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rehana Yasmin | RegNo=5785/33
+2026-09-08T10:19:59.075Z [INFO]   VERIFIED: saved entry ed76a05a-b8b4-481e-a05f-c11d73469b08 matches all submitted fields.
+2026-09-08T10:19:59.075Z [INFO] [9/92] BSS-091: SUCCESS - draft reference ed76a05a-b8b4-481e-a05f-c11d73469b08
+2026-09-08T10:19:59.075Z [INFO] [10/92] Processing BSS-092: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Tanvir Yasmin | RegNo=1046/90
+2026-09-08T10:20:11.827Z [INFO]   VERIFIED: saved entry cab969b0-47b9-4b93-9cd6-7719f17b5589 matches all submitted fields.
+2026-09-08T10:20:11.827Z [INFO] [10/92] BSS-092: SUCCESS - draft reference cab969b0-47b9-4b93-9cd6-7719f17b5589
+2026-09-08T10:20:11.827Z [INFO] --- PROGRESS: 10 successful, 0 failed, 0 skipped, 82 remaining ---
+2026-09-08T10:20:11.827Z [INFO] [11/92] Processing BSS-093: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shahnaz Yasmin | RegNo=6562/01
+2026-09-08T10:20:24.551Z [INFO]   VERIFIED: saved entry ddc54507-d0bf-4356-9c97-addaed223b5c matches all submitted fields.
+2026-09-08T10:20:24.551Z [INFO] [11/92] BSS-093: SUCCESS - draft reference ddc54507-d0bf-4356-9c97-addaed223b5c
+2026-09-08T10:20:24.552Z [INFO] [12/92] Processing BSS-094: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Shafiqul Yasmin | RegNo=4020/20
+2026-09-08T10:20:36.678Z [INFO]   VERIFIED: saved entry 1056f6e8-b7ba-4491-9a17-b10eb81f5b3c matches all submitted fields.
+2026-09-08T10:20:36.678Z [INFO] [12/92] BSS-094: SUCCESS - draft reference 1056f6e8-b7ba-4491-9a17-b10eb81f5b3c
+2026-09-08T10:20:36.678Z [INFO] [13/92] Processing BSS-095: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rezaul Yasmin | RegNo=9185/91
+2026-09-08T10:20:48.861Z [INFO]   VERIFIED: saved entry c88a2d3e-1e7e-4d1d-8be4-d88b981bb6c9 matches all submitted fields.
+2026-09-08T10:20:48.861Z [INFO] [13/92] BSS-095: SUCCESS - draft reference c88a2d3e-1e7e-4d1d-8be4-d88b981bb6c9
+2026-09-08T10:20:48.862Z [INFO] [14/92] Processing BSS-096: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Anisur Yasmin | RegNo=1508/97
+2026-09-08T10:21:01.150Z [INFO]   VERIFIED: saved entry c9c00ac5-3602-426b-841b-292c2f0e8bb5 matches all submitted fields.
+2026-09-08T10:21:01.150Z [INFO] [14/92] BSS-096: SUCCESS - draft reference c9c00ac5-3602-426b-841b-292c2f0e8bb5
+2026-09-08T10:21:01.151Z [INFO] [15/92] Processing BSS-097: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Kamal Yasmin | RegNo=8899/90
+2026-09-08T10:21:13.869Z [INFO]   VERIFIED: saved entry 6a871898-13af-40cb-b987-c1ce1939207f matches all submitted fields.
+2026-09-08T10:21:13.869Z [INFO] [15/92] BSS-097: SUCCESS - draft reference 6a871898-13af-40cb-b987-c1ce1939207f
+2026-09-08T10:21:13.870Z [INFO] [16/92] Processing BSS-098: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Mahbubur Yasmin | RegNo=8616/10
+2026-09-08T10:21:25.926Z [INFO]   VERIFIED: saved entry 9bf4b2ac-3341-4d26-ba01-1dfc9e98f257 matches all submitted fields.
+2026-09-08T10:21:25.926Z [INFO] [16/92] BSS-098: SUCCESS - draft reference 9bf4b2ac-3341-4d26-ba01-1dfc9e98f257
+2026-09-08T10:21:25.927Z [INFO] [17/92] Processing BSS-099: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Fatema Yasmin | RegNo=2014/85
+2026-09-08T10:21:37.960Z [INFO]   VERIFIED: saved entry c0220213-f977-493f-96f9-db0856c763f0 matches all submitted fields.
+2026-09-08T10:21:37.960Z [INFO] [17/92] BSS-099: SUCCESS - draft reference c0220213-f977-493f-96f9-db0856c763f0
+2026-09-08T10:21:37.960Z [INFO] [18/92] Processing BSS-100: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rashida Yasmin | RegNo=7798/33
+2026-09-08T10:21:50.021Z [INFO]   VERIFIED: saved entry 83695e83-257a-47ee-8477-4bb44b88a2e2 matches all submitted fields.
+2026-09-08T10:21:50.021Z [INFO] [18/92] BSS-100: SUCCESS - draft reference 83695e83-257a-47ee-8477-4bb44b88a2e2
+2026-09-08T10:21:50.021Z [INFO] [19/92] Processing BSS-101: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rubina Yasmin | RegNo=2788/24
+2026-09-08T10:22:02.145Z [INFO]   VERIFIED: saved entry 0ea40308-ab7f-4b56-a19e-875dd0dccea6 matches all submitted fields.
+2026-09-08T10:22:02.145Z [INFO] [19/92] BSS-101: SUCCESS - draft reference 0ea40308-ab7f-4b56-a19e-875dd0dccea6
+2026-09-08T10:22:02.145Z [INFO] [20/92] Processing BSS-102: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shirin Yasmin | RegNo=3605/12
+2026-09-08T10:22:14.241Z [INFO]   VERIFIED: saved entry 878080d7-f582-474b-8bf5-76c04e3dc24f matches all submitted fields.
+2026-09-08T10:22:14.241Z [INFO] [20/92] BSS-102: SUCCESS - draft reference 878080d7-f582-474b-8bf5-76c04e3dc24f
+2026-09-08T10:22:14.241Z [INFO] --- PROGRESS: 20 successful, 0 failed, 0 skipped, 72 remaining ---
+2026-09-08T10:22:14.241Z [INFO] [21/92] Processing BSS-103: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Halima Yasmin | RegNo=6639/43
+2026-09-08T10:22:26.247Z [INFO]   VERIFIED: saved entry 244203e4-b8da-4538-8a93-336f9bda9863 matches all submitted fields.
+2026-09-08T10:22:26.248Z [INFO] [21/92] BSS-103: SUCCESS - draft reference 244203e4-b8da-4538-8a93-336f9bda9863
+2026-09-08T10:22:26.248Z [INFO] [22/92] Processing BSS-104: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Mohammad Arif Yasmin | RegNo=1705/64
+2026-09-08T10:22:38.144Z [INFO]   VERIFIED: saved entry 93af3fda-591c-4116-b1c6-45b2f47fb90c matches all submitted fields.
+2026-09-08T10:22:38.144Z [INFO] [22/92] BSS-104: SUCCESS - draft reference 93af3fda-591c-4116-b1c6-45b2f47fb90c
+2026-09-08T10:22:38.145Z [INFO] [23/92] Processing BSS-105: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shahidul Yasmin | RegNo=3922/90
+2026-09-08T10:22:50.156Z [INFO]   VERIFIED: saved entry 5080b48c-aec3-423b-bc37-d4c9778892c4 matches all submitted fields.
+2026-09-08T10:22:50.156Z [INFO] [23/92] BSS-105: SUCCESS - draft reference 5080b48c-aec3-423b-bc37-d4c9778892c4
+2026-09-08T10:22:50.156Z [INFO] [24/92] Processing BSS-106: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Aminul Yasmin | RegNo=1650/64
+2026-09-08T10:23:02.659Z [INFO]   VERIFIED: saved entry 790925b7-5900-4f1b-898c-2d041398012f matches all submitted fields.
+2026-09-08T10:23:02.659Z [INFO] [24/92] BSS-106: SUCCESS - draft reference 790925b7-5900-4f1b-898c-2d041398012f
+2026-09-08T10:23:02.659Z [INFO] [25/92] Processing BSS-107: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shamsul Yasmin | RegNo=2828/88
+2026-09-08T10:23:14.724Z [INFO]   VERIFIED: saved entry e5b4c617-597f-4a4f-9bf6-b9924d235281 matches all submitted fields.
+2026-09-08T10:23:14.724Z [INFO] [25/92] BSS-107: SUCCESS - draft reference e5b4c617-597f-4a4f-9bf6-b9924d235281
+2026-09-08T10:23:14.725Z [INFO] [26/92] Processing BSS-108: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Nazrul Yasmin | RegNo=5182/25
+2026-09-08T10:23:27.650Z [INFO]   VERIFIED: saved entry 4526aa25-e8be-4fa3-a7b4-548fb4eef0f4 matches all submitted fields.
+2026-09-08T10:23:27.650Z [INFO] [26/92] BSS-108: SUCCESS - draft reference 4526aa25-e8be-4fa3-a7b4-548fb4eef0f4
+2026-09-08T10:23:27.651Z [INFO] [27/92] Processing BSS-109: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Marufa Yasmin | RegNo=2321/79
+2026-09-08T10:23:40.856Z [INFO]   VERIFIED: saved entry 3a082e3f-978c-4d8b-bffb-ad15976c8ea2 matches all submitted fields.
+2026-09-08T10:23:40.856Z [INFO] [27/92] BSS-109: SUCCESS - draft reference 3a082e3f-978c-4d8b-bffb-ad15976c8ea2
+2026-09-08T10:23:40.857Z [INFO] [28/92] Processing BSS-110: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Golam Yasmin | RegNo=1669/13
+2026-09-08T10:23:53.652Z [INFO]   VERIFIED: saved entry 7f2ebefc-622d-409d-b890-b501b13479e6 matches all submitted fields.
+2026-09-08T10:23:53.653Z [INFO] [28/92] BSS-110: SUCCESS - draft reference 7f2ebefc-622d-409d-b890-b501b13479e6
+2026-09-08T10:23:53.653Z [INFO] [29/92] Processing BSS-111: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Rafiqul Yasmin | RegNo=9285/91
+2026-09-08T10:24:06.323Z [INFO]   VERIFIED: saved entry d1775296-cb22-4f5b-ba64-79e5b3acbdd0 matches all submitted fields.
+2026-09-08T10:24:06.324Z [INFO] [29/92] BSS-111: SUCCESS - draft reference d1775296-cb22-4f5b-ba64-79e5b3acbdd0
+2026-09-08T10:24:06.324Z [INFO] [30/92] Processing BSS-112: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Abdul Yasmin | RegNo=5672/99
+2026-09-08T10:24:18.774Z [INFO]   VERIFIED: saved entry 3f1af7ab-78c3-4628-90ab-fc3938c0f682 matches all submitted fields.
+2026-09-08T10:24:18.774Z [INFO] [30/92] BSS-112: SUCCESS - draft reference 3f1af7ab-78c3-4628-90ab-fc3938c0f682
+2026-09-08T10:24:18.774Z [INFO] --- PROGRESS: 30 successful, 0 failed, 0 skipped, 62 remaining ---
+2026-09-08T10:24:18.775Z [INFO] [31/92] Processing BSS-113: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Nurul Yasmin | RegNo=4698/14
+2026-09-08T10:24:30.856Z [INFO]   VERIFIED: saved entry 57037a8e-df7a-44c3-9470-2109dd6ac92b matches all submitted fields.
+2026-09-08T10:24:30.856Z [INFO] [31/92] BSS-113: SUCCESS - draft reference 57037a8e-df7a-44c3-9470-2109dd6ac92b
+2026-09-08T10:24:30.857Z [INFO] [32/92] Processing BSS-114: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Ekram Yasmin | RegNo=1832/97
+2026-09-08T10:24:43.928Z [INFO]   VERIFIED: saved entry acb4bd11-fd93-40d8-9901-c761bb74c829 matches all submitted fields.
+2026-09-08T10:24:43.928Z [INFO] [32/92] BSS-114: SUCCESS - draft reference acb4bd11-fd93-40d8-9901-c761bb74c829
+2026-09-08T10:24:43.929Z [INFO] [33/92] Processing BSS-115: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Sharmin Yasmin | RegNo=9756/35
+2026-09-08T10:24:56.848Z [INFO]   VERIFIED: saved entry 3e21450f-fd65-4e5c-9336-28244339c07f matches all submitted fields.
+2026-09-08T10:24:56.848Z [INFO] [33/92] BSS-115: SUCCESS - draft reference 3e21450f-fd65-4e5c-9336-28244339c07f
+2026-09-08T10:24:56.849Z [INFO] [34/92] Processing BSS-116: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Nasima Yasmin | RegNo=1782/10
+2026-09-08T10:25:08.932Z [INFO]   VERIFIED: saved entry 20e89947-89f4-40a7-b682-0be7e9d3e932 matches all submitted fields.
+2026-09-08T10:25:08.932Z [INFO] [34/92] BSS-116: SUCCESS - draft reference 20e89947-89f4-40a7-b682-0be7e9d3e932
+2026-09-08T10:25:08.933Z [INFO] [35/92] Processing BSS-117: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rokeya Yasmin | RegNo=2957/45
+2026-09-08T10:25:20.992Z [INFO]   VERIFIED: saved entry e245bfad-51de-4dc3-b17f-eba007d47c64 matches all submitted fields.
+2026-09-08T10:25:20.993Z [INFO] [35/92] BSS-117: SUCCESS - draft reference e245bfad-51de-4dc3-b17f-eba007d47c64
+2026-09-08T10:25:20.993Z [INFO] [36/92] Processing BSS-118: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Momena Yasmin | RegNo=1315/89
+2026-09-08T10:25:34.082Z [INFO]   VERIFIED: saved entry b4975eef-6510-49b8-9370-902ecccd0717 matches all submitted fields.
+2026-09-08T10:25:34.082Z [INFO] [36/92] BSS-118: SUCCESS - draft reference b4975eef-6510-49b8-9370-902ecccd0717
+2026-09-08T10:25:34.082Z [INFO] [37/92] Processing BSS-119: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rahima Yasmin | RegNo=2988/66
+2026-09-08T10:25:46.075Z [INFO]   VERIFIED: saved entry dafb89d1-d1b9-4b73-a6db-1ee40e672f0f matches all submitted fields.
+2026-09-08T10:25:46.075Z [INFO] [37/92] BSS-119: SUCCESS - draft reference dafb89d1-d1b9-4b73-a6db-1ee40e672f0f
+2026-09-08T10:25:46.076Z [INFO] [38/92] Processing BSS-120: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Salma Yasmin | RegNo=8413/95
+2026-09-08T10:25:58.653Z [INFO]   VERIFIED: saved entry 2d944bf6-bec9-496a-87c2-86774c1e8a69 matches all submitted fields.
+2026-09-08T10:25:58.653Z [INFO] [38/92] BSS-120: SUCCESS - draft reference 2d944bf6-bec9-496a-87c2-86774c1e8a69
+2026-09-08T10:25:58.654Z [INFO] [39/92] Processing BSS-121: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Zahirul Hossain | RegNo=7374/75
+2026-09-08T10:26:11.256Z [INFO]   VERIFIED: saved entry 41bd0786-1d9b-4b2c-9127-a87380c66839 matches all submitted fields.
+2026-09-08T10:26:11.256Z [INFO] [39/92] BSS-121: SUCCESS - draft reference 41bd0786-1d9b-4b2c-9127-a87380c66839
+2026-09-08T10:26:11.256Z [INFO] [40/92] Processing BSS-122: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Habibur Hossain | RegNo=3657/42
+2026-09-08T10:26:23.370Z [INFO]   VERIFIED: saved entry 180b6c1c-67cf-45e8-baeb-4f9217aa531f matches all submitted fields.
+2026-09-08T10:26:23.370Z [INFO] [40/92] BSS-122: SUCCESS - draft reference 180b6c1c-67cf-45e8-baeb-4f9217aa531f
+2026-09-08T10:26:23.371Z [INFO] --- PROGRESS: 40 successful, 0 failed, 0 skipped, 52 remaining ---
+2026-09-08T10:26:23.371Z [INFO] [41/92] Processing BSS-123: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Parveen Hossain | RegNo=6826/90
+2026-09-08T10:26:36.141Z [INFO]   VERIFIED: saved entry 53494dd1-2502-4f65-bcf8-f1948e6a79e9 matches all submitted fields.
+2026-09-08T10:26:36.141Z [INFO] [41/92] BSS-123: SUCCESS - draft reference 53494dd1-2502-4f65-bcf8-f1948e6a79e9
+2026-09-08T10:26:36.142Z [INFO] [42/92] Processing BSS-124: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shahana Hossain | RegNo=4514/23
+2026-09-08T10:26:48.652Z [INFO]   VERIFIED: saved entry 3f8903d7-a8c3-4641-8c24-646fbbdce48d matches all submitted fields.
+2026-09-08T10:26:48.652Z [INFO] [42/92] BSS-124: SUCCESS - draft reference 3f8903d7-a8c3-4641-8c24-646fbbdce48d
+2026-09-08T10:26:48.653Z [INFO] [43/92] Processing BSS-125: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Taslima Hossain | RegNo=5626/76
+2026-09-08T10:27:01.252Z [INFO]   VERIFIED: saved entry a1930e66-3a66-4a95-8aed-7cc7bf9af916 matches all submitted fields.
+2026-09-08T10:27:01.253Z [INFO] [43/92] BSS-125: SUCCESS - draft reference a1930e66-3a66-4a95-8aed-7cc7bf9af916
+2026-09-08T10:27:01.253Z [INFO] [44/92] Processing BSS-126: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Farzana Hossain | RegNo=8953/56
+2026-09-08T10:27:13.252Z [INFO]   VERIFIED: saved entry 86e6c1d4-59e9-432c-bc84-05d4863c68ab matches all submitted fields.
+2026-09-08T10:27:13.252Z [INFO] [44/92] BSS-126: SUCCESS - draft reference 86e6c1d4-59e9-432c-bc84-05d4863c68ab
+2026-09-08T10:27:13.252Z [INFO] [45/92] Processing BSS-127: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Nasrin Hossain | RegNo=5232/29
+2026-09-08T10:27:25.881Z [INFO]   VERIFIED: saved entry b0ede038-956d-4a93-ab26-78586fe08936 matches all submitted fields.
+2026-09-08T10:27:25.881Z [INFO] [45/92] BSS-127: SUCCESS - draft reference b0ede038-956d-4a93-ab26-78586fe08936
+2026-09-08T10:27:25.882Z [INFO] [46/92] Processing BSS-128: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Jahangir Hossain | RegNo=3940/31
+2026-09-08T10:27:38.452Z [INFO]   VERIFIED: saved entry 6eb3505d-0c1d-4ac1-bdb1-6a7587e0d7f0 matches all submitted fields.
+2026-09-08T10:27:38.452Z [INFO] [46/92] BSS-128: SUCCESS - draft reference 6eb3505d-0c1d-4ac1-bdb1-6a7587e0d7f0
+2026-09-08T10:27:38.453Z [INFO] [47/92] Processing BSS-129: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Aleya Hossain | RegNo=2209/90
+2026-09-08T10:27:51.152Z [INFO]   VERIFIED: saved entry 568466d1-b4ca-4ee4-adb2-285e88725f4b matches all submitted fields.
+2026-09-08T10:27:51.152Z [INFO] [47/92] BSS-129: SUCCESS - draft reference 568466d1-b4ca-4ee4-adb2-285e88725f4b
+2026-09-08T10:27:51.153Z [INFO] [48/92] Processing BSS-130: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Faridul Hossain | RegNo=4178/88
+2026-09-08T10:28:03.069Z [INFO]   VERIFIED: saved entry d775af87-881d-4acd-bf43-70f391878632 matches all submitted fields.
+2026-09-08T10:28:03.069Z [INFO] [48/92] BSS-130: SUCCESS - draft reference d775af87-881d-4acd-bf43-70f391878632
+2026-09-08T10:28:03.070Z [INFO] [49/92] Processing BSS-131: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rehana Hossain | RegNo=4032/30
+2026-09-08T10:28:15.124Z [INFO]   VERIFIED: saved entry 635e3f8e-4c70-420c-af31-44b9f4f77fb4 matches all submitted fields.
+2026-09-08T10:28:15.124Z [INFO] [49/92] BSS-131: SUCCESS - draft reference 635e3f8e-4c70-420c-af31-44b9f4f77fb4
+2026-09-08T10:28:15.124Z [INFO] [50/92] Processing BSS-132: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Tanvir Hossain | RegNo=9949/18
+2026-09-08T10:28:27.270Z [INFO]   VERIFIED: saved entry ebca2ad6-da57-495e-b101-e807d5120af9 matches all submitted fields.
+2026-09-08T10:28:27.270Z [INFO] [50/92] BSS-132: SUCCESS - draft reference ebca2ad6-da57-495e-b101-e807d5120af9
+2026-09-08T10:28:27.270Z [INFO] --- PROGRESS: 50 successful, 0 failed, 0 skipped, 42 remaining ---
+2026-09-08T10:28:27.270Z [INFO] [51/92] Processing BSS-133: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shahnaz Hossain | RegNo=1291/89
+2026-09-08T10:28:39.748Z [INFO]   VERIFIED: saved entry d4f532eb-dc90-4a07-97e3-093e463b1bdd matches all submitted fields.
+2026-09-08T10:28:39.748Z [INFO] [51/92] BSS-133: SUCCESS - draft reference d4f532eb-dc90-4a07-97e3-093e463b1bdd
+2026-09-08T10:28:39.749Z [INFO] [52/92] Processing BSS-134: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Shafiqul Hossain | RegNo=8991/44
+2026-09-08T10:28:52.349Z [INFO]   VERIFIED: saved entry 99596039-4e67-4bdd-9de2-b506bca40b98 matches all submitted fields.
+2026-09-08T10:28:52.349Z [INFO] [52/92] BSS-134: SUCCESS - draft reference 99596039-4e67-4bdd-9de2-b506bca40b98
+2026-09-08T10:28:52.349Z [INFO] [53/92] Processing BSS-135: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rezaul Hossain | RegNo=2091/68
+2026-09-08T10:29:05.253Z [INFO]   VERIFIED: saved entry 20b003cd-7b33-475d-941a-0abcdd04dc24 matches all submitted fields.
+2026-09-08T10:29:05.253Z [INFO] [53/92] BSS-135: SUCCESS - draft reference 20b003cd-7b33-475d-941a-0abcdd04dc24
+2026-09-08T10:29:05.253Z [INFO] [54/92] Processing BSS-136: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Anisur Hossain | RegNo=8925/42
+2026-09-08T10:29:18.126Z [INFO]   VERIFIED: saved entry 3ca55a65-8267-440e-bc63-3c49634696b8 matches all submitted fields.
+2026-09-08T10:29:18.126Z [INFO] [54/92] BSS-136: SUCCESS - draft reference 3ca55a65-8267-440e-bc63-3c49634696b8
+2026-09-08T10:29:18.127Z [INFO] [55/92] Processing BSS-137: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Kamal Hossain | RegNo=8541/99
+2026-09-08T10:29:30.057Z [INFO]   VERIFIED: saved entry 679b9312-7bd1-4823-b2fe-eb1d384f654c matches all submitted fields.
+2026-09-08T10:29:30.057Z [INFO] [55/92] BSS-137: SUCCESS - draft reference 679b9312-7bd1-4823-b2fe-eb1d384f654c
+2026-09-08T10:29:30.058Z [INFO] [56/92] Processing BSS-138: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Mahbubur Hossain | RegNo=5541/57
+2026-09-08T10:29:42.159Z [INFO]   VERIFIED: saved entry 0db49bec-4c6d-4c7f-8c87-625ec8991455 matches all submitted fields.
+2026-09-08T10:29:42.160Z [INFO] [56/92] BSS-138: SUCCESS - draft reference 0db49bec-4c6d-4c7f-8c87-625ec8991455
+2026-09-08T10:29:42.160Z [INFO] [57/92] Processing BSS-139: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Fatema Hossain | RegNo=7382/20
+2026-09-08T10:29:54.952Z [INFO]   VERIFIED: saved entry d0898bd6-6308-4651-8e0c-42755f472e10 matches all submitted fields.
+2026-09-08T10:29:54.953Z [INFO] [57/92] BSS-139: SUCCESS - draft reference d0898bd6-6308-4651-8e0c-42755f472e10
+2026-09-08T10:29:54.953Z [INFO] [58/92] Processing BSS-140: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rashida Hossain | RegNo=2184/41
+2026-09-08T10:30:06.973Z [INFO]   VERIFIED: saved entry 5a45042c-b85a-4d72-8827-60bd6b1d771d matches all submitted fields.
+2026-09-08T10:30:06.973Z [INFO] [58/92] BSS-140: SUCCESS - draft reference 5a45042c-b85a-4d72-8827-60bd6b1d771d
+2026-09-08T10:30:06.974Z [INFO] [59/92] Processing BSS-141: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rubina Hossain | RegNo=9553/72
+2026-09-08T10:30:18.961Z [INFO]   VERIFIED: saved entry 6ab8e923-2e2d-47eb-a55d-0af520b65e0d matches all submitted fields.
+2026-09-08T10:30:18.961Z [INFO] [59/92] BSS-141: SUCCESS - draft reference 6ab8e923-2e2d-47eb-a55d-0af520b65e0d
+2026-09-08T10:30:18.962Z [INFO] [60/92] Processing BSS-142: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shirin Hossain | RegNo=3838/79
+2026-09-08T10:30:31.680Z [INFO]   VERIFIED: saved entry a9c172e5-6e56-4e64-8f1d-1d3305dd4ef7 matches all submitted fields.
+2026-09-08T10:30:31.680Z [INFO] [60/92] BSS-142: SUCCESS - draft reference a9c172e5-6e56-4e64-8f1d-1d3305dd4ef7
+2026-09-08T10:30:31.680Z [INFO] --- PROGRESS: 60 successful, 0 failed, 0 skipped, 32 remaining ---
+2026-09-08T10:30:31.680Z [INFO] [61/92] Processing BSS-143: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Halima Hossain | RegNo=3526/00
+2026-09-08T10:30:44.357Z [INFO]   VERIFIED: saved entry 515af912-c72d-473a-bdfc-e393334520a8 matches all submitted fields.
+2026-09-08T10:30:44.357Z [INFO] [61/92] BSS-143: SUCCESS - draft reference 515af912-c72d-473a-bdfc-e393334520a8
+2026-09-08T10:30:44.357Z [INFO] [62/92] Processing BSS-144: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Mohammad Arif Hossain | RegNo=4443/17
+2026-09-08T10:30:56.983Z [INFO]   VERIFIED: saved entry 016e0e14-99e0-4b74-b39f-cc93b3e00781 matches all submitted fields.
+2026-09-08T10:30:56.983Z [INFO] [62/92] BSS-144: SUCCESS - draft reference 016e0e14-99e0-4b74-b39f-cc93b3e00781
+2026-09-08T10:30:56.983Z [INFO] [63/92] Processing BSS-145: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shahidul Hossain | RegNo=4769/38
+2026-09-08T10:31:08.856Z [INFO]   VERIFIED: saved entry 10af7d1a-7651-43ee-8536-9cc883071939 matches all submitted fields.
+2026-09-08T10:31:08.856Z [INFO] [63/92] BSS-145: SUCCESS - draft reference 10af7d1a-7651-43ee-8536-9cc883071939
+2026-09-08T10:31:08.857Z [INFO] [64/92] Processing BSS-146: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Aminul Hossain | RegNo=3141/66
+2026-09-08T10:31:20.847Z [INFO]   VERIFIED: saved entry 9514f39c-d76d-4a99-806b-6e20d39de30d matches all submitted fields.
+2026-09-08T10:31:20.847Z [INFO] [64/92] BSS-146: SUCCESS - draft reference 9514f39c-d76d-4a99-806b-6e20d39de30d
+2026-09-08T10:31:20.848Z [INFO] [65/92] Processing BSS-147: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shamsul Hossain | RegNo=9670/75
+2026-09-08T10:31:33.073Z [INFO]   VERIFIED: saved entry 63527ccd-9268-46b1-bf41-0570c3e627a6 matches all submitted fields.
+2026-09-08T10:31:33.073Z [INFO] [65/92] BSS-147: SUCCESS - draft reference 63527ccd-9268-46b1-bf41-0570c3e627a6
+2026-09-08T10:31:33.074Z [INFO] [66/92] Processing BSS-148: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Nazrul Hossain | RegNo=7484/77
+2026-09-08T10:31:45.085Z [INFO]   VERIFIED: saved entry 052760a6-58ce-4314-b49b-e32f9d598f79 matches all submitted fields.
+2026-09-08T10:31:45.085Z [INFO] [66/92] BSS-148: SUCCESS - draft reference 052760a6-58ce-4314-b49b-e32f9d598f79
+2026-09-08T10:31:45.086Z [INFO] [67/92] Processing BSS-149: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Marufa Hossain | RegNo=5086/72
+2026-09-08T10:31:57.810Z [INFO]   VERIFIED: saved entry 0d1b5ea8-ddd8-4f7c-984e-f068ef6c9919 matches all submitted fields.
+2026-09-08T10:31:57.811Z [INFO] [67/92] BSS-149: SUCCESS - draft reference 0d1b5ea8-ddd8-4f7c-984e-f068ef6c9919
+2026-09-08T10:31:57.812Z [INFO] [68/92] Processing BSS-150: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Golam Hossain | RegNo=8111/44
+2026-09-08T10:32:10.071Z [INFO]   VERIFIED: saved entry db527f83-59f9-4d3a-aae7-1f45d049ed36 matches all submitted fields.
+2026-09-08T10:32:10.071Z [INFO] [68/92] BSS-150: SUCCESS - draft reference db527f83-59f9-4d3a-aae7-1f45d049ed36
+2026-09-08T10:32:10.072Z [INFO] [69/92] Processing BSS-151: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Rafiqul Hossain | RegNo=1178/99
+2026-09-08T10:32:22.119Z [INFO]   VERIFIED: saved entry 019491d5-2276-477d-ac72-8b5579af1448 matches all submitted fields.
+2026-09-08T10:32:22.119Z [INFO] [69/92] BSS-151: SUCCESS - draft reference 019491d5-2276-477d-ac72-8b5579af1448
+2026-09-08T10:32:22.120Z [INFO] [70/92] Processing BSS-152: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Abdul Hossain | RegNo=3142/35
+2026-09-08T10:32:34.021Z [INFO]   VERIFIED: saved entry 54f79be9-cf9e-409e-a4d2-8d89d417b963 matches all submitted fields.
+2026-09-08T10:32:34.021Z [INFO] [70/92] BSS-152: SUCCESS - draft reference 54f79be9-cf9e-409e-a4d2-8d89d417b963
+2026-09-08T10:32:34.021Z [INFO] --- PROGRESS: 70 successful, 0 failed, 0 skipped, 22 remaining ---
+2026-09-08T10:32:34.022Z [INFO] [71/92] Processing BSS-153: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Nurul Hossain | RegNo=3357/15
+2026-09-08T10:32:46.550Z [INFO]   VERIFIED: saved entry a0f11181-3462-4c54-a7f4-424de860b88d matches all submitted fields.
+2026-09-08T10:32:46.550Z [INFO] [71/92] BSS-153: SUCCESS - draft reference a0f11181-3462-4c54-a7f4-424de860b88d
+2026-09-08T10:32:46.551Z [INFO] [72/92] Processing BSS-154: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Ekram Hossain | RegNo=6780/44
+2026-09-08T10:32:58.543Z [INFO]   VERIFIED: saved entry bc3b0549-764b-4903-a8a3-434ecd6d88ae matches all submitted fields.
+2026-09-08T10:32:58.543Z [INFO] [72/92] BSS-154: SUCCESS - draft reference bc3b0549-764b-4903-a8a3-434ecd6d88ae
+2026-09-08T10:32:58.544Z [INFO] [73/92] Processing BSS-155: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Sharmin Hossain | RegNo=8104/75
+2026-09-08T10:33:12.181Z [INFO]   VERIFIED: saved entry ef499b43-d560-4fac-a50a-3c79a6c7402e matches all submitted fields.
+2026-09-08T10:33:12.181Z [INFO] [73/92] BSS-155: SUCCESS - draft reference ef499b43-d560-4fac-a50a-3c79a6c7402e
+2026-09-08T10:33:12.182Z [INFO] [74/92] Processing BSS-156: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Nasima Hossain | RegNo=3901/90
+2026-09-08T10:33:24.256Z [INFO]   VERIFIED: saved entry fb64865c-611a-49b2-bde2-61b08323c637 matches all submitted fields.
+2026-09-08T10:33:24.256Z [INFO] [74/92] BSS-156: SUCCESS - draft reference fb64865c-611a-49b2-bde2-61b08323c637
+2026-09-08T10:33:24.256Z [INFO] [75/92] Processing BSS-157: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rokeya Hossain | RegNo=2850/50
+2026-09-08T10:33:36.336Z [INFO]   VERIFIED: saved entry 226d8653-677f-48bc-a37b-cb5408f0beb6 matches all submitted fields.
+2026-09-08T10:33:36.337Z [INFO] [75/92] BSS-157: SUCCESS - draft reference 226d8653-677f-48bc-a37b-cb5408f0beb6
+2026-09-08T10:33:36.337Z [INFO] [76/92] Processing BSS-158: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Momena Hossain | RegNo=1020/07
+2026-09-08T10:33:48.862Z [INFO]   VERIFIED: saved entry d3517430-902d-43ff-ba09-61054db63fcf matches all submitted fields.
+2026-09-08T10:33:48.862Z [INFO] [76/92] BSS-158: SUCCESS - draft reference d3517430-902d-43ff-ba09-61054db63fcf
+2026-09-08T10:33:48.863Z [INFO] [77/92] Processing BSS-159: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rahima Hossain | RegNo=1458/31
+2026-09-08T10:34:01.331Z [INFO]   VERIFIED: saved entry 36afff7e-ce78-4fb4-a51b-5e4bcecafdfd matches all submitted fields.
+2026-09-08T10:34:01.331Z [INFO] [77/92] BSS-159: SUCCESS - draft reference 36afff7e-ce78-4fb4-a51b-5e4bcecafdfd
+2026-09-08T10:34:01.331Z [INFO] [78/92] Processing BSS-160: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Salma Hossain | RegNo=4968/26
+2026-09-08T10:34:13.531Z [INFO]   VERIFIED: saved entry e7e2fff3-7710-4f8a-b138-a98a04bbf1f0 matches all submitted fields.
+2026-09-08T10:34:13.531Z [INFO] [78/92] BSS-160: SUCCESS - draft reference e7e2fff3-7710-4f8a-b138-a98a04bbf1f0
+2026-09-08T10:34:13.532Z [INFO] [79/92] Processing BSS-161: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Zahirul Rahman | RegNo=9732/64
+2026-09-08T10:34:26.274Z [INFO]   VERIFIED: saved entry bdcc5cc4-cff3-478f-ae79-26b1620a48c3 matches all submitted fields.
+2026-09-08T10:34:26.274Z [INFO] [79/92] BSS-161: SUCCESS - draft reference bdcc5cc4-cff3-478f-ae79-26b1620a48c3
+2026-09-08T10:34:26.274Z [INFO] [80/92] Processing BSS-162: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Habibur Rahman | RegNo=6168/37
+2026-09-08T10:34:39.392Z [INFO]   VERIFIED: saved entry 65cefc31-0c88-47f0-af82-015d4925a158 matches all submitted fields.
+2026-09-08T10:34:39.393Z [INFO] [80/92] BSS-162: SUCCESS - draft reference 65cefc31-0c88-47f0-af82-015d4925a158
+2026-09-08T10:34:39.393Z [INFO] --- PROGRESS: 80 successful, 0 failed, 0 skipped, 12 remaining ---
+2026-09-08T10:34:39.393Z [INFO] [81/92] Processing BSS-163: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Parveen Rahman | RegNo=2594/73
+2026-09-08T10:34:51.430Z [INFO]   VERIFIED: saved entry 840efe5e-c7ca-473f-b01a-0808f1c9b163 matches all submitted fields.
+2026-09-08T10:34:51.430Z [INFO] [81/92] BSS-163: SUCCESS - draft reference 840efe5e-c7ca-473f-b01a-0808f1c9b163
+2026-09-08T10:34:51.431Z [INFO] [82/92] Processing BSS-164: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shahana Rahman | RegNo=6013/00
+2026-09-08T10:35:03.356Z [INFO]   VERIFIED: saved entry d724ed45-11eb-4e86-a9a3-a819684a7154 matches all submitted fields.
+2026-09-08T10:35:03.356Z [INFO] [82/92] BSS-164: SUCCESS - draft reference d724ed45-11eb-4e86-a9a3-a819684a7154
+2026-09-08T10:35:03.356Z [INFO] [83/92] Processing BSS-165: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Taslima Rahman | RegNo=1744/69
+2026-09-08T10:35:15.936Z [INFO]   VERIFIED: saved entry f96dcb5e-779e-41a0-9194-9b530125e641 matches all submitted fields.
+2026-09-08T10:35:15.936Z [INFO] [83/92] BSS-165: SUCCESS - draft reference f96dcb5e-779e-41a0-9194-9b530125e641
+2026-09-08T10:35:15.936Z [INFO] [84/92] Processing BSS-166: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Farzana Rahman | RegNo=7668/80
+2026-09-08T10:35:27.961Z [INFO]   VERIFIED: saved entry 9473be3e-7591-4d05-9562-9e1a29b904e6 matches all submitted fields.
+2026-09-08T10:35:27.961Z [INFO] [84/92] BSS-166: SUCCESS - draft reference 9473be3e-7591-4d05-9562-9e1a29b904e6
+2026-09-08T10:35:27.961Z [INFO] [85/92] Processing BSS-167: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Nasrin Rahman | RegNo=1194/93
+2026-09-08T10:35:39.956Z [INFO]   VERIFIED: saved entry 8ce35124-99a9-4491-a395-ef2f6d369971 matches all submitted fields.
+2026-09-08T10:35:39.956Z [INFO] [85/92] BSS-167: SUCCESS - draft reference 8ce35124-99a9-4491-a395-ef2f6d369971
+2026-09-08T10:35:39.956Z [INFO] [86/92] Processing BSS-168: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Jahangir Rahman | RegNo=2395/37
+2026-09-08T10:35:51.995Z [INFO]   VERIFIED: saved entry fb8b90a1-7675-4b8e-8d61-ea9223aa028e matches all submitted fields.
+2026-09-08T10:35:51.996Z [INFO] [86/92] BSS-168: SUCCESS - draft reference fb8b90a1-7675-4b8e-8d61-ea9223aa028e
+2026-09-08T10:35:51.996Z [INFO] [87/92] Processing BSS-169: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Aleya Rahman | RegNo=1933/21
+2026-09-08T10:36:04.285Z [INFO]   VERIFIED: saved entry ca3af5ec-e2de-471c-8268-d89c31ff5c76 matches all submitted fields.
+2026-09-08T10:36:04.285Z [INFO] [87/92] BSS-169: SUCCESS - draft reference ca3af5ec-e2de-471c-8268-d89c31ff5c76
+2026-09-08T10:36:04.286Z [INFO] [88/92] Processing BSS-170: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Faridul Rahman | RegNo=1068/21
+2026-09-08T10:36:16.369Z [INFO]   VERIFIED: saved entry 1d6ac5a9-61ba-4089-8cae-a84683b93677 matches all submitted fields.
+2026-09-08T10:36:16.369Z [INFO] [88/92] BSS-170: SUCCESS - draft reference 1d6ac5a9-61ba-4089-8cae-a84683b93677
+2026-09-08T10:36:16.370Z [INFO] [89/92] Processing BSS-171: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Rehana Rahman | RegNo=8148/29
+2026-09-08T10:36:28.450Z [INFO]   VERIFIED: saved entry ec4b3bec-9de5-453d-8997-fcbccab57969 matches all submitted fields.
+2026-09-08T10:36:28.450Z [INFO] [89/92] BSS-171: SUCCESS - draft reference ec4b3bec-9de5-453d-8997-fcbccab57969
+2026-09-08T10:36:28.451Z [INFO] [90/92] Processing BSS-172: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Tanvir Rahman | RegNo=3635/26
+2026-09-08T10:36:40.949Z [INFO]   VERIFIED: saved entry 1eb3a57a-2302-47d7-9632-6bad5fe4070e matches all submitted fields.
+2026-09-08T10:36:40.950Z [INFO] [90/92] BSS-172: SUCCESS - draft reference 1eb3a57a-2302-47d7-9632-6bad5fe4070e
+2026-09-08T10:36:40.950Z [INFO] --- PROGRESS: 90 successful, 0 failed, 0 skipped, 2 remaining ---
+2026-09-08T10:36:40.950Z [INFO] [91/92] Processing BSS-173: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Shahnaz Rahman | RegNo=3318/85
+2026-09-08T10:36:53.052Z [INFO]   VERIFIED: saved entry 6ff53fa7-fc0c-4c31-bff4-7bda7e1c1af9 matches all submitted fields.
+2026-09-08T10:36:53.052Z [INFO] [91/92] BSS-173: SUCCESS - draft reference 6ff53fa7-fc0c-4c31-bff4-7bda7e1c1af9
+2026-09-08T10:36:53.053Z [INFO] [92/92] Processing BSS-174: Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill | Md. Shafiqul Rahman | RegNo=9239/05
+2026-09-08T10:37:05.054Z [INFO]   VERIFIED: saved entry 06b6e594-5ff7-4e0e-8109-19b37b64aabb matches all submitted fields.
+2026-09-08T10:37:05.054Z [INFO] [92/92] BSS-174: SUCCESS - draft reference 06b6e594-5ff7-4e0e-8109-19b37b64aabb
+2026-09-08T10:37:05.570Z [INFO] === UPLOAD RUN COMPLETE ===
+2026-09-08T10:37:05.570Z [INFO] Attempted/processed: 92, Successful: 92, Failed: 0, Skipped: 0
+2026-09-08T10:37:05.570Z [INFO] stoppedForSystemicIssue: false
+2026-09-08T10:37:05.570Z [INFO] Final Submit was never used - only "Save as Draft".

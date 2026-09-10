@@ -1,0 +1,134 @@
+{
+  "generatedAt": "2026-09-09T09:13:47.642Z",
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Anaesthesia-Procedural-Critical-Care\\01-01-2026_to_30-06-2026\\generated\\BCPS_Logbook_Anaesthesia_Procedural_Critical_Care_01-01-2026_to_30-06-2026.xlsx",
+  "totalRows": 25,
+  "validRows": 25,
+  "invalidRows": 0,
+  "rows": [
+    {
+      "externalRowId": "ANES-001",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-002",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-003",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-004",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-005",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-006",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-007",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-008",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-009",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-010",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-011",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-012",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-013",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-014",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-015",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-016",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-017",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-018",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-019",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-020",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-021",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-022",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-023",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-024",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "ANES-025",
+      "valid": true,
+      "errors": []
+    }
+  ]
+}

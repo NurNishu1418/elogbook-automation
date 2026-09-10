@@ -1,0 +1,74 @@
+{
+  "specialty": "Gastrointestinal & HepatoBiliary System and Pancreas",
+  "form": "Procedural and Interpretative Skills",
+  "caseType": "Gastrointestinal & HepatoBiliary System and Pancreas",
+  "mappedLeafIds": {
+    "Interpretative Skill": "df48137d-6756-4f13-bf11-5874fe4244bc",
+    "Procedural skill": "cd8e3367-0094-42c8-836d-4eba571541b9"
+  },
+  "quotaSource": {
+    "sourceDocument": {
+      "interpretativeTotal": 36,
+      "proceduralTotal": 77,
+      "grandTotal": 113
+    },
+    "portalAuthoritative": {
+      "interpretativeTotal": 69,
+      "proceduralTotal": 131,
+      "grandTotal": 200,
+      "verifiedVia": "GET /api/auth/elogbook-management/v1/logbook-entry-report-by-from/{formId} - the portal's own server-computed total_min_target field, read-only, 2026-09-09",
+      "decision": "Portal-authoritative quota used for generation per explicit user instruction overriding the source-document count for this dataset."
+    }
+  },
+  "skills": {
+    "Interpretative Skill": [
+      { "name": "Biochemical investigations", "levels": [{ "level": null, "count": 10 }] },
+      { "name": "CT scan, ERCP, MRCP", "levels": [{ "level": null, "count": 5 }] },
+      { "name": "Contrast X-rays (Barium swallow, Barium meal and follow through, Barium enema)", "levels": [{ "level": null, "count": 10 }] },
+      { "name": "Histopathological analysis", "levels": [{ "level": null, "count": 10 }] },
+      { "name": "Immunohistochemistry", "levels": [{ "level": null, "count": 5 }] },
+      { "name": "Lower gastrointestinal endoscopy", "levels": [{ "level": null, "count": 2 }] },
+      { "name": "Plain X-ray abdomen", "levels": [{ "level": null, "count": 10 }] },
+      { "name": "Tumor marker", "levels": [{ "level": null, "count": 10 }] },
+      { "name": "USG of whole abdomen/ HBS", "levels": [{ "level": null, "count": 5 }] },
+      { "name": "Upper gastrointestinal endoscopy", "levels": [{ "level": null, "count": 2 }] }
+    ],
+    "Procedural skill": [
+      { "name": "Abdominal paracentesis", "levels": [{ "level": "3", "count": 3 }, { "level": "4", "count": 2 }] },
+      { "name": "Abdominal rectopexy", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] },
+      { "name": "Abdominoperineal resection", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] },
+      { "name": "Adhesionolysis", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] },
+      { "name": "Appendicectomy (Open and laparoscopic)", "levels": [{ "level": "2", "count": 3 }, { "level": "3", "count": 2 }] },
+      { "name": "Choledocholithotomy", "levels": [{ "level": "1", "count": 3 }, { "level": "2", "count": 2 }] },
+      { "name": "Colonoscopy", "levels": [{ "level": "2", "count": 2 }, { "level": "3", "count": 2 }, { "level": "4", "count": 1 }] },
+      { "name": "Distal pancreatectomy", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] },
+      { "name": "Drainage of anorectal abscesses", "levels": [{ "level": "2", "count": 3 }, { "level": "3", "count": 2 }] },
+      { "name": "Fistulotomy/Fistulectomy/Seton insertion", "levels": [{ "level": "1", "count": 2 }, { "level": "2", "count": 2 }, { "level": "3", "count": 1 }] },
+      { "name": "Gastrectomy", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] },
+      { "name": "Gastric bypass", "levels": [{ "level": "2", "count": 3 }, { "level": "3", "count": 2 }] },
+      { "name": "Hepatic resection", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] },
+      { "name": "Insertion of nasogastric tube", "levels": [{ "level": "4", "count": 5 }] },
+      { "name": "Laparoscopic cholecystectomy", "levels": [{ "level": "2", "count": 3 }, { "level": "3", "count": 2 }] },
+      { "name": "Laparoscopy", "levels": [{ "level": "2", "count": 3 }, { "level": "3", "count": 2 }] },
+      { "name": "Laparotomy", "levels": [{ "level": "2", "count": 3 }, { "level": "3", "count": 2 }] },
+      { "name": "Lateral internal sphincterotomy", "levels": [{ "level": "1", "count": 3 }, { "level": "2", "count": 2 }] },
+      { "name": "Open cholecystectomy", "levels": [{ "level": "2", "count": 3 }, { "level": "3", "count": 2 }] },
+      { "name": "Open hemorrhoidectomy", "levels": [{ "level": "1", "count": 3 }, { "level": "2", "count": 2 }] },
+      { "name": "Pancreatoduodenectomy", "levels": [{ "level": "1", "count": 3 }, { "level": "2", "count": 2 }] },
+      { "name": "Pancreatojejunostomy (LPJ)", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] },
+      { "name": "Proctosigmoidoscopy", "levels": [{ "level": "2", "count": 2 }, { "level": "3", "count": 2 }, { "level": "4", "count": 1 }] },
+      { "name": "Repair of perforation of hollow viscera", "levels": [{ "level": "2", "count": 3 }, { "level": "3", "count": 2 }] },
+      { "name": "Resection anastomosis of bowel", "levels": [{ "level": "2", "count": 3 }, { "level": "3", "count": 2 }] },
+      { "name": "Splenectomy", "levels": [{ "level": "1", "count": 1 }, { "level": "2", "count": 1 }] },
+      { "name": "Stapled hemorrhoidopexy", "levels": [{ "level": "1", "count": 3 }, { "level": "2", "count": 2 }] },
+      { "name": "Stoma closure (ileostomy & colostomy)", "levels": [{ "level": "2", "count": 3 }, { "level": "3", "count": 2 }] },
+      { "name": "Stoma creation (ileostomy & colostomy)", "levels": [{ "level": "2", "count": 3 }, { "level": "3", "count": 2 }] },
+      { "name": "Triple bypass", "levels": [{ "level": "1", "count": 3 }, { "level": "2", "count": 2 }] },
+      { "name": "Upper gastrointestinal endoscopy", "levels": [{ "level": "2", "count": 3 }, { "level": "3", "count": 2 }] }
+    ]
+  },
+  "notes": [
+    "Competence levels are metadata only - the live portal has no separate 'Level' UI field on the Add Logbook Entry form. Checking a competency item's checkbox is the only actual portal action; the level breakdown here is used purely to determine the correct TOTAL row count per skill (sum of all its levels) and is recorded in this dataset's supporting reports for traceability.",
+    "This config is reusable for future date ranges of the same specialty - do not hardcode date-range-specific values here."
+  ]
+}

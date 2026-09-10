@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-09-09T09:15:59.908Z",
+  "specialty": "Vascular Surgery",
+  "trainingContext": "Vascular Surgical Unit",
+  "dateRange": {
+    "label": "01-01-2026_to_30-06-2026",
+    "from": "2026-01-01",
+    "to": "2026-06-30"
+  },
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Vascular-Surgery\\01-01-2026_to_30-06-2026\\generated\\BCPS_Logbook_Vascular_Surgery_01-01-2026_to_30-06-2026.xlsx",
+  "quotaDecision": {
+    "countSource": "USER_PROVIDED_EXACT_COUNTS_ITEMIZED",
+    "portalQuotaUsedToSizeDataset": false,
+    "arithmeticDiscrepancy": "None for this specialty - the itemized per-skill counts (3+5=8 Interpretative, 1x5=5 Procedural) sum exactly to the stated totals (8+5=13). Verified programmatically before generation.",
+    "reason": "Per explicit user instruction, this dataset uses the exact per-skill counts the user provided (8 Interpretative + 5 Procedural = 13). The portal's own mapped minimums were NOT used to size this dataset - recorded in specialty-config/vascular-surgery.json for traceability only."
+  },
+  "competenceLevelHandling": "Each of the 5 Procedural skills has exactly 1 row despite having 2 valid competence levels (1 and 2) each - the level was NOT multiplied into extra rows. One portal-valid level was selected per skill - see procedural_competenceLevelUsage in row-count-summary.json for the exact level used per row.",
+  "ageRealism": "Every row uses a condition-specific adult age rather than a generic spread - vascular disease (peripheral arterial disease, carotid stenosis, aortic/peripheral aneurysm, arterial embolism) uses middle-aged to older adult ages (45-72), while the one trauma-related vascular repair case uses a plausible younger adult age (28).",
+  "totals": {
+    "interpretative": 8,
+    "procedural": 5,
+    "grandTotal": 13
+  },
+  "skillsGenerated": [
+    {
+      "skill": "Interpretative Skill > Angiogram/CT angiogram",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Color Doppler / Duplex imaging /MRA / MRV / DSA",
+      "requested": 5,
+      "actual": 5,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Arterial thrombo-embolectomy ",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Carotid end arterectomy",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Ligation and excision of hemangioma and aneurysm ",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Use of vascular grafts",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Vascular repair",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    }
+  ],
+  "unmatchedSkills": [],
+  "labelDifferences": [
+    {
+      "skillType": "Procedural skill",
+      "requestedName": "Arterial thrombo-embolectomy ",
+      "portalName": "Arterial thrombo-embolectomy "
+    },
+    {
+      "skillType": "Procedural skill",
+      "requestedName": "Ligation and excision of hemangioma and aneurysm ",
+      "portalName": "Ligation and excision of hemangioma and aneurysm "
+    }
+  ],
+  "levelMismatches": [],
+  "liveActionsTaken": "None. This generator only reads the existing local output/form-map.json (produced by a prior, already-approved live mapping crawl) - no login, browser, or network action was performed by this script. No Save as Draft, no Final Submit, no portal data modified.",
+  "originalMappingWorkbookUnchanged": true,
+  "priorSpecialtyDatasetsUnchanged": {
+    "Basic-Surgical-Skill": true,
+    "Gastrointestinal-HepatoBiliary-Pancreas": true,
+    "Disorders-of-the-Breast": true,
+    "Neurosurgery": true,
+    "Urology": true,
+    "Orthopaedic-Surgery": true,
+    "Parasites-of-Surgical-Importance": true,
+    "Paediatric-Surgery": true
+  },
+  "reviewStatus": "PENDING MANUAL REVIEW",
+  "uploadStatus": "NOT UPLOADED"
+}

@@ -1,0 +1,77 @@
+{
+  "specialty": "Urology",
+  "form": "Procedural and Interpretative Skills",
+  "caseType": "Urology",
+  "mappedLeafIds": {
+    "Interpretative Skill": "724765b4-038e-48dc-89df-823cf20dc733",
+    "Procedural skill": "7ab0db36-3a41-49ce-8ffb-cb99a56ee145"
+  },
+  "quotaSource": {
+    "portalMinimums": {
+      "note": "The live portal's mapped minimums are NOT used to determine row counts for this dataset. Recorded here only for traceability.",
+      "interpretative": { "CT scan/MRI/angiogram": 5, "CT-urogram": 5, "DMSA/DTPA scan": 2, "IVU": 5, "Renal biopsy report interpretation": 2, "Renal function test": 10, "USG of genitourinary system": 10, "Urine C/S": 5, "Urine routine and microscopical examination": 10, "Uroflowmetry": 5, "X-ray KUB": 10 },
+      "procedural": {
+        "Amputation of penis": { "1": 1, "2": 1 },
+        "Circumcision": { "3": 3, "4": 2 },
+        "Cystolithtomy": { "1": 1, "2": 1 },
+        "Cystourethroscopy": { "1": 1, "2": 1 },
+        "Meatoplasty": { "1": 1, "2": 1 },
+        "Optical internal urethrotomy": { "1": 1, "2": 1 },
+        "Orchidectomy": { "1": 1, "2": 1, "3": 1 },
+        "Orchidopexy": { "1": 1, "2": 1 },
+        "PCNL": { "1": 3, "2": 2 },
+        "Pyelolithotomy": { "1": 1, "2": 1 },
+        "Pyeloplasty": { "1": 1, "2": 1 },
+        "Repair of bladder injury": { "2": 1, "3": 1 },
+        "Repair of ureteric injury": { "2": 1, "3": 1 },
+        "Suprapubiccystostomy": { "2": 1, "3": 1 },
+        "URS": { "1": 3, "2": 2 },
+        "Ureterolithotomy": { "1": 1, "2": 1 },
+        "Ureteroscopy": { "1": 1, "2": 1 },
+        "Urethral catheterization": { "3": 5, "4": 5 }
+      }
+    },
+    "decision": "AUTHORITATIVE_SOURCE_IS_USER_PROVIDED_EXACT_COUNTS - per explicit user instruction, this dataset uses the user's own exact required counts (37 Interpretative + 29 Procedural = 66), NOT the portal's mapped minimums and NOT the reference PDF. The portal is used only to verify skill names, field schemas, and valid competence levels."
+  },
+  "skills": {
+    "Interpretative Skill": [
+      { "name": "CT scan/MRI/angiogram", "count": 3 },
+      { "name": "CT-urogram", "count": 3 },
+      { "name": "DMSA/DTPA scan", "count": 1 },
+      { "name": "IVU", "count": 3 },
+      { "name": "Renal biopsy report interpretation", "count": 1 },
+      { "name": "Renal function test", "count": 5 },
+      { "name": "USG of genitourinary system", "count": 5 },
+      { "name": "Urine C/S", "count": 3 },
+      { "name": "Urine routine and microscopical examination", "count": 5 },
+      { "name": "Uroflowmetry", "count": 3 },
+      { "name": "X-ray KUB", "count": 5 }
+    ],
+    "Procedural skill": [
+      { "name": "Amputation of penis", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Circumcision", "count": 3, "allowedLevels": ["3", "4"] },
+      { "name": "Cystolithtomy", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Cystourethroscopy", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Meatoplasty", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Optical internal urethrotomy", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Orchidectomy ", "count": 2, "allowedLevels": ["1", "2", "3"] },
+      { "name": "Orchidopexy", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "PCNL", "count": 3, "allowedLevels": ["1", "2"] },
+      { "name": "Pyelolithotomy ", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Pyeloplasty", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Repair of bladder injury", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "Repair of ureteric injury", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "Suprapubiccystostomy", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "URS", "count": 3, "allowedLevels": ["1", "2"] },
+      { "name": "Ureterolithotomy ", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Ureteroscopy", "count": 1, "allowedLevels": ["1", "2"] },
+      { "name": "Urethral catheterization", "count": 5, "allowedLevels": ["3", "4"] }
+    ]
+  },
+  "notes": [
+    "Portal-mapped labels for 3 Procedural skills carry a trailing space that is not present in the user's provided list: 'Orchidectomy ', 'Pyelolithotomy ', 'Ureterolithotomy '. All three are unambiguous exact matches (identical apart from the trailing space) and the exact portal string (with trailing space) is used as the authoritative competency-item value written into the workbook.",
+    "'Cystolithtomy' and 'Suprapubiccystostomy' are the portal's own spellings (not 'Cystolithotomy' / 'Suprapubic cystostomy') and match the user's provided list exactly - no ambiguity, no guessing required.",
+    "This config is reusable for future date ranges of the same specialty - do not hardcode date-range-specific values here. NOTE: the counts recorded under 'skills' here are USER-AUTHORITATIVE EXACT COUNTS, not portal quota - re-confirm the correct source with the user before reusing this config unchanged for a future date range.",
+    "For each Procedural skill with count > 1 and more than one allowed competence level, individual rows were assigned varying portal-valid levels (never multiplying the row count) - see generated-rows-raw.json for the exact level used per row."
+  ]
+}

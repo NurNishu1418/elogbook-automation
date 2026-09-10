@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-09-09T06:56:02.123Z",
+  "totalSkillsRequested": 29,
+  "totalSkillsMatched": 29,
+  "unmatchedSkills": [],
+  "labelDifferencesVsUserProvidedList": [
+    {
+      "skillType": "Procedural skill",
+      "userProvidedName": "Orchidectomy",
+      "portalName": "Orchidectomy "
+    },
+    {
+      "skillType": "Procedural skill",
+      "userProvidedName": "Pyelolithotomy",
+      "portalName": "Pyelolithotomy "
+    },
+    {
+      "skillType": "Procedural skill",
+      "userProvidedName": "Ureterolithotomy",
+      "portalName": "Ureterolithotomy "
+    }
+  ],
+  "labelDifferencesVsConfig": [
+    {
+      "skillType": "Procedural skill",
+      "requestedName": "Orchidectomy ",
+      "portalName": "Orchidectomy "
+    },
+    {
+      "skillType": "Procedural skill",
+      "requestedName": "Pyelolithotomy ",
+      "portalName": "Pyelolithotomy "
+    },
+    {
+      "skillType": "Procedural skill",
+      "requestedName": "Ureterolithotomy ",
+      "portalName": "Ureterolithotomy "
+    }
+  ],
+  "levelMismatches": []
+}

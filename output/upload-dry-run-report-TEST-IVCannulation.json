@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-09-08T09:13:28.630Z",
+  "testWorkbook": "F:\\2026\\touhid\\new project\\output\\BCPS_Logbook_TEST_IVCannulation.xlsx",
+  "combination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill",
+  "competencyItem": "Intravenous cannulation",
+  "totalRows": 10,
+  "validRows": 10,
+  "invalidRows": 0,
+  "rows": [
+    {
+      "externalRowId": "SYN-IVC-001",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SYN-IVC-002",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SYN-IVC-003",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SYN-IVC-004",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SYN-IVC-005",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SYN-IVC-006",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SYN-IVC-007",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SYN-IVC-008",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SYN-IVC-009",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SYN-IVC-010",
+      "valid": true,
+      "errors": []
+    }
+  ]
+}

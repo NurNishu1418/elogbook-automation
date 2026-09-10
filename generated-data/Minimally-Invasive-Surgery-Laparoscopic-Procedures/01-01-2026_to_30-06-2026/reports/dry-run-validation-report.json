@@ -1,0 +1,134 @@
+{
+  "generatedAt": "2026-09-09T09:17:23.912Z",
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Minimally-Invasive-Surgery-Laparoscopic-Procedures\\01-01-2026_to_30-06-2026\\generated\\BCPS_Logbook_Minimally_Invasive_Surgery_Laparoscopic_Procedures_01-01-2026_to_30-06-2026.xlsx",
+  "totalRows": 25,
+  "validRows": 25,
+  "invalidRows": 0,
+  "rows": [
+    {
+      "externalRowId": "MIS-001",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-002",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-003",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-004",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-005",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-006",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-007",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-008",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-009",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-010",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-011",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-012",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-013",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-014",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-015",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-016",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-017",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-018",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-019",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-020",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-021",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-022",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-023",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-024",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "MIS-025",
+      "valid": true,
+      "errors": []
+    }
+  ]
+}

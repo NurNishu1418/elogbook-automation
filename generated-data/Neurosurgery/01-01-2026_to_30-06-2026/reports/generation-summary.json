@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-09-09T06:42:30.531Z",
+  "specialty": "Neurosurgery",
+  "dateRange": {
+    "label": "01-01-2026_to_30-06-2026",
+    "from": "2026-01-01",
+    "to": "2026-06-30"
+  },
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Neurosurgery\\01-01-2026_to_30-06-2026\\generated\\BCPS_Logbook_Neurosurgery_01-01-2026_to_30-06-2026.xlsx",
+  "quotaDecision": {
+    "countSource": "USER_PROVIDED_EXACT_COUNTS",
+    "portalQuotaUsedToSizeDataset": false,
+    "reason": "Per explicit user instruction, this dataset uses the exact counts the user provided (Interpretative: CT/MRI/MRA of brain=3, Nerve conduction study=1, X-ray skull=3; Procedural: Burr hole=1, Craniotomy=1, Repair of meningocoele=1, Repair of peripheral nerves=1). The portal’s own mapped minimums (5/2/5 Interpretative, 1+1 per level Procedural) were NOT used to size this dataset - they are recorded in specialty-config/neurosurgery.json for traceability only."
+  },
+  "competenceLevelHandling": "Each of the 4 Procedural skills has 2 portal-valid competence levels (1 and 2), but the user required exactly 1 row per skill - the level was NOT multiplied into extra rows. One portal-valid level was selected per skill (Burr hole=1, Craniotomy=2, Repair of meningocoele=1, Repair of peripheral nerves=2) to vary level usage realistically across the 4 rows.",
+  "totals": {
+    "interpretative": 7,
+    "procedural": 4,
+    "grandTotal": 11
+  },
+  "skillsGenerated": [
+    {
+      "skill": "Interpretative Skill > CT/MRI /MRA of brain",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > Nerve conduction study",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Interpretative Skill > X-ray skull",
+      "requested": 3,
+      "actual": 3,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Burr hole",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Craniotomy",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Repair of meningocoele",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "skill": "Procedural skill > Repair of peripheral nerves",
+      "requested": 1,
+      "actual": 1,
+      "matches": true
+    }
+  ],
+  "unmatchedSkills": [],
+  "levelMismatches": [],
+  "liveActionsTaken": "None. This generator only reads the existing local output/form-map.json (produced by a prior, already-approved live mapping crawl) - no login, browser, or network action was performed by this script. No Save as Draft, no Final Submit, no portal data modified.",
+  "originalMappingWorkbookUnchanged": true,
+  "basicSurgicalSkillDatasetUnchanged": true,
+  "gastrointestinalDatasetUnchanged": true,
+  "disordersOfTheBreastDatasetUnchanged": true,
+  "reviewStatus": "PENDING MANUAL REVIEW",
+  "uploadStatus": "NOT UPLOADED"
+}

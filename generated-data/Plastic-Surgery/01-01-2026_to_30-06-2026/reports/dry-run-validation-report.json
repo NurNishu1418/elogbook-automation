@@ -1,0 +1,129 @@
+{
+  "generatedAt": "2026-09-09T09:16:30.672Z",
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Plastic-Surgery\\01-01-2026_to_30-06-2026\\generated\\BCPS_Logbook_Plastic_Surgery_01-01-2026_to_30-06-2026.xlsx",
+  "totalRows": 24,
+  "validRows": 24,
+  "invalidRows": 0,
+  "rows": [
+    {
+      "externalRowId": "PLS-001",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-002",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-003",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-004",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-005",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-006",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-007",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-008",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-009",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-010",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-011",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-012",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-013",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-014",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-015",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-016",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-017",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-018",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-019",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-020",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-021",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-022",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-023",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "PLS-024",
+      "valid": true,
+      "errors": []
+    }
+  ]
+}

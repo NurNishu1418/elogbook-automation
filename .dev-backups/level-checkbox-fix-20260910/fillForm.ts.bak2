@@ -1,0 +1,153 @@
+import { Page } from 'playwright';
+import { logger } from '../utils/logger';
+import { selectFormOption, selectReactSelectOption, selectSkillType } from '../mapper/verifyLiveUi';
+import { DataEntryRow } from './excelReader';
+import { LeafForValidation } from './validateRow';
+
+export interface FillResult {
+  success: boolean;
+  draftReference: string | null;
+  failedField: string | null;
+  error: string | null;
+}
+
+function stripDots(s: string): string {
+  return s.replace(/\./g, '').trim().replace(/\s+/g, ' ');
+}
+
+async function fillOneField(page: Page, fieldName: string, controlType: string, value: string): Promise<void> {
+  const selector = `[name="${fieldName.replace(/"/g, '\\"')}"]`;
+  const el = page.locator(selector).first();
+  await el.waitFor({ state: 'visible', timeout: 8000 });
+
+  if (controlType === 'date') {
+    await el.fill(value);
+  } else if (controlType === 'textarea') {
+    await el.fill(value);
+  } else if (controlType === 'checkbox') {
+    const shouldCheck = ['true', 'yes', '1'].includes(value.toLowerCase());
+    if (shouldCheck) await el.check();
+    else await el.uncheck();
+  } else if (controlType === 'dropdown') {
+    // Custom widget, exact behaviour not fully reverse-engineered (its
+    // option list is not exposed by the dynamic-form-property API). Best
+    // effort: click to open, then click a rendered option matching the
+    // given text.
+    await el.click();
+    await page.waitForTimeout(400);
+    const option = page.locator(`text="${value}"`).last();
+    if ((await option.count()) === 0) {
+      throw new Error(`Custom dropdown "${fieldName}": no option matching "${value}" found after opening it.`);
+    }
+    await option.click();
+  } else {
+    await el.fill(value);
+  }
+}
+
+/**
+ * Fills the Add Logbook Entry form for one row and clicks ONLY "Save as
+ * Draft" - never "Submit". Assumes the caller already navigated to a fresh
+ * form page and is logged in.
+ */
+export async function fillAndSaveDraft(page: Page, row: DataEntryRow, leaf: LeafForValidation): Promise<FillResult> {
+  try {
+    await selectFormOption(page, row.form);
+
+    const caseTypeResult = await selectReactSelectOption(page, row.caseType);
+    if (!caseTypeResult.ok) {
+      return { success: false, draftReference: null, failedField: 'CaseType', error: `Case Type "${row.caseType}" not found live. Available: ${caseTypeResult.availableOptions.join(', ')}` };
+    }
+
+    if (leaf.pathLabels[2]) {
+      const skillResult = await selectSkillType(page, row.skillType);
+      if (!skillResult.ok) {
+        return { success: false, draftReference: null, failedField: 'SkillType', error: `Skill Type "${row.skillType}" not found live. Available: ${skillResult.availableOptions.join(', ')}` };
+      }
+    }
+
+    await page.waitForTimeout(1200);
+
+    const coreValues: [string, string][] = [
+      ['Date of Assignment', row.dateOfAssignment],
+      ['Name of the Patient', row.nameOfPatient],
+      ['Patient Reg No', row.patientRegNo],
+      ['Date of Birth', row.dateOfBirth],
+      ['Age', row.age],
+    ];
+    for (const [name, value] of coreValues) {
+      if (!value) continue;
+      const field = leaf.fields.find((f) => stripDots(f.column_name) === stripDots(name));
+      if (!field) continue;
+      try {
+        await fillOneField(page, stripDots(name), field.column_value_type === 'date' ? 'date' : 'text', value);
+      } catch (err: any) {
+        return { success: false, draftReference: null, failedField: name, error: err?.message ?? String(err) };
+      }
+    }
+
+    for (const [key, value] of Object.entries(row.extraFields)) {
+      if (key === '__PARSE_ERROR__') continue;
+      const field = leaf.fields.find((f) => stripDots(f.column_name) === stripDots(key));
+      if (!field) continue;
+      try {
+        await fillOneField(page, stripDots(field.column_name), field.column_value_type, value);
+      } catch (err: any) {
+        return { success: false, draftReference: null, failedField: key, error: err?.message ?? String(err) };
+      }
+    }
+
+    for (const item of row.competencyItems) {
+      const match = leaf.competencyGroup.find((c) => c.particulars.trim() === item.trim());
+      if (!match) continue;
+      try {
+        const checkbox = page.locator(`input[type="checkbox"][name="${match.particulars.replace(/"/g, '\\"')}"]`).first();
+        await checkbox.waitFor({ state: 'visible', timeout: 8000 });
+        await checkbox.check();
+        // Confirmed live (SYN-IVC-001 draft): clicking "Save as Draft"
+        // immediately after check() can fire before React's onChange state
+        // update settles, silently saving the entry with an EMPTY
+        // competency_group despite the box visually appearing checked. A
+        // short settle plus an explicit re-read of the checked state closes
+        // that race.
+        await page.waitForTimeout(300);
+        const isChecked = await checkbox.isChecked();
+        if (!isChecked) {
+          return { success: false, draftReference: null, failedField: `CompetencyGroup: ${item}`, error: 'Checkbox did not remain checked after settling; aborting before an incomplete save.' };
+        }
+      } catch (err: any) {
+        return { success: false, draftReference: null, failedField: `CompetencyGroup: ${item}`, error: err?.message ?? String(err) };
+      }
+    }
+    if (row.competencyItems.length > 0) {
+      await page.waitForTimeout(500); // let the last checkbox's state fully propagate before saving
+    }
+
+    const saveDraftButton = page.locator('button:has-text("Save as Draft")').first();
+    await saveDraftButton.waitFor({ state: 'visible', timeout: 8000 });
+    await saveDraftButton.click();
+    await page.waitForTimeout(2000);
+
+    const successBanner = await page
+      .locator('.alert-success, .swal2-success, [class*="success" i]')
+      .allTextContents()
+      .catch(() => [] as string[]);
+    const bodyText = await page.locator('body').innerText().catch(() => '');
+    const draftReferenceMatch = bodyText.match(/(?:draft|reference|entry)[^\d]{0,20}([A-Za-z0-9-]{6,})/i);
+
+    const looksSuccessful = successBanner.length > 0 || /success|saved/i.test(bodyText.slice(0, 2000));
+    if (!looksSuccessful) {
+      return { success: false, draftReference: null, failedField: null, error: 'No success confirmation detected after clicking Save as Draft.' };
+    }
+
+    return {
+      success: true,
+      draftReference: draftReferenceMatch ? draftReferenceMatch[1] : `saved-${Date.now()}`,
+      failedField: null,
+      error: null,
+    };
+  } catch (err: any) {
+    logger.error(`fillAndSaveDraft crashed: ${err?.stack ?? err}`);
+    return { success: false, draftReference: null, failedField: null, error: err?.message ?? String(err) };
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "specialty": "Plastic Surgery",
+  "form": "Procedural and Interpretative Skills",
+  "caseType": "Plastic Surgery",
+  "mappedLeafIds": {
+    "Interpretative Skill": "de32f03b-02b5-4e70-bae6-98a82ec44115",
+    "Procedural skill": "e9493309-48f8-4bd7-93ed-83b26e189147"
+  },
+  "externalRowIdPrefix": "PLS",
+  "quotaSource": {
+    "decision": "AUTHORITATIVE_SOURCE_IS_USER_PROVIDED_EXACT_COUNTS_FROM_PDF - per explicit user instruction, this dataset uses the exact per-skill counts and competence levels the user supplied (from the FCPS PDF), NOT portal quota minimums. Portal is used only to verify skill names, field schemas, and valid competence levels.",
+    "arithmeticCheck": "Itemized Interpretative (5+5=10) and Procedural (5+1+1+1+3+3=14) sum to 10+14=24, matching the user's stated totals exactly - no discrepancy for this specialty."
+  },
+  "skills": {
+    "Interpretative Skill": [
+      { "name": "Nutritional status ", "count": 5 },
+      { "name": "Serum electrolytes", "count": 5 }
+    ],
+    "Procedural skill": [
+      { "name": "Burn dressing", "count": 5, "allowedLevels": ["3", "4"] },
+      { "name": "Escharotomy", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "Fasciotomy", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "Flap reconstruction", "count": 1, "allowedLevels": ["2", "3"] },
+      { "name": "Release of burn contractures ", "count": 3, "allowedLevels": ["2", "3"] },
+      { "name": "Skin grafting", "count": 3, "allowedLevels": ["2", "3"] }
+    ]
+  },
+  "notes": [
+    "Portal labels for 'Nutritional status ' and 'Release of burn contractures ' carry a trailing space not present in the user's list - unambiguous exact matches. Portal-exact strings (with trailing space) used as authoritative. Recorded in reports/mapping-match-report.json.",
+    "'Fasciotomy' here (levels 2,3) is a DIFFERENT competency item than the same-named skill under Skin and Subcutaneous Tissue (levels 3,4) - each case type has its own independent leaf. Do not conflate them.",
+    "This config is reusable for future date ranges - do not hardcode date-range-specific values here."
+  ]
+}

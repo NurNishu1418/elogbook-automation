@@ -1,0 +1,159 @@
+{
+  "generatedAt": "2026-09-09T09:17:26.307Z",
+  "datasetWorkbook": "F:\\2026\\touhid\\new project\\generated-data\\Skin-Subcutaneous-Tissue\\01-01-2026_to_30-06-2026\\generated\\BCPS_Logbook_Skin_Subcutaneous_Tissue_01-01-2026_to_30-06-2026.xlsx",
+  "totalRows": 30,
+  "validRows": 30,
+  "invalidRows": 0,
+  "rows": [
+    {
+      "externalRowId": "SST-001",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-002",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-003",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-004",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-005",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-006",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-007",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-008",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-009",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-010",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-011",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-012",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-013",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-014",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-015",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-016",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-017",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-018",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-019",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-020",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-021",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-022",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-023",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-024",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-025",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-026",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-027",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-028",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-029",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "externalRowId": "SST-030",
+      "valid": true,
+      "errors": []
+    }
+  ]
+}
