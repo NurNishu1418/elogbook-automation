@@ -114,7 +114,12 @@ function selectEligibleRows(
 }
 
 async function main() {
-  logger.info(`=== Generic workbook upload runner: EXECUTE mode (Save as Draft only) ===`);
+  // Dry-run by default; only --execute may touch the portal at all. This
+  // gate sits BEFORE any browser is launched or any login is attempted, so
+  // a dry-run performs literally zero network/portal activity - not just
+  // zero writes.
+  const EXECUTE = process.argv.includes('--execute');
+  logger.info(`=== Generic workbook upload runner: ${EXECUTE ? 'EXECUTE mode (Save as Draft only)' : 'DRY-RUN mode (zero portal writes, zero login)'} ===`);
   logger.info(`Workbook: ${WORKBOOK_PATH}`);
   logger.info(`Selection mode: ${SELECTION_MODE}`);
 
@@ -139,6 +144,41 @@ async function main() {
 
   let eligibleRows = selectEligibleRows(validRows, alreadyDoneLocally, lastAttemptStatus).filter((v) => !alreadyDoneLocally.has(v.row.externalRowId));
   logger.info(`${eligibleRows.length} row(s) eligible to process under selection mode "${SELECTION_MODE}".`);
+
+  // Always write a local preflight report - this is the READY/HOLD/ERROR
+  // breakdown the dry-run is for, and it costs nothing to also write it
+  // before an --execute run for the same audit trail.
+  const dryRunReportPath = path.join(workbookDir, `${workbookBase}.dry-run-report.json`);
+  const dryRunReport = {
+    generatedAt: new Date().toISOString(),
+    mode: EXECUTE ? 'execute' : 'dry-run',
+    workbookPath: WORKBOOK_PATH,
+    selectionMode: SELECTION_MODE,
+    totalRows: allRows.length,
+    saveDraftRows: draftRows.length,
+    validRows: validRows.length,
+    invalidRows: draftRows.length - validRows.length,
+    alreadyDoneCount: alreadyDoneLocally.size,
+    eligibleForThisRun: eligibleRows.length,
+    details: validationResults.map(({ row, result }) => ({
+      excelRow: row.excelRow,
+      externalRowId: row.externalRowId,
+      status: !result.valid ? 'ERROR' : alreadyDoneLocally.has(row.externalRowId) ? 'ALREADY_DONE' : 'READY',
+      errors: result.errors,
+      resolvedCombination: result.resolvedLeaf ? result.resolvedLeaf.pathLabels.join(' > ') : null,
+    })),
+  };
+  fs.writeFileSync(dryRunReportPath, JSON.stringify(dryRunReport, null, 2), 'utf-8');
+  logger.info(`Wrote ${dryRunReportPath}`);
+  const readyCount = dryRunReport.details.filter((d) => d.status === 'READY').length;
+  const errorCount = dryRunReport.details.filter((d) => d.status === 'ERROR').length;
+  const alreadyDoneReportCount = dryRunReport.details.filter((d) => d.status === 'ALREADY_DONE').length;
+  logger.info(`READY=${readyCount}, HOLD/ERROR=${errorCount}, ALREADY_DONE=${alreadyDoneReportCount}`);
+
+  if (!EXECUTE) {
+    logger.info('Dry-run complete. No login was performed, no browser was launched - zero portal writes. Pass --execute to process eligible rows live (Save as Draft only, never Final Submit).');
+    return;
+  }
 
   fs.mkdirSync(SCREENSHOTS_DIR, { recursive: true });
 

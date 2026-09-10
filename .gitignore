@@ -19,6 +19,9 @@ test-results/
 playwright-report/
 blob-report/
 
+# Local pre-change backups (not for version control)
+.dev-backups/
+
 # OS
 .DS_Store
 Thumbs.db

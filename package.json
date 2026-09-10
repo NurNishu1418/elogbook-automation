@@ -12,6 +12,8 @@
     "validate-excel": "ts-node src/excel/validate.ts",
     "upload:dry-run": "ts-node src/uploader/run.ts",
     "upload:drafts": "ts-node src/uploader/run.ts --execute",
+    "workbook:dry-run": "ts-node src/uploader/run-workbook.ts",
+    "workbook:execute": "ts-node src/uploader/run-workbook.ts --execute",
     "test": "jest --runInBand",
     "report": "ts-node src/mapper/report.ts",
     "recon:login": "ts-node src/mapper/recon-login.ts",

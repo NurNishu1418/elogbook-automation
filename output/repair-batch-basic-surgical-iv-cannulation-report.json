@@ -1,15 +1,95 @@
 {
-  "generatedAt": "2026-09-10T07:02:22.400Z",
+  "generatedAt": "2026-09-10T10:07:43.956Z",
   "totalTargeted": 17,
-  "totalProcessed": 1,
-  "repaired": 0,
+  "totalProcessed": 17,
+  "repaired": 17,
   "skipped": 0,
-  "failed": 1,
+  "failed": 0,
   "results": [
     {
       "entryId": "b4975eef-6510-49b8-9370-902ecccd0717",
-      "outcome": "FAILED",
-      "detail": "Repair failed for entry b4975eef-6510-49b8-9370-902ecccd0717: AMBIGUOUS_MATCH: opened entry's checked skill(s) [Administration of nasogastric / nasojejunal feeding] do not match the expected target skill \"Intravenous cannulation\". Closed without saving. Refusing to guess."
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "e245bfad-51de-4dc3-b17f-eba007d47c64",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "20e89947-89f4-40a7-b682-0be7e9d3e932",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "3e21450f-fd65-4e5c-9336-28244339c07f",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "acb4bd11-fd93-40d8-9901-c761bb74c829",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "57037a8e-df7a-44c3-9470-2109dd6ac92b",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "3f1af7ab-78c3-4628-90ab-fc3938c0f682",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "d1775296-cb22-4f5b-ba64-79e5b3acbdd0",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "7f2ebefc-622d-409d-b890-b501b13479e6",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "3a082e3f-978c-4d8b-bffb-ad15976c8ea2",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "4526aa25-e8be-4fa3-a7b4-548fb4eef0f4",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "e5b4c617-597f-4a4f-9bf6-b9924d235281",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "790925b7-5900-4f1b-898c-2d041398012f",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "5080b48c-aec3-423b-bc37-d4c9778892c4",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "93af3fda-591c-4116-b1c6-45b2f47fb90c",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "244203e4-b8da-4538-8a93-336f9bda9863",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
+    },
+    {
+      "entryId": "878080d7-f582-474b-8bf5-76c04e3dc24f",
+      "outcome": "REPAIRED_AND_VERIFIED",
+      "detail": "Level 4 set and verified for \"Intravenous cannulation\"."
     }
   ]
 }

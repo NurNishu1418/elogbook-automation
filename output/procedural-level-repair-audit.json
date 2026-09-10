@@ -1,10 +1,9 @@
 {
-  "generatedAt": "2026-09-10T10:05:48.578Z",
+  "generatedAt": "2026-09-10T10:09:48.605Z",
   "counts": {
     "OUT_OF_SCOPE_NOT_DRAFT": 434,
     "NEEDS_DECISION_MULTIPLE_LEVELS": 114,
-    "ALREADY_CORRECT": 19,
-    "AUTO_FIXABLE_SINGLE_LEVEL": 2,
+    "ALREADY_CORRECT": 21,
     "VASCULAR_HOLD": 1
   },
   "rows": [
@@ -2148,8 +2147,10 @@
       "entryId": "244203e4-b8da-4538-8a93-336f9bda9863",
       "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
       "checkedSkill": "Intravenous cannulation",
-      "classification": "AUTO_FIXABLE_SINGLE_LEVEL",
-      "currentLevels": [],
+      "classification": "ALREADY_CORRECT",
+      "currentLevels": [
+        "4"
+      ],
       "validLevels": [
         "4"
       ],
@@ -2166,8 +2167,10 @@
       "entryId": "878080d7-f582-474b-8bf5-76c04e3dc24f",
       "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
       "checkedSkill": "Intravenous cannulation",
-      "classification": "AUTO_FIXABLE_SINGLE_LEVEL",
-      "currentLevels": [],
+      "classification": "ALREADY_CORRECT",
+      "currentLevels": [
+        "4"
+      ],
       "validLevels": [
         "4"
       ],
@@ -7490,6 +7493,90 @@
     {
       "entryId": "30795d28-2f8c-4d31-8f23-4d276a4faca5",
       "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Safe tying of knots (hand/instrumental/on the surface and at depth)",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "4"
+      ],
+      "validLevels": [
+        "2",
+        "3"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "8975/76",
+      "patientName": "Ritu",
+      "assignmentDate": "2025-07-24",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
+      "entryId": "30795d28-2f8c-4d31-8f23-4d276a4faca5",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Securing bleeding vessels",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "4"
+      ],
+      "validLevels": [
+        "2",
+        "3"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "8975/76",
+      "patientName": "Ritu",
+      "assignmentDate": "2025-07-24",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
+      "entryId": "30795d28-2f8c-4d31-8f23-4d276a4faca5",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Skin incision and closure",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "4"
+      ],
+      "validLevels": [
+        "2",
+        "3"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "8975/76",
+      "patientName": "Ritu",
+      "assignmentDate": "2025-07-24",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
+      "entryId": "30795d28-2f8c-4d31-8f23-4d276a4faca5",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Surgical Ritual (Effective and safe hand washing, donning and doffing)",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "4"
+      ],
+      "validLevels": [
+        "3",
+        "4"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "8975/76",
+      "patientName": "Ritu",
+      "assignmentDate": "2025-07-24",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
+      "entryId": "30795d28-2f8c-4d31-8f23-4d276a4faca5",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
       "checkedSkill": "Ability to use Surgical instruments and energy devices",
       "classification": "OUT_OF_SCOPE_NOT_DRAFT",
       "currentLevels": [
@@ -7666,90 +7753,6 @@
       "validLevels": [
         "2",
         "3"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "8975/76",
-      "patientName": "Ritu",
-      "assignmentDate": "2025-07-24",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "30795d28-2f8c-4d31-8f23-4d276a4faca5",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Safe tying of knots (hand/instrumental/on the surface and at depth)",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "4"
-      ],
-      "validLevels": [
-        "2",
-        "3"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "8975/76",
-      "patientName": "Ritu",
-      "assignmentDate": "2025-07-24",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "30795d28-2f8c-4d31-8f23-4d276a4faca5",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Securing bleeding vessels",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "4"
-      ],
-      "validLevels": [
-        "2",
-        "3"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "8975/76",
-      "patientName": "Ritu",
-      "assignmentDate": "2025-07-24",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "30795d28-2f8c-4d31-8f23-4d276a4faca5",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Skin incision and closure",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "4"
-      ],
-      "validLevels": [
-        "2",
-        "3"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "8975/76",
-      "patientName": "Ritu",
-      "assignmentDate": "2025-07-24",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "30795d28-2f8c-4d31-8f23-4d276a4faca5",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Surgical Ritual (Effective and safe hand washing, donning and doffing)",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "4"
-      ],
-      "validLevels": [
-        "3",
-        "4"
       ],
       "resolvedLevel": null,
       "approvedStatus": "Approved",
@@ -9593,177 +9596,6 @@
     {
       "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
       "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Ability to use Surgical instruments and energy devices",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "3"
-      ],
-      "validLevels": [
-        "2",
-        "3"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "9876/16",
-      "patientName": "Ria moni",
-      "assignmentDate": "2026-07-16",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Accurate and safe administration of local anaesthetic agent",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "3"
-      ],
-      "validLevels": [
-        "2",
-        "3"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "9876/16",
-      "patientName": "Ria moni",
-      "assignmentDate": "2026-07-16",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Application and removal of skin staples/stitches",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "2"
-      ],
-      "validLevels": [
-        "2",
-        "3"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "9876/16",
-      "patientName": "Ria moni",
-      "assignmentDate": "2026-07-16",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Biopsy techniques (Core-cut biopsy, excision biopsy, incision biopsy)",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "2"
-      ],
-      "validLevels": [
-        "2",
-        "3"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "9876/16",
-      "patientName": "Ria moni",
-      "assignmentDate": "2026-07-16",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Central venous catheterization",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "2"
-      ],
-      "validLevels": [
-        "1",
-        "2",
-        "3"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "9876/16",
-      "patientName": "Ria moni",
-      "assignmentDate": "2026-07-16",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Drainage of superficial abscesses including Hilton’s method",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "2"
-      ],
-      "validLevels": [
-        "2",
-        "3",
-        "4"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "9876/16",
-      "patientName": "Ria moni",
-      "assignmentDate": "2026-07-16",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Excision biopsy of benign lesions (lipoma, cyst, skin lesions etc.)",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "3"
-      ],
-      "validLevels": [
-        "2",
-        "3",
-        "4"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "9876/16",
-      "patientName": "Ria moni",
-      "assignmentDate": "2026-07-16",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Exposure, antiseptic washand draping",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "3"
-      ],
-      "validLevels": [
-        "2",
-        "3"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "9876/16",
-      "patientName": "Ria moni",
-      "assignmentDate": "2026-07-16",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
       "checkedSkill": "Handling a Procedural specimen",
       "classification": "OUT_OF_SCOPE_NOT_DRAFT",
       "currentLevels": [
@@ -9951,6 +9783,177 @@
       "skillType": "Procedural skill"
     },
     {
+      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Ability to use Surgical instruments and energy devices",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "3"
+      ],
+      "validLevels": [
+        "2",
+        "3"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "9876/16",
+      "patientName": "Ria moni",
+      "assignmentDate": "2026-07-16",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
+      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Accurate and safe administration of local anaesthetic agent",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "3"
+      ],
+      "validLevels": [
+        "2",
+        "3"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "9876/16",
+      "patientName": "Ria moni",
+      "assignmentDate": "2026-07-16",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
+      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Application and removal of skin staples/stitches",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "2"
+      ],
+      "validLevels": [
+        "2",
+        "3"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "9876/16",
+      "patientName": "Ria moni",
+      "assignmentDate": "2026-07-16",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
+      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Biopsy techniques (Core-cut biopsy, excision biopsy, incision biopsy)",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "2"
+      ],
+      "validLevels": [
+        "2",
+        "3"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "9876/16",
+      "patientName": "Ria moni",
+      "assignmentDate": "2026-07-16",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
+      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Central venous catheterization",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "2"
+      ],
+      "validLevels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "9876/16",
+      "patientName": "Ria moni",
+      "assignmentDate": "2026-07-16",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
+      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Drainage of superficial abscesses including Hilton’s method",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "2"
+      ],
+      "validLevels": [
+        "2",
+        "3",
+        "4"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "9876/16",
+      "patientName": "Ria moni",
+      "assignmentDate": "2026-07-16",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
+      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Excision biopsy of benign lesions (lipoma, cyst, skin lesions etc.)",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "3"
+      ],
+      "validLevels": [
+        "2",
+        "3",
+        "4"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "9876/16",
+      "patientName": "Ria moni",
+      "assignmentDate": "2026-07-16",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
+      "entryId": "91c6e1da-2f38-4d32-be31-0824fd9eb93b",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Exposure, antiseptic washand draping",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "3"
+      ],
+      "validLevels": [
+        "2",
+        "3"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "9876/16",
+      "patientName": "Ria moni",
+      "assignmentDate": "2026-07-16",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
       "entryId": "d04ffeda-2d84-4d1b-9347-404aae7cd473",
       "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
       "checkedSkill": "Ability to use Surgical instruments and energy devices",
@@ -10646,69 +10649,6 @@
       "patientRegNo": "87665/12",
       "patientName": "Ratul mia",
       "assignmentDate": "2025-07-12",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "99ee0f65-34c3-45ce-9c05-d42fb92768f0",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Skin incision and closure",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "2"
-      ],
-      "validLevels": [
-        "2",
-        "3"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "2379/13",
-      "patientName": "Sorifa khatun",
-      "assignmentDate": "2025-07-05",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "99ee0f65-34c3-45ce-9c05-d42fb92768f0",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Surgical Ritual (Effective and safe hand washing, donning and doffing)",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "2"
-      ],
-      "validLevels": [
-        "3",
-        "4"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "2379/13",
-      "patientName": "Sorifa khatun",
-      "assignmentDate": "2025-07-05",
-      "caseType": "Basic Surgical Skill",
-      "skillType": "Procedural skill"
-    },
-    {
-      "entryId": "99ee0f65-34c3-45ce-9c05-d42fb92768f0",
-      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-      "checkedSkill": "Urinary bladder catheterization",
-      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
-      "currentLevels": [
-        "2"
-      ],
-      "validLevels": [
-        "3",
-        "4"
-      ],
-      "resolvedLevel": null,
-      "approvedStatus": "Approved",
-      "submitInd": 1,
-      "patientRegNo": "2379/13",
-      "patientName": "Sorifa khatun",
-      "assignmentDate": "2025-07-05",
       "caseType": "Basic Surgical Skill",
       "skillType": "Procedural skill"
     },
@@ -10999,6 +10939,69 @@
       "validLevels": [
         "2",
         "3"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "2379/13",
+      "patientName": "Sorifa khatun",
+      "assignmentDate": "2025-07-05",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
+      "entryId": "99ee0f65-34c3-45ce-9c05-d42fb92768f0",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Skin incision and closure",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "2"
+      ],
+      "validLevels": [
+        "2",
+        "3"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "2379/13",
+      "patientName": "Sorifa khatun",
+      "assignmentDate": "2025-07-05",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
+      "entryId": "99ee0f65-34c3-45ce-9c05-d42fb92768f0",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Surgical Ritual (Effective and safe hand washing, donning and doffing)",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "2"
+      ],
+      "validLevels": [
+        "3",
+        "4"
+      ],
+      "resolvedLevel": null,
+      "approvedStatus": "Approved",
+      "submitInd": 1,
+      "patientRegNo": "2379/13",
+      "patientName": "Sorifa khatun",
+      "assignmentDate": "2025-07-05",
+      "caseType": "Basic Surgical Skill",
+      "skillType": "Procedural skill"
+    },
+    {
+      "entryId": "99ee0f65-34c3-45ce-9c05-d42fb92768f0",
+      "leafId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
+      "checkedSkill": "Urinary bladder catheterization",
+      "classification": "OUT_OF_SCOPE_NOT_DRAFT",
+      "currentLevels": [
+        "2"
+      ],
+      "validLevels": [
+        "3",
+        "4"
       ],
       "resolvedLevel": null,
       "approvedStatus": "Approved",
