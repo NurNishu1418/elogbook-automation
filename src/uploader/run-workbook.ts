@@ -39,6 +39,7 @@ import { readDataEntryRows, readExistingUploadResults, DataEntryRow } from './ex
 import { validateRow, LeafForValidation } from './validateRow';
 import { fillAndSaveDraft } from './fillForm';
 import { fetchRecentEntries, findMatchingEntry, compareEntryToRow, PortalEntry } from './verifyEntrySaved';
+import { selectEligibleRows, readLastAttemptStatus, SelectionMode } from './selection';
 
 const PROJECT_ROOT = path.resolve(__dirname, '..', '..');
 const OUTPUT_DIR = path.join(PROJECT_ROOT, 'output');
@@ -49,7 +50,7 @@ if (!WORKBOOK_PATH) {
   console.error('UPLOAD_WORKBOOK_PATH is required.');
   process.exit(1);
 }
-const SELECTION_MODE = process.env.UPLOAD_SELECTION_MODE ?? 'not-yet-uploaded';
+const SELECTION_MODE = (process.env.UPLOAD_SELECTION_MODE ?? 'not-yet-uploaded') as SelectionMode;
 const SELECTED_ROW_IDS = (process.env.UPLOAD_SELECTED_ROW_IDS ?? '')
   .split(',')
   .map((s) => s.trim())
@@ -93,26 +94,6 @@ async function appendUploadResults(rows: RowResult[]): Promise<void> {
   await wb.xlsx.writeFile(WORKBOOK_PATH!);
 }
 
-function selectEligibleRows(
-  validRows: { row: DataEntryRow; result: ReturnType<typeof validateRow> }[],
-  alreadyDoneLocally: Map<string, string>,
-  lastAttemptStatus: Map<string, string>
-) {
-  switch (SELECTION_MODE) {
-    case 'all-valid':
-      return validRows;
-    case 'selected':
-      return validRows.filter((v) => SELECTED_ROW_IDS.includes(v.row.externalRowId));
-    case 'range':
-      return validRows.filter((v) => (RANGE_START == null || v.row.excelRow >= RANGE_START) && (RANGE_END == null || v.row.excelRow <= RANGE_END));
-    case 'failed-only':
-      return validRows.filter((v) => lastAttemptStatus.get(v.row.externalRowId) === 'FAILED');
-    case 'not-yet-uploaded':
-    default:
-      return validRows.filter((v) => !alreadyDoneLocally.has(v.row.externalRowId));
-  }
-}
-
 async function main() {
   // Dry-run by default; only --execute may touch the portal at all. This
   // gate sits BEFORE any browser is launched or any login is attempted, so
@@ -142,7 +123,13 @@ async function main() {
   const alreadyDoneLocally = await readExistingUploadResults(WORKBOOK_PATH!);
   const lastAttemptStatus = await readLastAttemptStatus(WORKBOOK_PATH!);
 
-  let eligibleRows = selectEligibleRows(validRows, alreadyDoneLocally, lastAttemptStatus).filter((v) => !alreadyDoneLocally.has(v.row.externalRowId));
+  let eligibleRows = selectEligibleRows(validRows, SELECTION_MODE, {
+    selectedRowIds: SELECTED_ROW_IDS,
+    rangeStart: RANGE_START,
+    rangeEnd: RANGE_END,
+    alreadyDoneLocally,
+    lastAttemptStatus,
+  }).filter((v) => !alreadyDoneLocally.has(v.row.externalRowId));
   logger.info(`${eligibleRows.length} row(s) eligible to process under selection mode "${SELECTION_MODE}".`);
 
   // Always write a local preflight report - this is the READY/HOLD/ERROR
@@ -347,26 +334,6 @@ async function main() {
       currentStatus: 'processing',
     });
   }
-}
-
-async function readLastAttemptStatus(xlsxPath: string): Promise<Map<string, string>> {
-  const wb = new ExcelJS.Workbook();
-  await wb.xlsx.readFile(xlsxPath);
-  const ws = wb.getWorksheet('UploadResult');
-  const map = new Map<string, string>();
-  if (!ws) return map;
-  const headerRow = ws.getRow(1);
-  const colIndex: Record<string, number> = {};
-  headerRow.eachCell((cell, colNumber) => {
-    colIndex[String(cell.value ?? '').trim()] = colNumber;
-  });
-  ws.eachRow((row, rowNumber) => {
-    if (rowNumber === 1) return;
-    const id = String(row.getCell(colIndex['ExternalRowId']).value ?? '');
-    const status = String(row.getCell(colIndex['Processing Status']).value ?? '');
-    if (id) map.set(id, status); // later rows overwrite earlier ones, keeping the LAST attempt's status
-  });
-  return map;
 }
 
 main().catch((err) => {

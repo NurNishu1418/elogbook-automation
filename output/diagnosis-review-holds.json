@@ -1,0 +1,32 @@
+{
+  "status": "RESOLVED - all 5 rows rebuilt as coherent synthetic TEST_ONLY cases",
+  "resolvedAt": "2026-09-10T16:34:44.053Z",
+  "remainingHolds": [],
+  "history": [
+    {
+      "id": "BSS-0021",
+      "before": "Post-laparotomy wound closure.",
+      "after": "Perforated peptic ulcer."
+    },
+    {
+      "id": "BSS-0023",
+      "before": "Wound closure following laparotomy.",
+      "after": "Perforated appendicitis with generalised peritonitis."
+    },
+    {
+      "id": "BSS-0025",
+      "before": "Post-laparotomy wound closure.",
+      "after": "Small bowel obstruction due to adhesions."
+    },
+    {
+      "id": "BSS-0027",
+      "before": "Wound closure following laparotomy.",
+      "after": "Blunt abdominal trauma with visceral injury."
+    },
+    {
+      "id": "BSS-0029",
+      "before": "Post-laparotomy wound closure.",
+      "after": "Perforated sigmoid diverticulitis."
+    }
+  ]
+}

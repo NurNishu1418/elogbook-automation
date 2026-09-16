@@ -6,7 +6,7 @@ import { readExistingUploadResults } from '../../uploader/excelReader';
 
 const PROJECT_ROOT = path.resolve(__dirname, '..', '..', '..');
 
-function loadLeaves(): LeafForValidation[] {
+export function loadLeaves(): LeafForValidation[] {
   const formMap = JSON.parse(fs.readFileSync(path.join(PROJECT_ROOT, 'output', 'form-map.json'), 'utf-8'));
   return formMap.leaves.map((l: any) => ({
     leafId: l.leafId,

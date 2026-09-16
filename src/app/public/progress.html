@@ -16,11 +16,13 @@
 
     <div class="card">
       <h2 id="job-state">No job running for this workbook.</h2>
+      <p class="hint" id="job-meta"></p>
       <div class="stat-grid">
+        <div class="stat-box"><div class="num" id="p-selected">0</div><div class="lbl">Selected</div></div>
         <div class="stat-box"><div class="num" id="p-processed">0</div><div class="lbl">Processed</div></div>
-        <div class="stat-box"><div class="num" id="p-success">0</div><div class="lbl">Successful</div></div>
+        <div class="stat-box"><div class="num" id="p-success">0</div><div class="lbl">Verified Successful</div></div>
         <div class="stat-box"><div class="num" id="p-failed">0</div><div class="lbl">Failed</div></div>
-        <div class="stat-box"><div class="num" id="p-skipped">0</div><div class="lbl">Skipped</div></div>
+        <div class="stat-box"><div class="num" id="p-skipped">0</div><div class="lbl">Skipped / Already Done</div></div>
         <div class="stat-box"><div class="num" id="p-remaining">0</div><div class="lbl">Remaining</div></div>
       </div>
       <div class="progress-bar-outer"><div class="progress-bar-inner" id="progress-bar" style="width:0%"></div></div>
@@ -61,11 +63,29 @@
       const p = status.progress ?? {};
 
       document.getElementById('job-state').textContent = status.running
-        ? 'Job running...'
+        ? 'Job running (LIVE - SAVE AS DRAFT)...'
         : p.done
         ? 'Last run finished.'
         : 'No job currently running for this workbook.';
 
+      // job metadata (mode/range) comes from the active job's own record
+      // when running, or from progress.json's stamped job-start metadata
+      // once finished - never from a leftover unrelated run, since
+      // resetProgressForNewJob() always overwrites it fresh at job start.
+      const ji = status.jobInfo;
+      if (ji) {
+        const rangeText = ji.rangeStart != null || ji.rangeEnd != null ? `${ji.rangeStart ?? ''}-${ji.rangeEnd ?? ''}` : '(not range mode)';
+        document.getElementById('job-meta').textContent =
+          `Mode: ${ji.selectionMode} | Range: ${rangeText} | Selected: ${ji.resolvedSelection?.resolvedCount ?? '?'} | ` +
+          `${ji.resolvedSelection?.firstExternalRowId ?? ''} -> ${ji.resolvedSelection?.lastExternalRowId ?? ''} | Started: ${ji.startedAt}`;
+      } else if (p.workbookPath) {
+        const rangeText = p.rangeStart != null || p.rangeEnd != null ? `${p.rangeStart ?? ''}-${p.rangeEnd ?? ''}` : '(not range mode)';
+        document.getElementById('job-meta').textContent = `Last job - Mode: ${p.selectionMode ?? '?'} | Range: ${rangeText} | Started: ${p.jobStartedAt ?? '?'}`;
+      } else {
+        document.getElementById('job-meta').textContent = '';
+      }
+
+      document.getElementById('p-selected').textContent = p.totalEligible ?? 0;
       document.getElementById('p-processed').textContent = p.processed ?? 0;
       document.getElementById('p-success').textContent = p.successful ?? 0;
       document.getElementById('p-failed').textContent = p.failed ?? 0;

@@ -4,6 +4,7 @@ import path from 'path';
 import { launchBrowser, newContext } from '../../utils/browser';
 import { login, LoginBlockedError } from '../../auth/login';
 import { env } from '../../utils/env';
+import { resolveSelection, ResolvedSelection } from './selectionPreview';
 
 const PROJECT_ROOT = path.resolve(__dirname, '..', '..', '..');
 // Spawning node_modules/.bin/ts-node.cmd directly throws "spawn EINVAL" on
@@ -18,6 +19,10 @@ interface ActiveJob {
   proc: ChildProcessWithoutNullStreams;
   workbookPath: string;
   startedAt: string;
+  selectionMode: string;
+  rangeStart: number | null;
+  rangeEnd: number | null;
+  resolvedSelection: ResolvedSelection;
   logs: string[];
 }
 
@@ -29,7 +34,15 @@ export function isJobRunning(): boolean {
 
 export function getActiveJobInfo() {
   if (!activeJob) return null;
-  return { workbookPath: activeJob.workbookPath, startedAt: activeJob.startedAt, logs: activeJob.logs.slice(-300) };
+  return {
+    workbookPath: activeJob.workbookPath,
+    startedAt: activeJob.startedAt,
+    selectionMode: activeJob.selectionMode,
+    rangeStart: activeJob.rangeStart,
+    rangeEnd: activeJob.rangeEnd,
+    resolvedSelection: activeJob.resolvedSelection,
+    logs: activeJob.logs.slice(-300),
+  };
 }
 
 export interface StartUploadOptions {
@@ -41,13 +54,86 @@ export interface StartUploadOptions {
   credentials: { username: string; password: string; userType: string };
 }
 
+function progressPath(workbookPath: string): string {
+  const dir = path.dirname(workbookPath);
+  const base = path.basename(workbookPath, '.xlsx');
+  return path.join(dir, `${base}.progress.json`);
+}
+
 /**
- * Spawns src/uploader/run-workbook.ts as a child process. Credentials are
- * passed via the child's environment only - never as CLI args (which would
- * be visible in a process listing) and never written to any file.
+ * Resets this workbook's progress.json to a fresh zeroed state for a NEW
+ * job, stamped with the job's own metadata (workbook/range/mode/resolved
+ * selection). Written synchronously BEFORE the child process is spawned so
+ * the UI's very next poll (progress.html polls every 1.5s) sees this fresh
+ * state immediately, instead of whatever an unrelated prior job left behind
+ * on disk. run-workbook.ts's own writeProgress() calls take over and keep
+ * updating processed/successful/failed/skipped/remaining/current* as the
+ * job actually runs; this initial write only ever happens once, right here.
  */
-export function startUploadJob(opts: StartUploadOptions): void {
+function resetProgressForNewJob(workbookPath: string, selectionMode: string, rangeStart: number | null, rangeEnd: number | null, resolved: ResolvedSelection): void {
+  fs.writeFileSync(
+    progressPath(workbookPath),
+    JSON.stringify(
+      {
+        updatedAt: new Date().toISOString(),
+        done: false,
+        jobStartedAt: new Date().toISOString(),
+        workbookPath,
+        selectionMode,
+        rangeStart,
+        rangeEnd,
+        totalEligible: resolved.resolvedCount,
+        processed: 0,
+        successful: 0,
+        failed: 0,
+        skipped: 0,
+        remaining: resolved.resolvedCount,
+        currentExternalRowId: null,
+        currentSkill: null,
+        currentStatus: 'starting',
+      },
+      null,
+      2
+    ),
+    'utf-8'
+  );
+}
+
+/**
+ * Resolves the exact row selection, fails BEFORE any login/browser if it
+ * resolves to zero rows, resets this workbook's progress to a fresh
+ * zeroed state, then spawns src/uploader/run-workbook.ts **with --execute**
+ * as a child process. This function is the ONLY path in the app that can
+ * create real portal drafts - it is exclusively the live "Save as Draft"
+ * path (dry-run validation goes through the separate, non-spawning
+ * runDryRun() / resolveSelection() functions, which never touch the
+ * portal). --execute is therefore always appended here, unconditionally -
+ * there is no dry-run branch inside this function to accidentally omit it
+ * from, and no caller can invoke a live job without it.
+ *
+ * Credentials are passed via the child's environment only - never as CLI
+ * args (which would be visible in a process listing) and never written to
+ * any file.
+ */
+export async function startUploadJob(opts: StartUploadOptions): Promise<ResolvedSelection> {
   if (activeJob) throw new Error('A job is already running (concurrency 1 - wait for it to finish or stop it first).');
+
+  const resolved = await resolveSelection({
+    workbookPath: opts.workbookPath,
+    selectionMode: opts.selectionMode,
+    selectedRowIds: opts.selectedRowIds,
+    rangeStart: opts.rangeStart,
+    rangeEnd: opts.rangeEnd,
+  });
+  if (resolved.resolvedCount === 0) {
+    throw new Error(
+      `No eligible rows resolved for this selection (mode="${opts.selectionMode}"` +
+        (opts.rangeStart != null || opts.rangeEnd != null ? `, range=${opts.rangeStart ?? ''}-${opts.rangeEnd ?? ''}` : '') +
+        `). Nothing was started - no login was attempted.`
+    );
+  }
+
+  resetProgressForNewJob(opts.workbookPath, opts.selectionMode, opts.rangeStart ?? null, opts.rangeEnd ?? null, resolved);
 
   const scriptPath = path.join(PROJECT_ROOT, 'src', 'uploader', 'run-workbook.ts');
   const childEnv = {
@@ -67,14 +153,25 @@ export function startUploadJob(opts: StartUploadOptions): void {
     UPLOAD_RANGE_END: opts.rangeEnd != null ? String(opts.rangeEnd) : '',
   };
 
-  const proc = spawn(process.execPath, [TS_NODE_ENTRY, scriptPath], { cwd: PROJECT_ROOT, env: childEnv, windowsHide: true }) as ChildProcessWithoutNullStreams;
-  activeJob = { proc, workbookPath: opts.workbookPath, startedAt: new Date().toISOString(), logs: [] };
+  const proc = spawn(process.execPath, [TS_NODE_ENTRY, scriptPath, '--execute'], { cwd: PROJECT_ROOT, env: childEnv, windowsHide: true }) as ChildProcessWithoutNullStreams;
+  activeJob = {
+    proc,
+    workbookPath: opts.workbookPath,
+    startedAt: new Date().toISOString(),
+    selectionMode: opts.selectionMode,
+    rangeStart: opts.rangeStart ?? null,
+    rangeEnd: opts.rangeEnd ?? null,
+    resolvedSelection: resolved,
+    logs: [],
+  };
 
   proc.stdout.on('data', (d) => activeJob?.logs.push(d.toString()));
   proc.stderr.on('data', (d) => activeJob?.logs.push(d.toString()));
   proc.on('exit', () => {
     activeJob = null;
   });
+
+  return resolved;
 }
 
 export function requestStop(workbookPath: string): void {

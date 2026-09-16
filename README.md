@@ -12,11 +12,11 @@ e-Logbook "Add Logbook Entry" form
    all of it against the real rendered DOM in a headless/headed browser, and
    generates `output/BCPS_Logbook_Full_Mapping.xlsx` plus several JSON
    sidecar files.
-2. **Uploader** (`npm run upload:dry-run` / `upload:drafts`) reads
-   user-filled rows from the `DataEntry` sheet of that same workbook,
-   validates each row against the mapped combinations, and (only in
-   `--execute` mode) drives the browser to fill the form and click
-   **Save as Draft** - never Final Submit.
+2. **Uploader** (`npm run workbook:dry-run` / `workbook:execute`, pointed at
+   any workbook via `UPLOAD_WORKBOOK_PATH`) reads user-filled rows from the
+   `DataEntry` sheet, validates each row against the mapped combinations,
+   and (only in `--execute` mode) drives the browser to fill the form and
+   click **Save as Draft** - never Final Submit.
 
 ## How the mapping actually works
 
@@ -81,8 +81,9 @@ cp .env.example .env              # then fill in real values
 | `npm run verify-map` | Runs an **independent second crawl** under a separate checkpoint and reconciles it against the primary run's `form-map.json`, writing `output/verification-reconciliation.json`. |
 | `npm run validate-excel` | Opens the generated workbook, checks all required sheets exist with no duplicate columns, and that every JSON sidecar file parses. |
 | `npm run report` | Regenerates `coverage-report.json` and `mapping-summary.md` from the existing `output/*.json` files (no browser needed). |
-| `npm run upload:dry-run` | **Default/safe mode.** Validates every `DataEntry` row locally against the mapped combinations. Never logs in, never opens a browser. |
-| `npm run upload:drafts` | Actually logs in and creates drafts for valid, not-yet-processed rows. Only clicks "Save as Draft", never "Submit". |
+| `npm run workbook:dry-run` | **Current approved pipeline, default/safe mode.** Runs `src/uploader/run-workbook.ts` against any workbook via `UPLOAD_WORKBOOK_PATH`. Validates every `DataEntry` row locally against the mapped combinations. Never logs in, never opens a browser. |
+| `npm run workbook:execute` | **Current approved pipeline, live mode.** Actually logs in and creates drafts for eligible rows. Only clicks "Save as Draft", never "Submit". |
+| `npm run legacy:upload:dry-run` / `npm run legacy:upload:drafts` | **Legacy, do not use for the AutoScript-Input workbook.** Runs `src/uploader/run.ts`, hardcoded to the older fixed path `output/BCPS_Logbook_Full_Mapping.xlsx` - cannot be pointed at any other workbook. Kept only for that original file's own workflow. |
 | `npm run test` | Runs the Jest unit test suite (pure logic - no live portal access). |
 
 Diagnostic-only scripts (not part of the required pipeline, useful if the
@@ -110,8 +111,8 @@ Open `output/BCPS_Logbook_Full_Mapping.xlsx` → `DataEntry` sheet:
   your chosen combination and which are required.
 - `Action` must be `SAVE_DRAFT` - it's the only supported value.
 
-Run `npm run upload:dry-run` after filling rows in to catch mistakes before
-touching the portal at all.
+Run `npm run workbook:dry-run` (with `UPLOAD_WORKBOOK_PATH` set to your file)
+after filling rows in to catch mistakes before touching the portal at all.
 
 ## Project structure
 

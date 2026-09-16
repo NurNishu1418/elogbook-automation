@@ -1,0 +1,118 @@
+{
+  "note": "These 16 rows are TEST_ONLY COVERAGE REPLACEMENTS for the 16 original technical HOLD rows (13 Vascular Surgery + 3 Abdominal Wall Level-5), which remain unchanged and unsupported in GeneratedHolds for traceability. These replacements do NOT satisfy the original PDF/authoritative competency requirement for Vascular Surgery or the Level-5 Abdominal Wall item - they exist purely to preserve executable automation-test row volume. See report section \"authoritative coverage vs executable test coverage\" for the distinction.",
+  "generatedAt": "2026-09-10T16:34:44.057Z",
+  "rows": [
+    {
+      "externalRowId": "VASCTC-0001",
+      "replacesOriginalHold": "VASC-0001 (Vascular Surgery, Interpretative Skill, Angiogram/CT angiogram)",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Interpretative Skill",
+      "competencyItem": "Blood gas analysis"
+    },
+    {
+      "externalRowId": "VASCTC-0002",
+      "replacesOriginalHold": "VASC-0002 (Vascular Surgery, Interpretative Skill, Angiogram/CT angiogram)",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Interpretative Skill",
+      "competencyItem": "Blood gas analysis"
+    },
+    {
+      "externalRowId": "VASCTC-0003",
+      "replacesOriginalHold": "VASC-0003 (Vascular Surgery, Interpretative Skill, Angiogram/CT angiogram)",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Interpretative Skill",
+      "competencyItem": "Blood gas analysis"
+    },
+    {
+      "externalRowId": "VASCTC-0004",
+      "replacesOriginalHold": "VASC-0004 (Vascular Surgery, Interpretative Skill, Color Doppler/Duplex imaging/MRA/MRV/DSA)",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Interpretative Skill",
+      "competencyItem": "Wound swab for C/S"
+    },
+    {
+      "externalRowId": "VASCTC-0005",
+      "replacesOriginalHold": "VASC-0005 (Vascular Surgery, Interpretative Skill, Color Doppler/Duplex imaging/MRA/MRV/DSA)",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Interpretative Skill",
+      "competencyItem": "Wound swab for C/S"
+    },
+    {
+      "externalRowId": "VASCTC-0006",
+      "replacesOriginalHold": "VASC-0006 (Vascular Surgery, Interpretative Skill, Color Doppler/Duplex imaging/MRA/MRV/DSA)",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Interpretative Skill",
+      "competencyItem": "Wound swab for C/S"
+    },
+    {
+      "externalRowId": "VASCTC-0007",
+      "replacesOriginalHold": "VASC-0007 (Vascular Surgery, Interpretative Skill, Color Doppler/Duplex imaging/MRA/MRV/DSA)",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Interpretative Skill",
+      "competencyItem": "X-ray chest P/A"
+    },
+    {
+      "externalRowId": "VASCTC-0008",
+      "replacesOriginalHold": "VASC-0008 (Vascular Surgery, Interpretative Skill, Color Doppler/Duplex imaging/MRA/MRV/DSA)",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Interpretative Skill",
+      "competencyItem": "X-ray chest P/A"
+    },
+    {
+      "externalRowId": "VASCTC-0009",
+      "replacesOriginalHold": "VASC-0009 (Vascular Surgery, Procedural skill, Arterial thrombo-embolectomy)",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Procedural skill",
+      "competencyItem": "Chest tube drain insertion"
+    },
+    {
+      "externalRowId": "VASCTC-0010",
+      "replacesOriginalHold": "VASC-0010 (Vascular Surgery, Procedural skill, Carotid end arterectomy)",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Procedural skill",
+      "competencyItem": "Pericardiocentesis"
+    },
+    {
+      "externalRowId": "VASCTC-0011",
+      "replacesOriginalHold": "VASC-0011 (Vascular Surgery, Procedural skill, Ligation and excision of hemangioma and aneurysm)",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Procedural skill",
+      "competencyItem": "Thoracoscopy"
+    },
+    {
+      "externalRowId": "VASCTC-0012",
+      "replacesOriginalHold": "VASC-0012 (Vascular Surgery, Procedural skill, Use of vascular grafts)",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Procedural skill",
+      "competencyItem": "Thoracotomy"
+    },
+    {
+      "externalRowId": "VASCTC-0013",
+      "replacesOriginalHold": "VASC-0013 (Vascular Surgery, Procedural skill, Vascular repair)",
+      "caseType": "Thoracic and Cardiovascular Surgery",
+      "skillType": "Procedural skill",
+      "competencyItem": "Chest tube drain insertion"
+    },
+    {
+      "externalRowId": "AWL5R-0001",
+      "replacesOriginalHold": "AW-0008 (Abdominal Wall, Procedural skill, Open and laparoscopic repair of inguinal hernia, Level 5)",
+      "caseType": "Abdominal Wall",
+      "skillType": "Procedural skill",
+      "competencyItem": "Open and laparoscopic repair of incisional hernia"
+    },
+    {
+      "externalRowId": "AWL5R-0002",
+      "replacesOriginalHold": "AW-0009 (Abdominal Wall, Procedural skill, Open and laparoscopic repair of inguinal hernia, Level 5)",
+      "caseType": "Abdominal Wall",
+      "skillType": "Procedural skill",
+      "competencyItem": "Open and laparoscopic repair of paraumbilical hernia"
+    },
+    {
+      "externalRowId": "AWL5R-0003",
+      "replacesOriginalHold": "AW-0010 (Abdominal Wall, Procedural skill, Open and laparoscopic repair of inguinal hernia, Level 5)",
+      "caseType": "Abdominal Wall",
+      "skillType": "Procedural skill",
+      "competencyItem": "Open and laparoscopic repair of recurrent hernia"
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "status": "RESOLVED - TEST_ONLY dataset: all 42 rows given a deliberately-designed explicit CompetencyLevel (3 or 4), quota-aware per output/form-map.json min_value thresholds, with narrative rewritten to support the chosen level. NOT derived from any real trainee record - synthetic test coverage only. Must not be used as a template for real official BCPS submission data.",
+  "resolvedAt": "2026-09-10T16:37:52.805Z",
+  "remainingHolds": [],
+  "perCompetencyQuotaReport": [
+    {
+      "item": "Death Certificate",
+      "rowCount": 3,
+      "quota": {
+        "3": "3",
+        "4": "2"
+      },
+      "assigned": {
+        "3": 1,
+        "4": 2
+      },
+      "level3QuotaMet": false,
+      "level4QuotaMet": true
+    },
+    {
+      "item": "Discharge certificate",
+      "rowCount": 3,
+      "quota": {
+        "3": "3",
+        "4": "2"
+      },
+      "assigned": {
+        "3": 1,
+        "4": 2
+      },
+      "level3QuotaMet": false,
+      "level4QuotaMet": true
+    },
+    {
+      "item": "Discharge summary",
+      "rowCount": 3,
+      "quota": {
+        "3": "3",
+        "4": "2"
+      },
+      "assigned": {
+        "3": 1,
+        "4": 2
+      },
+      "level3QuotaMet": false,
+      "level4QuotaMet": true
+    },
+    {
+      "item": "Referral note",
+      "rowCount": 3,
+      "quota": {
+        "3": "3",
+        "4": "2"
+      },
+      "assigned": {
+        "3": 1,
+        "4": 2
+      },
+      "level3QuotaMet": false,
+      "level4QuotaMet": true
+    },
+    {
+      "item": "Documentation of injuries and disabilities",
+      "rowCount": 5,
+      "quota": {
+        "3": "5",
+        "4": "5"
+      },
+      "assigned": {
+        "3": 5,
+        "4": 0
+      },
+      "level3QuotaMet": true,
+      "level4QuotaMet": false
+    },
+    {
+      "item": "Obtaining informed written consent",
+      "rowCount": 5,
+      "quota": {
+        "3": "5",
+        "4": "5"
+      },
+      "assigned": {
+        "3": 0,
+        "4": 5
+      },
+      "level3QuotaMet": false,
+      "level4QuotaMet": true
+    },
+    {
+      "item": "Operation note",
+      "rowCount": 5,
+      "quota": {
+        "3": "5",
+        "4": "5"
+      },
+      "assigned": {
+        "3": 5,
+        "4": 0
+      },
+      "level3QuotaMet": true,
+      "level4QuotaMet": false
+    },
+    {
+      "item": "Post-operative order",
+      "rowCount": 5,
+      "quota": {
+        "3": "5",
+        "4": "5"
+      },
+      "assigned": {
+        "3": 0,
+        "4": 5
+      },
+      "level3QuotaMet": false,
+      "level4QuotaMet": true
+    },
+    {
+      "item": "Preoperative order",
+      "rowCount": 5,
+      "quota": {
+        "3": "5",
+        "4": "5"
+      },
+      "assigned": {
+        "3": 5,
+        "4": 0
+      },
+      "level3QuotaMet": true,
+      "level4QuotaMet": false
+    },
+    {
+      "item": "Requisition for investigations (Laboratory, Biochemical, Imaging, Histopathological analysis and immunohistochemitry)",
+      "rowCount": 5,
+      "quota": {
+        "3": "5",
+        "4": "5"
+      },
+      "assigned": {
+        "3": 0,
+        "4": 5
+      },
+      "level3QuotaMet": false,
+      "level4QuotaMet": true
+    }
+  ],
+  "levelAssignments": [
+    {
+      "id": "BSS-0123",
+      "item": "Death Certificate",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0124",
+      "item": "Death Certificate",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0125",
+      "item": "Death Certificate",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0126",
+      "item": "Discharge certificate ",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0127",
+      "item": "Discharge certificate ",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0128",
+      "item": "Discharge certificate ",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0129",
+      "item": "Discharge summary",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0130",
+      "item": "Discharge summary",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0131",
+      "item": "Discharge summary",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0157",
+      "item": "Referral note ",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0158",
+      "item": "Referral note ",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0159",
+      "item": "Referral note ",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0132",
+      "item": "Documentation of injuries and disabilities ",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0133",
+      "item": "Documentation of injuries and disabilities ",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0134",
+      "item": "Documentation of injuries and disabilities ",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0135",
+      "item": "Documentation of injuries and disabilities ",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0136",
+      "item": "Documentation of injuries and disabilities ",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0137",
+      "item": "Obtaining informed written consent",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0138",
+      "item": "Obtaining informed written consent",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0139",
+      "item": "Obtaining informed written consent",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0140",
+      "item": "Obtaining informed written consent",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0141",
+      "item": "Obtaining informed written consent",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0142",
+      "item": "Operation note ",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0143",
+      "item": "Operation note ",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0144",
+      "item": "Operation note ",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0145",
+      "item": "Operation note ",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0146",
+      "item": "Operation note ",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0147",
+      "item": "Post-operative order",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0148",
+      "item": "Post-operative order",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0149",
+      "item": "Post-operative order",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0150",
+      "item": "Post-operative order",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0151",
+      "item": "Post-operative order",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0152",
+      "item": "Preoperative order",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0153",
+      "item": "Preoperative order",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0154",
+      "item": "Preoperative order",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0155",
+      "item": "Preoperative order",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0156",
+      "item": "Preoperative order",
+      "level": "3"
+    },
+    {
+      "id": "BSS-0160",
+      "item": "Requisition for investigations (Laboratory, Biochemical, Imaging, Histopathological analysis and immunohistochemitry)",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0161",
+      "item": "Requisition for investigations (Laboratory, Biochemical, Imaging, Histopathological analysis and immunohistochemitry)",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0162",
+      "item": "Requisition for investigations (Laboratory, Biochemical, Imaging, Histopathological analysis and immunohistochemitry)",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0163",
+      "item": "Requisition for investigations (Laboratory, Biochemical, Imaging, Histopathological analysis and immunohistochemitry)",
+      "level": "4"
+    },
+    {
+      "id": "BSS-0164",
+      "item": "Requisition for investigations (Laboratory, Biochemical, Imaging, Histopathological analysis and immunohistochemitry)",
+      "level": "4"
+    }
+  ]
+}

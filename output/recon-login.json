@@ -1,0 +1,228 @@
+{
+  "title": "Login | BCPS",
+  "url": "https://eportal.bcps.edu.bd/login",
+  "frames": [
+    {
+      "frameUrl": "https://eportal.bcps.edu.bd/login",
+      "elements": [
+        {
+          "tag": "button",
+          "type": "button",
+          "name": null,
+          "id": null,
+          "role": null,
+          "ariaLabel": "Open Knowledge Base chat",
+          "labelText": null,
+          "placeholder": null,
+          "required": false,
+          "disabled": false,
+          "readonly": false,
+          "checked": null,
+          "value": "",
+          "options": null,
+          "visible": true,
+          "className": "chatbot-fab",
+          "selectorCandidates": [],
+          "outerHtmlSnippet": "<button type=\"button\" class=\"chatbot-fab\" aria-label=\"Open Knowledge Base chat\" title=\"Question &amp; Answer\"><i class=\"fa-solid fa-circle-question\"></i></button>",
+          "section": null
+        },
+        {
+          "tag": "select",
+          "type": null,
+          "name": "doctor_type",
+          "id": null,
+          "role": null,
+          "ariaLabel": null,
+          "labelText": null,
+          "placeholder": null,
+          "required": false,
+          "disabled": false,
+          "readonly": false,
+          "checked": null,
+          "value": "MBBS",
+          "options": [
+            {
+              "text": "MBBS",
+              "value": "MBBS",
+              "selected": true,
+              "disabled": false
+            },
+            {
+              "text": "BDS",
+              "value": "BDS",
+              "selected": false,
+              "disabled": false
+            }
+          ],
+          "visible": true,
+          "className": "form-select",
+          "selectorCandidates": [
+            "select[name=\"doctor_type\"]"
+          ],
+          "outerHtmlSnippet": "<select name=\"doctor_type\" class=\"form-select\"><option value=\"MBBS\">MBBS</option><option value=\"BDS\">BDS</option></select>",
+          "section": null
+        },
+        {
+          "tag": "select",
+          "type": null,
+          "name": "login_type",
+          "id": null,
+          "role": null,
+          "ariaLabel": null,
+          "labelText": null,
+          "placeholder": null,
+          "required": false,
+          "disabled": false,
+          "readonly": false,
+          "checked": null,
+          "value": "",
+          "options": [
+            {
+              "text": "Select...",
+              "value": "",
+              "selected": true,
+              "disabled": false
+            },
+            {
+              "text": "Trainee",
+              "value": "Trainee",
+              "selected": false,
+              "disabled": false
+            },
+            {
+              "text": "Supervisor",
+              "value": "Supervisor",
+              "selected": false,
+              "disabled": false
+            },
+            {
+              "text": "Fellow",
+              "value": "Fellow",
+              "selected": false,
+              "disabled": false
+            }
+          ],
+          "visible": true,
+          "className": "form-control undefined form-select",
+          "selectorCandidates": [
+            "select[name=\"login_type\"]"
+          ],
+          "outerHtmlSnippet": "<select name=\"login_type\" class=\"form-control undefined form-select\" aria-invalid=\"false\"><option class=\"form-control\" value=\"\">Select...</option><option class=\"form-control\" value=\"Trainee\">Trainee</option><option class=\"form-control\" value=\"Supervisor\">Supervisor</option><option class=\"form-contro",
+          "section": null
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "username",
+          "id": null,
+          "role": null,
+          "ariaLabel": null,
+          "labelText": null,
+          "placeholder": "Example: 39692 (Only Digit)",
+          "required": false,
+          "disabled": false,
+          "readonly": false,
+          "checked": false,
+          "value": "",
+          "options": null,
+          "visible": true,
+          "className": "form-control undefined form-control",
+          "selectorCandidates": [
+            "input[name=\"username\"]"
+          ],
+          "outerHtmlSnippet": "<input name=\"username\" placeholder=\"Example: 39692 (Only Digit)\" type=\"text\" class=\"form-control undefined form-control\" aria-invalid=\"false\" value=\"\">",
+          "section": null
+        },
+        {
+          "tag": "input",
+          "type": "password",
+          "name": "password",
+          "id": null,
+          "role": null,
+          "ariaLabel": null,
+          "labelText": null,
+          "placeholder": "Enter Password",
+          "required": false,
+          "disabled": false,
+          "readonly": false,
+          "checked": false,
+          "value": "",
+          "options": null,
+          "visible": true,
+          "className": "form-control undefined form-control",
+          "selectorCandidates": [
+            "input[name=\"password\"]"
+          ],
+          "outerHtmlSnippet": "<input name=\"password\" placeholder=\"Enter Password\" type=\"password\" class=\"form-control undefined form-control\" aria-invalid=\"false\" value=\"\">",
+          "section": null
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "name": null,
+          "id": null,
+          "role": null,
+          "ariaLabel": null,
+          "labelText": "Password",
+          "placeholder": null,
+          "required": false,
+          "disabled": false,
+          "readonly": false,
+          "checked": null,
+          "value": "",
+          "options": null,
+          "visible": true,
+          "className": "btn btn-light btn-sm",
+          "selectorCandidates": [],
+          "outerHtmlSnippet": "<button type=\"button\" class=\"btn btn-light btn-sm\"><i class=\"fa fa-eye\"></i></button>",
+          "section": null
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "remember_me",
+          "id": "remember_me",
+          "role": null,
+          "ariaLabel": null,
+          "labelText": "Remember me",
+          "placeholder": null,
+          "required": false,
+          "disabled": false,
+          "readonly": false,
+          "checked": false,
+          "value": "on",
+          "options": null,
+          "visible": true,
+          "className": "form-check-input",
+          "selectorCandidates": [
+            "#remember_me",
+            "input[name=\"remember_me\"]"
+          ],
+          "outerHtmlSnippet": "<input class=\"form-check-input\" type=\"checkbox\" id=\"remember_me\" name=\"remember_me\">",
+          "section": null
+        },
+        {
+          "tag": "button",
+          "type": "submit",
+          "name": null,
+          "id": null,
+          "role": null,
+          "ariaLabel": null,
+          "labelText": "Remember me",
+          "placeholder": null,
+          "required": false,
+          "disabled": false,
+          "readonly": false,
+          "checked": null,
+          "value": "",
+          "options": null,
+          "visible": true,
+          "className": "btn btn-primary btn-block d-flex gap-2 justify-content-center align-items-center",
+          "selectorCandidates": [],
+          "outerHtmlSnippet": "<button class=\"btn btn-primary btn-block d-flex gap-2 justify-content-center align-items-center\" type=\"submit\"><span>Log In</span></button>",
+          "section": null
+        }
+      ]
+    }
+  ]
+}

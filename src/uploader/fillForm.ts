@@ -5,6 +5,7 @@ import { logger } from '../utils/logger';
 import { selectFormOption, selectReactSelectOption, selectSkillType } from '../mapper/verifyLiveUi';
 import { DataEntryRow } from './excelReader';
 import { LeafForValidation } from './validateRow';
+import { skillTypeHasCompetencyLevel } from './competencyLevel';
 
 export interface FillResult {
   success: boolean;
@@ -252,66 +253,82 @@ export async function fillAndSaveDraft(page: Page, row: DataEntryRow, leaf: Leaf
         // per-row "CompetencyLevel" ExtraFieldsJSON key (validated already
         // by validateRow.ts before this function is ever called) takes
         // precedence whenever the item has more than one valid level.
-        const explicitLevel = row.extraFields['CompetencyLevel'];
-        const levelResolution = resolveLevelForItem(leaf.leafId, match.particulars, explicitLevel);
+        //
+        // This Level concept applies globally by SkillType, not by
+        // CaseType/Basic Surgical Skill: Procedural skill AND Communication
+        // and Writing Skill items both carry mapped Level values in
+        // output/form-map.json (confirmed live for Communication items too
+        // - every mapped one has valid levels "3","4"); Interpretative
+        // Skill items never do. skillTypeHasCompetencyLevel() is the single
+        // shared source of truth for this, also used by validateRow.ts, so
+        // the two can never diverge. Must NOT be inferred from
+        // has_competence_levels or from whether any levels happen to be
+        // mapped, since that flag is uniformly 1 across every competency
+        // item regardless of skill type.
+        if (skillTypeHasCompetencyLevel(leaf.pathLabels[2])) {
+          const explicitLevel = row.extraFields['CompetencyLevel'];
+          const levelResolution = resolveLevelForItem(leaf.leafId, match.particulars, explicitLevel);
 
-        if (levelResolution.status === 'ambiguous-multiple-levels') {
-          return {
-            success: false,
-            draftReference: null,
-            failedField: `CompetencyGroup: ${item}`,
-            error: `Cannot determine which Competency Level to select for "${item}": ${levelResolution.validLevels.length} valid levels are mapped (${levelResolution.validLevels.join(', ')}) but no explicit CompetencyLevel was provided for this row. Refusing to guess.`,
-          };
-        }
-        if (levelResolution.status === 'invalid-explicit-level') {
-          return {
-            success: false,
-            draftReference: null,
-            failedField: `CompetencyGroup: ${item}`,
-            error: `CompetencyLevel "${explicitLevel}" provided for "${item}" is not one of its valid mapped levels (${levelResolution.validLevels.join(', ') || 'none'}). Refusing to guess or substitute.`,
-          };
-        }
-        if (levelResolution.status === 'no-levels-mapped') {
-          return {
-            success: false,
-            draftReference: null,
-            failedField: `CompetencyGroup: ${item}`,
-            error: `No valid Competency Level is mapped for "${item}" in output/form-map.json, but this is a Procedural-skill competency item and the portal requires exactly one Level to be selected. This looks like a mapping gap, not a genuinely level-less item - refusing to save without a level.`,
-          };
-        }
-        if (levelResolution.status === 'unselectable-level') {
-          return {
-            success: false,
-            draftReference: null,
-            failedField: `CompetencyGroup: ${item} > Level ${levelResolution.selectedLevel}`,
-            error: `LEVEL5_PORTAL_UI_HOLD: mapped level "${levelResolution.selectedLevel}" for "${item}" has no corresponding Level checkbox in the live DOM (the portal only ever renders Level 1-4). This is a confirmed portal-side gap (2026-09-10 audit), not something this uploader can safely work around. Never substituting a different level or inventing a control - refusing to save this row.`,
-          };
-        }
+          if (levelResolution.status === 'ambiguous-multiple-levels') {
+            return {
+              success: false,
+              draftReference: null,
+              failedField: `CompetencyGroup: ${item}`,
+              error: `Cannot determine which Competency Level to select for "${item}": ${levelResolution.validLevels.length} valid levels are mapped (${levelResolution.validLevels.join(', ')}) but no explicit CompetencyLevel was provided for this row. Refusing to guess.`,
+            };
+          }
+          if (levelResolution.status === 'invalid-explicit-level') {
+            return {
+              success: false,
+              draftReference: null,
+              failedField: `CompetencyGroup: ${item}`,
+              error: `CompetencyLevel "${explicitLevel}" provided for "${item}" is not one of its valid mapped levels (${levelResolution.validLevels.join(', ') || 'none'}). Refusing to guess or substitute.`,
+            };
+          }
+          if (levelResolution.status === 'no-levels-mapped') {
+            return {
+              success: false,
+              draftReference: null,
+              failedField: `CompetencyGroup: ${item}`,
+              error: `No valid Competency Level is mapped for "${item}" in output/form-map.json, but this is a ${leaf.pathLabels[2]} competency item and the portal requires exactly one Level to be selected. This looks like a mapping gap, not a genuinely level-less item - refusing to save without a level.`,
+            };
+          }
+          if (levelResolution.status === 'unselectable-level') {
+            return {
+              success: false,
+              draftReference: null,
+              failedField: `CompetencyGroup: ${item} > Level ${levelResolution.selectedLevel}`,
+              error: `LEVEL5_PORTAL_UI_HOLD: mapped level "${levelResolution.selectedLevel}" for "${item}" has no corresponding Level checkbox in the live DOM (the portal only ever renders Level 1-4). This is a confirmed portal-side gap (2026-09-10 audit), not something this uploader can safely work around. Never substituting a different level or inventing a control - refusing to save this row.`,
+            };
+          }
 
-        const levelCheckboxName = LEVEL_CHECKBOX_NAME[levelResolution.selectedLevel!];
-        const levelCheckbox = page.locator(`input[type="checkbox"][name="${levelCheckboxName}"]`).first();
-        await levelCheckbox.waitFor({ state: 'visible', timeout: 8000 });
-        await levelCheckbox.check();
-        await page.waitForTimeout(300);
+          const levelCheckboxName = LEVEL_CHECKBOX_NAME[levelResolution.selectedLevel!];
+          const levelCheckbox = page.locator(`input[type="checkbox"][name="${levelCheckboxName}"]`).first();
+          await levelCheckbox.waitFor({ state: 'visible', timeout: 8000 });
+          await levelCheckbox.check();
+          await page.waitForTimeout(300);
 
-        const levelStates = await page.evaluate(() => ({
-          levelOne: (document.querySelector('input[name="levelOne"]') as HTMLInputElement | null)?.checked ?? null,
-          levelTwo: (document.querySelector('input[name="levelTwo"]') as HTMLInputElement | null)?.checked ?? null,
-          levelThree: (document.querySelector('input[name="levelThree"]') as HTMLInputElement | null)?.checked ?? null,
-          levelFour: (document.querySelector('input[name="levelFour"]') as HTMLInputElement | null)?.checked ?? null,
-        }));
-        const levelIsChecked = levelStates[levelCheckboxName as keyof typeof levelStates] === true;
-        const otherLevelsAllUnchecked = Object.entries(levelStates).every(([name, checked]) => name === levelCheckboxName || checked !== true);
-        const skillStillChecked = await checkbox.isChecked();
-        if (!levelIsChecked || !skillStillChecked || !otherLevelsAllUnchecked) {
-          return {
-            success: false,
-            draftReference: null,
-            failedField: `CompetencyGroup: ${item} > Level ${levelResolution.selectedLevel}`,
-            error: `After selecting Level ${levelResolution.selectedLevel}, verification failed (level checked=${levelIsChecked}, main skill still checked=${skillStillChecked}, all other levels unchecked=${otherLevelsAllUnchecked}, states=${JSON.stringify(levelStates)}); aborting before an incomplete/incorrect save.`,
-          };
+          const levelStates = await page.evaluate(() => ({
+            levelOne: (document.querySelector('input[name="levelOne"]') as HTMLInputElement | null)?.checked ?? null,
+            levelTwo: (document.querySelector('input[name="levelTwo"]') as HTMLInputElement | null)?.checked ?? null,
+            levelThree: (document.querySelector('input[name="levelThree"]') as HTMLInputElement | null)?.checked ?? null,
+            levelFour: (document.querySelector('input[name="levelFour"]') as HTMLInputElement | null)?.checked ?? null,
+          }));
+          const levelIsChecked = levelStates[levelCheckboxName as keyof typeof levelStates] === true;
+          const otherLevelsAllUnchecked = Object.entries(levelStates).every(([name, checked]) => name === levelCheckboxName || checked !== true);
+          const skillStillChecked = await checkbox.isChecked();
+          if (!levelIsChecked || !skillStillChecked || !otherLevelsAllUnchecked) {
+            return {
+              success: false,
+              draftReference: null,
+              failedField: `CompetencyGroup: ${item} > Level ${levelResolution.selectedLevel}`,
+              error: `After selecting Level ${levelResolution.selectedLevel}, verification failed (level checked=${levelIsChecked}, main skill still checked=${skillStillChecked}, all other levels unchecked=${otherLevelsAllUnchecked}, states=${JSON.stringify(levelStates)}); aborting before an incomplete/incorrect save.`,
+            };
+          }
+          logger.info(`  Competency "${item}": main skill checked, Level ${levelResolution.selectedLevel} selected and verified, all other levels confirmed unchecked.`);
+        } else {
+          logger.info(`  Competency "${item}": main skill checked (skill type "${leaf.pathLabels[2]}" - no Competency Level applies).`);
         }
-        logger.info(`  Competency "${item}": main skill checked, Level ${levelResolution.selectedLevel} selected and verified, all other levels confirmed unchecked.`);
       } catch (err: any) {
         return { success: false, draftReference: null, failedField: `CompetencyGroup: ${item}`, error: err?.message ?? String(err) };
       }

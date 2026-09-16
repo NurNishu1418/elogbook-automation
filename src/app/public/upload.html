@@ -71,6 +71,23 @@
         in this app. Make sure you have reviewed the rows above before continuing.
       </div>
 
+      <div id="preview-card" style="display:none;" class="card" style="margin-top:12px;">
+        <h3>Exact selection that will run</h3>
+        <table>
+          <tbody>
+            <tr><td>Workbook</td><td id="pv-workbook"></td></tr>
+            <tr><td>Selection mode</td><td id="pv-mode"></td></tr>
+            <tr><td>Range</td><td id="pv-range"></td></tr>
+            <tr><td>Selected rows</td><td id="pv-count"></td></tr>
+            <tr><td>First ExternalRowId</td><td id="pv-first"></td></tr>
+            <tr><td>Last ExternalRowId</td><td id="pv-last"></td></tr>
+            <tr><td>CaseTypes represented</td><td id="pv-casetypes"></td></tr>
+            <tr><td>Execution mode</td><td id="pv-execmode"></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p><button class="btn btn-secondary" id="preview-btn" onclick="previewSelection()" style="display:none;">Preview exact selection</button></p>
       <p><button class="btn btn-primary" id="start-btn" onclick="startAction()">Run Dry Validation</button></p>
       <p id="action-message" class="hint"></p>
     </div>
@@ -131,18 +148,56 @@
     function onModeChange() {
       const mode = document.getElementById('mode-select').value;
       document.getElementById('execute-warning').style.display = mode === 'execute' ? 'block' : 'none';
+      document.getElementById('preview-btn').style.display = mode === 'execute' ? 'inline-block' : 'none';
+      document.getElementById('preview-card').style.display = 'none';
       document.getElementById('start-btn').textContent = mode === 'execute' ? 'Start Save as Draft' : 'Run Dry Validation';
       document.getElementById('start-btn').className = mode === 'execute' ? 'btn btn-danger' : 'btn btn-primary';
     }
 
     document.getElementById('scope-select').addEventListener('change', () => {
       document.getElementById('range-inputs').style.display = document.getElementById('scope-select').value === 'range' ? 'block' : 'none';
+      document.getElementById('preview-card').style.display = 'none';
     });
 
-    async function startAction() {
+    function currentSelectionParams() {
       const workbookPath = document.getElementById('workbook-select').value;
-      const mode = document.getElementById('mode-select').value;
       const scope = document.getElementById('scope-select').value;
+      const selectedRowIds = Array.from(document.querySelectorAll('.row-check:checked')).map((el) => el.value);
+      const rangeStart = document.getElementById('range-start').value ? Number(document.getElementById('range-start').value) : undefined;
+      const rangeEnd = document.getElementById('range-end').value ? Number(document.getElementById('range-end').value) : undefined;
+      return { workbookPath, selectionMode: scope, selectedRowIds, rangeStart, rangeEnd };
+    }
+
+    // Resolves EXACTLY which rows this selection would touch (local-only,
+    // no login) using the same logic the live runner itself uses, so what
+    // the user sees here is guaranteed to match what actually runs.
+    async function previewSelection() {
+      const params = currentSelectionParams();
+      const msg = document.getElementById('action-message');
+      msg.textContent = 'Resolving exact selection (local-only, no login)...';
+      const resolved = await apiPost('/api/upload/preview', params);
+      if (resolved.error) {
+        msg.textContent = 'Could not resolve selection: ' + resolved.error;
+        document.getElementById('preview-card').style.display = 'none';
+        return null;
+      }
+      document.getElementById('preview-card').style.display = 'block';
+      document.getElementById('pv-workbook').textContent = resolved.workbookPath.split(/[\\/]/).pop();
+      document.getElementById('pv-mode').textContent = resolved.selectionMode;
+      document.getElementById('pv-range').textContent = resolved.rangeStart != null || resolved.rangeEnd != null ? `${resolved.rangeStart ?? ''}-${resolved.rangeEnd ?? ''}` : '(not range mode)';
+      document.getElementById('pv-count').textContent = resolved.resolvedCount;
+      document.getElementById('pv-first').textContent = resolved.firstExternalRowId ?? '(none)';
+      document.getElementById('pv-last').textContent = resolved.lastExternalRowId ?? '(none)';
+      document.getElementById('pv-casetypes').textContent = resolved.caseTypesRepresented.join(', ') || '(none)';
+      document.getElementById('pv-execmode').textContent = 'LIVE - SAVE AS DRAFT';
+      msg.textContent = '';
+      return resolved;
+    }
+
+    async function startAction() {
+      const params = currentSelectionParams();
+      const { workbookPath, selectionMode, selectedRowIds, rangeStart, rangeEnd } = params;
+      const mode = document.getElementById('mode-select').value;
       const msg = document.getElementById('action-message');
 
       if (mode === 'dry-run') {
@@ -155,15 +210,28 @@
         msg.textContent = 'You must log in on the Dashboard first.';
         return;
       }
-      if (!confirm('This will create real drafts on the live BCPS portal (Save as Draft only, never Final Submit). Continue?')) return;
 
-      const selectedRowIds = Array.from(document.querySelectorAll('.row-check:checked')).map((el) => el.value);
-      const rangeStart = document.getElementById('range-start').value ? Number(document.getElementById('range-start').value) : undefined;
-      const rangeEnd = document.getElementById('range-end').value ? Number(document.getElementById('range-end').value) : undefined;
+      // Always resolve the exact selection first - fails before login if it
+      // resolves to zero rows, and the confirm dialog shows the real count.
+      const resolved = await previewSelection();
+      if (!resolved) return;
+      if (resolved.resolvedCount === 0) {
+        msg.textContent = 'Nothing to do: this selection resolves to 0 eligible rows. Not starting - no login attempted.';
+        return;
+      }
 
-      const result = await apiPost('/api/upload/start', { workbookPath, selectionMode: scope, selectedRowIds, rangeStart, rangeEnd });
+      const confirmText =
+        `Workbook: ${resolved.workbookPath.split(/[\\/]/).pop()}\n` +
+        `Range: ${resolved.rangeStart != null || resolved.rangeEnd != null ? `${resolved.rangeStart ?? ''}-${resolved.rangeEnd ?? ''}` : '(not range mode)'}\n` +
+        `Selected: ${resolved.resolvedCount}\n` +
+        `ExternalRowIds: ${resolved.firstExternalRowId ?? '(none)'} -> ${resolved.lastExternalRowId ?? '(none)'}\n` +
+        `Mode: LIVE - SAVE AS DRAFT\n\n` +
+        `This will log in to the live BCPS portal and create ${resolved.resolvedCount} real draft(s) (Save as Draft only, never Final Submit). Continue?`;
+      if (!confirm(confirmText)) return;
+
+      const result = await apiPost('/api/upload/start', { workbookPath, selectionMode, selectedRowIds, rangeStart, rangeEnd });
       if (result.started) {
-        msg.textContent = 'Started. Redirecting to Progress...';
+        msg.textContent = `Started - ${result.resolved.resolvedCount} row(s) (${result.resolved.firstExternalRowId} -> ${result.resolved.lastExternalRowId}). Redirecting to Progress...`;
         sessionStorage.setItem('lastWorkbookPath', workbookPath);
         window.location.href = 'progress.html';
       } else {

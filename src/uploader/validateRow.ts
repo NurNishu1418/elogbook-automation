@@ -1,4 +1,5 @@
 import { DataEntryRow } from './excelReader';
+import { skillTypeHasCompetencyLevel } from './competencyLevel';
 
 export interface LeafForValidation {
   leafId: string;
@@ -79,21 +80,28 @@ export function validateRow(row: DataEntryRow, leaves: LeafForValidation[]): Row
       }
     }
 
-    // Competency Level enforcement (Procedural skill rows only). Per the
+    // Competency Level enforcement. Applies globally by SkillType - NOT a
+    // Basic Surgical Skill-only or CaseType-specific rule. Per the
     // 2026-09-10 full form audit: every genuine Procedural competency item
     // exposes 4 Level checkboxes in the live DOM, but only some of those 4
     // are valid per the mapped source data (log_entry_target.compitency_level).
+    // Communication and Writing Skill items carry the same Level concept
+    // (confirmed both in output/form-map.json - every mapped Communication
+    // item has valid levels "3","4" - and in a live no-save portal check);
+    // Interpretative Skill items never do. skillTypeHasCompetencyLevel() is
+    // the single shared source of truth for this, also used by
+    // fillForm.ts, so the two can never diverge.
     // The workbook never carried this per-row choice before; it is now
     // represented as an optional "CompetencyLevel" key in ExtraFieldsJSON.
     // This validator enforces the non-negotiable rule as early as possible
     // (at dry-run time, before any browser is launched): exactly one
     // checked skill, and an explicit, valid Level whenever the skill has
     // more than one valid level. Never guesses.
-    if (resolvedLeaf.pathLabels[2] === 'Procedural skill') {
+    if (skillTypeHasCompetencyLevel(resolvedLeaf.pathLabels[2])) {
       if (row.competencyItems.length === 0) {
-        errors.push('This is a Procedural skill row but no competency item is checked in CompetencyItemsChecked.');
+        errors.push(`This is a ${resolvedLeaf.pathLabels[2]} row but no competency item is checked in CompetencyItemsChecked.`);
       } else if (row.competencyItems.length > 1) {
-        errors.push(`Exactly one competency item must be checked per Procedural row; found ${row.competencyItems.length}: ${row.competencyItems.join('; ')}.`);
+        errors.push(`Exactly one competency item must be checked per ${resolvedLeaf.pathLabels[2]} row; found ${row.competencyItems.length}: ${row.competencyItems.join('; ')}.`);
       } else {
         const itemName = row.competencyItems[0].trim();
         const match = resolvedLeaf.competencyGroup.find((c) => c.particulars.trim() === itemName);

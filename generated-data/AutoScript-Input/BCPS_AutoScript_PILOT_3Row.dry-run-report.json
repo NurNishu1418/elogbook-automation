@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-09-10T14:14:58.396Z",
+  "mode": "dry-run",
+  "workbookPath": "D:/Nishu/elogbook-automation/generated-data/AutoScript-Input/BCPS_AutoScript_PILOT_3Row.xlsx",
+  "selectionMode": "not-yet-uploaded",
+  "totalRows": 3,
+  "saveDraftRows": 3,
+  "validRows": 3,
+  "invalidRows": 0,
+  "alreadyDoneCount": 0,
+  "eligibleForThisRun": 3,
+  "details": [
+    {
+      "excelRow": 2,
+      "externalRowId": "MIS-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Interpretative Skill"
+    },
+    {
+      "excelRow": 3,
+      "externalRowId": "GHP-0064",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 4,
+      "externalRowId": "BSS-0127",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    }
+  ]
+}

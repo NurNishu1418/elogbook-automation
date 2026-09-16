@@ -5,6 +5,7 @@ import { setSession, clearSession, getPublicSession, getCredentialsForSpawn } fr
 import { scanWorkbooks } from './services/workbookScanner';
 import { runDryRun } from './services/dryRunService';
 import { startUploadJob, requestStop, isJobRunning, getActiveJobInfo, checkLogin } from './services/jobRunner';
+import { resolveSelection } from './services/selectionPreview';
 import { readUploadResults, readProgress } from './services/resultsService';
 import { listSpecialties, runGenerator, isGeneratorRunning } from './services/datasetGeneratorService';
 
@@ -60,7 +61,30 @@ app.post('/api/dry-run', async (req, res) => {
 });
 
 // ---------- Upload (Save as Draft only) ----------
-app.post('/api/upload/start', (req, res) => {
+
+// Pre-run confirmation: resolves EXACTLY which rows a given selection would
+// touch (workbook, range, selection mode) using the same logic the live
+// runner itself uses - local-only, no login, no browser. The UI calls this
+// before showing the user a confirm dialog, so what they approve is exactly
+// what will run.
+app.post('/api/upload/preview', async (req, res) => {
+  const { workbookPath, selectionMode, selectedRowIds, rangeStart, rangeEnd } = req.body ?? {};
+  if (!workbookPath) return res.status(400).json({ error: 'workbookPath is required.' });
+  try {
+    const resolved = await resolveSelection({
+      workbookPath,
+      selectionMode: selectionMode ?? 'not-yet-uploaded',
+      selectedRowIds,
+      rangeStart,
+      rangeEnd,
+    });
+    res.json(resolved);
+  } catch (err: any) {
+    res.status(500).json({ error: err?.message ?? String(err) });
+  }
+});
+
+app.post('/api/upload/start', async (req, res) => {
   const session = getPublicSession();
   if (!session.loggedIn) return res.status(401).json({ error: 'Not logged in.' });
   if (isJobRunning()) return res.status(409).json({ error: 'A job is already running (concurrency 1).' });
@@ -70,7 +94,7 @@ app.post('/api/upload/start', (req, res) => {
 
   try {
     const credentials = getCredentialsForSpawn();
-    startUploadJob({
+    const resolved = await startUploadJob({
       workbookPath,
       selectionMode: selectionMode ?? 'not-yet-uploaded',
       selectedRowIds,
@@ -78,9 +102,12 @@ app.post('/api/upload/start', (req, res) => {
       rangeEnd,
       credentials,
     });
-    res.json({ started: true });
+    res.json({ started: true, mode: 'LIVE - SAVE AS DRAFT', resolved });
   } catch (err: any) {
-    res.status(500).json({ error: err?.message ?? String(err) });
+    // resolveSelection() throws BEFORE any login/browser is touched when
+    // zero rows resolve - that error surfaces here as a normal 400, not a
+    // crash, and no job was ever spawned.
+    res.status(400).json({ error: err?.message ?? String(err) });
   }
 });
 

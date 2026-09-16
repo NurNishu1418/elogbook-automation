@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-09-10T14:48:33.585Z",
+  "mode": "execute",
+  "workbookPath": "D:/Nishu/elogbook-automation/generated-data/AutoScript-Input/BCPS_AutoScript_Naturalized_Row1_Test.xlsx",
+  "selectionMode": "all-valid",
+  "totalRows": 1,
+  "saveDraftRows": 1,
+  "validRows": 1,
+  "invalidRows": 0,
+  "alreadyDoneCount": 0,
+  "eligibleForThisRun": 1,
+  "details": [
+    {
+      "excelRow": 2,
+      "externalRowId": "MIS-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Interpretative Skill"
+    }
+  ]
+}
