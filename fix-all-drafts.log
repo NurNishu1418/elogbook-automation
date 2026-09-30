@@ -1,0 +1,113 @@
+﻿2026-09-20T10:09:53.638Z [INFO] === FIX DRAFT ENTRY MONTHS ===
+2026-09-20T10:09:53.640Z [INFO] Using .env credentials: [REDACTED]
+2026-09-20T10:09:53.640Z [INFO] Logging in...
+2026-09-20T10:09:53.640Z [INFO] Navigating to login page: https://eportal.bcps.edu.bd/login
+2026-09-20T10:09:58.005Z [INFO] User type applied to login_type select.
+2026-09-20T10:09:59.274Z [INFO] Login succeeded. Landed on: https://eportal.bcps.edu.bd/dashboard
+2026-09-20T10:09:59.275Z [INFO] ✓ Login successful
+2026-09-20T10:10:01.284Z [INFO] Going to draft list: https://eportal.bcps.edu.bd/trainee/logbook-entry?ref=1789898604371
+2026-09-20T10:10:06.322Z [INFO] Setting rows per page to 200...
+2026-09-20T10:10:36.389Z [WARN] Could not change rows per page: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('select[name*="pageSize"], select[name*="page_size"], [data-rows-per-page], button:has-text("10"), button:has-text("25"), button:has-text("50")').first()[22m
+ "{\"log\":[\"  - waiting for locator('select[name*=\\\"pageSize\\\"], select[name*=\\\"page_size\\\"], [data-rows-per-page], button:has-text(\\\"10\\\"), button:has-text(\\\"25\\\"), button:has-text(\\\"50\\\")').first()\"],\"name\":\"TimeoutError\",\"stack\":\"locator.click: Timeout 30000ms exceeded.\\nCall log:\\n\\u001b[2m  - waiting for locator('select[name*=\\\"pageSize\\\"], select[name*=\\\"page_size\\\"], [data-rows-per-page], button:has-text(\\\"10\\\"), button:has-text(\\\"25\\\"), button:has-text(\\\"50\\\")').first()\\u001b[22m\\n\\n    at main (F:\\\\2026\\\\touhid\\\\new project\\\\src\\\\scripts\\\\fix-draft-months.ts:147:28)\"}"
+2026-09-20T10:10:37.895Z [INFO] Found 10 potential draft links/buttons
+2026-09-20T10:10:39.101Z [INFO] 
+--- Entry 1 ---
+2026-09-20T10:10:39.105Z [INFO] Opening: Edit
+2026-09-20T10:10:42.237Z [INFO] [Entry 1] Looking for date fields...
+2026-09-20T10:10:42.240Z [INFO] [Entry 1] Found 4 date inputs
+2026-09-20T10:10:42.250Z [INFO] [Entry 1] Date[2] unchanged: 2026-08-26
+2026-09-20T10:10:42.253Z [INFO] [Entry 1] Date[3] unchanged: 1947-12-20
+2026-09-20T10:10:42.253Z [WARN] [Entry 1] No date transformation needed
+2026-09-20T10:10:42.253Z [INFO] Going back to draft list...
+2026-09-20T10:10:47.943Z [INFO] 
+--- Entry 2 ---
+2026-09-20T10:10:47.948Z [INFO] Opening: Edit
+2026-09-20T10:10:51.078Z [INFO] [Entry 2] Looking for date fields...
+2026-09-20T10:10:51.081Z [INFO] [Entry 2] Found 4 date inputs
+2026-09-20T10:10:51.090Z [INFO] [Entry 2] Date[2] unchanged: 2026-07-05
+2026-09-20T10:10:51.093Z [INFO] [Entry 2] Date[3] unchanged: 1978-11-17
+2026-09-20T10:10:51.093Z [WARN] [Entry 2] No date transformation needed
+2026-09-20T10:10:51.093Z [INFO] Going back to draft list...
+2026-09-20T10:10:56.773Z [INFO] 
+--- Entry 3 ---
+2026-09-20T10:10:56.777Z [INFO] Opening: Edit
+2026-09-20T10:10:59.900Z [INFO] [Entry 3] Looking for date fields...
+2026-09-20T10:10:59.903Z [INFO] [Entry 3] Found 4 date inputs
+2026-09-20T10:10:59.910Z [INFO] [Entry 3] Date[2] unchanged: 2026-08-31
+2026-09-20T10:10:59.913Z [INFO] [Entry 3] Date[3] unchanged: 1950-10-03
+2026-09-20T10:10:59.913Z [WARN] [Entry 3] No date transformation needed
+2026-09-20T10:10:59.913Z [INFO] Going back to draft list...
+2026-09-20T10:11:05.240Z [INFO] 
+--- Entry 4 ---
+2026-09-20T10:11:05.244Z [INFO] Opening: Edit
+2026-09-20T10:11:08.384Z [INFO] [Entry 4] Looking for date fields...
+2026-09-20T10:11:08.387Z [INFO] [Entry 4] Found 4 date inputs
+2026-09-20T10:11:08.395Z [INFO] [Entry 4] Date[2] unchanged: 2026-08-26
+2026-09-20T10:11:08.397Z [INFO] [Entry 4] Date[3] unchanged: 1966-09-12
+2026-09-20T10:11:08.398Z [WARN] [Entry 4] No date transformation needed
+2026-09-20T10:11:08.398Z [INFO] Going back to draft list...
+2026-09-20T10:11:13.770Z [INFO] 
+--- Entry 5 ---
+2026-09-20T10:11:13.775Z [INFO] Opening: Edit
+2026-09-20T10:11:16.900Z [INFO] [Entry 5] Looking for date fields...
+2026-09-20T10:11:16.903Z [INFO] [Entry 5] Found 4 date inputs
+2026-09-20T10:11:16.912Z [INFO] [Entry 5] Date[2] unchanged: 2026-09-26
+2026-09-20T10:11:16.915Z [INFO] [Entry 5] Date[3] unchanged: 1982-09-05
+2026-09-20T10:11:16.915Z [WARN] [Entry 5] No date transformation needed
+2026-09-20T10:11:16.915Z [INFO] Going back to draft list...
+2026-09-20T10:11:22.242Z [INFO] 
+--- Entry 6 ---
+2026-09-20T10:11:22.246Z [INFO] Opening: Edit
+2026-09-20T10:11:25.367Z [INFO] [Entry 6] Looking for date fields...
+2026-09-20T10:11:25.370Z [INFO] [Entry 6] Found 4 date inputs
+2026-09-20T10:11:25.378Z [INFO] [Entry 6] Date[2] unchanged: 2026-08-17
+2026-09-20T10:11:25.380Z [INFO] [Entry 6] Date[3] unchanged: 1956-09-12
+2026-09-20T10:11:25.380Z [WARN] [Entry 6] No date transformation needed
+2026-09-20T10:11:25.380Z [INFO] Going back to draft list...
+2026-09-20T10:11:31.166Z [INFO] 
+--- Entry 7 ---
+2026-09-20T10:11:31.170Z [INFO] Opening: Edit
+2026-09-20T10:11:34.299Z [INFO] [Entry 7] Looking for date fields...
+2026-09-20T10:11:34.302Z [INFO] [Entry 7] Found 4 date inputs
+2026-09-20T10:11:34.310Z [INFO] [Entry 7] Date[2] unchanged: 2026-07-20
+2026-09-20T10:11:34.312Z [INFO] [Entry 7] Date[3] unchanged: 1970-09-20
+2026-09-20T10:11:34.313Z [WARN] [Entry 7] No date transformation needed
+2026-09-20T10:11:34.313Z [INFO] Going back to draft list...
+2026-09-20T10:11:39.563Z [INFO] 
+--- Entry 8 ---
+2026-09-20T10:11:39.567Z [INFO] Opening: Edit
+2026-09-20T10:11:42.694Z [INFO] [Entry 8] Looking for date fields...
+2026-09-20T10:11:42.697Z [INFO] [Entry 8] Found 4 date inputs
+2026-09-20T10:11:42.706Z [INFO] [Entry 8] Date[2] unchanged: 2026-09-09
+2026-09-20T10:11:42.708Z [INFO] [Entry 8] Date[3] unchanged: 1961-08-31
+2026-09-20T10:11:42.708Z [WARN] [Entry 8] No date transformation needed
+2026-09-20T10:11:42.708Z [INFO] Going back to draft list...
+2026-09-20T10:11:48.102Z [INFO] 
+--- Entry 9 ---
+2026-09-20T10:11:48.106Z [INFO] Opening: Edit
+2026-09-20T10:11:51.236Z [INFO] [Entry 9] Looking for date fields...
+2026-09-20T10:11:51.239Z [INFO] [Entry 9] Found 4 date inputs
+2026-09-20T10:11:51.246Z [INFO] [Entry 9] Date[2] unchanged: 2026-08-02
+2026-09-20T10:11:51.248Z [INFO] [Entry 9] Date[3] unchanged: 1984-09-14
+2026-09-20T10:11:51.248Z [WARN] [Entry 9] No date transformation needed
+2026-09-20T10:11:51.248Z [INFO] Going back to draft list...
+2026-09-20T10:11:56.572Z [INFO] 
+--- Entry 10 ---
+2026-09-20T10:11:56.577Z [INFO] Opening: Edit
+2026-09-20T10:11:59.702Z [INFO] [Entry 10] Looking for date fields...
+2026-09-20T10:11:59.705Z [INFO] [Entry 10] Found 4 date inputs
+2026-09-20T10:11:59.713Z [INFO] [Entry 10] Date[2] unchanged: 2026-08-08
+2026-09-20T10:11:59.715Z [INFO] [Entry 10] Date[3] unchanged: 1955-09-20
+2026-09-20T10:11:59.715Z [WARN] [Entry 10] No date transformation needed
+2026-09-20T10:11:59.715Z [INFO] Going back to draft list...
+
+==================================================
+DRAFT MONTH FIX SUMMARY
+==================================================
+Processed: 10
+Fixed: 0
+Failed: 10
+==================================================
+

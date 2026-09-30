@@ -29,14 +29,14 @@ export async function selectReactSelectOption(page: Page, optionText: string): P
   const combo = page.locator('input[role="combobox"]').first();
   await combo.click();
   await page.waitForTimeout(400);
-  const available = await page.locator('[id*="react-select"][id*="-option-"]').allTextContents();
-  const target = page.locator('[id*="react-select"][id*="-option-"]', { hasText: optionText }).first();
-  const count = await target.count();
-  if (count === 0) {
+  const options = page.locator('[id*="react-select"][id*="-option-"]');
+  const available = await options.allTextContents();
+  const exactIndex = available.findIndex((t) => t.trim() === optionText.trim());
+  if (exactIndex === -1) {
     await page.keyboard.press('Escape').catch(() => {});
     return { ok: false, availableOptions: available };
   }
-  await target.click();
+  await options.nth(exactIndex).click();
   await page.waitForTimeout(900);
   return { ok: true, availableOptions: available };
 }

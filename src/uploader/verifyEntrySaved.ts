@@ -40,12 +40,15 @@ function parseDetails(entry: PortalEntry): Record<string, any> {
 
 /**
  * Searches already-fetched entries for one matching this row's identifying
- * data - used BOTH as the pre-create duplicate check (by reg no + leaf) and
- * as the post-save lookup (by reg no, which is guaranteed unique per row).
+ * data - used BOTH as the pre-create duplicate check and as the post-save
+ * lookup. Matches by Patient Reg No alone (guaranteed unique per row) -
+ * NOT by leaf.leafId, because the portal's live logbook_entry_setup_master_id
+ * for a leaf can drift from the mapper's cached id (see README "Discovered
+ * portal quirks" / id-drift), which was causing real saved drafts to be
+ * reported as "not found" and re-uploaded as duplicates.
  */
 export function findMatchingEntry(entries: PortalEntry[], row: DataEntryRow, leaf: LeafForValidation): PortalEntry | null {
   for (const entry of entries) {
-    if (entry.logbook_entry_setup_master_id !== leaf.leafId) continue;
     const details = parseDetails(entry);
     if (details['Patient Reg No'] === row.patientRegNo) return entry;
   }

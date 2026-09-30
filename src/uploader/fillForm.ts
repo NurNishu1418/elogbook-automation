@@ -140,20 +140,47 @@ export function resolveLevelForItem(leafId: string, itemParticulars: string, pro
   return resolveLevelFromValidLevels(validLevels, providedLevel);
 }
 
+/**
+ * The mapped "column_value_type" from output/form-map.json can go stale -
+ * a field the portal rendered as a custom dropdown when the mapper last ran
+ * may since have been changed to a plain text/textarea input (confirmed live
+ * for Patient Management > Emergency Patient Management's "Outcome" field,
+ * mapped as "dropdown" but now a plain text input). Rather than trust the
+ * mapping blindly, ask the live DOM what kind of control is actually
+ * rendered right now and fill it accordingly - the mapping's controlType is
+ * only consulted as a fallback for the one case a live tag/type genuinely
+ * can't disambiguate (an unrecognized custom widget with no native
+ * input/textarea/select semantics).
+ */
 async function fillOneField(page: Page, fieldName: string, controlType: string, value: string): Promise<void> {
   const selector = `[name="${fieldName.replace(/"/g, '\\"')}"]`;
   const el = page.locator(selector).first();
   await el.waitFor({ state: 'visible', timeout: 8000 });
 
-  if (controlType === 'date') {
-    await el.fill(value);
-  } else if (controlType === 'textarea') {
-    await el.fill(value);
-  } else if (controlType === 'checkbox') {
+  const live = await el.evaluate((node) => ({
+    tag: node.tagName,
+    type: (node as HTMLInputElement).type ?? null,
+  }));
+
+  if (live.tag === 'SELECT') {
+    await el.selectOption({ label: value });
+    return;
+  }
+  if (live.tag === 'INPUT' && live.type === 'checkbox') {
     const shouldCheck = ['true', 'yes', '1'].includes(value.toLowerCase());
     if (shouldCheck) await el.check();
     else await el.uncheck();
-  } else if (controlType === 'dropdown') {
+    return;
+  }
+  if (live.tag === 'TEXTAREA' || (live.tag === 'INPUT' && live.type !== 'radio')) {
+    // covers text, date, and any other plain native input - including a
+    // field the mapping still calls "dropdown" but the live DOM renders as
+    // a normal text input.
+    await el.fill(value);
+    return;
+  }
+
+  if (controlType === 'dropdown') {
     // Custom widget, exact behaviour not fully reverse-engineered (its
     // option list is not exposed by the dynamic-form-property API). Best
     // effort: click to open, then click a rendered option matching the
@@ -165,9 +192,10 @@ async function fillOneField(page: Page, fieldName: string, controlType: string, 
       throw new Error(`Custom dropdown "${fieldName}": no option matching "${value}" found after opening it.`);
     }
     await option.click();
-  } else {
-    await el.fill(value);
+    return;
   }
+
+  await el.fill(value);
 }
 
 /**
@@ -267,7 +295,20 @@ export async function fillAndSaveDraft(page: Page, row: DataEntryRow, leaf: Leaf
         // item regardless of skill type.
         if (skillTypeHasCompetencyLevel(leaf.pathLabels[2])) {
           const explicitLevel = row.extraFields['CompetencyLevel'];
-          const levelResolution = resolveLevelForItem(leaf.leafId, match.particulars, explicitLevel);
+          // TEST_ONLY_UNMAPPED_LEVEL_OVERRIDE - see validateRow.ts's matching
+          // comment. Kept in exact sync with validateRow.ts's acceptance
+          // rule so a row that passes dry-run validation can never then be
+          // rejected here (or vice versa): same flag, same "1-4 only" gate.
+          const testOnlyOverride = row.extraFields['TestOnlyLevelOverride']?.trim() === 'true';
+          const trimmedExplicit = explicitLevel?.trim();
+          const isRenderableLevel = trimmedExplicit != null && ['1', '2', '3', '4'].includes(trimmedExplicit);
+          const levelResolution: LevelResolution =
+            testOnlyOverride && isRenderableLevel
+              ? { status: 'explicit-level-confirmed', validLevels: [trimmedExplicit!], selectedLevel: trimmedExplicit! }
+              : resolveLevelForItem(leaf.leafId, match.particulars, explicitLevel);
+          if (testOnlyOverride && isRenderableLevel) {
+            logger.info(`  TEST_ONLY_UNMAPPED_LEVEL_OVERRIDE: using acknowledged Level ${trimmedExplicit} for "${item}", which is not in its mapped valid levels.`);
+          }
 
           if (levelResolution.status === 'ambiguous-multiple-levels') {
             return {

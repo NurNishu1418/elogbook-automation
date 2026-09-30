@@ -110,7 +110,22 @@ export function validateRow(row: DataEntryRow, leaves: LeafForValidation[]): Row
           .filter((l): l is string => l !== null && l !== undefined && l !== '');
         const providedLevel = row.extraFields['CompetencyLevel']?.trim();
 
-        if (validLevels.length === 0) {
+        // TEST_ONLY_UNMAPPED_LEVEL_OVERRIDE: a narrow, explicitly-flagged
+        // escape hatch for deliberately testing a portal-rendered Level
+        // checkbox (1-4) that the mapped source data does NOT list as valid
+        // for this exact competency (e.g. Abdominal Wall's "Open and
+        // laparoscopic repair of inguinal hernia", mapped only to level "5").
+        // Only ever bypasses the mismatch checks below when the row sets
+        // ExtraFieldsJSON "TestOnlyLevelOverride": "true" AND the provided
+        // level is one of the 4 levels the portal can actually render - it
+        // never allows a blank level, multiple levels, or a level outside
+        // 1-4, and it changes behavior for THIS row only, never globally.
+        const testOnlyOverride = row.extraFields['TestOnlyLevelOverride']?.trim() === 'true';
+        const isRenderableLevel = providedLevel != null && ['1', '2', '3', '4'].includes(providedLevel);
+
+        if (testOnlyOverride && isRenderableLevel) {
+          // Deliberately skip the mapped-level checks - acknowledged override.
+        } else if (validLevels.length === 0) {
           if (providedLevel) {
             errors.push(`CompetencyLevel "${providedLevel}" was provided for "${itemName}", but this item has no valid competence levels mapped at all.`);
           }
@@ -138,6 +153,7 @@ export function validateRow(row: DataEntryRow, leaves: LeafForValidation[]): Row
         continue;
       }
       if (key === 'CompetencyLevel') continue; // reserved tool key, validated separately above - not a real portal field
+      if (key === 'TestOnlyLevelOverride') continue; // reserved tool key, validated separately above - not a real portal field
       if (!knownExtraFieldNames.has(stripDots(key))) {
         errors.push(`ExtraFieldsJSON key "${key}" is not a known field for this combination. Known extra fields: ${[...knownExtraFieldNames].join('; ') || '(none)'}`);
       }

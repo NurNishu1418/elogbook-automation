@@ -1,0 +1,12 @@
+{
+  "updatedAt": "2026-09-20T07:31:39.729Z",
+  "done": true,
+  "stoppedForSystemicIssue": false,
+  "stoppedByRequest": false,
+  "totalEligible": 65,
+  "processed": 65,
+  "successful": 65,
+  "failed": 0,
+  "skipped": 0,
+  "remaining": 0
+}
