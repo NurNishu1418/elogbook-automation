@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T08:47:33.535Z",
+  "generatedAt": "2026-10-01T04:02:40.729Z",
   "mode": "execute",
   "workbookPath": "F:\\2026\\touhid\\new project\\generated-data\\copy data\\2nd 2nd\\BCPS_Patient_Management_TESTONLY_66_FRESH_2026-09-17.xlsx",
   "selectionMode": "range",
@@ -8,7 +8,7 @@
   "validRows": 66,
   "invalidRows": 0,
   "alreadyDoneCount": 0,
-  "eligibleForThisRun": 66,
+  "eligibleForThisRun": 65,
   "details": [
     {
       "excelRow": 2,

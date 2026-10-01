@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-10-01T04:36:55.486Z",
+  "mode": "execute",
+  "workbookPath": "generated-data/copy data/2nd 2nd/BCPS_Logbook_Vascular_Surgery_2026_Jul_Sep.xlsx",
+  "selectionMode": "not-yet-uploaded",
+  "totalRows": 13,
+  "saveDraftRows": 13,
+  "validRows": 13,
+  "invalidRows": 0,
+  "alreadyDoneCount": 0,
+  "eligibleForThisRun": 13,
+  "details": [
+    {
+      "excelRow": 2,
+      "externalRowId": "VAS-001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Vascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 3,
+      "externalRowId": "VAS-002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Vascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 4,
+      "externalRowId": "VAS-003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Vascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 5,
+      "externalRowId": "VAS-004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Vascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 6,
+      "externalRowId": "VAS-005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Vascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 7,
+      "externalRowId": "VAS-006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Vascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 8,
+      "externalRowId": "VAS-007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Vascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 9,
+      "externalRowId": "VAS-008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Vascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 10,
+      "externalRowId": "VAS-009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Vascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 11,
+      "externalRowId": "VAS-010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Vascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 12,
+      "externalRowId": "VAS-011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Vascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 13,
+      "externalRowId": "VAS-012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Vascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 14,
+      "externalRowId": "VAS-013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Vascular Surgery > Procedural skill"
+    }
+  ]
+}
