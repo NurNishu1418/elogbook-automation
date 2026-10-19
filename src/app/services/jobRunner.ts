@@ -51,6 +51,7 @@ export interface StartUploadOptions {
   selectedRowIds?: string[];
   rangeStart?: number;
   rangeEnd?: number;
+  finalSubmit?: boolean;
   credentials: { username: string; password: string; userType: string };
 }
 
@@ -151,6 +152,7 @@ export async function startUploadJob(opts: StartUploadOptions): Promise<Resolved
     UPLOAD_SELECTED_ROW_IDS: (opts.selectedRowIds ?? []).join(','),
     UPLOAD_RANGE_START: opts.rangeStart != null ? String(opts.rangeStart) : '',
     UPLOAD_RANGE_END: opts.rangeEnd != null ? String(opts.rangeEnd) : '',
+    UPLOAD_FINAL_SUBMIT: opts.finalSubmit ? '1' : '',
   };
 
   const proc = spawn(process.execPath, [TS_NODE_ENTRY, scriptPath, '--execute'], { cwd: PROJECT_ROOT, env: childEnv, windowsHide: true }) as ChildProcessWithoutNullStreams;
@@ -200,7 +202,7 @@ export async function checkLogin(credentials: { username: string; password: stri
   env.username = credentials.username;
   env.password = credentials.password;
   env.userType = credentials.userType;
-  env.headless = process.env.APP_FORCE_HEADED === 'true' ? false : true;
+  env.headless = false;
 
   const browser = await launchBrowser();
   const context = await newContext(browser);

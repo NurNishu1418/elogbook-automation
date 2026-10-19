@@ -1,0 +1,13 @@
+{
+  "updatedAt": "2026-10-18T05:38:07.455Z",
+  "done": false,
+  "totalEligible": 299,
+  "processed": 299,
+  "successful": 295,
+  "failed": 1,
+  "skipped": 3,
+  "remaining": 0,
+  "currentExternalRowId": "PAED-0015",
+  "currentSkill": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill",
+  "currentStatus": "processing"
+}

@@ -14,6 +14,9 @@ const OUTPUT_DIR = path.resolve(__dirname, '..', '..', 'output');
 
 async function main() {
   const resume = process.argv.includes('--resume');
+  const specialtyArg = process.argv.find(a => a.startsWith('--specialty='))?.split('=')[1]
+    ?? (process.argv.includes('--specialty') ? process.argv[process.argv.indexOf('--specialty') + 1] : null);
+  const mapFileName = specialtyArg ? `form-map-${specialtyArg.toLowerCase()}.json` : 'form-map.json';
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
   const browser = await launchBrowser();
@@ -55,8 +58,9 @@ async function main() {
     }
     const combinationPaths = buildCombinationPaths(cp.leaves);
 
+    if (specialtyArg) logger.info(`Specialty: ${specialtyArg} — saving as ${mapFileName}`);
     fs.writeFileSync(
-      path.join(OUTPUT_DIR, 'form-map.json'),
+      path.join(OUTPUT_DIR, mapFileName),
       JSON.stringify(
         {
           generatedAt: new Date().toISOString(),

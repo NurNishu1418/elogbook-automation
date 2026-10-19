@@ -89,7 +89,7 @@ app.post('/api/upload/start', async (req, res) => {
   if (!session.loggedIn) return res.status(401).json({ error: 'Not logged in.' });
   if (isJobRunning()) return res.status(409).json({ error: 'A job is already running (concurrency 1).' });
 
-  const { workbookPath, selectionMode, selectedRowIds, rangeStart, rangeEnd } = req.body ?? {};
+  const { workbookPath, selectionMode, selectedRowIds, rangeStart, rangeEnd, finalSubmit } = req.body ?? {};
   if (!workbookPath) return res.status(400).json({ error: 'workbookPath is required.' });
 
   try {
@@ -100,9 +100,10 @@ app.post('/api/upload/start', async (req, res) => {
       selectedRowIds,
       rangeStart,
       rangeEnd,
+      finalSubmit: finalSubmit === true,
       credentials,
     });
-    res.json({ started: true, mode: 'LIVE - SAVE AS DRAFT', resolved });
+    res.json({ started: true, mode: finalSubmit === true ? 'LIVE - FINAL SUBMIT' : 'LIVE - SAVE AS DRAFT', resolved });
   } catch (err: any) {
     // resolveSelection() throws BEFORE any login/browser is touched when
     // zero rows resolve - that error surfaces here as a normal 400, not a
@@ -154,7 +155,7 @@ app.post('/api/dataset/generate', async (req, res) => {
 app.listen(PORT, () => {
   const url = `http://localhost:${PORT}`;
   console.log(`BCPS Automation app running at ${url}`);
-  console.log('Save as Draft only. Final Submit is not supported anywhere in this app.');
+  console.log('Upload modes: Save as Draft (default) or Submit directly (opt-in on the Upload page).');
   const openCmd = process.platform === 'win32' ? `start "" "${url}"` : process.platform === 'darwin' ? `open "${url}"` : `xdg-open "${url}"`;
   exec(openCmd, () => {});
 });

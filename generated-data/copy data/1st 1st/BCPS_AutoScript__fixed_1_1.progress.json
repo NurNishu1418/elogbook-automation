@@ -1,0 +1,13 @@
+{
+  "updatedAt": "2026-10-19T09:14:31.457Z",
+  "done": false,
+  "totalEligible": 484,
+  "processed": 56,
+  "successful": 54,
+  "failed": 2,
+  "skipped": 0,
+  "remaining": 428,
+  "currentExternalRowId": "ANES-0023",
+  "currentSkill": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill",
+  "currentStatus": "processing"
+}

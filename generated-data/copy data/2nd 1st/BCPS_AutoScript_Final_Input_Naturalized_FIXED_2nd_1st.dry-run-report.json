@@ -1,0 +1,5516 @@
+{
+  "generatedAt": "2026-10-17T10:57:46.486Z",
+  "mode": "execute",
+  "workbookPath": "F:\\2026\\touhid\\new project\\generated-data\\copy data\\2nd 1st\\BCPS_AutoScript_Final_Input_Naturalized_FIXED_2nd_1st.xlsx",
+  "selectionMode": "range",
+  "totalRows": 786,
+  "saveDraftRows": 786,
+  "validRows": 786,
+  "invalidRows": 0,
+  "alreadyDoneCount": 0,
+  "eligibleForThisRun": 186,
+  "details": [
+    {
+      "excelRow": 2,
+      "externalRowId": "MIS-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Interpretative Skill"
+    },
+    {
+      "excelRow": 3,
+      "externalRowId": "MIS-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Interpretative Skill"
+    },
+    {
+      "excelRow": 4,
+      "externalRowId": "MIS-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Interpretative Skill"
+    },
+    {
+      "excelRow": 5,
+      "externalRowId": "MIS-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Interpretative Skill"
+    },
+    {
+      "excelRow": 6,
+      "externalRowId": "MIS-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Interpretative Skill"
+    },
+    {
+      "excelRow": 7,
+      "externalRowId": "MIS-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Interpretative Skill"
+    },
+    {
+      "excelRow": 8,
+      "externalRowId": "MIS-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 9,
+      "externalRowId": "MIS-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 10,
+      "externalRowId": "MIS-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 11,
+      "externalRowId": "MIS-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 12,
+      "externalRowId": "MIS-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 13,
+      "externalRowId": "MIS-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 14,
+      "externalRowId": "MIS-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 15,
+      "externalRowId": "MIS-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 16,
+      "externalRowId": "MIS-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 17,
+      "externalRowId": "MIS-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 18,
+      "externalRowId": "MIS-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 19,
+      "externalRowId": "MIS-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 20,
+      "externalRowId": "MIS-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 21,
+      "externalRowId": "MIS-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 22,
+      "externalRowId": "MIS-0021",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 23,
+      "externalRowId": "MIS-0022",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 24,
+      "externalRowId": "MIS-0023",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 25,
+      "externalRowId": "MIS-0024",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 26,
+      "externalRowId": "MIS-0025",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
+    },
+    {
+      "excelRow": 27,
+      "externalRowId": "ORTH-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 28,
+      "externalRowId": "ORTH-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 29,
+      "externalRowId": "ORTH-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 30,
+      "externalRowId": "ORTH-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 31,
+      "externalRowId": "ORTH-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 32,
+      "externalRowId": "ORTH-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 33,
+      "externalRowId": "ORTH-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 34,
+      "externalRowId": "ORTH-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 35,
+      "externalRowId": "ORTH-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 36,
+      "externalRowId": "ORTH-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 37,
+      "externalRowId": "ORTH-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 38,
+      "externalRowId": "ORTH-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 39,
+      "externalRowId": "ORTH-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 40,
+      "externalRowId": "ORTH-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 41,
+      "externalRowId": "ORTH-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 42,
+      "externalRowId": "ORTH-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 43,
+      "externalRowId": "ORTH-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 44,
+      "externalRowId": "ORTH-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 45,
+      "externalRowId": "ORTH-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 46,
+      "externalRowId": "ORTH-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 47,
+      "externalRowId": "ORTH-0021",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 48,
+      "externalRowId": "ORTH-0022",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 49,
+      "externalRowId": "ORTH-0023",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 50,
+      "externalRowId": "ORTH-0024",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 51,
+      "externalRowId": "ORTH-0025",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 52,
+      "externalRowId": "ORTH-0026",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 53,
+      "externalRowId": "ORTH-0027",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 54,
+      "externalRowId": "ORTH-0028",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 55,
+      "externalRowId": "ORTH-0029",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 56,
+      "externalRowId": "ORTH-0030",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 57,
+      "externalRowId": "ORTH-0031",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 58,
+      "externalRowId": "ORTH-0032",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 59,
+      "externalRowId": "ORTH-0033",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 60,
+      "externalRowId": "ORTH-0034",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 61,
+      "externalRowId": "SST-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Interpretative Skill"
+    },
+    {
+      "excelRow": 62,
+      "externalRowId": "SST-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Interpretative Skill"
+    },
+    {
+      "excelRow": 63,
+      "externalRowId": "SST-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Interpretative Skill"
+    },
+    {
+      "excelRow": 64,
+      "externalRowId": "SST-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Interpretative Skill"
+    },
+    {
+      "excelRow": 65,
+      "externalRowId": "SST-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Interpretative Skill"
+    },
+    {
+      "excelRow": 66,
+      "externalRowId": "SST-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Interpretative Skill"
+    },
+    {
+      "excelRow": 67,
+      "externalRowId": "SST-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 68,
+      "externalRowId": "SST-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 69,
+      "externalRowId": "SST-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 70,
+      "externalRowId": "SST-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 71,
+      "externalRowId": "SST-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 72,
+      "externalRowId": "SST-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 73,
+      "externalRowId": "SST-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 74,
+      "externalRowId": "SST-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 75,
+      "externalRowId": "SST-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 76,
+      "externalRowId": "SST-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 77,
+      "externalRowId": "SST-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 78,
+      "externalRowId": "SST-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 79,
+      "externalRowId": "SST-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 80,
+      "externalRowId": "SST-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 81,
+      "externalRowId": "SST-0021",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 82,
+      "externalRowId": "SST-0022",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 83,
+      "externalRowId": "SST-0023",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 84,
+      "externalRowId": "SST-0024",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 85,
+      "externalRowId": "SST-0025",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 86,
+      "externalRowId": "SST-0026",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 87,
+      "externalRowId": "SST-0027",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 88,
+      "externalRowId": "SST-0028",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 89,
+      "externalRowId": "SST-0029",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 90,
+      "externalRowId": "SST-0030",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Skin and Subcutaneous Tissue > Procedural skill"
+    },
+    {
+      "excelRow": 91,
+      "externalRowId": "BRST-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 92,
+      "externalRowId": "BRST-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 93,
+      "externalRowId": "BRST-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 94,
+      "externalRowId": "BRST-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 95,
+      "externalRowId": "BRST-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 96,
+      "externalRowId": "BRST-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 97,
+      "externalRowId": "BRST-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 98,
+      "externalRowId": "BRST-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 99,
+      "externalRowId": "BRST-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 100,
+      "externalRowId": "BRST-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 101,
+      "externalRowId": "BRST-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 102,
+      "externalRowId": "BRST-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 103,
+      "externalRowId": "BRST-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 104,
+      "externalRowId": "BRST-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 105,
+      "externalRowId": "BRST-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 106,
+      "externalRowId": "BRST-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 107,
+      "externalRowId": "BRST-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 108,
+      "externalRowId": "BRST-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 109,
+      "externalRowId": "BRST-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 110,
+      "externalRowId": "BRST-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 111,
+      "externalRowId": "BRST-0021",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 112,
+      "externalRowId": "BRST-0022",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 113,
+      "externalRowId": "BRST-0023",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 114,
+      "externalRowId": "BRST-0024",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 115,
+      "externalRowId": "BRST-0025",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 116,
+      "externalRowId": "BRST-0026",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 117,
+      "externalRowId": "BRST-0027",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Interpretative Skill"
+    },
+    {
+      "excelRow": 118,
+      "externalRowId": "BRST-0028",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 119,
+      "externalRowId": "BRST-0029",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 120,
+      "externalRowId": "BRST-0030",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 121,
+      "externalRowId": "BRST-0031",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 122,
+      "externalRowId": "BRST-0032",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 123,
+      "externalRowId": "BRST-0033",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 124,
+      "externalRowId": "BRST-0034",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 125,
+      "externalRowId": "BRST-0035",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 126,
+      "externalRowId": "BRST-0036",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 127,
+      "externalRowId": "BRST-0037",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 128,
+      "externalRowId": "BRST-0038",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 129,
+      "externalRowId": "BRST-0039",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 130,
+      "externalRowId": "BRST-0040",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 131,
+      "externalRowId": "BRST-0041",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 132,
+      "externalRowId": "BRST-0042",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 133,
+      "externalRowId": "BRST-0043",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 134,
+      "externalRowId": "BRST-0044",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 135,
+      "externalRowId": "BRST-0045",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 136,
+      "externalRowId": "BRST-0046",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 137,
+      "externalRowId": "BRST-0047",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Disorders of the Breast > Procedural skill"
+    },
+    {
+      "excelRow": 138,
+      "externalRowId": "NEURO-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Neurosurgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 139,
+      "externalRowId": "NEURO-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Neurosurgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 140,
+      "externalRowId": "NEURO-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Neurosurgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 141,
+      "externalRowId": "NEURO-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Neurosurgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 142,
+      "externalRowId": "NEURO-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Neurosurgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 143,
+      "externalRowId": "NEURO-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Neurosurgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 144,
+      "externalRowId": "NEURO-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Neurosurgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 145,
+      "externalRowId": "NEURO-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Neurosurgery > Procedural skill"
+    },
+    {
+      "excelRow": 146,
+      "externalRowId": "NEURO-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Neurosurgery > Procedural skill"
+    },
+    {
+      "excelRow": 147,
+      "externalRowId": "NEURO-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Neurosurgery > Procedural skill"
+    },
+    {
+      "excelRow": 148,
+      "externalRowId": "NEURO-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Neurosurgery > Procedural skill"
+    },
+    {
+      "excelRow": 149,
+      "externalRowId": "GHP-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 150,
+      "externalRowId": "GHP-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 151,
+      "externalRowId": "GHP-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 152,
+      "externalRowId": "GHP-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 153,
+      "externalRowId": "GHP-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 154,
+      "externalRowId": "GHP-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 155,
+      "externalRowId": "GHP-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 156,
+      "externalRowId": "GHP-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 157,
+      "externalRowId": "GHP-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 158,
+      "externalRowId": "GHP-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 159,
+      "externalRowId": "GHP-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 160,
+      "externalRowId": "GHP-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 161,
+      "externalRowId": "GHP-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 162,
+      "externalRowId": "GHP-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 163,
+      "externalRowId": "GHP-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 164,
+      "externalRowId": "GHP-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 165,
+      "externalRowId": "GHP-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 166,
+      "externalRowId": "GHP-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 167,
+      "externalRowId": "GHP-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 168,
+      "externalRowId": "GHP-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 169,
+      "externalRowId": "GHP-0021",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 170,
+      "externalRowId": "GHP-0022",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 171,
+      "externalRowId": "GHP-0023",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 172,
+      "externalRowId": "GHP-0024",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 173,
+      "externalRowId": "GHP-0025",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 174,
+      "externalRowId": "GHP-0026",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 175,
+      "externalRowId": "GHP-0027",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 176,
+      "externalRowId": "GHP-0028",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 177,
+      "externalRowId": "GHP-0029",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 178,
+      "externalRowId": "GHP-0030",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 179,
+      "externalRowId": "GHP-0031",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 180,
+      "externalRowId": "GHP-0032",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 181,
+      "externalRowId": "GHP-0033",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 182,
+      "externalRowId": "GHP-0034",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 183,
+      "externalRowId": "GHP-0035",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 184,
+      "externalRowId": "GHP-0036",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Interpretative Skill"
+    },
+    {
+      "excelRow": 185,
+      "externalRowId": "GHP-0037",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 186,
+      "externalRowId": "GHP-0038",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 187,
+      "externalRowId": "GHP-0039",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 188,
+      "externalRowId": "GHP-0040",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 189,
+      "externalRowId": "GHP-0041",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 190,
+      "externalRowId": "GHP-0042",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 191,
+      "externalRowId": "GHP-0043",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 192,
+      "externalRowId": "GHP-0044",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 193,
+      "externalRowId": "GHP-0045",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 194,
+      "externalRowId": "GHP-0046",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 195,
+      "externalRowId": "GHP-0047",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 196,
+      "externalRowId": "GHP-0048",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 197,
+      "externalRowId": "GHP-0049",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 198,
+      "externalRowId": "GHP-0050",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 199,
+      "externalRowId": "GHP-0051",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 200,
+      "externalRowId": "GHP-0052",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 201,
+      "externalRowId": "GHP-0053",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 202,
+      "externalRowId": "GHP-0054",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 203,
+      "externalRowId": "GHP-0055",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 204,
+      "externalRowId": "GHP-0056",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 205,
+      "externalRowId": "GHP-0057",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 206,
+      "externalRowId": "GHP-0058",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 207,
+      "externalRowId": "GHP-0059",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 208,
+      "externalRowId": "GHP-0060",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 209,
+      "externalRowId": "GHP-0061",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 210,
+      "externalRowId": "GHP-0062",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 211,
+      "externalRowId": "GHP-0063",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 212,
+      "externalRowId": "GHP-0064",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 213,
+      "externalRowId": "GHP-0065",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 214,
+      "externalRowId": "GHP-0066",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 215,
+      "externalRowId": "GHP-0067",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 216,
+      "externalRowId": "GHP-0068",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 217,
+      "externalRowId": "GHP-0069",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 218,
+      "externalRowId": "GHP-0070",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 219,
+      "externalRowId": "GHP-0071",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 220,
+      "externalRowId": "GHP-0072",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 221,
+      "externalRowId": "GHP-0073",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 222,
+      "externalRowId": "GHP-0074",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 223,
+      "externalRowId": "GHP-0075",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 224,
+      "externalRowId": "GHP-0076",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 225,
+      "externalRowId": "GHP-0077",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 226,
+      "externalRowId": "GHP-0078",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 227,
+      "externalRowId": "GHP-0079",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 228,
+      "externalRowId": "GHP-0080",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 229,
+      "externalRowId": "GHP-0081",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 230,
+      "externalRowId": "GHP-0082",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 231,
+      "externalRowId": "GHP-0083",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 232,
+      "externalRowId": "GHP-0084",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 233,
+      "externalRowId": "GHP-0085",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 234,
+      "externalRowId": "GHP-0086",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 235,
+      "externalRowId": "GHP-0087",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 236,
+      "externalRowId": "GHP-0088",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 237,
+      "externalRowId": "GHP-0089",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 238,
+      "externalRowId": "GHP-0090",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 239,
+      "externalRowId": "GHP-0091",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 240,
+      "externalRowId": "GHP-0092",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 241,
+      "externalRowId": "GHP-0093",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 242,
+      "externalRowId": "GHP-0094",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 243,
+      "externalRowId": "GHP-0095",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 244,
+      "externalRowId": "GHP-0096",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 245,
+      "externalRowId": "GHP-0097",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 246,
+      "externalRowId": "GHP-0098",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 247,
+      "externalRowId": "GHP-0099",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 248,
+      "externalRowId": "GHP-0100",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 249,
+      "externalRowId": "GHP-0101",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 250,
+      "externalRowId": "GHP-0102",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 251,
+      "externalRowId": "GHP-0103",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 252,
+      "externalRowId": "GHP-0104",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 253,
+      "externalRowId": "GHP-0105",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 254,
+      "externalRowId": "GHP-0106",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 255,
+      "externalRowId": "GHP-0107",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 256,
+      "externalRowId": "GHP-0108",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 257,
+      "externalRowId": "GHP-0109",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 258,
+      "externalRowId": "GHP-0110",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 259,
+      "externalRowId": "GHP-0111",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 260,
+      "externalRowId": "GHP-0112",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 261,
+      "externalRowId": "GHP-0113",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gastrointestinal & HepatoBiliary System and Pancreas > Procedural skill"
+    },
+    {
+      "excelRow": 262,
+      "externalRowId": "ENDO-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 263,
+      "externalRowId": "ENDO-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 264,
+      "externalRowId": "ENDO-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 265,
+      "externalRowId": "ENDO-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 266,
+      "externalRowId": "ENDO-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 267,
+      "externalRowId": "ENDO-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 268,
+      "externalRowId": "ENDO-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 269,
+      "externalRowId": "ENDO-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 270,
+      "externalRowId": "ENDO-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 271,
+      "externalRowId": "ENDO-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 272,
+      "externalRowId": "ENDO-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 273,
+      "externalRowId": "ENDO-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 274,
+      "externalRowId": "ENDO-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 275,
+      "externalRowId": "ENDO-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 276,
+      "externalRowId": "ENDO-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 277,
+      "externalRowId": "ENDO-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 278,
+      "externalRowId": "ENDO-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 279,
+      "externalRowId": "ENDO-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Interpretative Skill"
+    },
+    {
+      "excelRow": 280,
+      "externalRowId": "ENDO-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Procedural skill"
+    },
+    {
+      "excelRow": 281,
+      "externalRowId": "ENDO-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Procedural skill"
+    },
+    {
+      "excelRow": 282,
+      "externalRowId": "ENDO-0021",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Procedural skill"
+    },
+    {
+      "excelRow": 283,
+      "externalRowId": "ENDO-0022",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Procedural skill"
+    },
+    {
+      "excelRow": 284,
+      "externalRowId": "ENDO-0023",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Procedural skill"
+    },
+    {
+      "excelRow": 285,
+      "externalRowId": "ENDO-0024",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands) > Procedural skill"
+    },
+    {
+      "excelRow": 286,
+      "externalRowId": "PAED-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 287,
+      "externalRowId": "PAED-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 288,
+      "externalRowId": "PAED-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 289,
+      "externalRowId": "PAED-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 290,
+      "externalRowId": "PAED-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 291,
+      "externalRowId": "PAED-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 292,
+      "externalRowId": "PAED-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 293,
+      "externalRowId": "PAED-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 294,
+      "externalRowId": "PAED-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 295,
+      "externalRowId": "PAED-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 296,
+      "externalRowId": "PAED-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 297,
+      "externalRowId": "PAED-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 298,
+      "externalRowId": "PAED-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 299,
+      "externalRowId": "PAED-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 300,
+      "externalRowId": "PAED-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 301,
+      "externalRowId": "PAED-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 302,
+      "externalRowId": "PAED-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 303,
+      "externalRowId": "PAED-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 304,
+      "externalRowId": "PAED-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 305,
+      "externalRowId": "PAED-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 306,
+      "externalRowId": "PAED-0021",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 307,
+      "externalRowId": "PAED-0022",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 308,
+      "externalRowId": "PAED-0023",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 309,
+      "externalRowId": "PAED-0024",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 310,
+      "externalRowId": "PAED-0025",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 311,
+      "externalRowId": "PAED-0026",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 312,
+      "externalRowId": "PAED-0027",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 313,
+      "externalRowId": "PAED-0028",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 314,
+      "externalRowId": "PAED-0029",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 315,
+      "externalRowId": "PAED-0030",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 316,
+      "externalRowId": "PAED-0031",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 317,
+      "externalRowId": "PAED-0032",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 318,
+      "externalRowId": "PAED-0033",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 319,
+      "externalRowId": "PAED-0034",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 320,
+      "externalRowId": "PAED-0035",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 321,
+      "externalRowId": "PAED-0036",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 322,
+      "externalRowId": "PAED-0037",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 323,
+      "externalRowId": "PAED-0038",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 324,
+      "externalRowId": "PAED-0039",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 325,
+      "externalRowId": "PAED-0040",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 326,
+      "externalRowId": "PAED-0041",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 327,
+      "externalRowId": "PAED-0042",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 328,
+      "externalRowId": "PAED-0043",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 329,
+      "externalRowId": "PAED-0044",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 330,
+      "externalRowId": "PAED-0045",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 331,
+      "externalRowId": "PAED-0046",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 332,
+      "externalRowId": "PAED-0047",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 333,
+      "externalRowId": "PAED-0048",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 334,
+      "externalRowId": "PAED-0049",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Paediatric Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 335,
+      "externalRowId": "ANES-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Interpretative Skill"
+    },
+    {
+      "excelRow": 336,
+      "externalRowId": "ANES-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Interpretative Skill"
+    },
+    {
+      "excelRow": 337,
+      "externalRowId": "ANES-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Interpretative Skill"
+    },
+    {
+      "excelRow": 338,
+      "externalRowId": "ANES-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Interpretative Skill"
+    },
+    {
+      "excelRow": 339,
+      "externalRowId": "ANES-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Interpretative Skill"
+    },
+    {
+      "excelRow": 340,
+      "externalRowId": "ANES-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Interpretative Skill"
+    },
+    {
+      "excelRow": 341,
+      "externalRowId": "ANES-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 342,
+      "externalRowId": "ANES-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 343,
+      "externalRowId": "ANES-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 344,
+      "externalRowId": "ANES-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 345,
+      "externalRowId": "ANES-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 346,
+      "externalRowId": "ANES-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 347,
+      "externalRowId": "ANES-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 348,
+      "externalRowId": "ANES-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 349,
+      "externalRowId": "ANES-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 350,
+      "externalRowId": "ANES-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 351,
+      "externalRowId": "ANES-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 352,
+      "externalRowId": "ANES-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 353,
+      "externalRowId": "ANES-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 354,
+      "externalRowId": "ANES-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 355,
+      "externalRowId": "ANES-0021",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 356,
+      "externalRowId": "ANES-0022",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 357,
+      "externalRowId": "ANES-0023",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 358,
+      "externalRowId": "ANES-0024",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 359,
+      "externalRowId": "ANES-0025",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Anaesthesia & Procedural critical care > Procedural skill"
+    },
+    {
+      "excelRow": 360,
+      "externalRowId": "PLAS-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 361,
+      "externalRowId": "PLAS-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 362,
+      "externalRowId": "PLAS-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 363,
+      "externalRowId": "PLAS-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 364,
+      "externalRowId": "PLAS-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 365,
+      "externalRowId": "PLAS-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 366,
+      "externalRowId": "PLAS-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 367,
+      "externalRowId": "PLAS-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 368,
+      "externalRowId": "PLAS-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 369,
+      "externalRowId": "PLAS-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 370,
+      "externalRowId": "PLAS-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 371,
+      "externalRowId": "PLAS-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 372,
+      "externalRowId": "PLAS-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 373,
+      "externalRowId": "PLAS-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 374,
+      "externalRowId": "PLAS-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 375,
+      "externalRowId": "PLAS-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 376,
+      "externalRowId": "PLAS-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 377,
+      "externalRowId": "PLAS-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 378,
+      "externalRowId": "PLAS-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 379,
+      "externalRowId": "PLAS-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 380,
+      "externalRowId": "PLAS-0021",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 381,
+      "externalRowId": "PLAS-0022",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 382,
+      "externalRowId": "PLAS-0023",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 383,
+      "externalRowId": "PLAS-0024",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Plastic Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 384,
+      "externalRowId": "PAR-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Interpretative Skill"
+    },
+    {
+      "excelRow": 385,
+      "externalRowId": "PAR-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Interpretative Skill"
+    },
+    {
+      "excelRow": 386,
+      "externalRowId": "PAR-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Interpretative Skill"
+    },
+    {
+      "excelRow": 387,
+      "externalRowId": "PAR-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Interpretative Skill"
+    },
+    {
+      "excelRow": 388,
+      "externalRowId": "PAR-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Interpretative Skill"
+    },
+    {
+      "excelRow": 389,
+      "externalRowId": "PAR-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Interpretative Skill"
+    },
+    {
+      "excelRow": 390,
+      "externalRowId": "PAR-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Interpretative Skill"
+    },
+    {
+      "excelRow": 391,
+      "externalRowId": "PAR-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Interpretative Skill"
+    },
+    {
+      "excelRow": 392,
+      "externalRowId": "PAR-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Interpretative Skill"
+    },
+    {
+      "excelRow": 393,
+      "externalRowId": "PAR-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Interpretative Skill"
+    },
+    {
+      "excelRow": 394,
+      "externalRowId": "PAR-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Interpretative Skill"
+    },
+    {
+      "excelRow": 395,
+      "externalRowId": "PAR-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Interpretative Skill"
+    },
+    {
+      "excelRow": 396,
+      "externalRowId": "PAR-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Procedural skill"
+    },
+    {
+      "excelRow": 397,
+      "externalRowId": "PAR-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Procedural skill"
+    },
+    {
+      "excelRow": 398,
+      "externalRowId": "PAR-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Procedural skill"
+    },
+    {
+      "excelRow": 399,
+      "externalRowId": "PAR-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Parasites of Surgical Importance > Procedural skill"
+    },
+    {
+      "excelRow": 400,
+      "externalRowId": "URO-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 401,
+      "externalRowId": "URO-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 402,
+      "externalRowId": "URO-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 403,
+      "externalRowId": "URO-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 404,
+      "externalRowId": "URO-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 405,
+      "externalRowId": "URO-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 406,
+      "externalRowId": "URO-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 407,
+      "externalRowId": "URO-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 408,
+      "externalRowId": "URO-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 409,
+      "externalRowId": "URO-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 410,
+      "externalRowId": "URO-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 411,
+      "externalRowId": "URO-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 412,
+      "externalRowId": "URO-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 413,
+      "externalRowId": "URO-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 414,
+      "externalRowId": "URO-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 415,
+      "externalRowId": "URO-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 416,
+      "externalRowId": "URO-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 417,
+      "externalRowId": "URO-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 418,
+      "externalRowId": "URO-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 419,
+      "externalRowId": "URO-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 420,
+      "externalRowId": "URO-0021",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 421,
+      "externalRowId": "URO-0022",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 422,
+      "externalRowId": "URO-0023",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 423,
+      "externalRowId": "URO-0024",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 424,
+      "externalRowId": "URO-0025",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 425,
+      "externalRowId": "URO-0026",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 426,
+      "externalRowId": "URO-0027",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 427,
+      "externalRowId": "URO-0028",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 428,
+      "externalRowId": "URO-0029",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 429,
+      "externalRowId": "URO-0030",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 430,
+      "externalRowId": "URO-0031",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 431,
+      "externalRowId": "URO-0032",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 432,
+      "externalRowId": "URO-0033",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 433,
+      "externalRowId": "URO-0034",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 434,
+      "externalRowId": "URO-0035",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 435,
+      "externalRowId": "URO-0036",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 436,
+      "externalRowId": "URO-0037",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Interpretative Skill"
+    },
+    {
+      "excelRow": 437,
+      "externalRowId": "URO-0038",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 438,
+      "externalRowId": "URO-0039",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 439,
+      "externalRowId": "URO-0040",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 440,
+      "externalRowId": "URO-0041",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 441,
+      "externalRowId": "URO-0042",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 442,
+      "externalRowId": "URO-0043",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 443,
+      "externalRowId": "URO-0044",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 444,
+      "externalRowId": "URO-0045",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 445,
+      "externalRowId": "URO-0046",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 446,
+      "externalRowId": "URO-0047",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 447,
+      "externalRowId": "URO-0048",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 448,
+      "externalRowId": "URO-0049",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 449,
+      "externalRowId": "URO-0050",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 450,
+      "externalRowId": "URO-0051",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 451,
+      "externalRowId": "URO-0052",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 452,
+      "externalRowId": "URO-0053",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 453,
+      "externalRowId": "URO-0054",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 454,
+      "externalRowId": "URO-0055",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 455,
+      "externalRowId": "URO-0056",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 456,
+      "externalRowId": "URO-0057",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 457,
+      "externalRowId": "URO-0058",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 458,
+      "externalRowId": "URO-0059",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 459,
+      "externalRowId": "URO-0060",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 460,
+      "externalRowId": "URO-0061",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 461,
+      "externalRowId": "URO-0062",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 462,
+      "externalRowId": "URO-0063",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 463,
+      "externalRowId": "URO-0064",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 464,
+      "externalRowId": "URO-0065",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 465,
+      "externalRowId": "URO-0066",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Urology > Procedural skill"
+    },
+    {
+      "excelRow": 466,
+      "externalRowId": "TCS-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 467,
+      "externalRowId": "TCS-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 468,
+      "externalRowId": "TCS-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 469,
+      "externalRowId": "TCS-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 470,
+      "externalRowId": "TCS-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 471,
+      "externalRowId": "TCS-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 472,
+      "externalRowId": "TCS-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 473,
+      "externalRowId": "TCS-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 474,
+      "externalRowId": "TCS-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 475,
+      "externalRowId": "TCS-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 476,
+      "externalRowId": "TCS-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 477,
+      "externalRowId": "TCS-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 478,
+      "externalRowId": "TCS-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 479,
+      "externalRowId": "TCS-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 480,
+      "externalRowId": "TCS-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 481,
+      "externalRowId": "ONC-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 482,
+      "externalRowId": "ONC-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 483,
+      "externalRowId": "ONC-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 484,
+      "externalRowId": "ONC-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 485,
+      "externalRowId": "ONC-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 486,
+      "externalRowId": "ONC-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 487,
+      "externalRowId": "ONC-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 488,
+      "externalRowId": "ONC-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 489,
+      "externalRowId": "ONC-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 490,
+      "externalRowId": "ONC-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 491,
+      "externalRowId": "ONC-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 492,
+      "externalRowId": "ONC-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 493,
+      "externalRowId": "ONC-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 494,
+      "externalRowId": "ONC-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 495,
+      "externalRowId": "ONC-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 496,
+      "externalRowId": "ONC-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 497,
+      "externalRowId": "ONC-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 498,
+      "externalRowId": "ONC-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 499,
+      "externalRowId": "ONC-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 500,
+      "externalRowId": "ONC-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Interpretative Skill"
+    },
+    {
+      "excelRow": 501,
+      "externalRowId": "ONC-0021",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 502,
+      "externalRowId": "ONC-0022",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 503,
+      "externalRowId": "ONC-0023",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 504,
+      "externalRowId": "ONC-0024",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 505,
+      "externalRowId": "ONC-0025",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 506,
+      "externalRowId": "ONC-0026",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 507,
+      "externalRowId": "ONC-0027",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 508,
+      "externalRowId": "ONC-0028",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 509,
+      "externalRowId": "ONC-0029",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 510,
+      "externalRowId": "ONC-0030",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 511,
+      "externalRowId": "ONC-0031",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 512,
+      "externalRowId": "ONC-0032",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 513,
+      "externalRowId": "ONC-0033",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 514,
+      "externalRowId": "ONC-0034",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 515,
+      "externalRowId": "ONC-0035",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Surgical Oncology > Procedural skill"
+    },
+    {
+      "excelRow": 516,
+      "externalRowId": "AEC-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 517,
+      "externalRowId": "AEC-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 518,
+      "externalRowId": "AEC-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 519,
+      "externalRowId": "AEC-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 520,
+      "externalRowId": "AEC-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 521,
+      "externalRowId": "AEC-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 522,
+      "externalRowId": "AEC-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 523,
+      "externalRowId": "AEC-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 524,
+      "externalRowId": "AEC-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 525,
+      "externalRowId": "AEC-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 526,
+      "externalRowId": "AEC-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 527,
+      "externalRowId": "AEC-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 528,
+      "externalRowId": "AEC-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 529,
+      "externalRowId": "AEC-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 530,
+      "externalRowId": "AEC-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 531,
+      "externalRowId": "AEC-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 532,
+      "externalRowId": "AEC-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 533,
+      "externalRowId": "AEC-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Interpretative Skill"
+    },
+    {
+      "excelRow": 534,
+      "externalRowId": "AEC-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 535,
+      "externalRowId": "AEC-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 536,
+      "externalRowId": "AEC-0021",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 537,
+      "externalRowId": "AEC-0022",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 538,
+      "externalRowId": "AEC-0023",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 539,
+      "externalRowId": "AEC-0024",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 540,
+      "externalRowId": "AEC-0025",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 541,
+      "externalRowId": "AEC-0026",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 542,
+      "externalRowId": "AEC-0027",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 543,
+      "externalRowId": "AEC-0028",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 544,
+      "externalRowId": "AEC-0029",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 545,
+      "externalRowId": "AEC-0030",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 546,
+      "externalRowId": "AEC-0031",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 547,
+      "externalRowId": "AEC-0032",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 548,
+      "externalRowId": "AEC-0033",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 549,
+      "externalRowId": "AEC-0034",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 550,
+      "externalRowId": "AEC-0035",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 551,
+      "externalRowId": "AEC-0036",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 552,
+      "externalRowId": "AEC-0037",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 553,
+      "externalRowId": "AEC-0038",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 554,
+      "externalRowId": "AEC-0039",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 555,
+      "externalRowId": "AEC-0040",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 556,
+      "externalRowId": "AEC-0041",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 557,
+      "externalRowId": "AEC-0042",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 558,
+      "externalRowId": "AEC-0043",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 559,
+      "externalRowId": "AEC-0044",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 560,
+      "externalRowId": "AEC-0045",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 561,
+      "externalRowId": "AEC-0046",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 562,
+      "externalRowId": "AEC-0047",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Accident & Emergency / Casualty > Procedural skill"
+    },
+    {
+      "excelRow": 563,
+      "externalRowId": "AW-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Interpretative Skill"
+    },
+    {
+      "excelRow": 564,
+      "externalRowId": "AW-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Interpretative Skill"
+    },
+    {
+      "excelRow": 565,
+      "externalRowId": "AW-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Interpretative Skill"
+    },
+    {
+      "excelRow": 566,
+      "externalRowId": "AW-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 567,
+      "externalRowId": "AW-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 568,
+      "externalRowId": "AW-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 569,
+      "externalRowId": "AW-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 570,
+      "externalRowId": "AW-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 571,
+      "externalRowId": "AW-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 572,
+      "externalRowId": "AW-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 573,
+      "externalRowId": "AW-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 574,
+      "externalRowId": "BSS-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 575,
+      "externalRowId": "BSS-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 576,
+      "externalRowId": "BSS-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 577,
+      "externalRowId": "BSS-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 578,
+      "externalRowId": "BSS-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 579,
+      "externalRowId": "BSS-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 580,
+      "externalRowId": "BSS-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 581,
+      "externalRowId": "BSS-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 582,
+      "externalRowId": "BSS-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 583,
+      "externalRowId": "BSS-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 584,
+      "externalRowId": "BSS-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 585,
+      "externalRowId": "BSS-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 586,
+      "externalRowId": "BSS-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 587,
+      "externalRowId": "BSS-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 588,
+      "externalRowId": "BSS-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 589,
+      "externalRowId": "BSS-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 590,
+      "externalRowId": "BSS-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 591,
+      "externalRowId": "BSS-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 592,
+      "externalRowId": "BSS-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 593,
+      "externalRowId": "BSS-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 594,
+      "externalRowId": "BSS-0021",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 595,
+      "externalRowId": "BSS-0022",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 596,
+      "externalRowId": "BSS-0023",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 597,
+      "externalRowId": "BSS-0024",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 598,
+      "externalRowId": "BSS-0025",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 599,
+      "externalRowId": "BSS-0026",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 600,
+      "externalRowId": "BSS-0027",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 601,
+      "externalRowId": "BSS-0028",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 602,
+      "externalRowId": "BSS-0029",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 603,
+      "externalRowId": "BSS-0030",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 604,
+      "externalRowId": "BSS-0031",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 605,
+      "externalRowId": "BSS-0032",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 606,
+      "externalRowId": "BSS-0033",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 607,
+      "externalRowId": "BSS-0034",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 608,
+      "externalRowId": "BSS-0035",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 609,
+      "externalRowId": "BSS-0036",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 610,
+      "externalRowId": "BSS-0037",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 611,
+      "externalRowId": "BSS-0038",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 612,
+      "externalRowId": "BSS-0039",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 613,
+      "externalRowId": "BSS-0040",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 614,
+      "externalRowId": "BSS-0041",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 615,
+      "externalRowId": "BSS-0042",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 616,
+      "externalRowId": "BSS-0043",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 617,
+      "externalRowId": "BSS-0044",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 618,
+      "externalRowId": "BSS-0045",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 619,
+      "externalRowId": "BSS-0046",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 620,
+      "externalRowId": "BSS-0047",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 621,
+      "externalRowId": "BSS-0048",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 622,
+      "externalRowId": "BSS-0049",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 623,
+      "externalRowId": "BSS-0050",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 624,
+      "externalRowId": "BSS-0051",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 625,
+      "externalRowId": "BSS-0052",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 626,
+      "externalRowId": "BSS-0053",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 627,
+      "externalRowId": "BSS-0054",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 628,
+      "externalRowId": "BSS-0055",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 629,
+      "externalRowId": "BSS-0056",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 630,
+      "externalRowId": "BSS-0057",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 631,
+      "externalRowId": "BSS-0058",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 632,
+      "externalRowId": "BSS-0059",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 633,
+      "externalRowId": "BSS-0060",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 634,
+      "externalRowId": "BSS-0061",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 635,
+      "externalRowId": "BSS-0062",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 636,
+      "externalRowId": "BSS-0063",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 637,
+      "externalRowId": "BSS-0064",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 638,
+      "externalRowId": "BSS-0065",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 639,
+      "externalRowId": "BSS-0066",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 640,
+      "externalRowId": "BSS-0067",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 641,
+      "externalRowId": "BSS-0068",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 642,
+      "externalRowId": "BSS-0069",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 643,
+      "externalRowId": "BSS-0070",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 644,
+      "externalRowId": "BSS-0071",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 645,
+      "externalRowId": "BSS-0072",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 646,
+      "externalRowId": "BSS-0073",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 647,
+      "externalRowId": "BSS-0074",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 648,
+      "externalRowId": "BSS-0075",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 649,
+      "externalRowId": "BSS-0076",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 650,
+      "externalRowId": "BSS-0077",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 651,
+      "externalRowId": "BSS-0078",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 652,
+      "externalRowId": "BSS-0079",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 653,
+      "externalRowId": "BSS-0080",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 654,
+      "externalRowId": "BSS-0081",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 655,
+      "externalRowId": "BSS-0082",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 656,
+      "externalRowId": "BSS-0083",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 657,
+      "externalRowId": "BSS-0084",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 658,
+      "externalRowId": "BSS-0085",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 659,
+      "externalRowId": "BSS-0086",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 660,
+      "externalRowId": "BSS-0087",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 661,
+      "externalRowId": "BSS-0088",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 662,
+      "externalRowId": "BSS-0089",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 663,
+      "externalRowId": "BSS-0090",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 664,
+      "externalRowId": "BSS-0091",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 665,
+      "externalRowId": "BSS-0092",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 666,
+      "externalRowId": "BSS-0093",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 667,
+      "externalRowId": "BSS-0094",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 668,
+      "externalRowId": "BSS-0095",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 669,
+      "externalRowId": "BSS-0096",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 670,
+      "externalRowId": "BSS-0097",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 671,
+      "externalRowId": "BSS-0098",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 672,
+      "externalRowId": "BSS-0099",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 673,
+      "externalRowId": "BSS-0100",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 674,
+      "externalRowId": "BSS-0101",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 675,
+      "externalRowId": "BSS-0102",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 676,
+      "externalRowId": "BSS-0103",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 677,
+      "externalRowId": "BSS-0104",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 678,
+      "externalRowId": "BSS-0105",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 679,
+      "externalRowId": "BSS-0106",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 680,
+      "externalRowId": "BSS-0107",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 681,
+      "externalRowId": "BSS-0108",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 682,
+      "externalRowId": "BSS-0109",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 683,
+      "externalRowId": "BSS-0110",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 684,
+      "externalRowId": "BSS-0111",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 685,
+      "externalRowId": "BSS-0112",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 686,
+      "externalRowId": "BSS-0113",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 687,
+      "externalRowId": "BSS-0114",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 688,
+      "externalRowId": "BSS-0115",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 689,
+      "externalRowId": "BSS-0116",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 690,
+      "externalRowId": "BSS-0117",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 691,
+      "externalRowId": "BSS-0118",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 692,
+      "externalRowId": "BSS-0119",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 693,
+      "externalRowId": "BSS-0120",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 694,
+      "externalRowId": "BSS-0121",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 695,
+      "externalRowId": "BSS-0122",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Procedural skill"
+    },
+    {
+      "excelRow": 696,
+      "externalRowId": "BSS-0123",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 697,
+      "externalRowId": "BSS-0124",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 698,
+      "externalRowId": "BSS-0125",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 699,
+      "externalRowId": "BSS-0126",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 700,
+      "externalRowId": "BSS-0127",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 701,
+      "externalRowId": "BSS-0128",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 702,
+      "externalRowId": "BSS-0129",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 703,
+      "externalRowId": "BSS-0130",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 704,
+      "externalRowId": "BSS-0131",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 705,
+      "externalRowId": "BSS-0132",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 706,
+      "externalRowId": "BSS-0133",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 707,
+      "externalRowId": "BSS-0134",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 708,
+      "externalRowId": "BSS-0135",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 709,
+      "externalRowId": "BSS-0136",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 710,
+      "externalRowId": "BSS-0137",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 711,
+      "externalRowId": "BSS-0138",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 712,
+      "externalRowId": "BSS-0139",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 713,
+      "externalRowId": "BSS-0140",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 714,
+      "externalRowId": "BSS-0141",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 715,
+      "externalRowId": "BSS-0142",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 716,
+      "externalRowId": "BSS-0143",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 717,
+      "externalRowId": "BSS-0144",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 718,
+      "externalRowId": "BSS-0145",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 719,
+      "externalRowId": "BSS-0146",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 720,
+      "externalRowId": "BSS-0147",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 721,
+      "externalRowId": "BSS-0148",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 722,
+      "externalRowId": "BSS-0149",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 723,
+      "externalRowId": "BSS-0150",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 724,
+      "externalRowId": "BSS-0151",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 725,
+      "externalRowId": "BSS-0152",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 726,
+      "externalRowId": "BSS-0153",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 727,
+      "externalRowId": "BSS-0154",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 728,
+      "externalRowId": "BSS-0155",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 729,
+      "externalRowId": "BSS-0156",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 730,
+      "externalRowId": "BSS-0157",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 731,
+      "externalRowId": "BSS-0158",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 732,
+      "externalRowId": "BSS-0159",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 733,
+      "externalRowId": "BSS-0160",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 734,
+      "externalRowId": "BSS-0161",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 735,
+      "externalRowId": "BSS-0162",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 736,
+      "externalRowId": "BSS-0163",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 737,
+      "externalRowId": "BSS-0164",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Basic Surgical Skill > Communication and Writing Skill"
+    },
+    {
+      "excelRow": 738,
+      "externalRowId": "PN-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Procedural Nutrition > Interpretative Skill"
+    },
+    {
+      "excelRow": 739,
+      "externalRowId": "PN-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Procedural Nutrition > Interpretative Skill"
+    },
+    {
+      "excelRow": 740,
+      "externalRowId": "PN-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Procedural Nutrition > Interpretative Skill"
+    },
+    {
+      "excelRow": 741,
+      "externalRowId": "PN-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Procedural Nutrition > Interpretative Skill"
+    },
+    {
+      "excelRow": 742,
+      "externalRowId": "PN-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Procedural Nutrition > Interpretative Skill"
+    },
+    {
+      "excelRow": 743,
+      "externalRowId": "PN-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Procedural Nutrition > Procedural skill"
+    },
+    {
+      "excelRow": 744,
+      "externalRowId": "PN-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Procedural Nutrition > Procedural skill"
+    },
+    {
+      "excelRow": 745,
+      "externalRowId": "PN-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Procedural Nutrition > Procedural skill"
+    },
+    {
+      "excelRow": 746,
+      "externalRowId": "PN-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Procedural Nutrition > Procedural skill"
+    },
+    {
+      "excelRow": 747,
+      "externalRowId": "PN-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Procedural Nutrition > Procedural skill"
+    },
+    {
+      "excelRow": 748,
+      "externalRowId": "PN-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Procedural Nutrition > Procedural skill"
+    },
+    {
+      "excelRow": 749,
+      "externalRowId": "VASCTC-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 750,
+      "externalRowId": "VASCTC-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 751,
+      "externalRowId": "VASCTC-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 752,
+      "externalRowId": "VASCTC-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 753,
+      "externalRowId": "VASCTC-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 754,
+      "externalRowId": "VASCTC-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 755,
+      "externalRowId": "VASCTC-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 756,
+      "externalRowId": "VASCTC-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 757,
+      "externalRowId": "VASCTC-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 758,
+      "externalRowId": "VASCTC-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 759,
+      "externalRowId": "VASCTC-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 760,
+      "externalRowId": "VASCTC-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 761,
+      "externalRowId": "VASCTC-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 762,
+      "externalRowId": "AWL5R-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 763,
+      "externalRowId": "AWL5R-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 764,
+      "externalRowId": "AWL5R-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 765,
+      "externalRowId": "VASCNEW-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 766,
+      "externalRowId": "VASCNEW-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 767,
+      "externalRowId": "VASCNEW-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 768,
+      "externalRowId": "VASCNEW-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 769,
+      "externalRowId": "VASCNEW-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 770,
+      "externalRowId": "VASCNEW-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Interpretative Skill"
+    },
+    {
+      "excelRow": 771,
+      "externalRowId": "VASCNEW-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 772,
+      "externalRowId": "VASCNEW-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 773,
+      "externalRowId": "VASCNEW-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 774,
+      "externalRowId": "VASCNEW-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 775,
+      "externalRowId": "VASCNEW-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 776,
+      "externalRowId": "VASCNEW-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Thoracic and Cardiovascular Surgery > Procedural skill"
+    },
+    {
+      "excelRow": 777,
+      "externalRowId": "AWNEW-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Interpretative Skill"
+    },
+    {
+      "excelRow": 778,
+      "externalRowId": "AWNEW-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Interpretative Skill"
+    },
+    {
+      "excelRow": 779,
+      "externalRowId": "AWNEW-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Interpretative Skill"
+    },
+    {
+      "excelRow": 780,
+      "externalRowId": "AWNEW-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 781,
+      "externalRowId": "AWNEW-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 782,
+      "externalRowId": "AWNEW-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 783,
+      "externalRowId": "AWNEW-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 784,
+      "externalRowId": "AWNEW-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 785,
+      "externalRowId": "AWNEW-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 786,
+      "externalRowId": "AWNEW-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    },
+    {
+      "excelRow": 787,
+      "externalRowId": "AWNEW-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Abdominal Wall > Procedural skill"
+    }
+  ]
+}

@@ -1,766 +1,6 @@
 [
   {
-    "pathId": "99a06d89-5e3f-4a58-b234-502e7ce20200",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Abdominal Wall"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "8d16daad-9b8e-46bc-aed3-ea7c72875674",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Abdominal Wall"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "062a2e9b-b12d-467a-b119-5ea4310e2c93",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Accident & Emergency / Casualty"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "f32621e6-4fa8-4718-b289-207f45ca363d",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Accident & Emergency / Casualty"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "e69cd3aa-f8cc-4f56-ae46-7558bdcf1650",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Anaesthesia & Procedural critical care"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "f3acefe6-6a7b-463c-a4e7-7cebb7ca71bd",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Anaesthesia & Procedural critical care"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "99e21e93-cccc-41a2-a170-43876ff867a6",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Basic Surgical Skill"
-      },
-      {
-        "field": "SkillType",
-        "value": "Communication and Writing Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "18aab29a-bb60-4aad-965e-a669ab6648bf",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Basic Surgical Skill"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "ada9e308-caac-4ebd-990b-3f41e692bf01",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Disorders of the Breast"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "141bbcab-c56e-42fd-b755-ebf5de7ad85a",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Disorders of the Breast"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "66dfd638-bdec-4219-a55a-7072eab69a18",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands)"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "d1dd3ed6-a232-4847-81d2-951ed6c7d4c7",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Endocrine Surgery (Thyroid, Parathyroid, Adrenal Glands)"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "df48137d-6756-4f13-bf11-5874fe4244bc",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Gastrointestinal & HepatoBiliary System and Pancreas"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "cd8e3367-0094-42c8-836d-4eba571541b9",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Gastrointestinal & HepatoBiliary System and Pancreas"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "013281cf-0662-497a-894a-d02959e0b3a3",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Minimally Invasive Surgery – Laparoscopic procedures"
-      },
-      {
-        "field": "SkillType",
-        "value": "Clinical skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "471d1ba0-8a41-4a4e-819f-80b8580f33a2",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Minimally Invasive Surgery – Laparoscopic procedures"
-      },
-      {
-        "field": "SkillType",
-        "value": "Communication and Writing Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "e92e1c2f-edba-4ba4-b50e-aa3eb6847a50",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Minimally Invasive Surgery – Laparoscopic procedures"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "d26fa4fd-37a4-4248-8306-adbdf8144b5c",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Minimally Invasive Surgery – Laparoscopic procedures"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "11bd8bf2-cc6d-425b-8a87-a898ed52317c",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Neurosurgery"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "c5758a6c-8923-475b-8268-23bbf19e6310",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Neurosurgery"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "1952142e-4c30-4b86-a9d9-3aaeafb8e350",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Orthopaedic Surgery"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "dc3a106f-4a08-44c0-9c0f-01781266ec0c",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Orthopaedic Surgery"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "3a8b2319-3c01-4597-b166-e2580942a40d",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Paediatric Surgery"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "6599f61d-fc6d-4031-a596-ec85709837a8",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Paediatric Surgery"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "dc995222-a9e8-4fbe-b0fc-f8ee7b24e675",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Parasites of Surgical Importance"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "35974d3a-de4e-4973-b839-514fd7516e57",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Parasites of Surgical Importance"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "de32f03b-02b5-4e70-bae6-98a82ec44115",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Plastic Surgery"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "e9493309-48f8-4bd7-93ed-83b26e189147",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Plastic Surgery"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "3587caef-7e32-46b5-96ff-efdc672410f3",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Procedural Nutrition"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "0e1909df-9f5b-4b3f-b8f3-16885cdbeab5",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Procedural Nutrition"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "6cd958f4-08bd-4316-81e3-68b4bab08f50",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Skin and Subcutaneous Tissue"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "d8c17d2d-a9e1-4529-9165-eb1b4adbc403",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Skin and Subcutaneous Tissue"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "6120c376-cb5e-46c0-8803-a12a39446b62",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Surgical Oncology"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "b8716fc4-981c-4510-9ad8-49c43c8c816b",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Surgical Oncology"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "d44b7f87-71ba-4583-88f3-8ba19a112fc6",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Thoracic and Cardiovascular Surgery"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "8aa758e2-151a-4afb-a86b-6d31ded5fde8",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Thoracic and Cardiovascular Surgery"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "724765b4-038e-48dc-89df-823cf20dc733",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Urology"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "7ab0db36-3a41-49ce-8ffb-cb99a56ee145",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Urology"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": null
-  },
-  {
-    "pathId": "038b9461-529c-4473-b982-123e445548eb",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Vascular Surgery"
-      },
-      {
-        "field": "SkillType",
-        "value": "Interpretative Skill"
-      }
-    ],
-    "status": "success",
-    "reason": "id drift resolved (cached=038b9461-529c-4473-b982-123e445548eb, live=d44b7f87-71ba-4583-88f3-8ba19a112fc6)"
-  },
-  {
-    "pathId": "40abd843-3a66-4bd2-a6e4-bdcb76679cb7",
-    "path": [
-      {
-        "field": "Form",
-        "value": "Procedural and Interpretative Skills"
-      },
-      {
-        "field": "CaseType",
-        "value": "Vascular Surgery"
-      },
-      {
-        "field": "SkillType",
-        "value": "Procedural skill"
-      }
-    ],
-    "status": "success",
-    "reason": "id drift resolved (cached=40abd843-3a66-4bd2-a6e4-bdcb76679cb7, live=8aa758e2-151a-4afb-a86b-6d31ded5fde8)"
-  },
-  {
-    "pathId": "181715c5-d449-4245-8f1c-3d52ca9bb46a",
+    "pathId": "9b65ee42-dbb1-4432-8b27-311c069dd341",
     "path": [
       {
         "field": "Form",
@@ -775,7 +15,7 @@
     "reason": null
   },
   {
-    "pathId": "2458946d-d2b8-4ac5-b460-015926d5f26d",
+    "pathId": "07c482d4-845e-4ada-9ed2-29773206ae62",
     "path": [
       {
         "field": "Form",
@@ -790,7 +30,7 @@
     "reason": null
   },
   {
-    "pathId": "f4a5140c-6666-4137-9e62-d1223d57bac0",
+    "pathId": "32c1158a-7e12-4731-aa60-62d54632510b",
     "path": [
       {
         "field": "Form",
@@ -799,6 +39,1222 @@
       {
         "field": "CaseType",
         "value": "Out-Patient Management"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "1a69fa4e-8e74-459a-aff5-db41ec285c76",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Acute Medicine and Critical illness"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "c8f3570a-c169-4ee6-b4a4-aac5433c3ed6",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Acute Medicine and Critical illness"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "957ea35c-a84c-46a5-84ef-3c2fd83450aa",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Acute Medicine and Critical illness"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "33062108-a35b-4cca-af04-1b0388ea2cb3",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Acute Medicine and Critical illness"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "90b467f5-4c41-47ab-9cad-1066fe007181",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Blood disorders & Transfusion Medicine"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "064a034c-c63f-438e-ab19-09e29903c351",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Blood disorders & Transfusion Medicine"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "389fc0d4-87cd-429f-95d5-25de3a3a5292",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Blood disorders & Transfusion Medicine"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "07ded05e-5543-48e7-bf9e-bb2250965703",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Blood disorders & Transfusion Medicine"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "50706693-1b0f-4704-9bf3-b603089763a7",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Cardiovascular system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "0934b35e-4bb5-413b-9823-da0a21e771ec",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Cardiovascular system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "2e0bf4c2-1f63-493d-a449-2750e32ca244",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Cardiovascular system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "d07ba56e-307d-4b22-a0bb-ac54e3d6df8d",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Cardiovascular system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "b812ea3b-c966-43f9-b81c-ca37d06fb446",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Endocrine diseases including Diabetes mellitus"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "89c6c538-17c1-4e1d-96ff-db600e64c892",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Endocrine diseases including Diabetes mellitus"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "4cdd7833-3f66-4032-9ff5-111f74eb034d",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Endocrine diseases including Diabetes mellitus"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "4c7ca2a3-184a-46b5-bb8c-487d1f4f7cb9",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Endocrine diseases including Diabetes mellitus"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "295b9717-dff0-4d13-ad0c-42ceca297f98",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Endocrine system including Diabetes mellitus"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "7411170e-b7dc-4706-b218-600ce67ce8b2",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Endocrine system including Diabetes mellitus"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "e2bd14c8-d352-47d2-9ace-64b318808b13",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Endocrine system including Diabetes mellitus"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "f1cc97ff-364a-4738-8b99-650882dee8c7",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Endocrine system including Diabetes mellitus"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "7d51f168-e31a-41cf-a0f8-6259fb8da24f",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Gastrointestinal & Hepato biliary system and Pancreas"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "8a10850c-168a-4bf4-85c1-d59c9f778741",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Gastrointestinal & Hepato biliary system and Pancreas"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "9153f62f-9d95-4c6f-9142-d17e742a296d",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Gastrointestinal & Hepato biliary system and Pancreas"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "0d8fddef-2e31-475d-aeef-953912d0526d",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Gastrointestinal & Hepato biliary system and Pancreas"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "773cf5d9-0350-420e-938f-cfc18433d31a",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Hematological System & Transfusion Medicine"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "76fda473-2030-465c-ab93-201b86c76207",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Hematological System & Transfusion Medicine"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "15a943bf-bb24-4bb9-8275-2e74f029fd21",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Hematological System & Transfusion Medicine"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "787cafd4-81d9-4781-bb1d-d67d74c6cdef",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Hematological System & Transfusion Medicine"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "11d063bd-73a2-43ca-91f3-3504910d1636",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Infectious and Tropical diseases"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "2ea5af0d-6906-43fa-a815-e8ea611283f5",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Infectious and Tropical diseases"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "6b0eff1f-c913-48ee-9616-ff2ab935e1d2",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Infectious and Tropical diseases"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "3f651c4c-af8e-453b-9792-b6be8cdbb384",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Infectious and Tropical diseases"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "6d0b3994-4035-435e-95cc-1a243773a1bd",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Medical Oncology"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "1e20c170-9298-485f-aa9c-ae71e5cbcedc",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Medical Oncology"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "cfde5220-9ebc-4dc6-99c9-47b2b0945754",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Medical Oncology"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "900f2c49-2b55-4ccd-9196-e2d3327e2937",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Medical Oncology"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "9dfc7eb5-104c-4612-a355-28c69b3786ff",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Medical psychiatry"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "52a56159-b049-4a32-98af-e537afa6d36e",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Medical psychiatry"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "ec4ad771-7c50-4d0a-b2d0-c533226f270a",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Medical psychiatry"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "80822987-907c-431b-9601-ecb82fe0f6ce",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Medical psychiatry"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "8a453b98-ab33-4286-98b0-b5f1ccb6c8b0",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Nephrology including GU system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "f4ea013c-1c7e-49af-892c-062ffda7ec89",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Nephrology including GU system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "b1918082-29bb-484a-b9d8-145a6463dbe4",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Nephrology including GU system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "2662610d-758d-4d9f-ab59-5e48c4419ae0",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Nephrology including GU system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "9a59c01c-c47a-4d36-a2c3-0d5cd2026744",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Nervous system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "9feb4fde-c1d1-4fa7-9a19-167f20ef9bfc",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Nervous system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "af62fa93-a9fe-43c2-83c3-ada8ad5d7380",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Nervous system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "01911118-1978-4ce1-9c68-014dda198097",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Nervous system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "01be2cbb-f355-46d0-ba1f-4a0a28d8f76d",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Poisoning & Envenomation"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "edd1fe04-439a-40d6-80dd-8ab77983ec0f",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Poisoning & Envenomation"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "a5f31298-a2ab-4323-87b3-640d990ffaa3",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Poisoning & Envenomation"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "2c5682e1-aa4e-483b-bb0b-a5440c5c8345",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Poisoning & Envenomation"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "d79ea6e5-9fc0-4ce6-b477-583fa72a1842",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Poisoning and Envenomation"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "d64a6d05-2203-42c2-bf16-50c93adeae57",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Poisoning and Envenomation"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "80a0881d-f9e1-4a3b-b76c-8f04c0d31fb6",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Poisoning and Envenomation"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "6b319f18-556c-43c9-9a94-083b69d1b5e8",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Poisoning and Envenomation"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "1d5f91d8-5803-48f9-bcba-c272a42dc652",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Respiratory system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "5d98a214-79db-4de6-a308-49a125e1e998",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Respiratory system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "de7672ac-639d-44b5-ab70-2bb08bf46cb5",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Respiratory system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "4e4fe340-9e7b-4bb7-b79f-cb4b41bb08aa",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Respiratory system"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "05446050-1433-4ea6-a9b3-83cf3695976d",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Rheumatology and Bone Disease"
+      },
+      {
+        "field": "SkillType",
+        "value": "Clinical skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "83dd48aa-89cd-4ab7-8bac-5912e314cbbb",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Rheumatology and Bone Disease"
+      },
+      {
+        "field": "SkillType",
+        "value": "Communication and Writing Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "ca420d7e-febe-442e-8a56-03b85a34d9f3",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Rheumatology and Bone Disease"
+      },
+      {
+        "field": "SkillType",
+        "value": "Interpretative Skill"
+      }
+    ],
+    "status": "success",
+    "reason": null
+  },
+  {
+    "pathId": "668266e0-f016-43c1-87d0-e2c7cbc08296",
+    "path": [
+      {
+        "field": "Form",
+        "value": "Procedural and Interpretative Skills"
+      },
+      {
+        "field": "CaseType",
+        "value": "Rheumatology and Bone Disease"
+      },
+      {
+        "field": "SkillType",
+        "value": "Procedural skill"
       }
     ],
     "status": "success",

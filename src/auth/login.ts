@@ -52,7 +52,7 @@ async function applyUserType(page: Page): Promise<void> {
 
 export async function login(page: Page): Promise<{ success: boolean; reason?: string }> {
   logger.info(`Navigating to login page: ${loginUrl()}`);
-  await page.goto(loginUrl(), { waitUntil: 'domcontentloaded' });
+  await page.goto(loginUrl(), { waitUntil: 'domcontentloaded', timeout: 90000 });
   await settle(page, 800);
 
   const captchaLike = await page.$('[class*="captcha" i], iframe[src*="recaptcha" i], iframe[src*="hcaptcha" i]');
@@ -101,7 +101,7 @@ export async function login(page: Page): Promise<{ success: boolean; reason?: st
 }
 
 export async function ensureLoggedIn(page: Page): Promise<{ success: boolean; reason?: string }> {
-  await page.goto(formUrl(), { waitUntil: 'domcontentloaded' });
+  await page.goto(formUrl(), { waitUntil: 'domcontentloaded', timeout: 90000 });
   await settle(page, 800);
   const onLogin = page.url().includes(env.loginPath) || (await page.$(PASSWORD_SELECTOR)) !== null;
   if (!onLogin) {

@@ -1,0 +1,7 @@
+npm run submit-drafts completely standalone — tumi nijei terminal theke run korte parba. Shudhu 2 ta jinish dorkar:
+
+.env file e sothik username/password
+Terminal e npm run submit-drafts command
+
+2. npm run submit-drafts
+3. npm run approve-drafts

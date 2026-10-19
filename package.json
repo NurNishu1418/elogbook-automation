@@ -18,7 +18,9 @@
     "report": "ts-node src/mapper/report.ts",
     "recon:login": "ts-node src/mapper/recon-login.ts",
     "recon:form": "ts-node src/mapper/recon-form.ts",
-    "app": "ts-node src/app/server.ts"
+    "app": "ts-node src/app/server.ts",
+    "submit-drafts": "ts-node src/scripts/submit-all-drafts.ts",
+    "approve-drafts": "ts-node src/scripts/supervisor-approve-drafts.ts"
   },
   "dependencies": {
     "@types/express": "^5.0.6",
@@ -26,6 +28,7 @@
     "dotenv": "^16.4.5",
     "exceljs": "^4.4.0",
     "express": "^5.2.1",
+    "mammoth": "^1.13.0",
     "playwright": "^1.47.0",
     "winston": "^3.14.2",
     "zod": "^3.23.8"

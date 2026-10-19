@@ -47,6 +47,7 @@
       <select id="mode-select" onchange="onModeChange()">
         <option value="dry-run" selected>Dry Run (default, safe - no login, no browser)</option>
         <option value="execute">Save as Draft (creates real drafts on the live portal)</option>
+        <option value="submit">Submit directly (sends entries to your supervisor - cannot be undone)</option>
       </select>
 
       <label for="scope-select">Scope</label>
@@ -67,8 +68,13 @@
 
       <div id="execute-warning" class="danger-banner" style="display:none;">
         <strong>Save as Draft mode is selected.</strong> This will log in to the live portal and create real
-        drafts for the rows in scope. Only "Save as Draft" is ever clicked - there is no Final Submit anywhere
-        in this app. Make sure you have reviewed the rows above before continuing.
+        drafts for the rows in scope. Only "Save as Draft" is clicked. Make sure you have reviewed the rows
+        above before continuing.
+      </div>
+      <div id="submit-warning" class="danger-banner" style="display:none;">
+        <strong>Submit directly is selected.</strong> Each row is submitted straight to your supervisor instead of
+        being saved as a draft. This cannot be undone from this app. Make sure every row above is a real,
+        accurate case before continuing.
       </div>
 
       <div id="preview-card" style="display:none;" class="card" style="margin-top:12px;">
@@ -147,11 +153,13 @@
 
     function onModeChange() {
       const mode = document.getElementById('mode-select').value;
+      const live = mode === 'execute' || mode === 'submit';
       document.getElementById('execute-warning').style.display = mode === 'execute' ? 'block' : 'none';
-      document.getElementById('preview-btn').style.display = mode === 'execute' ? 'inline-block' : 'none';
+      document.getElementById('submit-warning').style.display = mode === 'submit' ? 'block' : 'none';
+      document.getElementById('preview-btn').style.display = live ? 'inline-block' : 'none';
       document.getElementById('preview-card').style.display = 'none';
-      document.getElementById('start-btn').textContent = mode === 'execute' ? 'Start Save as Draft' : 'Run Dry Validation';
-      document.getElementById('start-btn').className = mode === 'execute' ? 'btn btn-danger' : 'btn btn-primary';
+      document.getElementById('start-btn').textContent = mode === 'submit' ? 'Start Submit directly' : mode === 'execute' ? 'Start Save as Draft' : 'Run Dry Validation';
+      document.getElementById('start-btn').className = live ? 'btn btn-danger' : 'btn btn-primary';
     }
 
     document.getElementById('scope-select').addEventListener('change', () => {
@@ -189,7 +197,7 @@
       document.getElementById('pv-first').textContent = resolved.firstExternalRowId ?? '(none)';
       document.getElementById('pv-last').textContent = resolved.lastExternalRowId ?? '(none)';
       document.getElementById('pv-casetypes').textContent = resolved.caseTypesRepresented.join(', ') || '(none)';
-      document.getElementById('pv-execmode').textContent = 'LIVE - SAVE AS DRAFT';
+      document.getElementById('pv-execmode').textContent = document.getElementById('mode-select').value === 'submit' ? 'LIVE - SUBMIT DIRECTLY' : 'LIVE - SAVE AS DRAFT';
       msg.textContent = '';
       return resolved;
     }
@@ -198,6 +206,7 @@
       const params = currentSelectionParams();
       const { workbookPath, selectionMode, selectedRowIds, rangeStart, rangeEnd } = params;
       const mode = document.getElementById('mode-select').value;
+      const finalSubmit = mode === 'submit';
       const msg = document.getElementById('action-message');
 
       if (mode === 'dry-run') {
@@ -225,11 +234,12 @@
         `Range: ${resolved.rangeStart != null || resolved.rangeEnd != null ? `${resolved.rangeStart ?? ''}-${resolved.rangeEnd ?? ''}` : '(not range mode)'}\n` +
         `Selected: ${resolved.resolvedCount}\n` +
         `ExternalRowIds: ${resolved.firstExternalRowId ?? '(none)'} -> ${resolved.lastExternalRowId ?? '(none)'}\n` +
-        `Mode: LIVE - SAVE AS DRAFT\n\n` +
-        `This will log in to the live BCPS portal and create ${resolved.resolvedCount} real draft(s) (Save as Draft only, never Final Submit). Continue?`;
+        (finalSubmit
+          ? `Mode: LIVE - SUBMIT DIRECTLY\n\nThis will log in to the live BCPS portal and SUBMIT ${resolved.resolvedCount} entr${resolved.resolvedCount === 1 ? 'y' : 'ies'} to your supervisor. This cannot be undone from this app. Continue?`
+          : `Mode: LIVE - SAVE AS DRAFT\n\nThis will log in to the live BCPS portal and create ${resolved.resolvedCount} real draft(s) (Save as Draft only). Continue?`);
       if (!confirm(confirmText)) return;
 
-      const result = await apiPost('/api/upload/start', { workbookPath, selectionMode, selectedRowIds, rangeStart, rangeEnd });
+      const result = await apiPost('/api/upload/start', { workbookPath, selectionMode, selectedRowIds, rangeStart, rangeEnd, finalSubmit });
       if (result.started) {
         msg.textContent = `Started - ${result.resolved.resolvedCount} row(s) (${result.resolved.firstExternalRowId} -> ${result.resolved.lastExternalRowId}). Redirecting to Progress...`;
         sessionStorage.setItem('lastWorkbookPath', workbookPath);

@@ -57,6 +57,27 @@ const SELECTED_ROW_IDS = (process.env.UPLOAD_SELECTED_ROW_IDS ?? '')
   .filter(Boolean);
 const RANGE_START = process.env.UPLOAD_RANGE_START ? parseInt(process.env.UPLOAD_RANGE_START, 10) : null;
 const RANGE_END = process.env.UPLOAD_RANGE_END ? parseInt(process.env.UPLOAD_RANGE_END, 10) : null;
+const FINAL_SUBMIT = process.env.UPLOAD_FINAL_SUBMIT === '1';
+
+const SPECIALTY_ARG = process.argv.find(a => a.startsWith('--specialty='))?.split('=')[1]
+  ?? (process.argv.includes('--specialty') ? process.argv[process.argv.indexOf('--specialty') + 1] : null);
+const SPECIALTY = SPECIALTY_ARG ?? process.env.UPLOAD_SPECIALTY ?? null;
+
+function resolveFormMapPath(): string {
+  if (SPECIALTY) {
+    const specialtyFile = path.join(OUTPUT_DIR, `form-map-${SPECIALTY.toLowerCase()}.json`);
+    if (!fs.existsSync(specialtyFile)) {
+      console.error(`Specialty form-map not found: ${specialtyFile}`);
+      console.error(`Available: ${fs.readdirSync(OUTPUT_DIR).filter(f => f.startsWith('form-map-') && f.endsWith('.json')).join(', ')}`);
+      process.exit(1);
+    }
+    return specialtyFile;
+  }
+  return path.join(OUTPUT_DIR, 'form-map.json');
+}
+
+const FORM_MAP_PATH = resolveFormMapPath();
+if (SPECIALTY) process.env.UPLOAD_SPECIALTY = SPECIALTY;
 
 const workbookDir = path.dirname(WORKBOOK_PATH);
 const workbookBase = path.basename(WORKBOOK_PATH, '.xlsx');
@@ -100,13 +121,14 @@ async function main() {
   // a dry-run performs literally zero network/portal activity - not just
   // zero writes.
   const EXECUTE = process.argv.includes('--execute');
-  logger.info(`=== Generic workbook upload runner: ${EXECUTE ? 'EXECUTE mode (Save as Draft only)' : 'DRY-RUN mode (zero portal writes, zero login)'} ===`);
+  logger.info(`=== Generic workbook upload runner: ${EXECUTE ? (FINAL_SUBMIT ? 'EXECUTE mode (FINAL SUBMIT)' : 'EXECUTE mode (Save as Draft only)') : 'DRY-RUN mode (zero portal writes, zero login)'} ===`);
   logger.info(`Workbook: ${WORKBOOK_PATH}`);
   logger.info(`Selection mode: ${SELECTION_MODE}`);
 
   if (fs.existsSync(STOP_FLAG_PATH)) fs.unlinkSync(STOP_FLAG_PATH);
 
-  const formMap = JSON.parse(fs.readFileSync(path.join(OUTPUT_DIR, 'form-map.json'), 'utf-8'));
+  if (SPECIALTY) logger.info(`Specialty: ${SPECIALTY} (mapping: ${path.basename(FORM_MAP_PATH)})`);
+  const formMap = JSON.parse(fs.readFileSync(FORM_MAP_PATH, 'utf-8'));
   const leaves: LeafForValidation[] = formMap.leaves.map((l: any) => ({
     leafId: l.leafId,
     pathLabels: l.pathLabels,
@@ -200,7 +222,10 @@ async function main() {
     logger.info('Login confirmed.');
 
     logger.info('Fetching existing portal entries for duplicate pre-check (read-only)...');
-    let portalEntries: PortalEntry[] = await fetchRecentEntries(page, 15, 20);
+    // 500 pages is only an upper bound - fetchRecentEntries stops at the portal's
+    // last_page, so this reads the trainee's whole list (all statuses), not just
+    // the newest 300, which matters for duplicate detection against old entries.
+    let portalEntries: PortalEntry[] = await fetchRecentEntries(page, 500, 20);
     logger.info(`Fetched ${portalEntries.length} existing entries from the portal for duplicate comparison.`);
 
     for (let i = 0; i < eligibleRows.length; i++) {
@@ -228,15 +253,15 @@ async function main() {
 
       let rowResult: RowResult;
       try {
-        await page.goto(formUrl(), { waitUntil: 'domcontentloaded' });
+        await page.goto(formUrl(), { waitUntil: 'domcontentloaded', timeout: 90000 });
         const sessionExpired = page.url().includes(env.loginPath) || (await page.$('input[name="password"]')) !== null;
         if (sessionExpired) {
           logger.info('  Session appears to have expired mid-run; re-logging in and retrying this row...');
           const relogin = await ensureLoggedIn(page);
           if (!relogin.success) throw new Error(`Re-login after session expiry failed: ${relogin.reason}`);
-          await page.goto(formUrl(), { waitUntil: 'domcontentloaded' });
+          await page.goto(formUrl(), { waitUntil: 'domcontentloaded', timeout: 90000 });
         }
-        const fillResult = await fillAndSaveDraft(page, row, leaf);
+        const fillResult = await fillAndSaveDraft(page, row, leaf, FINAL_SUBMIT);
 
         if (!fillResult.success && fillResult.failedField) {
           const screenshotPath = path.join(SCREENSHOTS_DIR, `${workbookBase}-${row.externalRowId}-${Date.now()}.png`);
@@ -314,7 +339,7 @@ async function main() {
   logger.info('=== UPLOAD RUN COMPLETE ===');
   logger.info(`Processed: ${results.length}, Successful: ${successCount}, Failed: ${failedCount}, Skipped: ${skippedCount}`);
   logger.info(`stoppedForSystemicIssue: ${stoppedForSystemicIssue}, stoppedByRequest: ${stoppedByRequest}`);
-  logger.info('Final Submit was never used - only "Save as Draft".');
+  logger.info(FINAL_SUBMIT ? 'Mode was FINAL SUBMIT - entries were submitted to the supervisor.' : 'Final Submit was never used - only "Save as Draft".');
 
   function writeCurrentStatus(processedCount: number, total: number, currentRow: DataEntryRow, currentLeaf: LeafForValidation, resultsSoFar: RowResult[]) {
     const s = resultsSoFar.filter((r) => r.status === 'SUCCESS').length;

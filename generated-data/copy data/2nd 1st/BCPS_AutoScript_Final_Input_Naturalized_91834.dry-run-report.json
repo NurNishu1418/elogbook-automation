@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T05:03:11.985Z",
+  "generatedAt": "2026-10-17T05:31:14.561Z",
   "mode": "execute",
   "workbookPath": "F:\\2026\\touhid\\new project\\generated-data\\copy data\\2nd 1st\\BCPS_AutoScript_Final_Input_Naturalized_91834.xlsx",
   "selectionMode": "range",
@@ -7,8 +7,8 @@
   "saveDraftRows": 786,
   "validRows": 786,
   "invalidRows": 0,
-  "alreadyDoneCount": 3,
-  "eligibleForThisRun": 4,
+  "alreadyDoneCount": 46,
+  "eligibleForThisRun": 40,
   "details": [
     {
       "excelRow": 2,
@@ -34,301 +34,301 @@
     {
       "excelRow": 5,
       "externalRowId": "MIS-0004",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Interpretative Skill"
     },
     {
       "excelRow": 6,
       "externalRowId": "MIS-0005",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Interpretative Skill"
     },
     {
       "excelRow": 7,
       "externalRowId": "MIS-0006",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Interpretative Skill"
     },
     {
       "excelRow": 8,
       "externalRowId": "MIS-0007",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 9,
       "externalRowId": "MIS-0008",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 10,
       "externalRowId": "MIS-0009",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 11,
       "externalRowId": "MIS-0010",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 12,
       "externalRowId": "MIS-0011",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 13,
       "externalRowId": "MIS-0012",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 14,
       "externalRowId": "MIS-0013",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 15,
       "externalRowId": "MIS-0014",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 16,
       "externalRowId": "MIS-0015",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 17,
       "externalRowId": "MIS-0016",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 18,
       "externalRowId": "MIS-0017",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 19,
       "externalRowId": "MIS-0018",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 20,
       "externalRowId": "MIS-0019",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 21,
       "externalRowId": "MIS-0020",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 22,
       "externalRowId": "MIS-0021",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 23,
       "externalRowId": "MIS-0022",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 24,
       "externalRowId": "MIS-0023",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 25,
       "externalRowId": "MIS-0024",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 26,
       "externalRowId": "MIS-0025",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Minimally Invasive Surgery – Laparoscopic procedures > Procedural skill"
     },
     {
       "excelRow": 27,
       "externalRowId": "ORTH-0001",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 28,
       "externalRowId": "ORTH-0002",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 29,
       "externalRowId": "ORTH-0003",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 30,
       "externalRowId": "ORTH-0004",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 31,
       "externalRowId": "ORTH-0005",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 32,
       "externalRowId": "ORTH-0006",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 33,
       "externalRowId": "ORTH-0007",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 34,
       "externalRowId": "ORTH-0008",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 35,
       "externalRowId": "ORTH-0009",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 36,
       "externalRowId": "ORTH-0010",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 37,
       "externalRowId": "ORTH-0011",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 38,
       "externalRowId": "ORTH-0012",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 39,
       "externalRowId": "ORTH-0013",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 40,
       "externalRowId": "ORTH-0014",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 41,
       "externalRowId": "ORTH-0015",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Interpretative Skill"
     },
     {
       "excelRow": 42,
       "externalRowId": "ORTH-0016",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
     },
     {
       "excelRow": 43,
       "externalRowId": "ORTH-0017",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
     },
     {
       "excelRow": 44,
       "externalRowId": "ORTH-0018",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
     },
     {
       "excelRow": 45,
       "externalRowId": "ORTH-0019",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
     },
     {
       "excelRow": 46,
       "externalRowId": "ORTH-0020",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
     },
     {
       "excelRow": 47,
       "externalRowId": "ORTH-0021",
-      "status": "READY",
+      "status": "ALREADY_DONE",
       "errors": [],
       "resolvedCombination": "Procedural and Interpretative Skills > Orthopaedic Surgery > Procedural skill"
     },

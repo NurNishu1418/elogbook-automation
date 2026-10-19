@@ -1,0 +1,364 @@
+{
+  "generatedAt": "2026-10-17T05:36:09.481Z",
+  "mode": "execute",
+  "workbookPath": "generated-data/copy data/2nd 2nd/Urology_Realistic_Fictional_fixed.xlsx",
+  "selectionMode": "all",
+  "totalRows": 50,
+  "saveDraftRows": 50,
+  "validRows": 50,
+  "invalidRows": 0,
+  "alreadyDoneCount": 0,
+  "eligibleForThisRun": 50,
+  "details": [
+    {
+      "excelRow": 2,
+      "externalRowId": "DEMO-URO-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 3,
+      "externalRowId": "DEMO-URO-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 4,
+      "externalRowId": "DEMO-URO-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Emergency Patient Management"
+    },
+    {
+      "excelRow": 5,
+      "externalRowId": "DEMO-URO-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Emergency Patient Management"
+    },
+    {
+      "excelRow": 6,
+      "externalRowId": "DEMO-URO-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > In-Patient Management"
+    },
+    {
+      "excelRow": 7,
+      "externalRowId": "DEMO-URO-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 8,
+      "externalRowId": "DEMO-URO-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 9,
+      "externalRowId": "DEMO-URO-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Emergency Patient Management"
+    },
+    {
+      "excelRow": 10,
+      "externalRowId": "DEMO-URO-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 11,
+      "externalRowId": "DEMO-URO-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 12,
+      "externalRowId": "DEMO-URO-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 13,
+      "externalRowId": "DEMO-URO-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 14,
+      "externalRowId": "DEMO-URO-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Emergency Patient Management"
+    },
+    {
+      "excelRow": 15,
+      "externalRowId": "DEMO-URO-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 16,
+      "externalRowId": "DEMO-URO-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > In-Patient Management"
+    },
+    {
+      "excelRow": 17,
+      "externalRowId": "DEMO-URO-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 18,
+      "externalRowId": "DEMO-URO-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 19,
+      "externalRowId": "DEMO-URO-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Emergency Patient Management"
+    },
+    {
+      "excelRow": 20,
+      "externalRowId": "DEMO-URO-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > In-Patient Management"
+    },
+    {
+      "excelRow": 21,
+      "externalRowId": "DEMO-URO-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 22,
+      "externalRowId": "DEMO-URO-0021",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Emergency Patient Management"
+    },
+    {
+      "excelRow": 23,
+      "externalRowId": "DEMO-URO-0022",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 24,
+      "externalRowId": "DEMO-URO-0023",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 25,
+      "externalRowId": "DEMO-URO-0024",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 26,
+      "externalRowId": "DEMO-URO-0025",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 27,
+      "externalRowId": "DEMO-URO-0026",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Emergency Patient Management"
+    },
+    {
+      "excelRow": 28,
+      "externalRowId": "DEMO-URO-0027",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > In-Patient Management"
+    },
+    {
+      "excelRow": 29,
+      "externalRowId": "DEMO-URO-0028",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 30,
+      "externalRowId": "DEMO-URO-0029",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 31,
+      "externalRowId": "DEMO-URO-0030",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 32,
+      "externalRowId": "DEMO-URO-0031",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 33,
+      "externalRowId": "DEMO-URO-0032",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 34,
+      "externalRowId": "DEMO-URO-0033",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Emergency Patient Management"
+    },
+    {
+      "excelRow": 35,
+      "externalRowId": "DEMO-URO-0034",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > In-Patient Management"
+    },
+    {
+      "excelRow": 36,
+      "externalRowId": "DEMO-URO-0035",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 37,
+      "externalRowId": "DEMO-URO-0036",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Emergency Patient Management"
+    },
+    {
+      "excelRow": 38,
+      "externalRowId": "DEMO-URO-0037",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 39,
+      "externalRowId": "DEMO-URO-0038",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 40,
+      "externalRowId": "DEMO-URO-0039",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > In-Patient Management"
+    },
+    {
+      "excelRow": 41,
+      "externalRowId": "DEMO-URO-0040",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 42,
+      "externalRowId": "DEMO-URO-0041",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 43,
+      "externalRowId": "DEMO-URO-0042",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Emergency Patient Management"
+    },
+    {
+      "excelRow": 44,
+      "externalRowId": "DEMO-URO-0043",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > In-Patient Management"
+    },
+    {
+      "excelRow": 45,
+      "externalRowId": "DEMO-URO-0044",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 46,
+      "externalRowId": "DEMO-URO-0045",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 47,
+      "externalRowId": "DEMO-URO-0046",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Emergency Patient Management"
+    },
+    {
+      "excelRow": 48,
+      "externalRowId": "DEMO-URO-0047",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 49,
+      "externalRowId": "DEMO-URO-0048",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > In-Patient Management"
+    },
+    {
+      "excelRow": 50,
+      "externalRowId": "DEMO-URO-0049",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    },
+    {
+      "excelRow": 51,
+      "externalRowId": "DEMO-URO-0050",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Patient Management > Out-Patient Management"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-10-12T10:19:31.756Z",
+  "mode": "dry-run",
+  "workbookPath": "F:\\2026\\touhid\\new project\\generated-data\\Obs\\BCPS_OBS_Entries_SAMPLE_20.xlsx",
+  "selectionMode": "not-yet-uploaded",
+  "totalRows": 20,
+  "saveDraftRows": 20,
+  "validRows": 20,
+  "invalidRows": 0,
+  "alreadyDoneCount": 0,
+  "eligibleForThisRun": 20,
+  "details": [
+    {
+      "excelRow": 2,
+      "externalRowId": "OBS-0001",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gynaecology > Procedural skill"
+    },
+    {
+      "excelRow": 3,
+      "externalRowId": "OBS-0002",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gynaecology > Procedural skill"
+    },
+    {
+      "excelRow": 4,
+      "externalRowId": "OBS-0003",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gynaecology > Procedural skill"
+    },
+    {
+      "excelRow": 5,
+      "externalRowId": "OBS-0004",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gynaecology > Procedural skill"
+    },
+    {
+      "excelRow": 6,
+      "externalRowId": "OBS-0005",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gynaecology > Procedural skill"
+    },
+    {
+      "excelRow": 7,
+      "externalRowId": "OBS-0006",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gynaecology > Interpretative Skill"
+    },
+    {
+      "excelRow": 8,
+      "externalRowId": "OBS-0007",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gynaecology > Interpretative Skill"
+    },
+    {
+      "excelRow": 9,
+      "externalRowId": "OBS-0008",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gynaecology > Interpretative Skill"
+    },
+    {
+      "excelRow": 10,
+      "externalRowId": "OBS-0009",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Obstetrics > Procedural skill"
+    },
+    {
+      "excelRow": 11,
+      "externalRowId": "OBS-0010",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Obstetrics > Procedural skill"
+    },
+    {
+      "excelRow": 12,
+      "externalRowId": "OBS-0011",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Obstetrics > Procedural skill"
+    },
+    {
+      "excelRow": 13,
+      "externalRowId": "OBS-0012",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Obstetrics > Procedural skill"
+    },
+    {
+      "excelRow": 14,
+      "externalRowId": "OBS-0013",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Obstetrics > Procedural skill"
+    },
+    {
+      "excelRow": 15,
+      "externalRowId": "OBS-0014",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Obstetrics > Procedural skill"
+    },
+    {
+      "excelRow": 16,
+      "externalRowId": "OBS-0015",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Obstetrics > Procedural skill"
+    },
+    {
+      "excelRow": 17,
+      "externalRowId": "OBS-0016",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Obstetrics > Interpretative Skill"
+    },
+    {
+      "excelRow": 18,
+      "externalRowId": "OBS-0017",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Obstetrics > Interpretative Skill"
+    },
+    {
+      "excelRow": 19,
+      "externalRowId": "OBS-0018",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Obstetrics > Interpretative Skill"
+    },
+    {
+      "excelRow": 20,
+      "externalRowId": "OBS-0019",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Gynaecology & Counselling > Communication and Counselling Skill"
+    },
+    {
+      "excelRow": 21,
+      "externalRowId": "OBS-0020",
+      "status": "READY",
+      "errors": [],
+      "resolvedCombination": "Procedural and Interpretative Skills > Obstetrics & Counselling > Communication and Counselling Skill"
+    }
+  ]
+}

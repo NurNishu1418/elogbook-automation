@@ -126,8 +126,8 @@ export function validateRow(row: DataEntryRow, leaves: LeafForValidation[]): Row
         if (testOnlyOverride && isRenderableLevel) {
           // Deliberately skip the mapped-level checks - acknowledged override.
         } else if (validLevels.length === 0) {
-          if (providedLevel) {
-            errors.push(`CompetencyLevel "${providedLevel}" was provided for "${itemName}", but this item has no valid competence levels mapped at all.`);
+          if (providedLevel && !isRenderableLevel) {
+            errors.push(`CompetencyLevel "${providedLevel}" was provided for "${itemName}", but this item has no valid competence levels mapped and the level is not renderable (1-4).`);
           }
         } else if (validLevels.length === 1) {
           if (providedLevel && providedLevel !== validLevels[0]) {

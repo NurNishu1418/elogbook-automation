@@ -1,0 +1,45 @@
+Total rows: 253
+Duplicate IDs: None
+Age mismatches: 72
+  MED-CAR-I-0003: DOB=1985-11-14 Assign=2026-07-31 Provided=41 Calc=40
+  MED-CAR-I-0008: DOB=1996-09-26 Assign=2026-09-24 Provided=30 Calc=29
+  MED-CAR-I-0010: DOB=1977-09-10 Assign=2026-07-27 Provided=49 Calc=48
+  MED-CAR-I-0013: DOB=1968-09-21 Assign=2026-08-18 Provided=58 Calc=57
+  MED-CAR-I-0014: DOB=1980-12-16 Assign=2026-07-24 Provided=46 Calc=45
+  MED-CAR-I-0016: DOB=1968-12-12 Assign=2026-09-12 Provided=58 Calc=57
+  MED-CAR-I-0018: DOB=1978-12-27 Assign=2026-08-20 Provided=48 Calc=47
+  MED-CAR-I-0019: DOB=1972-09-18 Assign=2026-09-08 Provided=54 Calc=53
+  MED-CAR-I-0021: DOB=1995-11-20 Assign=2026-08-29 Provided=31 Calc=30
+  MED-CAR-I-0022: DOB=2001-12-08 Assign=2026-08-27 Provided=25 Calc=24
+JSON errors: 0
+Clinical flags: 23
+  MED-CAR-I-0001 [24 hrs Holter Monitoring] Cardiovascular system: Holter+ACS => diag="acute coronary syndrome. 24 hrs holter monitoring performed."
+  MED-CAR-I-0019 [ETT] Cardiovascular system: ETT+ACS/HF => diag="acute coronary syndrome. ett performed."
+  MED-CAR-I-0020 [ETT] Cardiovascular system: ETT+ACS/HF => diag="heart failure nyha iii. ett performed."
+  MED-CAR-P-0039 [ETT] Cardiovascular system: ETT+ACS/HF => diag="acute coronary syndrome"
+  MED-END-P-0103 [Diabetic chart] Endocrine system including Diabetes mellitus: DiabeticChart+NonDM => diag="type 2 dm with complications"
+  MED-END-P-0104 [Diabetic chart] Endocrine system including Diabetes mellitus: DiabeticChart+NonDM => diag="thyrotoxicosis"
+  MED-END-P-0105 [Diabetic chart] Endocrine system including Diabetes mellitus: DiabeticChart+NonDM => diag="hypothyroidism"
+  MED-END-P-0106 [Insulin/ subcutaneous injection] Endocrine system including Diabetes mellitus: Insulin+NonDM => diag="type 2 dm with complications"
+  MED-END-P-0107 [Insulin/ subcutaneous injection] Endocrine system including Diabetes mellitus: Insulin+NonDM => diag="thyrotoxicosis"
+  MED-END-P-0108 [Insulin/ subcutaneous injection] Endocrine system including Diabetes mellitus: Insulin+NonDM => diag="hypothyroidism"
+  MED-END-P-0110 [Insulin/ subcutaneous injection] Endocrine system including Diabetes mellitus: Insulin+NonDM => diag="cushing syndrome"
+  MED-INF-I-0131 [Tuberculin test] Infectious and Tropical diseases: Tuberculin+Dengue/Enteric => diag="dengue fever. tuberculin test performed."
+  MED-INF-I-0132 [Tuberculin test] Infectious and Tropical diseases: Tuberculin+Dengue/Enteric => diag="enteric fever. tuberculin test performed."
+  MED-INF-P-0133 [Abscess aspiration] Infectious and Tropical diseases: AbscessAsp+NoAbscess => diag="dengue fever"
+  MED-INF-P-0134 [Abscess aspiration] Infectious and Tropical diseases: AbscessAsp+NoAbscess => diag="enteric fever"
+  MED-BLO-I-0147 [Trephine biopsy report] Blood disorders & Transfusion Medicine: Trephine+IDA => diag="iron deficiency anemia. trephine biopsy report performed."
+  MED-BLO-P-0157 [Trephine biopsy] Blood disorders & Transfusion Medicine: Trephine+IDA => diag="iron deficiency anemia"
+  MED-POI-P-0160 [20-minute whole blood clotting test] Poisoning & Envenomation: WBCT+NonSnake => diag="organophosphorus poisoning"
+  MED-POI-P-0162 [20-minute whole blood clotting test] Poisoning & Envenomation: WBCT+NonSnake => diag="paracetamol overdose"
+  MED-NER-I-0173 [NCV/EMG] Nervous system: NCV+Stroke => diag="stroke (ischemic). ncv/emg performed."
+  MED-NER-P-0186 [NCV/EMG] Nervous system: NCV+Stroke => diag="stroke (ischemic)"
+  MED-NER-P-0187 [NCV/MCV] Nervous system: NCV+Stroke => diag="stroke (ischemic)"
+  MED-RHE-P-0253 [Joint aspiration &/ or intra-articular injection] Rheumatology and Bone Disease: JointAsp+Osteoporosis => diag="osteoporosis"
+Repeated values (>2x): 5
+  "Investigation reviewed and findings correlated with clinical presentat" x56
+  "Report analyzed, findings consistent with provisional diagnosis" x45
+  "Reviewed investigation report and discussed with supervisor" x24
+  "Investigation findings noted and management plan adjusted accordingly" x7
+  "Report reviewed, interpreted in clinical context and documented" x7
+Records with missing required fields: 0

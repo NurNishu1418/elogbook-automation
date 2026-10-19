@@ -1,6 +1,6 @@
 # BCPS e-Logbook - Mapping Summary
 
-Generated: 2026-09-08T08:44:40.064Z
+Generated: 2026-10-17T07:07:23.452Z
 
 ## Target
 - Login: https://eportal.bcps.edu.bd/login
@@ -11,11 +11,11 @@ Generated: 2026-09-08T08:44:40.064Z
 | Metric | Value |
 |---|---|
 | Total leaf combinations (Form > Case Type > Skill Type) | 43 |
-| Total fields captured | 634 |
+| Total fields captured | 597 |
 | Total controlling fields | 3 |
-| Total dropdown options | 64 |
-| Total dependency relationships | 22 |
-| Successful paths | 43 |
+| Total dropdown options | 85 |
+| Total dependency relationships | 19 |
+| Successful paths | 67 |
 | Failed paths | 0 |
 | Pending/unexplored paths | 0 |
 | Second independent crawl run | Yes |

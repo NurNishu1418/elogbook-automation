@@ -51,7 +51,10 @@ export const LEVEL_CHECKBOX_NAME: Record<string, string> = {
 
 function loadLevelLookup(): LevelLookup {
   if (cachedLevelLookup) return cachedLevelLookup;
-  const formMapPath = path.resolve(__dirname, '..', '..', 'output', 'form-map.json');
+  const specialty = process.env.UPLOAD_SPECIALTY ?? null;
+  const formMapPath = specialty
+    ? path.resolve(__dirname, '..', '..', 'output', `form-map-${specialty.toLowerCase()}.json`)
+    : path.resolve(__dirname, '..', '..', 'output', 'form-map.json');
   const lookup: LevelLookup = new Map();
   try {
     const formMap = JSON.parse(fs.readFileSync(formMapPath, 'utf-8'));
@@ -84,7 +87,7 @@ function loadLevelLookup(): LevelLookup {
 }
 
 export interface LevelResolution {
-  status: 'single-valid-level' | 'explicit-level-confirmed' | 'ambiguous-multiple-levels' | 'no-levels-mapped' | 'invalid-explicit-level' | 'unselectable-level';
+  status: 'single-valid-level' | 'explicit-level-confirmed' | 'explicit-level-accepted-unmapped' | 'ambiguous-multiple-levels' | 'no-levels-mapped' | 'invalid-explicit-level' | 'unselectable-level';
   validLevels: string[];
   selectedLevel: string | null;
 }
@@ -115,7 +118,10 @@ export function resolveLevelFromValidLevels(validLevels: string[], providedLevel
   const explicit = providedLevel?.trim() || null;
 
   if (validLevels.length === 0) {
-    if (explicit) return { status: 'invalid-explicit-level', validLevels, selectedLevel: null };
+    if (explicit) {
+      if (LEVEL_CHECKBOX_NAME[explicit]) return { status: 'explicit-level-accepted-unmapped', validLevels, selectedLevel: explicit };
+      return { status: 'invalid-explicit-level', validLevels, selectedLevel: null };
+    }
     return { status: 'no-levels-mapped', validLevels, selectedLevel: null };
   }
 
@@ -199,11 +205,12 @@ async function fillOneField(page: Page, fieldName: string, controlType: string, 
 }
 
 /**
- * Fills the Add Logbook Entry form for one row and clicks ONLY "Save as
- * Draft" - never "Submit". Assumes the caller already navigated to a fresh
- * form page and is logged in.
+ * Fills the Add Logbook Entry form for one row and clicks "Save as Draft".
+ * When `finalSubmit` is true (opt-in, UPLOAD_FINAL_SUBMIT=1) it clicks
+ * "Submit" instead, which sends the entry to the supervisor. Assumes the
+ * caller already navigated to a fresh form page and is logged in.
  */
-export async function fillAndSaveDraft(page: Page, row: DataEntryRow, leaf: LeafForValidation): Promise<FillResult> {
+export async function fillAndSaveDraft(page: Page, row: DataEntryRow, leaf: LeafForValidation, finalSubmit = false): Promise<FillResult> {
   try {
     await selectFormOption(page, row.form);
 
@@ -378,7 +385,9 @@ export async function fillAndSaveDraft(page: Page, row: DataEntryRow, leaf: Leaf
       await page.waitForTimeout(500); // let the last checkbox's state fully propagate before saving
     }
 
-    const saveDraftButton = page.locator('button:has-text("Save as Draft")').first();
+    const saveDraftButton = finalSubmit
+      ? page.locator('button:text-is("Submit")').first()
+      : page.locator('button:has-text("Save as Draft")').first();
     await saveDraftButton.waitFor({ state: 'visible', timeout: 8000 });
     await saveDraftButton.click();
     await page.waitForTimeout(2000);

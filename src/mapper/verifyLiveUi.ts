@@ -31,7 +31,8 @@ export async function selectReactSelectOption(page: Page, optionText: string): P
   await page.waitForTimeout(400);
   const options = page.locator('[id*="react-select"][id*="-option-"]');
   const available = await options.allTextContents();
-  const exactIndex = available.findIndex((t) => t.trim() === optionText.trim());
+  const norm = (s: string) => s.replace(/\s+/g, ' ').trim().toLowerCase();
+  const exactIndex = available.findIndex((t) => norm(t) === norm(optionText));
   if (exactIndex === -1) {
     await page.keyboard.press('Escape').catch(() => {});
     return { ok: false, availableOptions: available };
@@ -49,8 +50,10 @@ export async function selectSkillType(page: Page, optionText: string): Promise<{
       .filter((o) => o.value !== '')
       .map((o) => o.text.trim())
   );
-  if (!available.includes(optionText)) return { ok: false, availableOptions: available };
-  await page.selectOption('select[name="skillType2"]', { label: optionText });
+  const norm = (s: string) => s.replace(/\s+/g, ' ').trim().toLowerCase();
+  const liveLabel = available.find((t) => norm(t) === norm(optionText));
+  if (!liveLabel) return { ok: false, availableOptions: available };
+  await page.selectOption('select[name="skillType2"]', { label: liveLabel });
   await page.waitForTimeout(1200);
   return { ok: true, availableOptions: available };
 }
